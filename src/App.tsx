@@ -1956,51 +1956,53 @@ export default function App() {
           </div>
           <div className="settings-section">
             <h3>数据备份</h3>
-            <button className="button secondary" onClick={exportData}>
-              <Download size={16} />
-              导出完整学习记录
-            </button>
-            <label className="button secondary import-backup">
-              恢复备份
-              <input
-                type="file"
-                accept=".json"
-                onChange={async (e) => {
-                  const file = e.target.files?.[0];
-                  if (!file) return;
-                  try {
-                    const data = JSON.parse(await file.text());
-                    if (
-                      data.schemaVersion !== 1 ||
-                      !Array.isArray(data.events) ||
-                      data.events.length > 100000
-                    )
-                      throw new Error("不支持的备份格式");
+            <div className="backup-actions">
+              <button className="button secondary" onClick={exportData}>
+                <Download size={16} />
+                导出完整学习记录
+              </button>
+              <label className="button secondary import-backup">
+                恢复备份
+                <input
+                  type="file"
+                  accept=".json"
+                  onChange={async (e) => {
+                    const file = e.target.files?.[0];
+                    if (!file) return;
+                    try {
+                      const data = JSON.parse(await file.text());
+                      if (
+                        data.schemaVersion !== 1 ||
+                        !Array.isArray(data.events) ||
+                        data.events.length > 100000
+                      )
+                        throw new Error("不支持的备份格式");
 
-                    const rows = validateBackup(
-                      data.events,
-                      learning.scope,
-                      Boolean(user),
-                    );
-                    await db.transaction("rw", db.events, async () => {
-                      for (const row of rows) {
-                        const existing = await db.events.get(row.id);
-                        if (existing && existing.scope !== learning.scope)
-                          throw new Error(
-                            "此备份属于其他本地空间，请登录原账号恢复。",
-                          );
-                        if (!existing) await db.events.add(row);
-                      }
-                    });
-                    setToast("备份已恢复，正在重新载入。");
-                    setTimeout(() => location.reload(), 600);
-                  } catch (err) {
-                    notifyError(err);
-                  }
-                  e.target.value = "";
-                }}
-              />
-            </label>
+                      const rows = validateBackup(
+                        data.events,
+                        learning.scope,
+                        Boolean(user),
+                      );
+                      await db.transaction("rw", db.events, async () => {
+                        for (const row of rows) {
+                          const existing = await db.events.get(row.id);
+                          if (existing && existing.scope !== learning.scope)
+                            throw new Error(
+                              "此备份属于其他本地空间，请登录原账号恢复。",
+                            );
+                          if (!existing) await db.events.add(row);
+                        }
+                      });
+                      setToast("备份已恢复，正在重新载入。");
+                      setTimeout(() => location.reload(), 600);
+                    } catch (err) {
+                      notifyError(err);
+                    }
+                    e.target.value = "";
+                  }}
+                />
+              </label>
+            </div>
             <p>恢复相同备份会按事件 ID 去重。仅从可信的个人备份恢复。</p>
           </div>
           <div className="settings-section">

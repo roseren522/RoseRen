@@ -112,6 +112,13 @@ button {
   flex-direction: column;
   padding: 30px 18px 16px;
   z-index: 30;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #c2cbbb transparent;
+}
+.sidebar > * {
+  flex-shrink: 0;
 }
 .brand {
   display: flex;
@@ -2165,12 +2172,19 @@ kbd {
   font-size: 11px;
   padding: 9px;
 }
+.backup-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 .import-backup {
-  display: inline-flex !important;
-  margin: 8px 0 8px 10px !important;
   position: relative;
   overflow: hidden;
-  font-size: 11px !important;
+}
+.import-backup:focus-within {
+  outline: 3px solid #80a58c;
+  outline-offset: 4px;
 }
 .import-backup input {
   position: absolute;
