@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cmaq-6",
+    "title": "CMAQ User’s Guide · 6. Model Configuration Options",
+    "organization": "US EPA 官方代码库 / CMAS 技术指南",
+    "year": "2022",
+    "url": "https://github.com/USEPA/CMAQ/blob/93099d8159f50e525120c790df674fe837a57edf/DOCS/Users_Guide/CMAQ_UG_ch06_model_configuration_options.md",
+    "scope": "CMAQ 5.4 技术文档：大气化学、排放处理与地表交换。不是农业氮全介质清单指南，不能代替 IPCC、FAO 或完整氮收支方法。",
+    "evidence": "已检查官方代码库中的章节全文；指南版权署年 2022。概述页声明：草稿经 CMAS 审阅，尚非 EPA 正式批准出版文件。",
+    "revision": "93099d8159f50e525120c790df674fe837a57edf",
+    "sha256": "ed358ee5eea350a583ac8afd036a0c86a7212ee36c3fd92c3d5f1e8ba7c12c52",
+    "file": "CMAQ_UG_ch06_model_configuration_options.md"
+  },
+  {
+    "id": "cmaq-4",
+    "title": "CMAQ User’s Guide · 4. Model Input Files",
+    "organization": "US EPA 官方代码库 / CMAS 技术指南",
+    "year": "2022",
+    "url": "https://github.com/USEPA/CMAQ/blob/93099d8159f50e525120c790df674fe837a57edf/DOCS/Users_Guide/CMAQ_UG_ch04_model_inputs.md",
+    "scope": "CMAQ 5.4 技术文档：大气化学、排放处理与地表交换。不是农业氮全介质清单指南，不能代替 IPCC、FAO 或完整氮收支方法。",
+    "evidence": "已检查官方代码库中的章节全文；指南版权署年 2022。概述页声明：草稿经 CMAS 审阅，尚非 EPA 正式批准出版文件。",
+    "revision": "93099d8159f50e525120c790df674fe837a57edf",
+    "sha256": "141365d12aa7a0f469d7865bd5f1cd1a32a97b05ca09c18ea2e363463c7e9e22",
+    "file": "CMAQ_UG_ch04_model_inputs.md"
+  },
+  {
+    "id": "cmaq-9",
+    "title": "CMAQ User’s Guide · 9. Process Analysis and Budget",
+    "organization": "US EPA 官方代码库 / CMAS 技术指南",
+    "year": "2022",
+    "url": "https://github.com/USEPA/CMAQ/blob/93099d8159f50e525120c790df674fe837a57edf/DOCS/Users_Guide/CMAQ_UG_ch09_process_analysis.md",
+    "scope": "CMAQ 5.4 技术文档：大气化学、排放处理与地表交换。不是农业氮全介质清单指南，不能代替 IPCC、FAO 或完整氮收支方法。",
+    "evidence": "已检查官方代码库中的章节全文；指南版权署年 2022。概述页声明：草稿经 CMAS 审阅，尚非 EPA 正式批准出版文件。",
+    "revision": "93099d8159f50e525120c790df674fe837a57edf",
+    "sha256": "2aa777ba3b73aae54436e83641960e3120485d2b99109f34654370473af00fdb",
+    "file": "CMAQ_UG_ch09_process_analysis.md"
+  },
+  {
+    "id": "cmaq-10",
+    "title": "CMAQ User’s Guide · 10. Decoupled Direct Method in Three Dimensions",
+    "organization": "US EPA 官方代码库 / CMAS 技术指南",
+    "year": "2022",
+    "url": "https://github.com/USEPA/CMAQ/blob/93099d8159f50e525120c790df674fe837a57edf/DOCS/Users_Guide/CMAQ_UG_ch10_HDDM-3D.md",
+    "scope": "CMAQ 5.4 技术文档：大气化学、排放处理与地表交换。不是农业氮全介质清单指南，不能代替 IPCC、FAO 或完整氮收支方法。",
+    "evidence": "已检查官方代码库中的章节全文；指南版权署年 2022。概述页声明：草稿经 CMAS 审阅，尚非 EPA 正式批准出版文件。",
+    "revision": "93099d8159f50e525120c790df674fe837a57edf",
+    "sha256": "40cf0904bd096a1f2340e721fcd2a0527b8133c4ca4d2659bf0ea25773c697a5",
+    "file": "CMAQ_UG_ch10_HDDM-3D.md"
+  },
+  {
+    "id": "cmaq-11",
+    "title": "CMAQ User’s Guide · 11. Integrated Source Apportionment Method",
+    "organization": "US EPA 官方代码库 / CMAS 技术指南",
+    "year": "2022",
+    "url": "https://github.com/USEPA/CMAQ/blob/93099d8159f50e525120c790df674fe837a57edf/DOCS/Users_Guide/CMAQ_UG_ch11_ISAM.md",
+    "scope": "CMAQ 5.4 技术文档：大气化学、排放处理与地表交换。不是农业氮全介质清单指南，不能代替 IPCC、FAO 或完整氮收支方法。",
+    "evidence": "已检查官方代码库中的章节全文；指南版权署年 2022。概述页声明：草稿经 CMAS 审阅，尚非 EPA 正式批准出版文件。",
+    "revision": "93099d8159f50e525120c790df674fe837a57edf",
+    "sha256": "c4a290e0269e64ee8103ad427d85fe112130f974a02af57fcb941758d028e711",
+    "file": "CMAQ_UG_ch11_ISAM.md"
+  },
+  {
+    "id": "cmaq-1",
+    "title": "CMAQ User’s Guide · 1. Overview",
+    "organization": "US EPA 官方代码库 / CMAS 技术指南",
+    "year": "2022",
+    "url": "https://github.com/USEPA/CMAQ/blob/93099d8159f50e525120c790df674fe837a57edf/DOCS/Users_Guide/CMAQ_UG_ch01_overview.md",
+    "scope": "CMAQ 5.4 技术文档：大气化学、排放处理与地表交换。不是农业氮全介质清单指南，不能代替 IPCC、FAO 或完整氮收支方法。",
+    "evidence": "已检查官方代码库中的章节全文；指南版权署年 2022。概述页声明：草稿经 CMAS 审阅，尚非 EPA 正式批准出版文件。",
+    "revision": "93099d8159f50e525120c790df674fe837a57edf",
+    "sha256": "0ef49c0da1b7e7af61f020c3385677d738090afda72eb802ec005af803f7d6f6",
+    "file": "CMAQ_UG_ch01_overview.md"
+  }
+]

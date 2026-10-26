@@ -1,0 +1,7 @@
+node_modules
+dist
+package-lock.json
+src/data/*.json
+src/service-worker.js
+test-results
+playwright-report
