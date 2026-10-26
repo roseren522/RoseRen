@@ -2,11 +2,22 @@ import Dexie, { type Table } from "dexie";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { type LearningEvent } from "./model";
 import { validateBackup } from "./import";
+export interface ReadingDraft {
+  scope: string;
+  key: string;
+  answer: string;
+  updatedAt: string;
+}
 export class LearningDB extends Dexie {
   events!: Table<LearningEvent, string>;
+  drafts!: Table<ReadingDraft, [string, string]>;
   constructor(name = "fieldnotes-v1") {
     super(name);
     this.version(1).stores({ events: "id, scope, [scope+synced]" });
+    this.version(2).stores({
+      events: "id, scope, [scope+synced]",
+      drafts: "[scope+key], scope",
+    });
   }
 }
 export const db = new LearningDB();

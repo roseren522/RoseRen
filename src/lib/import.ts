@@ -1,4 +1,5 @@
 import { topics, type Entry, type LearningEvent } from "./model";
+import { validateReadingPayload } from "./reading";
 const string = (value: unknown, max = 20000): value is string =>
   typeof value === "string" && value.length <= max;
 export function validateBackup(
@@ -36,6 +37,7 @@ export function validateBackup(
       (!e.entryId || ![1, 2, 3, 4].includes(Number(e.payload.rating)))
     )
       throw new Error("评价无效");
+    if (e.kind === "review") validateReadingPayload(e.payload, e.entryId);
     if (e.kind === "favorite" && typeof e.payload.value !== "boolean")
       throw new Error("收藏记录无效");
     if (

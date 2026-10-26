@@ -12,7 +12,7 @@ npm ci --cache /tmp/fieldnotes-npm
 npm run dev
 ```
 
-`dev` 默认在 5173 端口监听。开发地址只在运行机器上提供服务，**不是永久托管网址**。当前没有配置公共预览或发布凭据。生产版本：
+`dev` 默认在 5173 端口监听。开发地址只在运行机器上提供服务，**不是永久托管网址**。用户已将网站部署到 https://rose-ren.vercel.app；每次更新是否完成以 Vercel 的部署状态为准。此开发工作区不持有用户的 Supabase 运行配置。生产版本：
 
 ```bash
 npm run build
@@ -47,7 +47,7 @@ npm run preview
    - `VITE_SUPABASE_ANON_KEY`：**公开 publishable / legacy anon key**。公开 key 受 RLS 保护；**绝不能放 service_role 或其他服务器密钥**。
 4. 重启开发服务；部署时必须重新构建。Vite 的 `VITE_` 变量在构建时注入，不是浏览器运行时读取。
 5. 在应用账号面板注册/登录。登录前的本地空间与账号空间隔离，可手动“将登录前的本地记录合并到账号”，重复合并去重。
-6. 用两个浏览器 / 设备登录同一测试账号，完成下面的云端验收。当前环境没有 Supabase 配置，**尚未执行真实登录、重新认证与真实跨设备云端验收**。
+6. 用两个浏览器 / 设备登录同一测试账号，完成下面的云端验收。此开发工作区没有 Supabase 配置；自动化验证采用本地运行、模拟传输与嵌入式 PostgreSQL。生产账号的真实跨设备验收仍需使用自己的账号进行。
 
 ### 保存语义与冲突处理
 
@@ -69,33 +69,43 @@ npm run preview
 5. 登出时有未同步记录，再登录同账号，确认可恢复。
 6. 在 Network 或 API 调用中尝试写入他人 user_id、修改/删除事件，确认被拒绝。
 
-这些真实云端测试未运行，嵌入式 PostgreSQL 的 RLS 测试与模拟传输测试不能替代它们。
+自动化测试不能代替这些真实云端验收。请以自己账号的实测结果为准。
+
+## Reading Lab：英文科研阅读
+
+侧栏 **Reading Lab** 和首页阅读入口提供 12 篇全英文材料、24 道选择题与 12 道简答题，覆盖大气过程、环境化学、排放核算、数据匹配、敏感性和不确定性分析，不限于农业。
+
+- 材料、问题、选项、参考答案与解析均为英文。原有页面继续保留已有中文界面和双语词库。
+- 材料为依据已检查官方技术指南编写的**原创学习改写**，明确标为 `Source-based learning adaptation · not a quotation`，不冒充期刊论文逐字引文或经过独立验证的考试题。
+- 每篇都有原始来源、页码/行号、范围说明和可点击的原文链接。可展开英语术语解释，并跳转练习词库中的对应词。
+- 选择题提交后显示正确答案、所选选项的解析及支持段落高亮。
+- 简答题先写出解释，再与参考答案和检查要点比较，自评 `Revisit / Partly there / Well supported`。这不是 AI 自动判卷，也不会把关键词匹配声称为理解能力评分。
+- 题目回答采用稳定 UUID、不可变事件与现有账号同步；重复点击、上传重试不会重复记录。重做题目会产生新尝试，完成度和选择题准确率按当前版本每题的最新记录计算。
+- 为兼容已部署数据库，阅读使用既有 `review` 类型，并在 payload 中标识 `activity: reading`。阅读记录不进入词汇 FSRS、已学词数或新词配额；实际阅读活动会贡献日历与连续学习统计。**不需要新增 SQL 迁移**。
+- 简答草稿在 IndexedDB 的独立 drafts 表按账号和题目隔离，逐次写入成功后显示本地保存状态。**未提交草稿只保存在当前设备，不跨设备同步**；完成自评后，整条回答进入账号同步与学习记录导出。原有备份可以继续恢复，已提交的阅读事件包含在新备份中。
+- IndexedDB 从版本 1 升级到版本 2 时保留既有词汇事件。阅读内容带版本号，修改题目时需显式升级该篇版本，避免旧答案被套用到不同问题。
 
 ## 词库来源与范围
 
-初始词库有 **120 个核验词语出现位置的条目**，全部来自已实际获取和检查的 **CMAQ User’s Guide 六个章节**，托管于 US EPA 官方 GitHub 代码库。
+初始 120 个双语词条保留原有 ID，本次增加 **60 个英文释义词条，总计 180 个**。新英文词条的选择题干扰项同样使用英文释义，避免通过语言差异直接猜出答案。
 
-- 固定快照：`93099d8159f50e525120c790df674fe837a57edf`（5.4 分支）。
-- 指南页脚署年：2022；快照提交日期：2025-08-25。二者不混同为出版日期。
-- 来源：概述、输入数据、模型配置、过程分析与收支、DDM 敏感性、ISAM 源解析。
-- 元数据、SHA-256、官方固定版本 URL：`src/data/sources.json`。
-- 词条、原文短摘录、章节与行号、原创例句：`src/data/vocabulary.json`。
-- “已核验词源”表示已检查实际出现位置和文档身份；**不是独立术语审定或释义学术审稿**。概念解释依据同章技术描述，原文没有给出正式定义时不声称其是正式定义。
-- 指南概述页明确：操作指南草稿经 CMAS 审阅，尚非 EPA 正式批准出版文件。应用来源页保留此限制。
-- 化学式区分 NH₃ / NH₄⁺、NOₓ / N₂O；同时区分排放 / 沉降、排放清单 / 氮收支。
-- 所有中文解释和英文例句为原创学习释义，例句明确标为原创，不冒充论文引用。
-- 当前覆盖偏向大气氮、农业土壤交换、排放处理及建模方法。**畜牧粪污、完整氮收支、N₂O 方法、全球活动数据及正式不确定性传播仍需补充可靠来源**。
-- 构建时 IPCC 官方主机受到网络策略阻断，未将 IPCC 列为已检查来源。已在环境草稿保存所需域名；这不表示网络规则已经应用或环境已经发布。
+共有 **11 个已检查的官方章节**：
 
-重新核对官方材料（需要访问 raw.githubusercontent.com）：
+- CMAQ User’s Guide 七章：概述、输入、模型配置、输出分析、过程分析、DDM 敏感性、ISAM 源解析。固定官方仓库快照 `93099d8159f50e525120c790df674fe837a57edf`；指南署年为 2022，快照提交时间不当作出版时间。该指南注明为经 CMAS 审阅、尚非 EPA 正式批准出版的技术草稿。
+- 2006 IPCC Guidelines 四章：Volume 1 Chapter 2（Approaches to Data Collection）、Volume 1 Chapter 3（Uncertainties）、Volume 2 Chapter 2（Stationary Combustion）、Volume 4 Chapter 11（Managed Soils / Lime and Urea Application）。官方 PDF 的标题、作者页与正文已检查，文件以 SHA-256 固定；此版本 IPCC 主机已可访问，早期网络限制已解除。
+- IPCC 温室气体方法按实际范围使用，不声称覆盖所有氮物种、所有空气污染物或完整氮收支。畜牧粪污和全面全球氮收支仍需更多资料。
+- `src/data/sources.json` 保存来源元数据、官方 URL 和文件哈希；`src/data/vocabulary.json` 保存词语出现证据和页码/行号；`src/data/readings.json` 保存原创改写、原文依据位置、问题与参考答案。
+- “已核验”指词语实际出现和来源身份已检查，不等同于释义经过独立学术审稿。原创例句不冒充论文引文。
+
+重新核验官方材料需要访问 `raw.githubusercontent.com` 和 `www.ipcc-nggip.iges.or.jp`，以及用于解析 PDF 的 `pdftotext`：
 
 ```bash
 npm run verify:sources
 ```
 
-该命令下载固定版本的六章原文，检查完整文件哈希及 120 词条的实际行号与出现证据。不依赖生成模型，不猜测 DOI。
+此命令检查 11 个原始文件的哈希、180 个词语的实际出现位置，以及 12 篇阅读所依据的原文位置。它不能代替专家审阅科学释义或题目难度。
 
-`scripts/vocabulary.tsv` 保留人工编写候选词。`scripts/build_vocabulary.py` 需要已获取的 `/tmp/roseren-sources/cmaq` 官方文档，只有能找到原文出现的候选词才会写入词库；当前有两条未匹配候选，均已排除。正常运行与部署无需该临时目录。
+维护数据时：`scripts/vocabulary.tsv` 保留原有候选词，`scripts/additional_vocabulary.tsv` 保留英文新增候选；`scripts/build_vocabulary.py` 重建原有词库后调用 `expand_content.py` 和 `build_readings.py`。重建需要 `/tmp/roseren-sources` 中已下载并解析的官方材料；正常运行、安装和部署只使用仓库内 JSON，不需要临时目录或实时外部数据请求。
 
 ## 技术架构
 
@@ -121,4 +131,4 @@ npm run verify:sources   # 官方原文远程核对
 
 已提供 `vercel.json`。将本仓库导入 Vercel，设置 Node 24、构建命令 `npm run build`、输出目录 `dist`。配置两个公开 Supabase 变量，再部署到固定项目域名或自定义 HTTPS 域名。将该最终域名填回 Supabase Site URL 和回跳允许列表。
 
-也可把 `dist/` 部署到任何支持 HTTPS 的静态托管服务。需为 SPA 导航回退到 `index.html`，为 `/sw.js` 设置 `Cache-Control: no-cache`；API 请求直接走配置的 Supabase 项目。无须 Node 应用服务器。站点未在本次任务中部署到永久公共域名。
+也可把 `dist/` 部署到任何支持 HTTPS 的静态托管服务。需为 SPA 导航回退到 `index.html`，为 `/sw.js` 设置 `Cache-Control: no-cache`；API 请求直接走配置的 Supabase 项目。无须 Node 应用服务器。用户已完成部署，固定网址为 https://rose-ren.vercel.app。GitHub main 上的新提交由 Vercel 集成自动构建；本地构建成功不等于线上部署已完成。

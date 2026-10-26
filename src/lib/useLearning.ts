@@ -122,7 +122,7 @@ export function useLearning() {
       kind: EventKind,
       payload: Record<string, unknown>,
       entryId?: string,
-      id = crypto.randomUUID(),
+      id: string = crypto.randomUUID(),
     ) => {
       const event: LearningEvent = {
         id,

@@ -34,3 +34,8 @@ for i,line in enumerate((ROOT/'scripts/vocabulary.tsv').read_text().splitlines()
 (ROOT/'src/data/vocabulary.json').write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n')
 (ROOT/'src/data/sources.json').write_text(json.dumps(sources,ensure_ascii=False,indent=2)+'\n')
 print(f'Verified literal occurrences: {len(entries)}. Missing (excluded): {missing}')
+
+# Preserve the English extension when rebuilding the legacy bilingual collection.
+import runpy
+runpy.run_path(str(ROOT/"scripts/expand_content.py"), run_name="__main__")
+runpy.run_path(str(ROOT/"scripts/build_readings.py"), run_name="__main__")

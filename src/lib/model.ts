@@ -25,6 +25,8 @@ export interface Source {
   scope: string;
   evidence: string;
   revision: string;
+  format?: "pdf" | "markdown";
+  authors?: string;
 }
 export interface Entry {
   id: string;
@@ -46,6 +48,8 @@ export interface Entry {
   evidence?: string;
   reference?: string;
   definitionNote: string;
+  sourceAnchor?: string;
+  contentLanguage?: "en" | "zh";
 }
 export type EventKind =
   "review" | "favorite" | "target" | "timezone" | "entry" | "delete";
@@ -71,6 +75,7 @@ export interface Projection {
   target: number;
   timezone: string;
   reviews: LearningEvent[];
+  readingReviews: LearningEvent[];
 }
 export const scheduler = fsrs({ request_retention: 0.9, enable_fuzz: false });
 export function project(events: LearningEvent[]): Projection {
@@ -83,6 +88,7 @@ export function project(events: LearningEvent[]): Projection {
     timezone:
       Intl.DateTimeFormat().resolvedOptions().timeZone || "Asia/Shanghai",
     reviews: [],
+    readingReviews: [],
   };
   const unique = [
     ...new Map(events.map((event) => [event.id, event])).values(),
@@ -91,6 +97,10 @@ export function project(events: LearningEvent[]): Projection {
   );
   for (const event of unique) {
     const id = event.entryId || "";
+    if (event.kind === "review" && event.payload.activity === "reading") {
+      result.readingReviews.push(event);
+      continue;
+    }
     if (event.kind === "review") {
       const rating = Number(event.payload.rating);
       if (
@@ -167,7 +177,9 @@ export function statistics(state: Projection, now = new Date()) {
     (event) => first[event.entryId!] === event.id,
   ).length;
   const days = new Set(
-    state.reviews.map((event) => dayKey(event.at, state.timezone)),
+    [...state.reviews, ...state.readingReviews].map((event) =>
+      dayKey(event.at, state.timezone),
+    ),
   );
   let current = days.has(today) ? today : dayBefore(today),
     streak = 0;
@@ -177,6 +189,9 @@ export function statistics(state: Projection, now = new Date()) {
   }
   return {
     today,
+    reading: state.readingReviews.filter(
+      (event) => dayKey(event.at, state.timezone) === today,
+    ).length,
     fresh,
     reviews: todays.length - fresh,
     total: todays.length,
@@ -225,7 +240,12 @@ export function makeChoices(entry: Entry, all: Entry[]) {
   const others = [
     ...new Map(
       all
-        .filter((e) => e.id !== entry.id && e.meaning !== entry.meaning)
+        .filter(
+          (e) =>
+            e.id !== entry.id &&
+            e.meaning !== entry.meaning &&
+            (e.contentLanguage || "zh") === (entry.contentLanguage || "zh"),
+        )
         .map((e) => [e.meaning, e]),
     ).values(),
   ];
@@ -248,4 +268,14 @@ export function recentDays(today: string, count = 28) {
   const days = [today];
   while (days.length < count) days.push(dayBefore(days[days.length - 1]));
   return days.reverse();
+}
+
+export function entrySourceLink(entry: Entry, source: Source) {
+  return (
+    source.url +
+    (entry.sourceAnchor ||
+      (entry.location?.match(/L(\d+)$/)
+        ? "#L" + entry.location.match(/L(\d+)$/)![1]
+        : ""))
+  );
 }

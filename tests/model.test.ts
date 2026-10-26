@@ -109,13 +109,14 @@ describe("answer handling and source integrity", () => {
       expect(new Set(choices.map((c) => c.meaning)).size).toBe(4);
     }
   });
-  it("has 120 verified entries with official pinned occurrence references and original examples", () => {
-    expect(seed).toHaveLength(120);
+  it("has 180 sourced entries with precise occurrence references and original examples", () => {
+    expect(seed).toHaveLength(180);
     for (const e of seed) {
       expect(e.verification).toBe("verified");
       const source = sources.find((s) => s.id === e.sourceId);
-      expect(source?.url).toContain("github.com/USEPA/CMAQ/blob/93099d");
-      expect(e.location).toMatch(/L\d+$/);
+      expect(source).toBeDefined();
+      expect(source?.url).toMatch(/^https:\/\/(github.com\/USEPA\/CMAQ\/blob\/93099d|www.ipcc-nggip.iges.or.jp\/public\/2006gl\/)/);
+      expect(e.location).toMatch(/L\d+$|PDF page \d+$/);
       expect(e.evidence?.toLowerCase()).toContain(e.term.toLowerCase());
       expect(e.example).not.toBe(e.evidence);
     }

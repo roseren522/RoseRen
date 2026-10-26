@@ -49,7 +49,8 @@ import {
   Info,
 } from "lucide-react";
 import { createEmptyCard, type Grade } from "ts-fsrs";
-import { seed, sources } from "./data";
+import { seed, sources, readings } from "./data";
+import ReadingLab from "./components/ReadingLab";
 import { useLearning } from "./lib/useLearning";
 import {
   acceptsAnswer,
@@ -57,6 +58,7 @@ import {
   recentDays,
   makeChoices,
   safeReference,
+  entrySourceLink,
   scheduler,
   stage,
   statistics,
@@ -67,11 +69,18 @@ import {
 import { cloud, cloudConfigured, db } from "./lib/store";
 import { validateBackup } from "./lib/import";
 type Page =
-  "dashboard" | "vocabulary" | "sources" | "statistics" | "personal" | "study";
+  | "dashboard"
+  | "vocabulary"
+  | "sources"
+  | "statistics"
+  | "personal"
+  | "study"
+  | "reading";
 type Mode = "cards" | "choice" | "spelling";
 const navItems = [
   { id: "dashboard", label: "今日学习", icon: BookOpen },
   { id: "vocabulary", label: "词汇书", icon: Library },
+  { id: "reading", label: "Reading Lab", icon: GraduationCap },
   { id: "sources", label: "文献来源", icon: FileText },
   { id: "statistics", label: "学习统计", icon: ChartNoAxesCombined },
 ] as const;
@@ -199,7 +208,13 @@ export default function App() {
   const stats = statistics(state, new Date(clock));
   const [page, setPage] = useState<Page>(() => {
     const p = location.hash.slice(1);
-    return ["vocabulary", "sources", "statistics", "personal"].includes(p)
+    return [
+      "vocabulary",
+      "sources",
+      "statistics",
+      "personal",
+      "reading",
+    ].includes(p)
       ? (p as Page)
       : "dashboard";
   });
@@ -257,6 +272,7 @@ export default function App() {
           "sources",
           "statistics",
           "personal",
+          "reading",
         ].includes(p)
       )
         setPage(p as Page);
@@ -638,6 +654,26 @@ export default function App() {
             </div>
           ) : (
             <>
+              {page === "reading" && (
+                <ReadingLab
+                  scope={learning.scope}
+                  userId={user?.id}
+                  events={state.readingReviews}
+                  saveReview={(payload, entryId, id) =>
+                    save("review", payload, entryId, id)
+                  }
+                  studyVocabulary={(entries) => {
+                    setQueue(entries.map((e) => e.id));
+                    setIndex(0);
+                    setMode("cards");
+                    setRevealed(false);
+                    setChecked(null);
+                    setAnswer("");
+                    reviewId.current = crypto.randomUUID();
+                    navigate("study");
+                  }}
+                />
+              )}
               {page === "dashboard" && (
                 <>
                   <div className="page-heading">
@@ -773,6 +809,23 @@ export default function App() {
                       color="blue"
                     />
                   </div>
+                  <button
+                    className="reading-dashboard-link"
+                    onClick={() => navigate("reading")}
+                  >
+                    <span className="reading-dashboard-icon">
+                      <GraduationCap size={24} />
+                    </span>
+                    <span>
+                      <strong>Reading Lab · Go beyond the word.</strong>
+                      <small>
+                        {readings.length} English passages · multiple-choice &
+                        written-response practice · atmospheric science,
+                        inventories and research methods
+                      </small>
+                    </span>
+                    <ArrowRight size={19} />
+                  </button>
                   <div className="lower-grid">
                     <section className="topic-section">
                       <div className="section-heading">
@@ -894,7 +947,7 @@ export default function App() {
                     <ShieldCheck size={18} />
                     <p>
                       <strong>学习有据可循。</strong> {seed.length}{" "}
-                      个词条，来自已检查的官方技术文档。中文释义与科研例句为原创学习内容。
+                      个词条，来自已检查的官方技术文档。释义与科研例句为原创学习内容。
                     </p>
                     <button
                       className="text-button"
@@ -1006,7 +1059,7 @@ export default function App() {
                     <div className="word-table">
                       <div className="table-head">
                         <span>词汇 / EXPRESSION</span>
-                        <span>中文释义</span>
+                        <span>释义 / Definition</span>
                         <span>主题</span>
                         <span>学习状态</span>
                         <span />
@@ -1091,8 +1144,8 @@ export default function App() {
                     <ShieldCheck size={22} />
                     <div>
                       <h3>
-                        {seed.length} 个已核验词源 · {sources.length} 个章节 · 1
-                        部技术指南
+                        {seed.length} 个已核验词源 · {sources.length} 个章节 · 2
+                        套技术指南
                       </h3>
                       <p>
                         核验代表已检查原文中的词语出现位置与文档元数据，不代表释义经过独立学术审稿。所有学习例句均为本站原创。
@@ -1115,19 +1168,7 @@ export default function App() {
                         </div>
                         <h2>{s.title}</h2>
                         <p>{s.organization}</p>
-                        <div className="source-scope">
-                          {i === 0
-                            ? "氨双向交换、沉降与土壤过程"
-                            : i === 1
-                              ? "施肥输入、排放因子与空间数据"
-                              : i === 2
-                                ? "过程分析、质量平衡与化学反应"
-                                : i === 3
-                                  ? "敏感性计算与研究方法"
-                                  : i === 4
-                                    ? "源解析与模型归因"
-                                    : "大气建模框架与研究表达"}
-                        </div>
+                        <div className="source-scope">{s.scope}</div>
                         <div className="source-card-footer">
                           <button
                             className="text-button"
@@ -1167,20 +1208,21 @@ export default function App() {
                       <BookOpen size={18} /> 关于当前词库的范围
                     </h3>
                     <p>
-                      当前版本以 CMAQ
-                      大气化学和土壤–空气交换文档为基础，指南署年为
-                      2022，固定到已检查的 5.4 分支快照。概述页注明指南为经 CMAS
-                      审阅的草稿，尚非 EPA 正式批准出版文件。
+                      当前词库包含 CMAQ 大气化学、模型评估与地表交换文档，以及
+                      IPCC 2006
+                      指南的数据收集、不确定性、固定源燃烧和土壤排放章节。CMAQ
+                      来源固定到已核验的版本，其概述页注明指南为经 CMAS
+                      审阅的草稿。
                     </p>
                     <p>
-                      畜牧与粪污、N₂O
-                      核算、完整氮收支、全球活动数据及不确定性传播仍需补充
-                      IPCC、FAO 等来源。当前词库不声称覆盖这些领域。IPCC
-                      原文在构建环境中受网络限制，未将其标记为已检查。
+                      IPCC
+                      章节已检查官方全文。请遵循各章实际范围：温室气体方法不能泛化为所有氮物种或完整氮收支。畜牧粪污和全面的全球氮收支仍需更多可靠资料。Reading
+                      Lab
+                      中的段落为依据来源编写的学习改写，题目、参考答案和解析均为英文。
                     </p>
                     <p>
                       没有引用不可访问的论文全文，也没有推测 DOI
-                      或页码。每个已核验词条提供固定版本链接、章节、行号与短语出现证据。
+                      或页码。每个已核验词条提供来源链接、页码或行号与词语出现证据。
                     </p>
                   </div>
                 </>
@@ -1296,7 +1338,7 @@ export default function App() {
                         <div className="flashcard-prompt">
                           <span className="tiny-label">
                             {mode === "spelling"
-                              ? "根据中文含义拼写英文"
+                              ? "根据释义拼写英文"
                               : "RESEARCH VOCABULARY"}
                           </span>
                           <h2>
@@ -1578,7 +1620,10 @@ export default function App() {
                     </div>
                     <div className="activity-grid">
                       {recentDays(stats.today).map((key) => {
-                        const count = state.reviews.filter(
+                        const count = [
+                          ...state.reviews,
+                          ...state.readingReviews,
+                        ].filter(
                           (e) => dayKey(e.at, state.timezone) === key,
                         ).length;
                         return (
@@ -1594,8 +1639,8 @@ export default function App() {
                       })}
                     </div>
                     <p className="stats-footnote">
-                      今日：{stats.fresh} 个新词，{stats.reviews}{" "}
-                      次复习。学习日期以所选时区为准。
+                      今日：{stats.fresh} 个新词，{stats.reviews} 次词汇复习，
+                      {stats.reading} 次阅读作答。学习日期以所选时区为准。
                     </p>
                   </section>
                   <div className="stats-detail-grid">
@@ -2147,7 +2192,7 @@ function SourcePanel({ entry }: { entry: Entry }) {
         <>
           <span className="source-role">出现来源 · OCCURRENCE SOURCE</span>
           <a
-            href={`${source.url}#L${entry.location?.split("L").pop()}`}
+            href={entrySourceLink(entry, source)}
             target="_blank"
             rel="noreferrer"
           >
