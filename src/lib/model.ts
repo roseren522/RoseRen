@@ -1,5 +1,6 @@
 import { createEmptyCard, fsrs, State, type Card, type Grade } from "ts-fsrs";
 import { validateProfileEvent, type Avatar } from "./profile";
+import { validateReadingVisit } from "./reading";
 export type Topic =
   | "氮的形态与循环"
   | "农业与土壤"
@@ -84,6 +85,7 @@ export interface Projection {
   timezone: string;
   reviews: LearningEvent[];
   readingReviews: LearningEvent[];
+  readingVisits: LearningEvent[];
 }
 export const scheduler = fsrs({ request_retention: 0.9, enable_fuzz: false });
 export function project(events: LearningEvent[]): Projection {
@@ -98,6 +100,7 @@ export function project(events: LearningEvent[]): Projection {
       Intl.DateTimeFormat().resolvedOptions().timeZone || "Asia/Shanghai",
     reviews: [],
     readingReviews: [],
+    readingVisits: [],
   };
   const unique = [
     ...new Map(events.map((event) => [event.id, event])).values(),
@@ -106,6 +109,18 @@ export function project(events: LearningEvent[]): Projection {
   );
   for (const event of unique) {
     const id = event.entryId || "";
+    if (
+      event.kind === "entry" &&
+      event.payload.activity === "reading-progress"
+    ) {
+      try {
+        validateReadingVisit(event);
+        result.readingVisits.push(event);
+      } catch {
+        /* Ignore invalid navigation records without changing learning results. */
+      }
+      continue;
+    }
     if (event.kind === "entry" && event.payload.activity === "profile") {
       try {
         validateProfileEvent(event);

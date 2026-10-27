@@ -21,12 +21,14 @@ import { readings, sources, seed, dailyLiterature } from "../data";
 import { db } from "../lib/store";
 import {
   readingAnswers,
+  readingHistory,
   readingSourceLink,
   readingSummary,
   readingTopics,
   type ReadingLesson,
   type ReadingPayload,
   type ReadingQuestion,
+  type ReadingVisitPayload,
 } from "../lib/reading";
 import type { Entry, LearningEvent } from "../lib/model";
 type SaveReview = (
@@ -37,8 +39,10 @@ type SaveReview = (
 interface Props {
   scope: string;
   userId?: string;
+  restoringAccount?: boolean;
   events: LearningEvent[];
   saveReview: SaveReview;
+  saveProgress: (payload: ReadingVisitPayload) => Promise<unknown>;
   studyVocabulary: (entries: Entry[]) => void;
 }
 function useDraft(scope: string, key: string) {
@@ -94,8 +98,10 @@ function useDraft(scope: string, key: string) {
 export default function ReadingLab({
   scope,
   userId,
+  restoringAccount = false,
   events,
   saveReview,
+  saveProgress,
   studyVocabulary,
 }: Props) {
   const [selected, setSelected] = useState<string | null>(null),
@@ -105,20 +111,106 @@ export default function ReadingLab({
     [filter, setFilter] = useState("All passages");
   const lesson = readings.find((l) => l.id === selected);
   const summary = readingSummary(events, readings);
+  const history = readingHistory(events, readings);
+  const [progressError, setProgressError] = useState("");
+  const [progressSaving, setProgressSaving] = useState(false);
+  const failedProgress = useRef<ReadingVisitPayload | null>(null);
+  const progressSaver = useRef(saveProgress);
+  progressSaver.current = saveProgress;
+  const progressRevision = useRef(0);
+  const recordProgress = (payload: ReadingVisitPayload) => {
+    const revision = ++progressRevision.current;
+    setProgressSaving(true);
+    void progressSaver
+      .current(payload)
+      .then(() => {
+        if (revision === progressRevision.current) {
+          setProgressSaving(false);
+          failedProgress.current = null;
+          setProgressError("");
+        }
+      })
+      .catch(() => {
+        if (revision === progressRevision.current) {
+          setProgressSaving(false);
+          failedProgress.current = payload;
+          setProgressError(
+            "Reading position could not be saved. Keep this page open and retry.",
+          );
+        }
+      });
+  };
   const [questionIndex, setQuestionIndex] = useState(0),
     [highlight, setHighlight] = useState<number[]>([]);
   const open = (item: ReadingLesson) => {
     const answers = readingAnswers(events, item);
-    setQuestionIndex(
-      Math.max(
-        0,
-        item.questions.findIndex((q) => !answers[q.id]),
-      ),
+    const previous = history.find((row) => row.lesson.id === item.id);
+    const cursor = item.questions.findIndex(
+      (q) => q.id === previous?.questionId && !answers[q.id],
     );
+    const index =
+      cursor >= 0
+        ? cursor
+        : Math.max(
+            0,
+            item.questions.findIndex((q) => !answers[q.id]),
+          );
+    setQuestionIndex(index);
     setSelected(item.id);
     setHighlight([]);
+    recordProgress({
+      activity: "reading-progress",
+      version: item.version,
+      lessonId: item.id,
+      questionId: item.questions[index].id,
+      reachedEnd: previous?.reachedEnd || false,
+    });
     window.scrollTo({ top: 0, behavior: "instant" });
   };
+  const jump = (index: number) => {
+    if (!lesson) return;
+    setQuestionIndex(index);
+    setHighlight([]);
+    recordProgress({
+      activity: "reading-progress",
+      version: lesson.version,
+      lessonId: lesson.id,
+      questionId: lesson.questions[index].id,
+      reachedEnd: history.some(
+        (row) => row.lesson.id === lesson.id && row.reachedEnd,
+      ),
+    });
+  };
+  const reachedEnd = history.some(
+    (row) => row.lesson.id === lesson?.id && row.reachedEnd,
+  );
+  useEffect(() => {
+    if (!lesson || reachedEnd || typeof IntersectionObserver === "undefined")
+      return;
+    const target = document.querySelector(".reading-end-marker");
+    if (!target) return;
+    let active = true;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (active && entries.some((entry) => entry.isIntersecting)) {
+          observer.disconnect();
+          recordProgress({
+            activity: "reading-progress",
+            version: lesson.version,
+            lessonId: lesson.id,
+            questionId: lesson.questions[questionIndex].id,
+            reachedEnd: true,
+          });
+        }
+      },
+      { threshold: 1 },
+    );
+    observer.observe(target);
+    return () => {
+      active = false;
+      observer.disconnect();
+    };
+  }, [lesson?.id, questionIndex, reachedEnd]);
   const filtered = readings.filter((item) => {
     const answers = readingAnswers(events, item),
       count = Object.keys(answers).length;
@@ -133,6 +225,8 @@ export default function ReadingLab({
           ...item.terms.map((t) => t.term),
         ].some((t) => t.toLowerCase().includes(query.toLowerCase()))) &&
       (filter === "All passages" ||
+        (filter === "My history" &&
+          history.some((row) => row.lesson.id === item.id)) ||
         (filter === "Latest literature" && item.evidenceType === "abstract") ||
         (filter === "Not completed" && count < item.questions.length) ||
         (filter === "Needs another look" &&
@@ -171,6 +265,30 @@ export default function ReadingLab({
             <span>2 multiple-choice · 1 written response</span>
           </div>
         </div>
+        {progressError && (
+          <div className="reading-error" role="alert">
+            {progressError}{" "}
+            <button
+              className="text-button"
+              onClick={() =>
+                failedProgress.current && recordProgress(failedProgress.current)
+              }
+            >
+              Retry saving position
+            </button>
+          </div>
+        )}
+        <p className="reading-position-note">
+          {progressSaving
+            ? "Saving reading position…"
+            : progressError
+              ? "Reading position has not been saved yet."
+              : reachedEnd
+                ? "Passage end reached · reading state saved."
+                : "Reading position is saved automatically."}{" "}
+          Checked answers and self-assessed responses are kept in your learning
+          history.
+        </p>
         <div className="reading-workspace">
           <article className="reading-article panel">
             <div className="reading-section-label">
@@ -199,6 +317,7 @@ export default function ReadingLab({
                 </p>
               ))}
             </div>
+            <span className="reading-end-marker" aria-hidden="true" />
             <details className="reading-glossary">
               <summary>
                 Key language <span>{lesson.terms.length} expressions</span>
@@ -301,8 +420,7 @@ export default function ReadingLab({
                   key={q.id}
                   className={i === questionIndex ? "active" : ""}
                   onClick={() => {
-                    setQuestionIndex(i);
-                    setHighlight([]);
+                    jump(i);
                   }}
                   aria-current={i === questionIndex ? "step" : undefined}
                 >
@@ -332,8 +450,7 @@ export default function ReadingLab({
                 className="button secondary"
                 disabled={questionIndex === 0}
                 onClick={() => {
-                  setQuestionIndex((i) => i - 1);
-                  setHighlight([]);
+                  jump(questionIndex - 1);
                 }}
               >
                 <ArrowLeft size={14} />
@@ -343,8 +460,7 @@ export default function ReadingLab({
                 <button
                   className="button primary"
                   onClick={() => {
-                    setQuestionIndex((i) => i + 1);
-                    setHighlight([]);
+                    jump(questionIndex + 1);
                   }}
                 >
                   Next question
@@ -409,6 +525,56 @@ export default function ReadingLab({
           </span>
         </div>
       </div>
+      {restoringAccount && (
+        <p className="reading-position-note" role="status">
+          Your account history is still being restored. Records on this device
+          remain available; passages without local records are not yet confirmed
+          as unread. Check the sync status above.
+        </p>
+      )}
+      {history[0] && (
+        <section
+          className="reading-resume panel"
+          aria-label="Your reading history"
+        >
+          <div>
+            <span className="tiny-label">PICK UP WHERE YOU LEFT OFF</span>
+            <h2>{history[0].lesson.title}</h2>
+            <p>
+              {history[0].answered} / {history[0].lesson.questions.length}{" "}
+              answers saved ·{" "}
+              {history[0].complete
+                ? "Practice complete"
+                : history[0].reachedEnd
+                  ? "Passage read · practice in progress"
+                  : "Reading in progress"}
+            </p>
+            <p>
+              Last activity:{" "}
+              {new Date(history[0].latest.at).toLocaleString("en-GB")}
+            </p>
+          </div>
+          <button
+            className="button primary"
+            onClick={() => open(history[0].lesson)}
+          >
+            Resume reading <ArrowRight size={15} />
+          </button>
+        </section>
+      )}
+      {progressError && (
+        <div className="reading-error" role="alert">
+          {progressError}{" "}
+          <button
+            className="text-button"
+            onClick={() =>
+              failedProgress.current && recordProgress(failedProgress.current)
+            }
+          >
+            Retry saving position
+          </button>
+        </div>
+      )}
       <section
         className="daily-literature-status"
         aria-label="Daily literature updates"
@@ -522,6 +688,7 @@ export default function ReadingLab({
       <div className="list-tabs">
         {[
           "All passages",
+          "My history",
           "Latest literature",
           "Not completed",
           "Needs another look",
@@ -542,6 +709,7 @@ export default function ReadingLab({
           .map((item) => {
             const records = readingAnswers(events, item),
               count = Object.keys(records).length;
+            const visit = history.find((row) => row.lesson.id === item.id);
             return (
               <article key={item.id} className="reading-card panel">
                 <div className="reading-card-top">
@@ -550,6 +718,25 @@ export default function ReadingLab({
                 </div>
                 <h2>{item.title}</h2>
                 <p>{item.subtitle}</p>
+                <p
+                  className={`reading-state ${count === item.questions.length ? "complete" : ""}`}
+                >
+                  {count === item.questions.length
+                    ? "Practice complete"
+                    : visit?.reachedEnd
+                      ? "Read · practice incomplete"
+                      : visit
+                        ? "Reading in progress"
+                        : restoringAccount
+                          ? "Checking saved history"
+                          : "Not started"}
+                  {visit && (
+                    <span>
+                      {" "}
+                      · {new Date(visit.latest.at).toLocaleDateString("en-GB")}
+                    </span>
+                  )}
+                </p>
                 <div className="reading-card-source">
                   <ShieldCheck size={13} />
                   {item.evidenceType === "abstract"
@@ -573,7 +760,7 @@ export default function ReadingLab({
                 <button className="button secondary" onClick={() => open(item)}>
                   {count === item.questions.length
                     ? "Review passage"
-                    : count
+                    : count || visit
                       ? "Continue reading"
                       : "Start reading"}
                   <ArrowRight size={15} />
@@ -639,8 +826,7 @@ function ReadingExercise({
     scope,
     `${lesson.id}:v${lesson.version}:${question.id}`,
   );
-  const [chosen, setChosen] = useState(""),
-    [showReference, setShowReference] = useState(false),
+  const [showReference, setShowReference] = useState(false),
     [checks, setChecks] = useState<number[]>([]),
     [busy, setBusy] = useState(false),
     [message, setMessage] = useState(""),
@@ -648,11 +834,7 @@ function ReadingExercise({
   const lock = useRef(false),
     attemptId = useRef(crypto.randomUUID());
   const saved = retrying ? undefined : record;
-  const answer = saved
-    ? String(saved.payload.answer)
-    : question.type === "choice"
-      ? chosen
-      : draft.value;
+  const answer = saved ? String(saved.payload.answer) : draft.value;
   const referenceVisible = Boolean(saved) || showReference;
   const submit = async (rating: 1 | 2 | 3 | 4) => {
     if (lock.current || saved || !answer.trim()) return;
@@ -690,11 +872,10 @@ function ReadingExercise({
   const tryAgain = () => {
     attemptId.current = crypto.randomUUID();
     setRetrying(true);
-    setChosen("");
+    draft.update("");
     setShowReference(false);
     setChecks([]);
     setMessage("");
-    if (question.type === "short") draft.update("");
   };
   return (
     <div className="reading-question panel">
@@ -709,7 +890,7 @@ function ReadingExercise({
         <>
           <fieldset
             className="reading-options"
-            disabled={Boolean(saved) || busy}
+            disabled={Boolean(saved) || busy || draft.status === "loading"}
           >
             <legend className="sr-only">Choose one answer</legend>
             {question.choices!.map((option) => (
@@ -722,7 +903,7 @@ function ReadingExercise({
                   name={`${lesson.id}-${question.id}`}
                   value={option.id}
                   checked={answer === option.id}
-                  onChange={() => setChosen(option.id)}
+                  onChange={() => draft.update(option.id)}
                 />
                 <span className="reading-option-letter">
                   {option.id.toUpperCase()}
@@ -735,8 +916,8 @@ function ReadingExercise({
           {!saved && (
             <button
               className="button primary"
-              disabled={!chosen || busy}
-              onClick={() => void submit(chosen === question.correct ? 3 : 1)}
+              disabled={!answer || busy || draft.status === "loading"}
+              onClick={() => void submit(answer === question.correct ? 3 : 1)}
             >
               {busy ? (
                 <LoaderCircle className="spin" size={15} />
@@ -772,6 +953,29 @@ function ReadingExercise({
                       ?.text
                   }
                 </p>
+              )}
+            </div>
+          )}
+          {!saved && (
+            <div className="reading-draft-status" role="status">
+              {draft.status === "saved" ? (
+                "Choice saved on this device. Check your answer to record a completed response."
+              ) : draft.status === "saving" ? (
+                "Saving choice…"
+              ) : draft.status === "loading" ? (
+                "Restoring choice…"
+              ) : draft.status === "error" ? (
+                <span>
+                  Choice save failed.{" "}
+                  <button
+                    className="text-button"
+                    onClick={() => draft.update(draft.value)}
+                  >
+                    Retry
+                  </button>
+                </span>
+              ) : (
+                "Your choice is saved automatically."
               )}
             </div>
           )}

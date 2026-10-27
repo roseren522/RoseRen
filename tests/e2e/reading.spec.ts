@@ -90,7 +90,7 @@ test("written draft survives refresh; reference-based self assessment saves with
   await page
     .locator(".reading-card")
     .first()
-    .getByRole("button", { name: "Start reading" })
+    .getByRole("button", { name: "Continue reading" })
     .click();
   await page.getByRole("button", { name: /Written response/ }).click();
   await expect(page.getByLabel("Your explanation, in English")).toHaveValue(
@@ -205,7 +205,7 @@ test("production reading supports offline draft recovery and completed answers",
   await page
     .locator(".reading-card")
     .first()
-    .getByRole("button", { name: "Start reading" })
+    .getByRole("button", { name: "Continue reading" })
     .click();
   await page.getByRole("button", { name: /Written response/ }).click();
   await expect(page.getByLabel("Your explanation, in English")).toHaveValue(

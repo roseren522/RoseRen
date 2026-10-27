@@ -64,6 +64,67 @@ export interface ReadingPayload extends Record<string, unknown> {
   assessment: "objective" | "self";
   rubricChecks?: number[];
 }
+export interface ReadingVisitPayload extends Record<string, unknown> {
+  activity: "reading-progress";
+  version: number;
+  lessonId: string;
+  questionId: string;
+  reachedEnd: boolean;
+}
+export function validateReadingVisit(event: LearningEvent) {
+  const p = event.payload;
+  if (
+    event.kind !== "entry" ||
+    event.entryId !== `reading-progress:${p.lessonId}` ||
+    p.activity !== "reading-progress" ||
+    !Number.isInteger(p.version) ||
+    Number(p.version) < 1 ||
+    typeof p.lessonId !== "string" ||
+    !p.lessonId ||
+    p.lessonId.length > 100 ||
+    typeof p.questionId !== "string" ||
+    !p.questionId ||
+    p.questionId.length > 100 ||
+    typeof p.reachedEnd !== "boolean"
+  )
+    throw new Error("Invalid reading progress record");
+}
+export function readingHistory(
+  events: LearningEvent[],
+  lessons: ReadingLesson[],
+) {
+  return lessons
+    .map((lesson) => {
+      const records = readingAnswers(events, lesson);
+      const visits = events.filter(
+        (e) =>
+          e.kind === "entry" &&
+          e.payload.activity === "reading-progress" &&
+          e.payload.lessonId === lesson.id &&
+          e.payload.version === lesson.version &&
+          lesson.questions.some((q) => q.id === e.payload.questionId),
+      );
+      const activity = [...visits, ...Object.values(records)].sort(
+        (a, b) =>
+          Date.parse(b.at) - Date.parse(a.at) || b.id.localeCompare(a.id),
+      );
+      const latest = activity[0];
+      return {
+        lesson,
+        latest,
+        answered: Object.keys(records).length,
+        complete: Object.keys(records).length === lesson.questions.length,
+        reachedEnd: visits.some((e) => e.payload.reachedEnd === true),
+        questionId: latest ? String(latest.payload.questionId) : undefined,
+      };
+    })
+    .filter((item) => item.latest)
+    .sort(
+      (a, b) =>
+        Date.parse(b.latest.at) - Date.parse(a.latest.at) ||
+        b.latest.id.localeCompare(a.latest.id),
+    );
+}
 export function isReadingEvent(event: LearningEvent) {
   return event.kind === "review" && event.payload.activity === "reading";
 }

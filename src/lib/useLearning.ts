@@ -7,6 +7,10 @@ export function useLearning() {
     [authReady, setAuthReady] = useState(!cloud);
   const [events, setEvents] = useState<LearningEvent[]>([]),
     [loading, setLoading] = useState(true);
+  const [unmergedReadingCount, setUnmergedReadingCount] = useState(0);
+  const [cloudSnapshotScope, setCloudSnapshotScope] = useState<string | null>(
+    null,
+  );
   const [status, setStatus] = useState<
     "local" | "saved" | "pending" | "failed" | "syncing"
   >("local");
@@ -29,6 +33,7 @@ export function useLearning() {
       await synchronize(user.id, supabaseTransport(user.id));
       if (activeScope.current === user.id) {
         const rows = await refresh();
+        setCloudSnapshotScope(user.id);
         setStatus(rows.some((row) => !row.synced) ? "pending" : "saved");
         setError("");
       }
@@ -73,7 +78,8 @@ export function useLearning() {
   useEffect(() => {
     setLoading(true);
     setEvents([]);
-    setStatus(user ? "pending" : "local");
+    setCloudSnapshotScope(null);
+    setStatus(scope !== "guest" ? "pending" : "local");
     refresh()
       .then(() => {
         if (activeScope.current === scope) setLoading(false);
@@ -84,7 +90,40 @@ export function useLearning() {
         );
         setLoading(false);
       });
-  }, [scope, refresh, user]);
+    // Token refresh can replace the User object without changing the account.
+    // Only a real scope change should clear and reload the visible records.
+  }, [scope, refresh]);
+  useEffect(() => {
+    let active = true;
+    if (scope === "guest") {
+      setUnmergedReadingCount(0);
+      return;
+    }
+    void (async () => {
+      const guest = await db.events.where("scope").equals("guest").toArray();
+      let mapping: Record<string, string> = {};
+      try {
+        mapping = JSON.parse(
+          localStorage.getItem("fieldnotes-import-" + scope) || "{}",
+        );
+      } catch {
+        /* A missing mapping means not merged. */
+      }
+      const ids = new Set(events.map((e) => e.id));
+      const count = guest.filter(
+        (e) =>
+          (e.payload.activity === "reading" ||
+            e.payload.activity === "reading-progress") &&
+          !ids.has(mapping[e.id]),
+      ).length;
+      if (active) setUnmergedReadingCount(count);
+    })().catch(() => {
+      /* The ordinary storage error banner handles unavailable storage. */
+    });
+    return () => {
+      active = false;
+    };
+  }, [scope, events]);
   useEffect(() => {
     const up = () => {
         setOnline(true);
@@ -200,5 +239,7 @@ export function useLearning() {
     save,
     sync,
     migrateGuest,
+    unmergedReadingCount,
+    hasCloudSnapshot: cloudSnapshotScope === scope,
   };
 }

@@ -42,6 +42,9 @@ it("executes the migration in PostgreSQL and enforces account RLS, immutable eve
         )
       ).rows,
     ).toHaveLength(1);
+    await pg.exec(
+      `insert into public.learning_events(id,user_id,kind,occurred_at,entry_id,payload) values ('66666666-6666-6666-6666-666666666666','aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa','entry',now(),'reading-progress:emissions-concentrations','{"activity":"reading-progress","version":1,"lessonId":"emissions-concentrations","questionId":"q2","reachedEnd":true}')`,
+    );
     await expect(pg.exec("delete from public.learning_events")).rejects.toThrow(
       /permission denied/i,
     );

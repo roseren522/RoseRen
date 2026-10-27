@@ -53,6 +53,7 @@ import { seed, sources, readings } from "./data";
 import ReadingLab from "./components/ReadingLab";
 import { AvatarEditor, AvatarView } from "./components/Avatar";
 import { avatarEntryId, avatarPayload, type Avatar } from "./lib/profile";
+import { readingHistory, readingSummary } from "./lib/reading";
 import { useLearning } from "./lib/useLearning";
 import {
   acceptsAnswer,
@@ -208,6 +209,9 @@ export default function App() {
     return () => clearInterval(timer);
   }, []);
   const stats = statistics(state, new Date(clock));
+  const readingEvents = [...state.readingReviews, ...state.readingVisits];
+  const readingLog = readingHistory(readingEvents, readings);
+  const readingStats = readingSummary(readingEvents, readings);
   const [page, setPage] = useState<Page>(() => {
     const p = location.hash.slice(1);
     return [
@@ -665,24 +669,47 @@ export default function App() {
           ) : (
             <>
               {page === "reading" && (
-                <ReadingLab
-                  scope={learning.scope}
-                  userId={user?.id}
-                  events={state.readingReviews}
-                  saveReview={(payload, entryId, id) =>
-                    save("review", payload, entryId, id)
-                  }
-                  studyVocabulary={(entries) => {
-                    setQueue(entries.map((e) => e.id));
-                    setIndex(0);
-                    setMode("cards");
-                    setRevealed(false);
-                    setChecked(null);
-                    setAnswer("");
-                    reviewId.current = crypto.randomUUID();
-                    navigate("study");
-                  }}
-                />
+                <>
+                  {learning.unmergedReadingCount > 0 && (
+                    <div className="reading-merge-notice" role="status">
+                      检测到本设备有登录前的阅读记录，尚未合并到当前账号。
+                      <button
+                        className="text-button"
+                        onClick={() => setAuth(true)}
+                      >
+                        打开账号面板合并本地记录
+                      </button>
+                    </div>
+                  )}
+                  <ReadingLab
+                    scope={learning.scope}
+                    userId={user?.id}
+                    restoringAccount={
+                      Boolean(user) && !learning.hasCloudSnapshot
+                    }
+                    events={readingEvents}
+                    saveProgress={(payload) =>
+                      save(
+                        "entry",
+                        payload,
+                        `reading-progress:${payload.lessonId}`,
+                      )
+                    }
+                    saveReview={(payload, entryId, id) =>
+                      save("review", payload, entryId, id)
+                    }
+                    studyVocabulary={(entries) => {
+                      setQueue(entries.map((e) => e.id));
+                      setIndex(0);
+                      setMode("cards");
+                      setRevealed(false);
+                      setChecked(null);
+                      setAnswer("");
+                      reviewId.current = crypto.randomUUID();
+                      navigate("study");
+                    }}
+                  />
+                </>
               )}
               {page === "dashboard" && (
                 <>
@@ -827,11 +854,15 @@ export default function App() {
                       <GraduationCap size={24} />
                     </span>
                     <span>
-                      <strong>Reading Lab · Go beyond the word.</strong>
+                      <strong>
+                        {readingLog.length
+                          ? `继续阅读 · ${readingLog[0].lesson.title}`
+                          : "Reading Lab · Go beyond the word."}
+                      </strong>
                       <small>
-                        {readings.length} English passages · multiple-choice &
-                        written-response practice · atmospheric science,
-                        inventories and research methods
+                        {readingLog.length
+                          ? `已记录 ${readingLog.length} 篇阅读 · 已完成 ${readingStats.complete} 篇练习 · 已保存 ${readingStats.answered} 道回答`
+                          : `${readings.length} English passages · multiple-choice & written-response practice · atmospheric science, inventories and research methods`}
                       </small>
                     </span>
                     <ArrowRight size={19} />
