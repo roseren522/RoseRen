@@ -4050,6 +4050,114 @@ kbd {
   border-top: 1px solid #e0e9d5;
   padding-top: 20px;
 }
+.writing-check-button {
+  margin: 4px 0 14px;
+}
+.writing-feedback {
+  border: 1px solid #d1dfc5;
+  background: #f4f8ee;
+  border-radius: 9px;
+  padding: 18px;
+  margin: 16px 0 22px;
+}
+.writing-feedback-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #36563c;
+}
+.writing-feedback-heading h3 {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.writing-feedback-heading p {
+  font-size: 12px;
+  margin-top: 4px;
+}
+.writing-feedback-note {
+  font-size: 11px;
+  line-height: 1.85;
+  color: #52674b;
+  margin: 12px 0;
+}
+.writing-feedback-points {
+  list-style: none;
+  padding: 0;
+  margin: 17px 0;
+}
+.writing-feedback-point {
+  background: #fffdf9;
+  border: 1px solid #dfe5d8;
+  border-radius: 7px;
+  padding: 13px;
+  margin-top: 10px;
+}
+.writing-point-title {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 7px;
+  font-size: 11px;
+  line-height: 1.8;
+  color: #3d5a40;
+}
+.writing-point-title > strong {
+  flex: 1;
+  min-width: 120px;
+  font-weight: 550;
+}
+.writing-point-title > span {
+  font-size: 9px;
+  padding: 1px 6px;
+  border: 1px solid #d7dfcc;
+  border-radius: 4px;
+}
+.writing-feedback-point.review {
+  border-color: #c7b398;
+}
+.writing-feedback-point.review .writing-point-title {
+  color: #765431;
+}
+.writing-feedback-point p {
+  overflow-wrap: anywhere;
+  font-size: 11px;
+  line-height: 1.9;
+  color: #51664a;
+  margin-top: 10px;
+}
+.writing-feedback-point blockquote {
+  margin: 11px 0 0;
+  padding: 7px 10px;
+  border-left: 2px solid #b3c6a2;
+  background: #f2f6eb;
+  color: #425e3c;
+  font-size: 11px;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+}
+.writing-language-notes h4 {
+  color: #3d5a40;
+  font-size: 12px;
+  margin: 14px 0 6px;
+}
+.writing-language-notes ul {
+  padding-left: 18px;
+  margin: 0;
+  color: #51664a;
+  font-size: 11px;
+  line-height: 1.9;
+}
+.writing-feedback-saved {
+  color: #3e5d40;
+  font-size: 10px;
+  line-height: 1.8;
+}
+.reading-reference .reading-reference-point {
+  font-size: 11px;
+  color: #52674b;
+  line-height: 1.9;
+  margin: 8px 0;
+}
 .reading-reference > .tiny-label {
   font-size: 8px;
   line-height: 1.9;

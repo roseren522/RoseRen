@@ -1,4 +1,9 @@
 import type { LearningEvent, Source } from "./model";
+import {
+  feedbackRating,
+  validWritingFeedback,
+  type WritingFeedback,
+} from "./writingFeedback";
 export type ReadingTopic =
   | "Atmospheric processes"
   | "Environmental chemistry"
@@ -61,8 +66,9 @@ export interface ReadingPayload extends Record<string, unknown> {
   questionType: "choice" | "short";
   answer: string;
   rating: 1 | 2 | 3 | 4;
-  assessment: "objective" | "self";
+  assessment: "objective" | "self" | "reference";
   rubricChecks?: number[];
+  feedback?: WritingFeedback;
 }
 export interface ReadingVisitPayload extends Record<string, unknown> {
   activity: "reading-progress";
@@ -184,7 +190,7 @@ export function validateReadingPayload(
     !payload.answer.trim() ||
     payload.answer.length > 8000 ||
     !["choice", "short"].includes(String(payload.questionType)) ||
-    !["objective", "self"].includes(String(payload.assessment)) ||
+    !["objective", "self", "reference"].includes(String(payload.assessment)) ||
     ![1, 2, 3, 4].includes(Number(payload.rating))
   )
     throw new Error("Invalid reading answer record");
@@ -194,8 +200,30 @@ export function validateReadingPayload(
       ![1, 3].includes(Number(payload.rating)))
   )
     throw new Error("Invalid choice assessment");
-  if (payload.questionType === "short" && payload.assessment !== "self")
-    throw new Error("Short answers require self-assessment");
+  if (
+    payload.questionType === "short" &&
+    !["self", "reference"].includes(String(payload.assessment))
+  )
+    throw new Error(
+      "Short answers require self-assessment or a reference-point check",
+    );
+  if (payload.assessment === "reference") {
+    if (
+      payload.questionType !== "short" ||
+      !validWritingFeedback(payload.feedback) ||
+      Number(payload.rating) !== feedbackRating(payload.feedback)
+    )
+      throw new Error("Invalid reference-point feedback");
+    if (
+      !payload.feedback.points.every((point) =>
+        point.evidence.every((excerpt) =>
+          String(payload.answer).includes(excerpt.replace(/…$/, "")),
+        ),
+      )
+    )
+      throw new Error("Feedback evidence must come from the saved answer");
+  } else if (payload.feedback !== undefined)
+    throw new Error("Unexpected feedback on an unassisted assessment");
   if (
     payload.rubricChecks !== undefined &&
     (!Array.isArray(payload.rubricChecks) ||

@@ -1,0 +1,728 @@
+{
+  "emissions-concentrations": [
+    {
+      "groups": [
+        [
+          "emission",
+          "release",
+          "source"
+        ],
+        [
+          "concentration",
+          "ambient air"
+        ],
+        [
+          "different",
+          "distinct",
+          "whereas",
+          "while",
+          "depends",
+          "depend",
+          "also",
+          "as well as",
+          "not",
+          "rather than",
+          "unlike",
+          "influence",
+          "affect"
+        ]
+      ],
+      "guidance": "Distinguish releases from the amount measured in ambient air, and explain their relationship."
+    },
+    {
+      "groups": [
+        [
+          "transport",
+          "advection",
+          "mixing",
+          "movement"
+        ],
+        [
+          "chemistry",
+          "chemical reaction",
+          "chemical transformation"
+        ],
+        [
+          "removal",
+          "deposition",
+          "loss"
+        ],
+        [
+          "meteorology",
+          "weather",
+          "wind"
+        ],
+        [
+          "boundary",
+          "upwind",
+          "incoming"
+        ]
+      ],
+      "minimum": 2,
+      "guidance": "Explain at least two additional influences, such as transport, chemistry, removal, meteorology or boundary inputs.",
+      "conflicts": [
+        "(?:transport|chemistry|meteorology|removal).{0,30}(?:no effect|do not affect|does not affect|irrelevant)"
+      ]
+    },
+    {
+      "groups": [
+        [
+          "not proportional",
+          "not necessarily",
+          "not always",
+          "cannot assume",
+          "cannot conclude",
+          "not a direct",
+          "rather than assuming",
+          "instead of assuming",
+          "not mean",
+          "different proportion",
+          "different percentage",
+          "not equal",
+          "not produce an equally",
+          "need not",
+          "not a one to one",
+          "not one to one",
+          "no fixed",
+          "not in direct proportion",
+          "not lead to an equal",
+          "does not guarantee",
+          "may not"
+        ]
+      ],
+      "guidance": "State explicitly why an equal percentage response cannot be assumed.",
+      "conflicts": [
+        "(?:must|always|necessarily) (?:produce|cause|give).{0,35}(?:equal|same|proportional)"
+      ]
+    }
+  ],
+  "surface-exchange": [
+    {
+      "groups": [
+        [
+          "direction",
+          "bidirectional",
+          "source and sink",
+          "source or sink"
+        ],
+        [
+          "change",
+          "switch",
+          "vary",
+          "reverse",
+          "both",
+          "can be"
+        ]
+      ],
+      "guidance": "Explain that the same surface can switch between releasing and taking up ammonia.",
+      "conflicts": [
+        "(?:direction|exchange) (?:cannot|can not|does not|never) (?:change|reverse|switch|vary)",
+        "surface (?:is|remains) (?:always|permanently) (?:a )?source"
+      ]
+    },
+    {
+      "groups": [
+        [
+          "concentration",
+          "gradient",
+          "relative"
+        ],
+        [
+          "air",
+          "atmosphere"
+        ],
+        [
+          "surface",
+          "soil",
+          "vegetation"
+        ]
+      ],
+      "guidance": "Connect exchange direction to relative concentrations in the air and at the surface."
+    },
+    {
+      "groups": [
+        [
+          "period",
+          "time",
+          "condition",
+          "sign convention",
+          "positive",
+          "negative",
+          "temperature",
+          "moisture",
+          "specify",
+          "document"
+        ]
+      ],
+      "guidance": "State a reporting condition, period or sign convention instead of assigning a permanent label."
+    }
+  ],
+  "process-cancellation": [
+    {
+      "groups": [
+        [
+          "total",
+          "net",
+          "aggregate"
+        ],
+        [
+          "contribution",
+          "process",
+          "component",
+          "combine",
+          "sum"
+        ]
+      ],
+      "guidance": "Explain that a total combines contributions from multiple processes."
+    },
+    {
+      "groups": [
+        [
+          "cancel",
+          "cancellation",
+          "compensate",
+          "compensating",
+          "opposing",
+          "offset",
+          "balance out"
+        ]
+      ],
+      "guidance": "Describe how opposing contributions or errors can cancel in the net result.",
+      "conflicts": [
+        "errors? (?:cannot|can not|never) (?:cancel|compensate|offset)"
+      ]
+    },
+    {
+      "groups": [
+        [
+          "diagnostic",
+          "process specific",
+          "independent evidence",
+          "independent observation",
+          "individual process",
+          "individual mechanism"
+        ]
+      ],
+      "guidance": "Identify process-specific diagnostics or independent evidence needed to assess individual mechanisms."
+    }
+  ],
+  "attribution-response": [
+    {
+      "groups": [
+        [
+          "no",
+          "not",
+          "cannot",
+          "can not",
+          "does not",
+          "not necessarily",
+          "insufficient"
+        ]
+      ],
+      "guidance": "Reject the claim that the attribution fraction by itself establishes an equal reduction.",
+      "conflicts": [
+        "yes.{0,30}(?:always|must|exactly|necessarily)"
+      ]
+    },
+    {
+      "groups": [
+        [
+          "attribution",
+          "contribution",
+          "fraction"
+        ],
+        [
+          "intervention",
+          "removing",
+          "removal",
+          "control",
+          "response",
+          "reduction"
+        ],
+        [
+          "different",
+          "not",
+          "whereas",
+          "while",
+          "describes",
+          "under",
+          "specified"
+        ]
+      ],
+      "guidance": "Distinguish attribution under specified conditions from the response to an intervention."
+    },
+    {
+      "groups": [
+        [
+          "nonlinear",
+          "non linear",
+          "interaction",
+          "chemistry",
+          "sensitivity analysis",
+          "control scenario",
+          "scenario analysis"
+        ]
+      ],
+      "guidance": "Explain nonlinear interactions or identify an additional sensitivity/control scenario analysis."
+    }
+  ],
+  "sensitivity-design": [
+    {
+      "groups": [
+        [
+          "baseline",
+          "reference scenario",
+          "base case"
+        ],
+        [
+          "input",
+          "parameter",
+          "industrial",
+          "emission category",
+          "category changed"
+        ]
+      ],
+      "guidance": "Specify the baseline and the exact industrial input or parameter being changed."
+    },
+    {
+      "groups": [
+        [
+          "magnitude",
+          "size",
+          "amount",
+          "percentage",
+          "percent",
+          "perturbation"
+        ],
+        [
+          "output",
+          "concentration",
+          "comparison period",
+          "response variable",
+          "time period"
+        ]
+      ],
+      "guidance": "Report the size of the perturbation and the output/period being compared."
+    },
+    {
+      "groups": [
+        [
+          "conditional",
+          "not uncertainty",
+          "not a probability",
+          "not a full",
+          "does not quantify",
+          "rather than",
+          "uncertainty assessment",
+          "uncertainty distribution"
+        ]
+      ],
+      "guidance": "Clarify that a conditional sensitivity response is not a complete uncertainty distribution."
+    }
+  ],
+  "observation-pairing": [
+    {
+      "groups": [
+        [
+          "species",
+          "substance",
+          "no2",
+          "nitrogen dioxide"
+        ],
+        [
+          "unit",
+          "definition",
+          "compatible"
+        ]
+      ],
+      "guidance": "Check the species definition and units before comparing the values."
+    },
+    {
+      "groups": [
+        [
+          "spatial",
+          "location",
+          "station",
+          "grid",
+          "site"
+        ],
+        [
+          "match",
+          "pair",
+          "appropriate",
+          "representative",
+          "align",
+          "check"
+        ]
+      ],
+      "guidance": "Explain how the monitoring station is paired with an appropriate model location."
+    },
+    {
+      "groups": [
+        [
+          "time",
+          "temporal",
+          "timestamp",
+          "averaging period",
+          "averaging",
+          "aggregation",
+          "time zone"
+        ]
+      ],
+      "guidance": "Check time zones, timestamps, averaging periods and any aggregation."
+    }
+  ],
+  "mass-conservation": [
+    {
+      "groups": [
+        [
+          "transport",
+          "enter",
+          "leave",
+          "inflow",
+          "outflow",
+          "boundary",
+          "advection"
+        ]
+      ],
+      "guidance": "Mention material entering or leaving the spatial domain or grid cell."
+    },
+    {
+      "groups": [
+        [
+          "chemical reaction",
+          "chemistry",
+          "transformation",
+          "convert",
+          "conversion",
+          "other species",
+          "other form"
+        ]
+      ],
+      "guidance": "Explain conversion of one chemical species into another."
+    },
+    {
+      "groups": [
+        [
+          "conservation",
+          "conserve",
+          "accounting",
+          "mass balance"
+        ],
+        [
+          "not constant",
+          "not fixed",
+          "does not require",
+          "not mean",
+          "can change",
+          "may change",
+          "rather than"
+        ]
+      ],
+      "guidance": "Distinguish conservation accounting from requiring every concentration to remain constant.",
+      "conflicts": [
+        "conservation (?:means|requires|guarantees).{0,40}concentration.{0,20}(?:constant|fixed)"
+      ]
+    }
+  ],
+  "precision-bias": [
+    {
+      "groups": [
+        [
+          "systematic",
+          "bias",
+          "biased",
+          "unrepresentative",
+          "sampling coverage"
+        ]
+      ],
+      "guidance": "Identify possible bias, systematic error or unrepresentative sampling.",
+      "conflicts": [
+        "narrow.{0,25}interval (?:proves|guarantees).{0,20}(?:unbiased|no bias|accurate)"
+      ]
+    },
+    {
+      "groups": [
+        [
+          "quantified",
+          "random",
+          "interval",
+          "narrow"
+        ],
+        [
+          "omit",
+          "exclude",
+          "not include",
+          "not all",
+          "unquantified",
+          "only",
+          "does not establish",
+          "does not prove",
+          "not guarantee",
+          "may miss",
+          "does not mean"
+        ]
+      ],
+      "guidance": "Explain that a narrow interval may cover only quantified uncertainty and omit other errors."
+    },
+    {
+      "groups": [
+        [
+          "method",
+          "sampling",
+          "assumption",
+          "coverage",
+          "documentation",
+          "measurement",
+          "inspect",
+          "examine",
+          "check"
+        ]
+      ],
+      "guidance": "Name the methods, sampling coverage, assumptions or documentation you would inspect."
+    }
+  ],
+  "monte-carlo": [
+    {
+      "groups": [
+        [
+          "input",
+          "parameter"
+        ],
+        [
+          "distribution",
+          "probability"
+        ],
+        [
+          "evidence",
+          "justify",
+          "justified",
+          "basis",
+          "support",
+          "check",
+          "how"
+        ]
+      ],
+      "guidance": "Assess the evidence used to choose input probability distributions."
+    },
+    {
+      "groups": [
+        [
+          "dependency",
+          "dependence",
+          "correlation",
+          "correlated",
+          "shared"
+        ],
+        [
+          "bias",
+          "systematic"
+        ]
+      ],
+      "guidance": "Check both dependencies between inputs and known bias."
+    },
+    {
+      "groups": [
+        [
+          "stability",
+          "convergence",
+          "iteration",
+          "sample size"
+        ],
+        [
+          "scientific",
+          "process",
+          "scope",
+          "adequacy",
+          "model includes",
+          "representation",
+          "assumption",
+          "not enough",
+          "does not guarantee"
+        ]
+      ],
+      "guidance": "Distinguish numerical stability from whether the model and its scientific assumptions are adequate.",
+      "conflicts": [
+        "more iterations (?:remove|eliminate|fix) (?:all )?bias"
+      ]
+    }
+  ],
+  "correlated-inputs": [
+    {
+      "groups": [
+        [
+          "shared",
+          "common",
+          "same",
+          "underlying"
+        ],
+        [
+          "measurement",
+          "method",
+          "parameter",
+          "data",
+          "estimation"
+        ]
+      ],
+      "guidance": "Identify a shared measurement, method or parameter that can link the annual estimates."
+    },
+    {
+      "groups": [
+        [
+          "file",
+          "storage",
+          "separate"
+        ],
+        [
+          "not",
+          "cannot",
+          "does not",
+          "no evidence",
+          "not prove",
+          "do not"
+        ]
+      ],
+      "guidance": "Explain why separate storage does not establish statistical independence.",
+      "conflicts": [
+        "separate files (?:prove|guarantee|establish).{0,25}independen"
+      ]
+    },
+    {
+      "groups": [
+        [
+          "dependency",
+          "dependence",
+          "correlation",
+          "connection"
+        ],
+        [
+          "uncertainty",
+          "total",
+          "trend",
+          "analysis",
+          "calculation"
+        ]
+      ],
+      "guidance": "Connect dependency assumptions to uncertainty in totals or trends."
+    }
+  ],
+  "representative-data": [
+    {
+      "groups": [
+        [
+          "process",
+          "technology",
+          "substance",
+          "unit",
+          "definition",
+          "category",
+          "fuel"
+        ],
+        [
+          "location",
+          "country",
+          "region",
+          "year",
+          "period",
+          "coverage",
+          "target"
+        ]
+      ],
+      "guidance": "Compare definitions, units and relevant spatial/temporal coverage with the target categories."
+    },
+    {
+      "groups": [
+        [
+          "representative",
+          "representativeness",
+          "transfer",
+          "applicability",
+          "applicable"
+        ],
+        [
+          "assumption",
+          "assess",
+          "compare",
+          "check",
+          "examine",
+          "evaluate",
+          "whether"
+        ]
+      ],
+      "guidance": "Assess representativeness and the assumptions needed to transfer the factor."
+    },
+    {
+      "groups": [
+        [
+          "document",
+          "report",
+          "record"
+        ],
+        [
+          "adjustment",
+          "adaptation",
+          "limitation",
+          "uncertainty",
+          "mismatch",
+          "gap"
+        ]
+      ],
+      "guidance": "Document adaptations, gaps and uncertainty rather than assuming universal applicability."
+    }
+  ],
+  "combustion-tiers": [
+    {
+      "groups": [
+        [
+          "unit",
+          "energy basis",
+          "mass basis",
+          "basis"
+        ],
+        [
+          "compatible",
+          "compatibility",
+          "match",
+          "consistent",
+          "convert",
+          "conversion",
+          "check"
+        ]
+      ],
+      "guidance": "Check unit compatibility and whether activity and factor use the same mass or energy basis."
+    },
+    {
+      "groups": [
+        [
+          "gas",
+          "substance",
+          "pollutant"
+        ],
+        [
+          "fuel",
+          "category",
+          "period",
+          "boundary",
+          "inventory",
+          "year"
+        ]
+      ],
+      "guidance": "Check the gas, fuel, category, time period and inventory boundaries."
+    },
+    {
+      "groups": [
+        [
+          "representative",
+          "representativeness",
+          "intended condition",
+          "country specific",
+          "default factor",
+          "limitation",
+          "uncertainty",
+          "adjustment"
+        ]
+      ],
+      "guidance": "Assess whether the factor represents the intended conditions and document limits or adjustments."
+    }
+  ]
+}

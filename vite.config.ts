@@ -34,6 +34,10 @@ export default defineConfig({
       output: {
         codeSplitting: {
           groups: [
+            {
+              name: "writing-feedback",
+              test: /src\/(?:lib\/writingFeedback|data\/writing-criteria)/,
+            },
             { name: "cloud", test: /node_modules\/@supabase/ },
             {
               name: "react",

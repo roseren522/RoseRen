@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import {
   ArrowLeft,
   ArrowRight,
@@ -22,6 +22,13 @@ import { db } from "../lib/store";
 import { HighlightedText, ReadingHighlights } from "./ReadingHighlights";
 import type { HighlightPayload } from "../lib/highlights";
 import { readingHash, readReadingRoute } from "../lib/readingRoute";
+import {
+  checkWritingAnswer,
+  feedbackRating,
+  validWritingFeedback,
+  type WritingFeedback as WritingReport,
+} from "../lib/writingFeedback";
+const WritingFeedback = lazy(() => import("./WritingFeedback"));
 import {
   readingAnswers,
   readingHistory,
@@ -501,8 +508,10 @@ export default function ReadingLab({
                       the abstract is reproduced; Fieldnotes has not reviewed
                       the full paper. Paragraph labels and learning questions
                       were added. Definitions come from the maintained glossary.
-                      Context questions use source wording; written answers are
-                      self-assessed. No expert review or AI grading is claimed.
+                      Context questions use source wording; written answers
+                      offer reference-point feedback and optional
+                      self-assessment. No expert review or AI grading is
+                      claimed.
                     </>
                   ) : (
                     <>
@@ -917,10 +926,10 @@ export default function ReadingLab({
       )}
       <p className="reading-library-note">
         <ShieldCheck size={16} />
-        These are source-based educational adaptations of official technical
-        guidance, not verbatim journal excerpts. Multiple-choice answers include
-        explanations; written responses use reference points and your own
-        assessment, without automated AI grading.
+        Technical-guide lessons are educational adaptations; recent papers use
+        licensed abstracts. Multiple-choice answers include explanations;
+        written responses offer keyword-based reference checks and optional
+        self-assessment.
       </p>
     </div>
   );
@@ -953,9 +962,60 @@ function ReadingExercise({
     [retrying, setRetrying] = useState(false);
   const lock = useRef(false),
     attemptId = useRef(crypto.randomUUID());
+  const [feedback, setFeedback] = useState<{
+    answer: string;
+    report: WritingReport;
+    saved: boolean;
+  } | null>(null);
   const saved = retrying ? undefined : record;
   const answer = saved ? String(saved.payload.answer) : draft.value;
   const referenceVisible = Boolean(saved) || showReference;
+  const previousFeedback = saved?.payload.feedback;
+  const storedFeedback = validWritingFeedback(previousFeedback)
+    ? previousFeedback
+    : undefined;
+  const currentFeedback =
+    feedback?.answer === answer
+      ? feedback
+      : storedFeedback
+        ? { answer, report: storedFeedback, saved: true }
+        : null;
+  const checkAnswer = async () => {
+    if (lock.current || !answer.trim()) return;
+    lock.current = true;
+    setBusy(true);
+    setMessage("");
+    try {
+      const report = checkWritingAnswer(answer, lesson, question);
+      setFeedback({ answer, report, saved: false });
+      setShowReference(true);
+      await saveReview(
+        {
+          activity: "reading",
+          version: lesson.version,
+          lessonId: lesson.id,
+          questionId: question.id,
+          questionType: "short",
+          answer,
+          rating: feedbackRating(report),
+          assessment: "reference",
+          feedback: report,
+        },
+        `reading:${lesson.id}:${question.id}`,
+        attemptId.current,
+      );
+      await draft.clear().catch(() => {});
+      setRetrying(false);
+      setFeedback({ answer, report, saved: true });
+    } catch {
+      setMessage(
+        "Your checked answer and feedback could not be saved. Keep this page open and retry; your response is retained.",
+      );
+    } finally {
+      lock.current = false;
+      setBusy(false);
+    }
+  };
   const submit = async (rating: 1 | 2 | 3 | 4) => {
     if (lock.current || saved || !answer.trim()) return;
     lock.current = true;
@@ -980,6 +1040,7 @@ function ReadingExercise({
       await draft.clear().catch(() => {});
       setRetrying(false);
       setShowReference(true);
+      setFeedback(null);
     } catch {
       setMessage(
         "Your answer could not be saved. Keep this page open and try again; the current response is retained.",
@@ -992,7 +1053,8 @@ function ReadingExercise({
   const tryAgain = () => {
     attemptId.current = crypto.randomUUID();
     setRetrying(true);
-    draft.update("");
+    draft.update(question.type === "short" ? answer : "");
+    setFeedback(null);
     setShowReference(false);
     setChecks([]);
     setMessage("");
@@ -1128,7 +1190,7 @@ function ReadingExercise({
             className="reading-answer"
             rows={7}
             maxLength={8000}
-            disabled={Boolean(saved) || draft.status === "loading"}
+            disabled={Boolean(saved) || busy || draft.status === "loading"}
             value={answer}
             onChange={(e) => draft.update(e.target.value)}
             placeholder="Make a claim, explain the reasoning, and connect it to the passage…"
@@ -1163,6 +1225,48 @@ function ReadingExercise({
               )}
             </div>
           )}
+          {(!currentFeedback || !currentFeedback.saved) && (
+            <button
+              className="button primary writing-check-button"
+              disabled={
+                !answer.trim() ||
+                busy ||
+                draft.status === "saving" ||
+                draft.status === "loading"
+              }
+              onClick={() => void checkAnswer()}
+            >
+              {busy ? (
+                <LoaderCircle size={15} className="spin" />
+              ) : (
+                <CheckCircle2 size={15} />
+              )}
+              {busy
+                ? "Checking & saving…"
+                : currentFeedback
+                  ? "Retry check & save"
+                  : "Check my answer"}
+            </button>
+          )}
+          {currentFeedback && (
+            <Suspense
+              fallback={
+                <p className="writing-feedback-note" role="status">
+                  Preparing feedback…
+                </p>
+              }
+            >
+              <WritingFeedback
+                report={currentFeedback.report}
+                saved={currentFeedback.saved}
+              />
+            </Suspense>
+          )}
+          {feedback && feedback.answer !== answer && (
+            <p className="writing-feedback-note">
+              Your answer has changed. Check it again to update the feedback.
+            </p>
+          )}
           {!referenceVisible && (
             <button
               className="button secondary"
@@ -1189,33 +1293,45 @@ function ReadingExercise({
                 />
               </p>
               <h3>
-                {saved ? "Your saved self-assessment" : "Check your reasoning"}
+                {saved?.payload.assessment === "reference"
+                  ? "Review the original reference points"
+                  : saved
+                    ? "Your saved self-assessment"
+                    : "Check your reasoning"}
               </h3>
               <p className="reading-reference-hint">
                 Equivalent wording is welcome. These points guide your own
                 assessment; they are not an automated correctness score.
               </p>
-              {question.rubric?.map((point, i) => (
-                <label className="reading-rubric" key={point}>
-                  <input
-                    type="checkbox"
-                    disabled={Boolean(saved)}
-                    checked={
-                      saved
-                        ? (
-                            (saved.payload.rubricChecks as number[]) || []
-                          ).includes(i)
-                        : checks.includes(i)
-                    }
-                    onChange={(e) =>
-                      setChecks((v) =>
-                        e.target.checked ? [...v, i] : v.filter((n) => n !== i),
-                      )
-                    }
-                  />
-                  <span>{point}</span>
-                </label>
-              ))}
+              {question.rubric?.map((point, i) =>
+                saved?.payload.assessment === "reference" ? (
+                  <p className="reading-reference-point" key={point}>
+                    • {point}
+                  </p>
+                ) : (
+                  <label className="reading-rubric" key={point}>
+                    <input
+                      type="checkbox"
+                      disabled={Boolean(saved)}
+                      checked={
+                        saved
+                          ? (
+                              (saved.payload.rubricChecks as number[]) || []
+                            ).includes(i)
+                          : checks.includes(i)
+                      }
+                      onChange={(e) =>
+                        setChecks((v) =>
+                          e.target.checked
+                            ? [...v, i]
+                            : v.filter((n) => n !== i),
+                        )
+                      }
+                    />
+                    <span>{point}</span>
+                  </label>
+                ),
+              )}
               {!saved ? (
                 <div className="reading-self-grade">
                   <span>
@@ -1249,6 +1365,12 @@ function ReadingExercise({
                     judgment is implied.
                   </small>
                 </div>
+              ) : saved.payload.assessment === "reference" ? (
+                <p className="reading-self-result">
+                  Reference coverage check recorded. The detected-point count is
+                  not a correctness grade. Use Revise answer to improve your
+                  response or record your own assessment.
+                </p>
               ) : (
                 <p className="reading-self-result">
                   Self-assessment:{" "}
@@ -1286,7 +1408,7 @@ function ReadingExercise({
           </span>
           <button className="text-button" onClick={tryAgain}>
             <RefreshCw size={12} />
-            Try again
+            {question.type === "short" ? "Revise answer" : "Try again"}
           </button>
         </div>
       )}
