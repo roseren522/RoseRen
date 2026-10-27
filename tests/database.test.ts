@@ -32,6 +32,16 @@ it("executes the migration in PostgreSQL and enforces account RLS, immutable eve
     await expect(
       pg.exec(`update public.learning_events set payload='{"rating":4}'`),
     ).rejects.toThrow(/permission denied/i);
+    await pg.exec(
+      `insert into public.learning_events(id,user_id,kind,occurred_at,entry_id,payload) values ('55555555-5555-5555-5555-555555555555','aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa','entry',now(),'profile:avatar','{"activity":"profile","version":1,"avatar":{"type":"preset","id":"leaf"}}')`,
+    );
+    expect(
+      (
+        await pg.query(
+          "select * from public.learning_events where entry_id='profile:avatar'",
+        )
+      ).rows,
+    ).toHaveLength(1);
     await expect(pg.exec("delete from public.learning_events")).rejects.toThrow(
       /permission denied/i,
     );

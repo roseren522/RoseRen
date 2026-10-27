@@ -133,6 +133,14 @@ npm run verify:sources   # 官方原文远程核对
 
 也可把 `dist/` 部署到任何支持 HTTPS 的静态托管服务。需为 SPA 导航回退到 `index.html`，为 `/sw.js` 设置 `Cache-Control: no-cache`；API 请求直接走配置的 Supabase 项目。无须 Node 应用服务器。用户已完成部署，固定网址为 https://rose-ren.vercel.app。GitHub main 上的新提交由 Vercel 集成自动构建；本地构建成功不等于线上部署已完成。
 
+## 个人头像
+
+右上角账号按钮或左下角账号面板 →「设置头像」；「偏好与数据」中也有入口。支持 8 款预设图案、上传 JPG/PNG/WebP 照片、预览、取消和恢复默认。上传限制 5 MB，浏览器校验图片类型后居中裁剪并重新编码成 256×256 JPEG，必要时降低质量或降到 128×128，使 data URL 不超过 64 KiB。原始文件与其元数据不上传；SVG、外部图片地址及过大的头像记录不会接受。
+
+头像沿用不可变事件同步：`kind: entry`、保留 ID `profile:avatar`，payload 为 `{ activity: 'profile', version: 1, avatar }`；不计入个人词库、FSRS 或学习统计。`avatar` 是预设 ID、压缩 JPEG 或 null（恢复默认）。每次保存追加事件，按既有时间/ID 顺序显示最新有效头像；备份包含这些历史事件。未登录时保存到 guest 空间，已登录则先安全写入设备、联网后按原账号 RLS 同步到其他设备。无须修改 Supabase 表、创建公开存储桶或将图片放进 Auth/JWT。旧标签页需要刷新到新版本后使用新增事件格式。
+
+验证包括：头像事件恢复与非法数据拒绝、跨设备传输重试和账号隔离、现有 PostgreSQL 迁移/RLS 兼容性；桌面与手机浏览器中的预设/取消/删除、刷新和标签页同步、图片裁剪压缩、无效上传、磁盘写入失败重试，以及 WCAG A/AA 自动检查。真实生产账号的登录同步仍需实际配置；模拟传输测试不等于独立验证线上账号。
+
 ## 每日文献与词汇更新
 
 `.github/workflows/daily-literature.yml` 在北京时间每天 **08:17**（UTC 00:17）运行，也支持 Actions 页面的 **Run workflow**；首次推送任务代码会触发一次抓取。GitHub 的计划任务可能延迟，公共仓库长时间无活动时也可能被暂停，因此不保证分钟级实时更新。任务提交新数据到 main，由已有 Vercel Git 集成构建发布；关闭浏览器不影响任务。GitHub Actions 和 Vercel 配额仍适用，无需新的付费 API 密钥。

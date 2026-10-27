@@ -51,6 +51,8 @@ import {
 import { createEmptyCard, type Grade } from "ts-fsrs";
 import { seed, sources, readings } from "./data";
 import ReadingLab from "./components/ReadingLab";
+import { AvatarEditor, AvatarView } from "./components/Avatar";
+import { avatarEntryId, avatarPayload, type Avatar } from "./lib/profile";
 import { useLearning } from "./lib/useLearning";
 import {
   acceptsAnswer,
@@ -226,6 +228,7 @@ export default function App() {
     [sourceFilter, setSourceFilter] = useState("");
   const [detail, setDetail] = useState<Entry | null>(null),
     [auth, setAuth] = useState(false),
+    [avatarEditing, setAvatarEditing] = useState(false),
     [settings, setSettings] = useState(false),
     [editing, setEditing] = useState<Entry | "new" | null>(null),
     [importing, setImporting] = useState(false),
@@ -287,6 +290,7 @@ export default function App() {
       setIndex(0);
       setPage("dashboard");
       setDetail(null);
+      setAvatarEditing(false);
     }
   }, [learning.scope]);
   useEffect(() => {
@@ -564,7 +568,10 @@ export default function App() {
           </button>
           <button className="account" onClick={() => setAuth(true)}>
             <span className="account-avatar">
-              {user ? user.email?.slice(0, 1).toUpperCase() : "R"}
+              <AvatarView
+                avatar={state.avatar}
+                initial={user?.email?.slice(0, 1).toUpperCase() || "R"}
+              />
             </span>
             <span>
               <strong>{user ? user.email?.split("@")[0] : "研究者"}</strong>
@@ -629,7 +636,10 @@ export default function App() {
               onClick={() => setAuth(true)}
               aria-label="账号与登录"
             >
-              R
+              <AvatarView
+                avatar={state.avatar}
+                initial={user?.email?.slice(0, 1).toUpperCase() || "R"}
+              />
             </button>
           </div>
         </header>
@@ -1952,6 +1962,11 @@ export default function App() {
       {auth && (
         <AuthModal
           userEmail={user?.email}
+          avatar={state.avatar}
+          onEditAvatar={() => {
+            setAuth(false);
+            setAvatarEditing(true);
+          }}
           onClose={() => setAuth(false)}
           onImport={async () => {
             await learning.migrateGuest();
@@ -1959,8 +1974,46 @@ export default function App() {
           }}
         />
       )}
+      {avatarEditing && (
+        <Modal title="设置头像" onClose={() => setAvatarEditing(false)}>
+          <AvatarEditor
+            key={learning.scope}
+            avatar={state.avatar}
+            initial={user?.email?.slice(0, 1).toUpperCase() || "R"}
+            loggedIn={Boolean(user)}
+            onDone={() => setAvatarEditing(false)}
+            onSave={async (avatar) => {
+              await save("entry", avatarPayload(avatar), avatarEntryId);
+              setToast(
+                user
+                  ? "头像已保存到此设备，云端状态请查看右上角。"
+                  : "头像已保存在此设备。",
+              );
+            }}
+          />
+        </Modal>
+      )}
       {settings && (
         <Modal title="学习偏好与数据" onClose={() => setSettings(false)}>
+          <div className="settings-section">
+            <button
+              className="profile-edit-row"
+              onClick={() => {
+                setSettings(false);
+                setAvatarEditing(true);
+              }}
+            >
+              <AvatarView
+                avatar={state.avatar}
+                initial={user?.email?.slice(0, 1).toUpperCase() || "R"}
+              />
+              <span>
+                <strong>设置头像</strong>
+                <small>上传照片或选择预设图案</small>
+              </span>
+              <ChevronRight size={17} />
+            </button>
+          </div>
           <div className="settings-section">
             <h3>每日新词目标</h3>
             <div className="target-options">
@@ -2276,10 +2329,14 @@ function SourcePanel({ entry }: { entry: Entry }) {
 }
 function AuthModal({
   userEmail,
+  avatar,
+  onEditAvatar,
   onClose,
   onImport,
 }: {
   userEmail?: string;
+  avatar: Avatar;
+  onEditAvatar: () => void;
   onClose: () => void;
   onImport: () => Promise<void>;
 }) {
@@ -2325,6 +2382,17 @@ function AuthModal({
       }
       onClose={onClose}
     >
+      <button className="profile-edit-row" onClick={onEditAvatar}>
+        <AvatarView
+          avatar={avatar}
+          initial={userEmail?.slice(0, 1).toUpperCase() || "R"}
+        />
+        <span>
+          <strong>设置头像</strong>
+          <small>上传照片或选择预设图案</small>
+        </span>
+        <ChevronRight size={17} />
+      </button>
       {userEmail ? (
         <>
           <div className="auth-illustration">

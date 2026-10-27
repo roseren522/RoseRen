@@ -1,4 +1,5 @@
 import { createEmptyCard, fsrs, State, type Card, type Grade } from "ts-fsrs";
+import { validateProfileEvent, type Avatar } from "./profile";
 export type Topic =
   | "氮的形态与循环"
   | "农业与土壤"
@@ -74,6 +75,7 @@ export interface Progress {
   misses: number;
 }
 export interface Projection {
+  avatar: Avatar;
   progress: Record<string, Progress>;
   favorites: Set<string>;
   entries: Record<string, Entry>;
@@ -86,6 +88,7 @@ export interface Projection {
 export const scheduler = fsrs({ request_retention: 0.9, enable_fuzz: false });
 export function project(events: LearningEvent[]): Projection {
   const result: Projection = {
+    avatar: null,
     progress: {},
     favorites: new Set(),
     entries: {},
@@ -103,6 +106,15 @@ export function project(events: LearningEvent[]): Projection {
   );
   for (const event of unique) {
     const id = event.entryId || "";
+    if (event.kind === "entry" && event.payload.activity === "profile") {
+      try {
+        validateProfileEvent(event);
+        result.avatar = event.payload.avatar as Avatar;
+      } catch {
+        /* Preserve the last valid avatar. */
+      }
+      continue;
+    }
     if (event.kind === "review" && event.payload.activity === "reading") {
       result.readingReviews.push(event);
       continue;
