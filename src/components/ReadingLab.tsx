@@ -144,7 +144,12 @@ export default function ReadingLab({
     const question = lesson.questions[questionIndex];
     const completed = Object.keys(records).length === lesson.questions.length;
     return (
-      <div className="reading-lab" lang="en">
+      <div
+        className="reading-lab notranslate"
+        lang="en"
+        translate="no"
+        data-immersive-translate="off"
+      >
         <div className="reading-breadcrumb">
           <button className="text-button" onClick={() => setSelected(null)}>
             <ArrowLeft size={15} />
@@ -344,7 +349,12 @@ export default function ReadingLab({
     );
   }
   return (
-    <div className="reading-lab" lang="en">
+    <div
+      className="reading-lab notranslate"
+      lang="en"
+      translate="no"
+      data-immersive-translate="off"
+    >
       <div className="page-heading generic-heading">
         <div>
           <div className="eyebrow">READING LAB · RESEARCH ENGLISH</div>
