@@ -132,3 +132,23 @@ npm run verify:sources   # 官方原文远程核对
 已提供 `vercel.json`。将本仓库导入 Vercel，设置 Node 24、构建命令 `npm run build`、输出目录 `dist`。配置两个公开 Supabase 变量，再部署到固定项目域名或自定义 HTTPS 域名。将该最终域名填回 Supabase Site URL 和回跳允许列表。
 
 也可把 `dist/` 部署到任何支持 HTTPS 的静态托管服务。需为 SPA 导航回退到 `index.html`，为 `/sw.js` 设置 `Cache-Control: no-cache`；API 请求直接走配置的 Supabase 项目。无须 Node 应用服务器。用户已完成部署，固定网址为 https://rose-ren.vercel.app。GitHub main 上的新提交由 Vercel 集成自动构建；本地构建成功不等于线上部署已完成。
+
+## 每日文献与词汇更新
+
+`.github/workflows/daily-literature.yml` 在北京时间每天 **08:17**（UTC 00:17）运行，也支持 Actions 页面的 **Run workflow**；首次推送任务代码会触发一次抓取。GitHub 的计划任务可能延迟，公共仓库长时间无活动时也可能被暂停，因此不保证分钟级实时更新。任务提交新数据到 main，由已有 Vercel Git 集成构建发布；关闭浏览器不影响任务。GitHub Actions 和 Vercel 配额仍适用，无需新的付费 API 密钥。
+
+默认方向为大气、气候与能源、生态与生物多样性、环境化学、研究方法。可编辑 `scripts/literature_config.json` 的检索式；每天最多加入 3 篇，同一 UTC 日期手动重跑也受此上限约束。检索最近 30 天入库、过去 365 天发表的英文记录，覆盖延迟收录；这不是全球全部新论文的实时索引。每个方向检查最多 60 条检索结果，每次最多取回 30 篇全文 XML，按方向轮换选取。没有合适来源、明确许可或足够已维护术语时允许零新增。
+
+来源是 **Europe PMC 官方 API** `https://www.ebi.ac.uk/europepmc/webservices/rest`。只选有 PMC 编号、非撤稿、非预印本、XML 标为研究文章或综述且明确使用 **CC BY 或 CC0** 的论文。只复制其英文摘要，保留作者、期刊、DOI、发表时间、加入时间、原始链接、许可链接及摘要 SHA256；不会将自动提取描述为人工审阅全文。CC BY-NC、CC BY-ND、不明许可等均跳过。当前云环境的网络代理拒绝该 API 域名，因此这里未完成真实远程首次抓取；首次抓取需在 GitHub runner 上验证。当前环境的 GitHub 管理 API 也不可用，不能据本地测试声称 Actions 已成功运行。
+
+新增练习为两道**原文语境填词选择题**和一道**摘要理解简答题**。选择题答案直接来自摘要，参考释义来自维护词表；简答提供原文证据与自评清单，没有自动生成的科学推论、模型作文或 AI 成绩。新增词来自 `scripts/literature_terms.json` 及既有英文词表，必须在摘要中实际出现；只有尚未存在的术语才加入词库。释义是本站维护的学习说明，不表示论文作者给出了这个定义。新词例句是有明确署名与许可的原文引文，不冒称原创。
+
+`src/data/daily-literature.json` 与原有教材 JSON 分开保存，通过 `src/data/index.ts` 合并。按 PMCID、DOI、规范化标题及术语去重；已有文章、题目版本与词条 ID 不会覆盖或删除，因此已保存的学习记录仍有效。不需要 Supabase 数据库迁移。搜索/下载失败时任务失败且不发布改动；最近成功检索时间保持原值。最后成功时间与最近新增时间在 Reading Lab 显示，不会将失败称为“今天已更新”。离线可继续使用已有内容；新内容需在发布后联网刷新获取。
+
+```bash
+npm run test:literature   # 离线构造样例：许可、去重、日期、失败保护、原文证据与每日上限
+npm run update:literature # 在线运行检索，只有全部成功后原子替换数据文件
+python3 scripts/update_literature.py --check # 无网络检查已打包数据的证据与完整性
+```
+
+在 GitHub 仓库 **Actions → Daily literature** 查看首次任务与日后运行结果。若未启动，启用 Actions 后点 **Run workflow → main**；任务需 `contents: write` 提交数据（工作流已声明）。数据提交沿用最近修改阅读组件的维护者作者身份，自动任务显示为 committer，以兼容 Vercel Hobby 的作者权限检查。若 main 设置了禁止自动提交的保护规则，需要按仓库规则调整发布流程；脚本不会绕过保护或强推。若抓取成功但网站仍旧，请检查 Vercel 新部署状态；本地无法代表线上确认。

@@ -1,9 +1,32 @@
 import vocabulary from "./vocabulary.json";
 import references from "./sources.json";
 import type { Entry, Source } from "../lib/model";
-export const seed = vocabulary as Entry[];
-export const sources = references as Source[];
+import dailyData from "./daily-literature.json";
 
 import readingData from "./readings.json";
 import type { ReadingLesson } from "../lib/reading";
-export const readings = readingData as ReadingLesson[];
+export interface DailyArticle {
+  pmcid: string;
+  title: string;
+  publishedAt: string;
+  addedAt: string;
+  source: Source;
+  lesson: ReadingLesson;
+}
+export const dailyLiterature = dailyData as {
+  schemaVersion: number;
+  lastCheckedAt: string | null;
+  lastAddedAt: string | null;
+  articles: DailyArticle[];
+  vocabulary: Entry[];
+};
+export const seed = [...(vocabulary as Entry[]), ...dailyLiterature.vocabulary];
+export const sources = [
+  ...(references as Source[]),
+  ...dailyLiterature.articles.map((article) => article.source),
+];
+// Keep the established lessons first so their ordering and saved IDs stay stable.
+export const readings = [
+  ...(readingData as ReadingLesson[]),
+  ...dailyLiterature.articles.map((article) => article.lesson),
+];

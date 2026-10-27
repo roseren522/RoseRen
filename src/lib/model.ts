@@ -18,6 +18,11 @@ export const topics: Topic[] = [
 ];
 export interface Source {
   id: string;
+  kind?: "article";
+  license?: string;
+  licenseUrl?: string;
+  publishedAt?: string;
+  doi?: string;
   title: string;
   organization: string;
   year: string;
@@ -37,6 +42,7 @@ export interface Entry {
   abbreviation?: string;
   collocations: string[];
   example: string;
+  exampleKind?: "quotation";
   translation: string;
   topic: Topic;
   difficulty: "基础" | "进阶" | "深入";

@@ -947,7 +947,7 @@ export default function App() {
                     <ShieldCheck size={18} />
                     <p>
                       <strong>学习有据可循。</strong> {seed.length}{" "}
-                      个词条，来自已检查的官方技术文档。释义与科研例句为原创学习内容。
+                      个词条，来自官方技术文档及开放获取文献。来源与核验范围分别标注，原文摘录注明出处。
                     </p>
                     <button
                       className="text-button"
@@ -1138,17 +1138,20 @@ export default function App() {
                   <PageHeading
                     eyebrow="GROUNDED IN SCIENCE"
                     title="每一个词，都有出处。"
-                    description="按技术文档浏览词汇，回到它们真实出现的研究语境。"
+                    description="按技术指南和开放获取文献浏览词汇，回到它们真实出现的研究语境。"
                   />
                   <div className="source-intro">
                     <ShieldCheck size={22} />
                     <div>
                       <h3>
-                        {seed.length} 个已核验词源 · {sources.length} 个章节 · 2
-                        套技术指南
+                        {seed.length} 个词条 ·{" "}
+                        {sources.filter((s) => s.kind !== "article").length}{" "}
+                        个技术章节 ·{" "}
+                        {sources.filter((s) => s.kind === "article").length}{" "}
+                        篇开放文献
                       </h3>
                       <p>
-                        核验代表已检查原文中的词语出现位置与文档元数据，不代表释义经过独立学术审稿。所有学习例句均为本站原创。
+                        技术指南已检查原文；每日文献自动检查摘要中的词语出现与转载许可。释义未经独立学术审稿。原文摘录与原创例句分别标注。
                       </p>
                     </div>
                   </div>
@@ -1160,14 +1163,25 @@ export default function App() {
                             <FileText size={24} />
                           </div>
                           <span className="verified-badge">
-                            <ShieldCheck size={13} /> 官方库全文已检查
+                            <ShieldCheck size={13} />{" "}
+                            {s.kind === "article"
+                              ? "自动提取 · 仅摘要"
+                              : "官方库全文已检查"}
                           </span>
                         </div>
                         <div className="source-kicker">
-                          TECHNICAL GUIDANCE · {s.year}
+                          {s.kind === "article"
+                            ? "OPEN-ACCESS ARTICLE"
+                            : "TECHNICAL GUIDANCE"}{" "}
+                          · {s.year}
                         </div>
                         <h2>{s.title}</h2>
                         <p>{s.organization}</p>
+                        {s.kind === "article" && (
+                          <p>
+                            {s.authors} · {s.license}
+                          </p>
+                        )}
                         <div className="source-scope">{s.scope}</div>
                         <div className="source-card-footer">
                           <button
@@ -1197,7 +1211,7 @@ export default function App() {
                           className="source-study"
                           onClick={() => start({ source: s.id })}
                         >
-                          学习本章词汇
+                          学习来源词汇
                           <ChevronRight size={14} />
                         </button>
                       </article>
@@ -1469,7 +1483,9 @@ export default function App() {
                             </div>
                             <div className="example-block">
                               <span className="tiny-label">
-                                原创科研例句 · ORIGINAL EXAMPLE
+                                {current.exampleKind === "quotation"
+                                  ? "摘要原文 · SOURCE QUOTATION"
+                                  : "原创科研例句 · ORIGINAL EXAMPLE"}
                               </span>
                               <p>{current.example}</p>
                               <small>{current.translation}</small>
@@ -1841,7 +1857,11 @@ export default function App() {
             ))}
           </div>
           <div className="example-block">
-            <span className="tiny-label">原创科研例句 · 非文献引文</span>
+            <span className="tiny-label">
+              {detail.exampleKind === "quotation"
+                ? "摘要原文 · SOURCE QUOTATION"
+                : "原创科研例句 · 非文献引文"}
+            </span>
             <p>{detail.example}</p>
             <small>{detail.translation}</small>
           </div>
@@ -2186,7 +2206,11 @@ function SourcePanel({ entry }: { entry: Entry }) {
     <div className="source-panel">
       <h3>
         <ShieldCheck size={17} />
-        {entry.verification === "verified" ? "已核验词源" : "个人提供 · 未核验"}
+        {source?.kind === "article"
+          ? "自动核对摘要出现"
+          : entry.verification === "verified"
+            ? "已核验词源"
+            : "个人提供 · 未核验"}
       </h3>
       {source ? (
         <>
@@ -2210,12 +2234,22 @@ function SourcePanel({ entry }: { entry: Entry }) {
           <span className="source-role">概念依据 · DEFINITION BASIS</span>
           <p>{entry.definitionNote}</p>
           <a href={source.url} target="_blank" rel="noreferrer">
-            同章技术描述
+            {source.kind === "article" ? "查看原始论文" : "同章技术描述"}
             <ExternalLink size={12} />
           </a>
           <small>
-            核验范围：词语实际出现、固定版本、章节与行号。原创释义并非正式术语标准或独立学术审稿。
+            {source.kind === "article"
+              ? "核验范围：自动核对摘要中的词语出现和转载许可；未审阅全文或独立审稿。"
+              : "核验范围：词语实际出现、固定版本、章节与行号。原创释义并非正式术语标准或独立学术审稿。"}
           </small>
+          {source.kind === "article" && (
+            <p>
+              {source.authors} · {source.publishedAt}{" "}
+              <a href={source.licenseUrl} target="_blank" rel="noreferrer">
+                {source.license} · 转载许可
+              </a>
+            </p>
+          )}
         </>
       ) : (
         <>

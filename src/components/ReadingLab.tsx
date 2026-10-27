@@ -17,7 +17,7 @@ import {
   ShieldCheck,
   Volume2,
 } from "lucide-react";
-import { readings, sources, seed } from "../data";
+import { readings, sources, seed, dailyLiterature } from "../data";
 import { db } from "../lib/store";
 import {
   readingAnswers,
@@ -133,6 +133,7 @@ export default function ReadingLab({
           ...item.terms.map((t) => t.term),
         ].some((t) => t.toLowerCase().includes(query.toLowerCase()))) &&
       (filter === "All passages" ||
+        (filter === "Latest literature" && item.evidenceType === "abstract") ||
         (filter === "Not completed" && count < item.questions.length) ||
         (filter === "Needs another look" &&
           Object.values(answers).some((e) => Number(e.payload.rating) < 3)))
@@ -175,11 +176,15 @@ export default function ReadingLab({
             <div className="reading-section-label">
               <BookOpen size={17} />
               <span>THE PASSAGE</span>
-              <span>01—03</span>
+              <span>
+                01—{String(lesson.paragraphs.length).padStart(2, "0")}
+              </span>
             </div>
             <div className="adaptation-label">
               <ShieldCheck size={14} />
-              Source-based learning adaptation · not a quotation
+              {lesson.evidenceType === "abstract"
+                ? "Open-access abstract · verbatim source text"
+                : "Source-based learning adaptation · not a quotation"}
             </div>
             <div className="reading-text">
               {lesson.paragraphs.map((text, i) => (
@@ -229,9 +234,11 @@ export default function ReadingLab({
                 <strong>{source.title}</strong>
               </p>
               <p>
-                {source.id.startsWith("ipcc-")
-                  ? "IPCC / National Greenhouse Gas Inventories Programme"
-                  : "US EPA official repository / CMAS technical guidance"}{" "}
+                {source.kind === "article"
+                  ? source.organization
+                  : source.id.startsWith("ipcc-")
+                    ? "IPCC / National Greenhouse Gas Inventories Programme"
+                    : "US EPA official repository / CMAS technical guidance"}{" "}
                 · {source.year}
               </p>
               {source.authors && <p>{source.authors}</p>}
@@ -241,21 +248,47 @@ export default function ReadingLab({
                 target="_blank"
                 rel="noreferrer"
               >
-                Open the inspected source
+                {source.kind === "article"
+                  ? "Open source article"
+                  : "Open the inspected source"}
                 <ExternalLink size={13} />
               </a>
               <p>
-                {source.id.startsWith("ipcc-")
+                {source.kind === "article" || source.id.startsWith("ipcc-")
                   ? source.scope
                   : "Scope: versioned CMAQ atmospheric chemistry, transport, model evaluation and surface-exchange guidance."}
               </p>
               <p>
-                The source was inspected. This passage, its questions and
-                reference answers are original educational adaptations, not
-                quotations or a validated examination. The CMAQ guide carries a
-                CMAS-reviewed draft disclaimer. IPCC methods are used only
-                within their stated greenhouse-gas inventory scope.
+                {source.kind === "article" ? (
+                  <>
+                    Abstract automatically retrieved through Europe PMC. Only
+                    the abstract is reproduced; Fieldnotes has not reviewed the
+                    full paper. Paragraph labels and learning questions were
+                    added. Definitions come from the maintained glossary.
+                    Context questions use source wording; written answers are
+                    self-assessed. No expert review or AI grading is claimed.
+                  </>
+                ) : (
+                  <>
+                    The source was inspected. This passage, its questions and
+                    reference answers are original educational adaptations, not
+                    quotations or a validated examination. The CMAQ guide
+                    carries a CMAS-reviewed draft disclaimer. IPCC methods are
+                    used only within their stated greenhouse-gas inventory
+                    scope.
+                  </>
+                )}
               </p>
+              {source.kind === "article" && (
+                <p>
+                  Published: {source.publishedAt}. Added:{" "}
+                  {lesson.addedAt?.slice(0, 10)}.
+                  {source.doi && <> DOI: {source.doi}.</>}{" "}
+                  <a href={source.licenseUrl} target="_blank" rel="noreferrer">
+                    {source.license} · reuse license <ExternalLink size={13} />
+                  </a>
+                </p>
+              )}
             </details>
           </article>
           <section className="reading-exercise">
@@ -376,6 +409,36 @@ export default function ReadingLab({
           </span>
         </div>
       </div>
+      <section
+        className="daily-literature-status"
+        aria-label="Daily literature updates"
+      >
+        <div>
+          <span className="tiny-label">DAILY DISCOVERY</span>
+          <h2>New papers. More context.</h2>
+          <p>
+            Environment, atmosphere, climate, ecology, energy and research
+            methods. Up to 3 licensed English abstracts per day, with
+            source-context questions and vocabulary from our maintained
+            glossary.
+          </p>
+        </div>
+        <div>
+          <strong>{dailyLiterature.articles.length} articles added</strong>
+          <p>
+            {dailyLiterature.lastCheckedAt
+              ? `Last successful search: ${new Date(dailyLiterature.lastCheckedAt).toLocaleString("en-GB", { timeZoneName: "short" })}`
+              : "Awaiting the first successful automated search."}
+          </p>
+          {dailyLiterature.lastAddedAt && (
+            <p>Latest addition: {dailyLiterature.lastAddedAt.slice(0, 10)}</p>
+          )}
+          <p>
+            Daily schedule: 08:17 China time. Search indexing and scheduled runs
+            can be delayed; some days have no eligible new papers.
+          </p>
+        </div>
+      </section>
       <div className="reading-intro">
         <div>
           <span className="tiny-label">FROM READING TO REASONING</span>
@@ -457,7 +520,12 @@ export default function ReadingLab({
         </select>
       </div>
       <div className="list-tabs">
-        {["All passages", "Not completed", "Needs another look"].map((f) => (
+        {[
+          "All passages",
+          "Latest literature",
+          "Not completed",
+          "Needs another look",
+        ].map((f) => (
           <button
             key={f}
             className={filter === f ? "active" : ""}
@@ -469,52 +537,64 @@ export default function ReadingLab({
         <span>{filtered.length} passages</span>
       </div>
       <div className="reading-cards">
-        {filtered.map((item) => {
-          const records = readingAnswers(events, item),
-            count = Object.keys(records).length;
-          return (
-            <article key={item.id} className="reading-card panel">
-              <div className="reading-card-top">
-                <span className="topic-pill">{item.topic}</span>
-                <span>{item.level}</span>
-              </div>
-              <h2>{item.title}</h2>
-              <p>{item.subtitle}</p>
-              <div className="reading-card-source">
-                <ShieldCheck size={13} />
-                {item.sourceId.startsWith("ipcc-")
-                  ? "IPCC Guidelines · 2006"
-                  : "CMAQ technical guidance · 2022"}
-              </div>
-              <div className="reading-card-progress">
-                <div className="progress-track">
-                  <span
-                    style={{
-                      width: `${(count / item.questions.length) * 100}%`,
-                    }}
-                  />
+        {[...filtered]
+          .sort((a, b) => (b.addedAt || "").localeCompare(a.addedAt || ""))
+          .map((item) => {
+            const records = readingAnswers(events, item),
+              count = Object.keys(records).length;
+            return (
+              <article key={item.id} className="reading-card panel">
+                <div className="reading-card-top">
+                  <span className="topic-pill">{item.topic}</span>
+                  <span>{item.level}</span>
                 </div>
-                <span>
-                  {count} / {item.questions.length} answered
-                </span>
-              </div>
-              <button className="button secondary" onClick={() => open(item)}>
-                {count === item.questions.length
-                  ? "Review passage"
-                  : count
-                    ? "Continue reading"
-                    : "Start reading"}
-                <ArrowRight size={15} />
-              </button>
-            </article>
-          );
-        })}
+                <h2>{item.title}</h2>
+                <p>{item.subtitle}</p>
+                <div className="reading-card-source">
+                  <ShieldCheck size={13} />
+                  {item.evidenceType === "abstract"
+                    ? `Open-access abstract · ${item.publishedAt}`
+                    : item.sourceId.startsWith("ipcc-")
+                      ? "IPCC Guidelines · 2006"
+                      : "CMAQ technical guidance · 2022"}
+                </div>
+                <div className="reading-card-progress">
+                  <div className="progress-track">
+                    <span
+                      style={{
+                        width: `${(count / item.questions.length) * 100}%`,
+                      }}
+                    />
+                  </div>
+                  <span>
+                    {count} / {item.questions.length} answered
+                  </span>
+                </div>
+                <button className="button secondary" onClick={() => open(item)}>
+                  {count === item.questions.length
+                    ? "Review passage"
+                    : count
+                      ? "Continue reading"
+                      : "Start reading"}
+                  <ArrowRight size={15} />
+                </button>
+              </article>
+            );
+          })}
       </div>
       {!filtered.length && (
         <div className="empty-state">
           <BookOpen size={30} />
-          <h2>No passages match these filters.</h2>
-          <p>Try another topic or clear the search.</p>
+          <h2>
+            {filter === "Latest literature" && !dailyLiterature.articles.length
+              ? "New literature will appear here."
+              : "No passages match these filters."}
+          </h2>
+          <p>
+            {filter === "Latest literature" && !dailyLiterature.articles.length
+              ? "The first successful daily search will add eligible open-access abstracts. Existing reading exercises are available under All passages."
+              : "Try another topic or clear the search."}
+          </p>
           <button
             className="button secondary"
             onClick={() => {

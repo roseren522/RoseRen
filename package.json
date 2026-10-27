@@ -9,7 +9,9 @@
     "preview": "vite preview --host 0.0.0.0",
     "test": "vitest run",
     "test:e2e": "npm run build && playwright test",
-    "verify:sources": "python3 scripts/verify_sources.py"
+    "verify:sources": "python3 scripts/verify_sources.py && python3 scripts/update_literature.py --check",
+    "update:literature": "python3 scripts/update_literature.py",
+    "test:literature": "python3 -m unittest discover -s tests/literature -v"
   },
   "dependencies": {
     "@fontsource-variable/dm-sans": "^5.3.0",

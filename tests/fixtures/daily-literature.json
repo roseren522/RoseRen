@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "lastCheckedAt": "2026-10-27T01:00:00Z",
+  "lastAddedAt": "2026-10-27T01:00:00Z",
+  "articles": [
+    {
+      "title": "An illustrative study",
+      "paragraphs": [
+        "Biodiversity and ecosystem services support communities across a range of landscapes. We used remote sensing to examine habitat fragmentation and species richness in a clearly defined study area. The analysis compared observations from multiple locations and periods, using consistent methods to minimise differences in sampling conditions.",
+        "Species richness differed across the sampled locations. These observations describe the locations studied and do not establish that a single environmental factor caused every observed difference. The study illustrates why spatial resolution and soil moisture should be considered when interpreting observational evidence. Future work could assess whether these patterns apply outside the original sampling area."
+      ],
+      "authors": "Alex Tester",
+      "journal": "Fixture Journal",
+      "doi": "10.1234/example",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "f02e61581a0a44b7e92446a05a2df4c328cf9117e198a8cd57d5c1c4e7905805",
+      "pmcid": "PMC123",
+      "publishedAt": "2026-10-26",
+      "addedAt": "2026-10-27T01:00:00Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc123",
+        "kind": "article",
+        "title": "An illustrative study",
+        "authors": "Alex Tester",
+        "organization": "Fixture Journal",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC123/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "f02e61581a0a44b7e92446a05a2df4c328cf9117e198a8cd57d5c1c4e7905805",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-26",
+        "doi": "10.1234/example"
+      },
+      "lesson": {
+        "id": "literature-pmc123",
+        "version": 1,
+        "title": "An illustrative study",
+        "subtitle": "Open-access abstract \u00b7 Fixture Journal \u00b7 2026-10-26",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc123",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Biodiversity and ecosystem services support communities across a range of landscapes. We used remote sensing to examine habitat fragmentation and species richness in a clearly defined study area. The analysis compared observations from multiple locations and periods, using consistent methods to minimise differences in sampling conditions.",
+          "Species richness differed across the sampled locations. These observations describe the locations studied and do not establish that a single environmental factor caused every observed difference. The study illustrates why spatial resolution and soil moisture should be considered when interpreting observational evidence. Future work could assess whether these patterns apply outside the original sampling area."
+        ],
+        "terms": [
+          {
+            "term": "habitat fragmentation",
+            "definition": "The division of a continuous habitat into smaller, more isolated patches."
+          },
+          {
+            "term": "ecosystem services",
+            "definition": "Benefits people obtain from ecosystems, such as water regulation and food provision."
+          },
+          {
+            "term": "spatial resolution",
+            "definition": "The spatial detail represented by an observation, image or model grid."
+          },
+          {
+            "term": "species richness",
+            "definition": "The number of different species present in a defined area or sample."
+          },
+          {
+            "term": "remote sensing",
+            "definition": "Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWe used remote sensing to examine _____ and species richness in a clearly defined study area.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "machine learning",
+                "explanation": "This is not the expression used in this sentence. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "b",
+                "text": "habitat fragmentation",
+                "explanation": "The original abstract uses this expression. The division of a continuous habitat into smaller, more isolated patches."
+              },
+              {
+                "id": "c",
+                "text": "expert judgement",
+                "explanation": "This is not the expression used in this sentence. An informed assessment based on relevant specialist knowledge."
+              },
+              {
+                "id": "d",
+                "text": "transparency",
+                "explanation": "This is not the expression used in this sentence. Clear documentation that enables others to understand how an estimate was produced."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: habitat fragmentation. The division of a continuous habitat into smaller, more isolated patches. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nBiodiversity and _____ support communities across a range of landscapes.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "monte carlo simulation",
+                "explanation": "This is not the expression used in this sentence. Repeated calculations using inputs sampled from specified probability distributions."
+              },
+              {
+                "id": "b",
+                "text": "quality objectives",
+                "explanation": "This is not the expression used in this sentence. Explicit requirements for the quality and usefulness of collected data."
+              },
+              {
+                "id": "c",
+                "text": "ecosystem services",
+                "explanation": "The original abstract uses this expression. Benefits people obtain from ecosystems, such as water regulation and food provision."
+              },
+              {
+                "id": "d",
+                "text": "tipping point",
+                "explanation": "This is not the expression used in this sentence. A threshold beyond which a system may shift into a substantially different state."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: ecosystem services. Benefits people obtain from ecosystems, such as water regulation and food provision. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3\u20135 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "modelAnswer": "Reference evidence \u2014 final abstract paragraph (verbatim):\n\nSpecies richness differed across the sampled locations. These observations describe the locations studied and do not establish that a single environmental factor caused every observed difference. The study illustrates why spatial resolution and soil moisture should be considered when interpreting observational evidence. Future work could assess whether these patterns apply outside the original sampling area.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-26",
+        "addedAt": "2026-10-27T01:00:00Z"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "lit-term-28716a40bab25a3946a9",
+      "term": "habitat fragmentation",
+      "meaning": "The division of a continuous habitat into smaller, more isolated patches.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "We used remote sensing to examine habitat fragmentation and species richness in a clearly defined study area.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "\u5b66\u672f\u8868\u8fbe",
+      "difficulty": "\u8fdb\u9636",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc123",
+      "location": "Abstract \u00b7 paragraph 1",
+      "evidence": "We used remote sensing to examine habitat fragmentation and species richness in a clearly defined study area.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-199416cb4d64de602fc3",
+      "term": "ecosystem services",
+      "meaning": "Benefits people obtain from ecosystems, such as water regulation and food provision.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Biodiversity and ecosystem services support communities across a range of landscapes.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "\u5b66\u672f\u8868\u8fbe",
+      "difficulty": "\u8fdb\u9636",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc123",
+      "location": "Abstract \u00b7 paragraph 1",
+      "evidence": "Biodiversity and ecosystem services support communities across a range of landscapes.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-30167dc7591c0ab34238",
+      "term": "species richness",
+      "meaning": "The number of different species present in a defined area or sample.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "We used remote sensing to examine habitat fragmentation and species richness in a clearly defined study area.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "\u5b66\u672f\u8868\u8fbe",
+      "difficulty": "\u8fdb\u9636",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc123",
+      "location": "Abstract \u00b7 paragraph 1",
+      "evidence": "We used remote sensing to examine habitat fragmentation and species richness in a clearly defined study area.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-7a7480bb9a1ad53cb7af",
+      "term": "remote sensing",
+      "meaning": "Obtaining information about a target without direct contact, commonly using satellite or airborne sensors.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "We used remote sensing to examine habitat fragmentation and species richness in a clearly defined study area.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "\u5b66\u672f\u8868\u8fbe",
+      "difficulty": "\u8fdb\u9636",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc123",
+      "location": "Abstract \u00b7 paragraph 1",
+      "evidence": "We used remote sensing to examine habitat fragmentation and species richness in a clearly defined study area.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    }
+  ],
+  "history": [
+    {
+      "checkedAt": "2026-10-27T01:00:00Z",
+      "added": 1,
+      "total": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "daily_limit": 3,
+  "index_lookback_days": 30,
+  "publication_lookback_days": 365,
+  "vocabulary_per_article": 5,
+  "topics": [
+    {
+      "name": "Atmospheric processes",
+      "query": "TITLE_ABS:\"air pollution\" OR TITLE_ABS:\"atmospheric chemistry\" OR TITLE_ABS:aerosol"
+    },
+    {
+      "name": "Climate & energy",
+      "query": "TITLE_ABS:\"climate change\" OR TITLE_ABS:\"renewable energy\" OR TITLE_ABS:decarbonization"
+    },
+    {
+      "name": "Ecology & biodiversity",
+      "query": "TITLE_ABS:biodiversity OR TITLE_ABS:\"ecosystem restoration\" OR TITLE_ABS:\"ecological resilience\""
+    },
+    {
+      "name": "Environmental chemistry",
+      "query": "TITLE_ABS:\"environmental monitoring\" OR TITLE_ABS:\"water quality\" OR TITLE_ABS:\"soil contamination\""
+    },
+    {
+      "name": "Research methods",
+      "query": "(TITLE_ABS:\"remote sensing\" OR TITLE_ABS:\"causal inference\" OR TITLE_ABS:\"meta-analysis\") AND (TITLE_ABS:environment OR TITLE_ABS:climate OR TITLE_ABS:ecology)"
+    }
+  ]
+}

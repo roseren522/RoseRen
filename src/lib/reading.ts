@@ -4,13 +4,19 @@ export type ReadingTopic =
   | "Environmental chemistry"
   | "Emissions & inventories"
   | "Data & evaluation"
-  | "Uncertainty & inference";
+  | "Uncertainty & inference"
+  | "Climate & energy"
+  | "Ecology & biodiversity"
+  | "Research methods";
 export const readingTopics: ReadingTopic[] = [
   "Atmospheric processes",
   "Environmental chemistry",
   "Emissions & inventories",
   "Data & evaluation",
   "Uncertainty & inference",
+  "Climate & energy",
+  "Ecology & biodiversity",
+  "Research methods",
 ];
 export interface ReadingChoice {
   id: string;
@@ -43,7 +49,9 @@ export interface ReadingLesson {
   takeaway: string;
   terms: { term: string; definition: string }[];
   questions: ReadingQuestion[];
-  evidenceType: "adaptation";
+  evidenceType: "adaptation" | "abstract";
+  publishedAt?: string;
+  addedAt?: string;
 }
 export interface ReadingPayload extends Record<string, unknown> {
   activity: "reading";
