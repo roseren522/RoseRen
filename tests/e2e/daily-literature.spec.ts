@@ -57,6 +57,7 @@ test("daily article provenance, practice and new vocabulary work with an isolate
     page.getByText("Correct — now check the reasoning.", { exact: true }),
   ).toBeVisible();
   await page.reload();
+  await page.getByRole("button", { name: "All passages", exact: true }).click();
   await expect(
     page.locator(".reading-overview").getByText("1", { exact: true }),
   ).toBeVisible();

@@ -3744,6 +3744,82 @@ kbd {
   display: block;
   height: 1px;
 }
+.personal-reading-highlight {
+  color: inherit;
+  background: #ffec99;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.reading-highlight-help {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  font-size: 11px;
+  color: #52674b;
+  line-height: 1.8;
+  margin-bottom: 6px;
+}
+.reading-highlight-help > svg {
+  margin-top: 3px;
+}
+.reading-highlight-receipt {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  font-size: 11px;
+  line-height: 1.8;
+  color: #456248;
+  margin-bottom: 14px;
+}
+.reading-highlight-receipt:empty {
+  display: none;
+}
+.reading-highlight-receipt[role="alert"] {
+  color: #a23c28;
+}
+.reading-highlight-menu {
+  position: fixed;
+  z-index: 1200;
+  width: 240px;
+  max-width: calc(100vw - 16px);
+  padding: 5px;
+  border: 1px solid #d6dfcc;
+  border-radius: 9px;
+  background: #fffdf8;
+  box-shadow: 0 8px 28px #28372e24;
+}
+.reading-highlight-menu > button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  min-height: 42px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 12px;
+  color: #34553c;
+}
+.reading-highlight-menu > button:hover,
+.reading-highlight-menu > button:focus-visible {
+  background: #eef3e5;
+}
+.reading-selection-action {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: fixed;
+  z-index: 1190;
+  box-shadow: 0 5px 18px #28372e33;
+  max-width: calc(100vw - 16px);
+}
+@media (pointer: fine) {
+  .reading-selection-action {
+    display: none !important;
+  }
+}
 .reading-position-note {
   font-size: 11px;
   line-height: 1.8;

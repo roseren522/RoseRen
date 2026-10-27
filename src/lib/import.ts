@@ -1,6 +1,7 @@
 import { topics, type Entry, type LearningEvent } from "./model";
 import { validateReadingPayload, validateReadingVisit } from "./reading";
 import { validateProfileEvent } from "./profile";
+import { validateHighlightEvent } from "./highlights";
 const string = (value: unknown, max = 20000): value is string =>
   typeof value === "string" && value.length <= max;
 export function validateBackup(
@@ -59,6 +60,8 @@ export function validateBackup(
       e.payload = { activity: "profile", version: 1, avatar: e.payload.avatar };
     } else if (e.payload.activity === "reading-progress") {
       validateReadingVisit(e);
+    } else if (e.payload.activity === "reading-highlight") {
+      validateHighlightEvent(e);
     } else if (e.kind === "entry") {
       const word = e.payload.entry as Entry;
       if (

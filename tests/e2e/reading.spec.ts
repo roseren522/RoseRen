@@ -51,6 +51,7 @@ test("English reading choices save once, show evidence and restore after refresh
   });
   expect(count).toBe(1);
   await page.reload();
+  await page.getByRole("button", { name: "All passages", exact: true }).click();
   await expect(
     page.locator(".reading-overview").getByText("1", { exact: true }),
   ).toBeVisible();
@@ -87,6 +88,7 @@ test("written draft survives refresh; reference-based self assessment saves with
     page.getByText("Draft saved on this device.", { exact: false }),
   ).toBeVisible();
   await page.reload();
+  await page.getByRole("button", { name: "All passages", exact: true }).click();
   await page
     .locator(".reading-card")
     .first()
@@ -114,6 +116,7 @@ test("written draft survives refresh; reference-based self assessment saves with
   ).toBeVisible();
   await expect(page.getByLabel("Your explanation, in English")).toBeDisabled();
   await page.reload();
+  await page.getByRole("button", { name: "All passages", exact: true }).click();
   await page
     .locator(".reading-card")
     .first()
@@ -202,6 +205,7 @@ test("production reading supports offline draft recovery and completed answers",
     page.getByText("Draft saved on this device.", { exact: false }),
   ).toBeVisible();
   await page.reload();
+  await page.getByRole("button", { name: "All passages", exact: true }).click();
   await page
     .locator(".reading-card")
     .first()

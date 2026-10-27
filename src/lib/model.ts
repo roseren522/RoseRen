@@ -1,6 +1,7 @@
 import { createEmptyCard, fsrs, State, type Card, type Grade } from "ts-fsrs";
 import { validateProfileEvent, type Avatar } from "./profile";
 import { validateReadingVisit } from "./reading";
+import { validateHighlightEvent } from "./highlights";
 export type Topic =
   | "氮的形态与循环"
   | "农业与土壤"
@@ -86,6 +87,7 @@ export interface Projection {
   reviews: LearningEvent[];
   readingReviews: LearningEvent[];
   readingVisits: LearningEvent[];
+  readingHighlights: LearningEvent[];
 }
 export const scheduler = fsrs({ request_retention: 0.9, enable_fuzz: false });
 export function project(events: LearningEvent[]): Projection {
@@ -101,6 +103,7 @@ export function project(events: LearningEvent[]): Projection {
     reviews: [],
     readingReviews: [],
     readingVisits: [],
+    readingHighlights: [],
   };
   const unique = [
     ...new Map(events.map((event) => [event.id, event])).values(),
@@ -109,6 +112,18 @@ export function project(events: LearningEvent[]): Projection {
   );
   for (const event of unique) {
     const id = event.entryId || "";
+    if (
+      event.kind === "entry" &&
+      event.payload.activity === "reading-highlight"
+    ) {
+      try {
+        validateHighlightEvent(event);
+        result.readingHighlights.push(event);
+      } catch {
+        /* Keep malformed marks out of the reading surface. */
+      }
+      continue;
+    }
     if (
       event.kind === "entry" &&
       event.payload.activity === "reading-progress"

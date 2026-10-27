@@ -105,12 +105,9 @@ test("reading the passage and an unchecked choice save automatically and resume 
     "Passage end reached",
   );
   await page.reload();
-  await expect(page.locator(".reading-resume")).toContainText(
-    "Passage read · practice in progress",
+  await expect(page.locator(".reading-position-note")).toContainText(
+    "Passage end reached",
   );
-  await page
-    .getByRole("button", { name: "Resume reading", exact: true })
-    .click();
   await expect(page.locator('.reading-options input[value="c"]')).toBeChecked();
   await expect(
     page.getByRole("button", { name: /Question 2/ }),

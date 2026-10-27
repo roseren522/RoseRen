@@ -54,6 +54,7 @@ import ReadingLab from "./components/ReadingLab";
 import { AvatarEditor, AvatarView } from "./components/Avatar";
 import { avatarEntryId, avatarPayload, type Avatar } from "./lib/profile";
 import { readingHistory, readingSummary } from "./lib/reading";
+import { highlightEntryId } from "./lib/highlights";
 import { useLearning } from "./lib/useLearning";
 import {
   acceptsAnswer,
@@ -213,7 +214,7 @@ export default function App() {
   const readingLog = readingHistory(readingEvents, readings);
   const readingStats = readingSummary(readingEvents, readings);
   const [page, setPage] = useState<Page>(() => {
-    const p = location.hash.slice(1);
+    const p = location.hash.slice(1).split("/")[0];
     return [
       "vocabulary",
       "sources",
@@ -271,7 +272,7 @@ export default function App() {
   };
   useEffect(() => {
     const fn = () => {
-      const p = location.hash.slice(1);
+      const p = location.hash.slice(1).split("/")[0];
       if (
         [
           "dashboard",
@@ -292,7 +293,14 @@ export default function App() {
       priorScope.current = learning.scope;
       setQueue([]);
       setIndex(0);
-      setPage("dashboard");
+      const route = location.hash.slice(1).split("/")[0];
+      setPage(
+        ["reading", "vocabulary", "sources", "statistics", "personal"].includes(
+          route,
+        )
+          ? (route as Page)
+          : "dashboard",
+      );
       setDetail(null);
       setAvatarEditing(false);
     }
@@ -688,6 +696,15 @@ export default function App() {
                       Boolean(user) && !learning.hasCloudSnapshot
                     }
                     events={readingEvents}
+                    highlightEvents={state.readingHighlights}
+                    saveHighlight={(payload, eventId) =>
+                      save(
+                        "entry",
+                        payload,
+                        highlightEntryId(payload.highlightId),
+                        eventId,
+                      )
+                    }
                     saveProgress={(payload) =>
                       save(
                         "entry",

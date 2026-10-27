@@ -19,6 +19,9 @@ import {
 } from "lucide-react";
 import { readings, sources, seed, dailyLiterature } from "../data";
 import { db } from "../lib/store";
+import { HighlightedText, ReadingHighlights } from "./ReadingHighlights";
+import type { HighlightPayload } from "../lib/highlights";
+import { readingHash, readReadingRoute } from "../lib/readingRoute";
 import {
   readingAnswers,
   readingHistory,
@@ -41,6 +44,11 @@ interface Props {
   userId?: string;
   restoringAccount?: boolean;
   events: LearningEvent[];
+  highlightEvents: LearningEvent[];
+  saveHighlight: (
+    payload: HighlightPayload,
+    eventId: string,
+  ) => Promise<unknown>;
   saveReview: SaveReview;
   saveProgress: (payload: ReadingVisitPayload) => Promise<unknown>;
   studyVocabulary: (entries: Entry[]) => void;
@@ -100,11 +108,15 @@ export default function ReadingLab({
   userId,
   restoringAccount = false,
   events,
+  highlightEvents,
+  saveHighlight,
   saveReview,
   saveProgress,
   studyVocabulary,
 }: Props) {
-  const [selected, setSelected] = useState<string | null>(null),
+  const [selected, setSelected] = useState<string | null>(
+      () => readReadingRoute(location.hash, readings)?.lessonId || null,
+    ),
     [query, setQuery] = useState(""),
     [topic, setTopic] = useState("All topics"),
     [level, setLevel] = useState("All levels"),
@@ -140,8 +152,95 @@ export default function ReadingLab({
         }
       });
   };
-  const [questionIndex, setQuestionIndex] = useState(0),
+  const [questionIndex, setQuestionIndex] = useState(
+      () => readReadingRoute(location.hash, readings)?.questionIndex || 0,
+    ),
     [highlight, setHighlight] = useState<number[]>([]);
+  const restoredVisit = useRef(false);
+  useEffect(() => {
+    const route = readReadingRoute(location.hash, readings);
+    if (!route || restoredVisit.current) return;
+    restoredVisit.current = true;
+    const item = readings.find((l) => l.id === route.lessonId)!;
+    recordProgress({
+      activity: "reading-progress",
+      version: item.version,
+      lessonId: item.id,
+      questionId: item.questions[route.questionIndex].id,
+      reachedEnd: history.some(
+        (row) => row.lesson.id === item.id && row.reachedEnd,
+      ),
+    });
+  }, []);
+  useEffect(() => {
+    if (!selected) return;
+    const key = `fieldnotes-reading-scroll:${scope}:${selected}`;
+    let restoring = true;
+    let lastY = window.scrollY;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const save = () => {
+      if (restoring) return;
+      try {
+        sessionStorage.setItem(key, String(lastY));
+      } catch {
+        /* URL and durable learning records still restore without session storage. */
+      }
+    };
+    const restore = () => {
+      try {
+        const value = sessionStorage.getItem(key);
+        const top = value === null ? NaN : Number(value);
+        if (Number.isFinite(top) && top >= 0 && top <= 500000)
+          window.scrollTo({ top, behavior: "instant" });
+      } catch {
+        /* Native browser scroll restoration remains available. */
+      }
+      restoring = false;
+      lastY = window.scrollY;
+    };
+    const frame = requestAnimationFrame(() => {
+      restore();
+    });
+    const schedule = () => {
+      if (readReadingRoute(location.hash, readings)?.lessonId !== selected)
+        return;
+      lastY = window.scrollY;
+      clearTimeout(timer);
+      timer = setTimeout(save, 100);
+    };
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("pagehide", save);
+    document.addEventListener("visibilitychange", save);
+    return () => {
+      cancelAnimationFrame(frame);
+      clearTimeout(timer);
+      save();
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("pagehide", save);
+      document.removeEventListener("visibilitychange", save);
+    };
+  }, [scope, selected]);
+  useEffect(() => {
+    const restore = () => {
+      const route = readReadingRoute(location.hash, readings);
+      setSelected(route?.lessonId || null);
+      setQuestionIndex(route?.questionIndex || 0);
+      setHighlight([]);
+    };
+    window.addEventListener("hashchange", restore);
+    window.addEventListener("popstate", restore);
+    window.addEventListener("pageshow", restore);
+    return () => {
+      window.removeEventListener("hashchange", restore);
+      window.removeEventListener("popstate", restore);
+      window.removeEventListener("pageshow", restore);
+    };
+  }, []);
+  const backToLibrary = () => {
+    setSelected(null);
+    setHighlight([]);
+    location.hash = "reading";
+  };
   const open = (item: ReadingLesson) => {
     const answers = readingAnswers(events, item);
     const previous = history.find((row) => row.lesson.id === item.id);
@@ -158,6 +257,7 @@ export default function ReadingLab({
     setQuestionIndex(index);
     setSelected(item.id);
     setHighlight([]);
+    location.hash = readingHash(item.id, item.questions[index].id);
     recordProgress({
       activity: "reading-progress",
       version: item.version,
@@ -171,6 +271,11 @@ export default function ReadingLab({
     if (!lesson) return;
     setQuestionIndex(index);
     setHighlight([]);
+    window.history.replaceState(
+      window.history.state,
+      "",
+      readingHash(lesson.id, lesson.questions[index].id),
+    );
     recordProgress({
       activity: "reading-progress",
       version: lesson.version,
@@ -239,262 +344,277 @@ export default function ReadingLab({
     const question = lesson.questions[questionIndex];
     const completed = Object.keys(records).length === lesson.questions.length;
     return (
-      <div
-        className="reading-lab notranslate"
-        lang="en"
-        translate="no"
-        data-immersive-translate="off"
+      <ReadingHighlights
+        key={`${scope}:${lesson.id}:v${lesson.version}`}
+        lessonId={lesson.id}
+        version={lesson.version}
+        events={highlightEvents}
+        saveHighlight={saveHighlight}
       >
-        <div className="reading-breadcrumb">
-          <button className="text-button" onClick={() => setSelected(null)}>
-            <ArrowLeft size={15} />
-            All passages
-          </button>
-          <span>{lesson.topic}</span>
-          <span>
-            {Object.keys(records).length} / {lesson.questions.length} answered
-          </span>
-        </div>
-        <div className="reading-title">
-          <div className="eyebrow">READ CLOSELY. THINK CLEARLY.</div>
-          <h1>{lesson.title}</h1>
-          <p>{lesson.subtitle}</p>
-          <div className="reading-tags">
-            <span>{lesson.level}</span>
-            <span>{lesson.paragraphs.join(" ").split(/\s+/).length} words</span>
-            <span>2 multiple-choice · 1 written response</span>
-          </div>
-        </div>
-        {progressError && (
-          <div className="reading-error" role="alert">
-            {progressError}{" "}
-            <button
-              className="text-button"
-              onClick={() =>
-                failedProgress.current && recordProgress(failedProgress.current)
-              }
-            >
-              Retry saving position
+        <div
+          className="reading-lab notranslate"
+          lang="en"
+          translate="no"
+          data-immersive-translate="off"
+        >
+          <div className="reading-breadcrumb">
+            <button className="text-button" onClick={backToLibrary}>
+              <ArrowLeft size={15} />
+              All passages
             </button>
+            <span>{lesson.topic}</span>
+            <span>
+              {Object.keys(records).length} / {lesson.questions.length} answered
+            </span>
           </div>
-        )}
-        <p className="reading-position-note">
-          {progressSaving
-            ? "Saving reading position…"
-            : progressError
-              ? "Reading position has not been saved yet."
-              : reachedEnd
-                ? "Passage end reached · reading state saved."
-                : "Reading position is saved automatically."}{" "}
-          Checked answers and self-assessed responses are kept in your learning
-          history.
-        </p>
-        <div className="reading-workspace">
-          <article className="reading-article panel">
-            <div className="reading-section-label">
-              <BookOpen size={17} />
-              <span>THE PASSAGE</span>
+          <div className="reading-title">
+            <div className="eyebrow">READ CLOSELY. THINK CLEARLY.</div>
+            <h1>{lesson.title}</h1>
+            <p>{lesson.subtitle}</p>
+            <div className="reading-tags">
+              <span>{lesson.level}</span>
               <span>
-                01—{String(lesson.paragraphs.length).padStart(2, "0")}
+                {lesson.paragraphs.join(" ").split(/\s+/).length} words
               </span>
+              <span>2 multiple-choice · 1 written response</span>
             </div>
-            <div className="adaptation-label">
-              <ShieldCheck size={14} />
-              {lesson.evidenceType === "abstract"
-                ? "Open-access abstract · verbatim source text"
-                : "Source-based learning adaptation · not a quotation"}
-            </div>
-            <div className="reading-text">
-              {lesson.paragraphs.map((text, i) => (
-                <p
-                  key={i}
-                  className={highlight.includes(i + 1) ? "evidence-active" : ""}
-                >
-                  <span className="paragraph-number">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  {text}
-                </p>
-              ))}
-            </div>
-            <span className="reading-end-marker" aria-hidden="true" />
-            <details className="reading-glossary">
-              <summary>
-                Key language <span>{lesson.terms.length} expressions</span>
-              </summary>
-              {lesson.terms.map((t) => (
-                <div key={t.term}>
-                  <strong>{t.term}</strong>
-                  <p>{t.definition}</p>
-                </div>
-              ))}
+          </div>
+          {progressError && (
+            <div className="reading-error" role="alert">
+              {progressError}{" "}
               <button
                 className="text-button"
                 onClick={() =>
-                  studyVocabulary(
-                    seed.filter((e) =>
-                      lesson.terms.some(
-                        (t) => t.term.toLowerCase() === e.term.toLowerCase(),
-                      ),
-                    ),
-                  )
+                  failedProgress.current &&
+                  recordProgress(failedProgress.current)
                 }
               >
-                Study matching vocabulary
-                <ArrowRight size={14} />
+                Retry saving position
               </button>
-            </details>
-            <details className="reading-source">
-              <summary>
-                <FileText size={15} />
-                Source & verification details
-              </summary>
-              <p>
-                <strong>{source.title}</strong>
-              </p>
-              <p>
-                {source.kind === "article"
-                  ? source.organization
-                  : source.id.startsWith("ipcc-")
-                    ? "IPCC / National Greenhouse Gas Inventories Programme"
-                    : "US EPA official repository / CMAS technical guidance"}{" "}
-                · {source.year}
-              </p>
-              {source.authors && <p>{source.authors}</p>}
-              <p>{lesson.location}</p>
-              <a
-                href={readingSourceLink(lesson, source)}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {source.kind === "article"
-                  ? "Open source article"
-                  : "Open the inspected source"}
-                <ExternalLink size={13} />
-              </a>
-              <p>
-                {source.kind === "article" || source.id.startsWith("ipcc-")
-                  ? source.scope
-                  : "Scope: versioned CMAQ atmospheric chemistry, transport, model evaluation and surface-exchange guidance."}
-              </p>
-              <p>
-                {source.kind === "article" ? (
-                  <>
-                    Abstract automatically retrieved through Europe PMC. Only
-                    the abstract is reproduced; Fieldnotes has not reviewed the
-                    full paper. Paragraph labels and learning questions were
-                    added. Definitions come from the maintained glossary.
-                    Context questions use source wording; written answers are
-                    self-assessed. No expert review or AI grading is claimed.
-                  </>
-                ) : (
-                  <>
-                    The source was inspected. This passage, its questions and
-                    reference answers are original educational adaptations, not
-                    quotations or a validated examination. The CMAQ guide
-                    carries a CMAS-reviewed draft disclaimer. IPCC methods are
-                    used only within their stated greenhouse-gas inventory
-                    scope.
-                  </>
-                )}
-              </p>
-              {source.kind === "article" && (
-                <p>
-                  Published: {source.publishedAt}. Added:{" "}
-                  {lesson.addedAt?.slice(0, 10)}.
-                  {source.doi && <> DOI: {source.doi}.</>}{" "}
-                  <a href={source.licenseUrl} target="_blank" rel="noreferrer">
-                    {source.license} · reuse license <ExternalLink size={13} />
-                  </a>
-                </p>
-              )}
-            </details>
-          </article>
-          <section className="reading-exercise">
-            <div
-              className="question-navigation"
-              aria-label="Question navigation"
-            >
-              {lesson.questions.map((q, i) => (
-                <button
-                  key={q.id}
-                  className={i === questionIndex ? "active" : ""}
-                  onClick={() => {
-                    jump(i);
-                  }}
-                  aria-current={i === questionIndex ? "step" : undefined}
-                >
-                  {records[q.id] ? (
-                    <CheckCircle2 size={14} />
-                  ) : (
-                    <span>{i + 1}</span>
-                  )}
-                  {q.type === "short"
-                    ? "Written response"
-                    : `Question ${i + 1}`}
-                </button>
-              ))}
             </div>
-            <ReadingExercise
-              key={`${scope}:${lesson.id}:${question.id}`}
-              lesson={lesson}
-              question={question}
-              scope={scope}
-              userId={userId}
-              record={records[question.id]}
-              saveReview={saveReview}
-              onEvidence={() => setHighlight(question.paragraphs)}
-            />
-            <div className="reading-question-footer">
-              <button
-                className="button secondary"
-                disabled={questionIndex === 0}
-                onClick={() => {
-                  jump(questionIndex - 1);
-                }}
-              >
-                <ArrowLeft size={14} />
-                Previous
-              </button>
-              {questionIndex < lesson.questions.length - 1 ? (
-                <button
-                  className="button primary"
-                  onClick={() => {
-                    jump(questionIndex + 1);
-                  }}
-                >
-                  Next question
-                  <ArrowRight size={14} />
-                </button>
-              ) : (
-                <button
-                  className="button primary"
-                  onClick={() => setSelected(null)}
-                >
-                  Back to passages
-                  <ArrowRight size={14} />
-                </button>
-              )}
-            </div>
-            {completed && (
-              <div className="reading-complete">
-                <GraduationCap size={22} />
-                <div>
-                  <strong>Passage practice complete</strong>
-                  <p>
-                    All three responses are recorded. Revisit any question to
-                    review your reasoning.
-                  </p>
-                </div>
+          )}
+          <p className="reading-position-note">
+            {progressSaving
+              ? "Saving reading position…"
+              : progressError
+                ? "Reading position has not been saved yet."
+                : reachedEnd
+                  ? "Passage end reached · reading state saved."
+                  : "Reading position is saved automatically."}{" "}
+            Checked answers and self-assessed responses are kept in your
+            learning history.
+          </p>
+          <div className="reading-workspace">
+            <article className="reading-article panel">
+              <div className="reading-section-label">
+                <BookOpen size={17} />
+                <span>THE PASSAGE</span>
+                <span>
+                  01—{String(lesson.paragraphs.length).padStart(2, "0")}
+                </span>
               </div>
-            )}
-            <div className="reading-takeaway">
-              <span>TAKE THIS INTO YOUR RESEARCH</span>
-              <p>{lesson.takeaway}</p>
-            </div>
-          </section>
+              <div className="adaptation-label">
+                <ShieldCheck size={14} />
+                {lesson.evidenceType === "abstract"
+                  ? "Open-access abstract · verbatim source text"
+                  : "Source-based learning adaptation · not a quotation"}
+              </div>
+              <div className="reading-text">
+                {lesson.paragraphs.map((text, i) => (
+                  <p
+                    key={i}
+                    className={
+                      highlight.includes(i + 1) ? "evidence-active" : ""
+                    }
+                  >
+                    <span className="paragraph-number">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <HighlightedText text={text} blockId={`paragraph:${i}`} />
+                  </p>
+                ))}
+              </div>
+              <span className="reading-end-marker" aria-hidden="true" />
+              <details className="reading-glossary">
+                <summary>
+                  Key language <span>{lesson.terms.length} expressions</span>
+                </summary>
+                {lesson.terms.map((t) => (
+                  <div key={t.term}>
+                    <strong>{t.term}</strong>
+                    <p>{t.definition}</p>
+                  </div>
+                ))}
+                <button
+                  className="text-button"
+                  onClick={() =>
+                    studyVocabulary(
+                      seed.filter((e) =>
+                        lesson.terms.some(
+                          (t) => t.term.toLowerCase() === e.term.toLowerCase(),
+                        ),
+                      ),
+                    )
+                  }
+                >
+                  Study matching vocabulary
+                  <ArrowRight size={14} />
+                </button>
+              </details>
+              <details className="reading-source">
+                <summary>
+                  <FileText size={15} />
+                  Source & verification details
+                </summary>
+                <p>
+                  <strong>{source.title}</strong>
+                </p>
+                <p>
+                  {source.kind === "article"
+                    ? source.organization
+                    : source.id.startsWith("ipcc-")
+                      ? "IPCC / National Greenhouse Gas Inventories Programme"
+                      : "US EPA official repository / CMAS technical guidance"}{" "}
+                  · {source.year}
+                </p>
+                {source.authors && <p>{source.authors}</p>}
+                <p>{lesson.location}</p>
+                <a
+                  href={readingSourceLink(lesson, source)}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {source.kind === "article"
+                    ? "Open source article"
+                    : "Open the inspected source"}
+                  <ExternalLink size={13} />
+                </a>
+                <p>
+                  {source.kind === "article" || source.id.startsWith("ipcc-")
+                    ? source.scope
+                    : "Scope: versioned CMAQ atmospheric chemistry, transport, model evaluation and surface-exchange guidance."}
+                </p>
+                <p>
+                  {source.kind === "article" ? (
+                    <>
+                      Abstract automatically retrieved through Europe PMC. Only
+                      the abstract is reproduced; Fieldnotes has not reviewed
+                      the full paper. Paragraph labels and learning questions
+                      were added. Definitions come from the maintained glossary.
+                      Context questions use source wording; written answers are
+                      self-assessed. No expert review or AI grading is claimed.
+                    </>
+                  ) : (
+                    <>
+                      The source was inspected. This passage, its questions and
+                      reference answers are original educational adaptations,
+                      not quotations or a validated examination. The CMAQ guide
+                      carries a CMAS-reviewed draft disclaimer. IPCC methods are
+                      used only within their stated greenhouse-gas inventory
+                      scope.
+                    </>
+                  )}
+                </p>
+                {source.kind === "article" && (
+                  <p>
+                    Published: {source.publishedAt}. Added:{" "}
+                    {lesson.addedAt?.slice(0, 10)}.
+                    {source.doi && <> DOI: {source.doi}.</>}{" "}
+                    <a
+                      href={source.licenseUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {source.license} · reuse license{" "}
+                      <ExternalLink size={13} />
+                    </a>
+                  </p>
+                )}
+              </details>
+            </article>
+            <section className="reading-exercise">
+              <div
+                className="question-navigation"
+                aria-label="Question navigation"
+              >
+                {lesson.questions.map((q, i) => (
+                  <button
+                    key={q.id}
+                    className={i === questionIndex ? "active" : ""}
+                    onClick={() => {
+                      jump(i);
+                    }}
+                    aria-current={i === questionIndex ? "step" : undefined}
+                  >
+                    {records[q.id] ? (
+                      <CheckCircle2 size={14} />
+                    ) : (
+                      <span>{i + 1}</span>
+                    )}
+                    {q.type === "short"
+                      ? "Written response"
+                      : `Question ${i + 1}`}
+                  </button>
+                ))}
+              </div>
+              <ReadingExercise
+                key={`${scope}:${lesson.id}:${question.id}`}
+                lesson={lesson}
+                question={question}
+                scope={scope}
+                userId={userId}
+                record={records[question.id]}
+                saveReview={saveReview}
+                onEvidence={() => setHighlight(question.paragraphs)}
+              />
+              <div className="reading-question-footer">
+                <button
+                  className="button secondary"
+                  disabled={questionIndex === 0}
+                  onClick={() => {
+                    jump(questionIndex - 1);
+                  }}
+                >
+                  <ArrowLeft size={14} />
+                  Previous
+                </button>
+                {questionIndex < lesson.questions.length - 1 ? (
+                  <button
+                    className="button primary"
+                    onClick={() => {
+                      jump(questionIndex + 1);
+                    }}
+                  >
+                    Next question
+                    <ArrowRight size={14} />
+                  </button>
+                ) : (
+                  <button className="button primary" onClick={backToLibrary}>
+                    Back to passages
+                    <ArrowRight size={14} />
+                  </button>
+                )}
+              </div>
+              {completed && (
+                <div className="reading-complete">
+                  <GraduationCap size={22} />
+                  <div>
+                    <strong>Passage practice complete</strong>
+                    <p>
+                      All three responses are recorded. Revisit any question to
+                      review your reasoning.
+                    </p>
+                  </div>
+                </div>
+              )}
+              <div className="reading-takeaway">
+                <span>TAKE THIS INTO YOUR RESEARCH</span>
+                <p>{lesson.takeaway}</p>
+              </div>
+            </section>
+          </div>
         </div>
-      </div>
+      </ReadingHighlights>
     );
   }
   return (
@@ -885,7 +1005,12 @@ function ReadingExercise({
         </span>
         <span>{question.skill}</span>
       </div>
-      <h2>{question.prompt}</h2>
+      <h2>
+        <HighlightedText
+          text={question.prompt}
+          blockId={`question:${question.id}:prompt`}
+        />
+      </h2>
       {question.type === "choice" ? (
         <>
           <fieldset
@@ -908,7 +1033,12 @@ function ReadingExercise({
                 <span className="reading-option-letter">
                   {option.id.toUpperCase()}
                 </span>
-                <span>{option.text}</span>
+                <span>
+                  <HighlightedText
+                    text={option.text}
+                    blockId={`question:${question.id}:choice:${option.id}`}
+                  />
+                </span>
                 {saved && option.id === question.correct && <Check size={15} />}
               </label>
             ))}
@@ -937,7 +1067,12 @@ function ReadingExercise({
                   ? "Correct — now check the reasoning."
                   : "Not quite — revisit the evidence."}
               </strong>
-              <p>{question.explanation}</p>
+              <p>
+                <HighlightedText
+                  text={question.explanation}
+                  blockId={`question:${question.id}:explanation`}
+                />
+              </p>
               <p>
                 <b>Your choice:</b>{" "}
                 {question.choices!.find((c) => c.id === answer)?.text}
@@ -1047,7 +1182,12 @@ function ReadingExercise({
               <span className="tiny-label">
                 REFERENCE ANSWER · ONE POSSIBLE EXPLANATION
               </span>
-              <p>{question.modelAnswer}</p>
+              <p>
+                <HighlightedText
+                  text={question.modelAnswer || ""}
+                  blockId={`question:${question.id}:reference`}
+                />
+              </p>
               <h3>
                 {saved ? "Your saved self-assessment" : "Check your reasoning"}
               </h3>
