@@ -1,8 +1,556 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": null,
-  "lastAddedAt": null,
-  "articles": [],
-  "vocabulary": [],
-  "history": []
+  "lastCheckedAt": "2026-10-27T02:52:04Z",
+  "lastAddedAt": "2026-10-27T02:52:04Z",
+  "articles": [
+    {
+      "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
+      "paragraphs": [
+        "Seagrasses are recognised as ecologically and culturally significant habitats across the globe supporting human livelihoods, biodiversity, and carbon storage. In the Cocos (Keeling) Islands, a remote coral reef atoll in the eastern Indian Ocean, seagrasses provide ecosystem services and support culturally, ecologically, and economically important species. However, these meadows have suffered devastating declines, with ongoing green turtle herbivory identified as a key pressure restricting Thalassia hemprichii persistence.To examine how herbivory shapes seagrass traits and function, we compared plots protected from grazing for over two years using exclusion cages against continuously grazed plots across two sites.Seagrass traits at the meadow‐scale (shoot density, leaf area and biomass), as well as some functionality (primary production and nutrient storage capacity), were improved with protection from herbivory pressure. Substantial reductions in the belowground biomass in the grazed plots indicate that these seagrasses are operating under severe metabolic constraints. In contrast, some plant‐scale traits (photosynthetic rate and growth rate) were not altered despite ongoing herbivory pressure, indicating some capacity for recovery at the individual plant scale.Representing one of the longest turtle exclusion studies in seagrass ecosystems, these results demonstrate that herbivory is driving systemic degradation across multiple biological scales, but these seagrasses currently retain the capacity to recover once grazing pressure is reduced. Synthesis. Tropical seagrass meadows subjected to continuous herbivory pressure can persist in a chronically depleted state. Herbivore exclusion experiments demonstrate that reducing herbivory can unlock the recovery potential of seagrass. These findings highlight the need for nuanced management strategies to safeguard these meadows in a time where seagrasses continue to decline at both localised and global scales, and the global turtle populations are simultaneously on the rise.",
+        "Seagrasses are recognised as ecologically and culturally significant habitats across the globe supporting human livelihoods, biodiversity, and carbon storage. In the Cocos (Keeling) Islands, a remote coral reef atoll in the eastern Indian Ocean, seagrasses provide ecosystem services and support culturally, ecologically, and economically important species. However, these meadows have suffered devastating declines, with ongoing green turtle herbivory identified as a key pressure restricting Thalassia hemprichii persistence.",
+        "To examine how herbivory shapes seagrass traits and function, we compared plots protected from grazing for over two years using exclusion cages against continuously grazed plots across two sites.",
+        "Seagrass traits at the meadow‐scale (shoot density, leaf area and biomass), as well as some functionality (primary production and nutrient storage capacity), were improved with protection from herbivory pressure. Substantial reductions in the belowground biomass in the grazed plots indicate that these seagrasses are operating under severe metabolic constraints. In contrast, some plant‐scale traits (photosynthetic rate and growth rate) were not altered despite ongoing herbivory pressure, indicating some capacity for recovery at the individual plant scale.",
+        "Representing one of the longest turtle exclusion studies in seagrass ecosystems, these results demonstrate that herbivory is driving systemic degradation across multiple biological scales, but these seagrasses currently retain the capacity to recover once grazing pressure is reduced.",
+        "Synthesis. Tropical seagrass meadows subjected to continuous herbivory pressure can persist in a chronically depleted state. Herbivore exclusion experiments demonstrate that reducing herbivory can unlock the recovery potential of seagrass. These findings highlight the need for nuanced management strategies to safeguard these meadows in a time where seagrasses continue to decline at both localised and global scales, and the global turtle populations are simultaneously on the rise."
+      ],
+      "authors": "Caitlyn O'Dea, Kathryn McMahon, Osman Macrae, Shakirin Keegan, Sahira Bell",
+      "journal": "Ecology and Evolution",
+      "doi": "10.1002/ece3.74466",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "970832af1f8e8027f48775901b019a0680af6bda9ad66cabba7a330ce8da7b42",
+      "pmcid": "PMC13695049",
+      "publishedAt": "2026-10-24",
+      "addedAt": "2026-10-27T02:52:04Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13695049",
+        "kind": "article",
+        "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
+        "authors": "Caitlyn O'Dea, Kathryn McMahon, Osman Macrae, Shakirin Keegan, Sahira Bell",
+        "organization": "Ecology and Evolution",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13695049/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "970832af1f8e8027f48775901b019a0680af6bda9ad66cabba7a330ce8da7b42",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-24",
+        "doi": "10.1002/ece3.74466"
+      },
+      "lesson": {
+        "id": "literature-pmc13695049",
+        "version": 1,
+        "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
+        "subtitle": "Open-access abstract · Ecology and Evolution · 2026-10-24",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13695049",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Seagrasses are recognised as ecologically and culturally significant habitats across the globe supporting human livelihoods, biodiversity, and carbon storage. In the Cocos (Keeling) Islands, a remote coral reef atoll in the eastern Indian Ocean, seagrasses provide ecosystem services and support culturally, ecologically, and economically important species. However, these meadows have suffered devastating declines, with ongoing green turtle herbivory identified as a key pressure restricting Thalassia hemprichii persistence.To examine how herbivory shapes seagrass traits and function, we compared plots protected from grazing for over two years using exclusion cages against continuously grazed plots across two sites.Seagrass traits at the meadow‐scale (shoot density, leaf area and biomass), as well as some functionality (primary production and nutrient storage capacity), were improved with protection from herbivory pressure. Substantial reductions in the belowground biomass in the grazed plots indicate that these seagrasses are operating under severe metabolic constraints. In contrast, some plant‐scale traits (photosynthetic rate and growth rate) were not altered despite ongoing herbivory pressure, indicating some capacity for recovery at the individual plant scale.Representing one of the longest turtle exclusion studies in seagrass ecosystems, these results demonstrate that herbivory is driving systemic degradation across multiple biological scales, but these seagrasses currently retain the capacity to recover once grazing pressure is reduced. Synthesis. Tropical seagrass meadows subjected to continuous herbivory pressure can persist in a chronically depleted state. Herbivore exclusion experiments demonstrate that reducing herbivory can unlock the recovery potential of seagrass. These findings highlight the need for nuanced management strategies to safeguard these meadows in a time where seagrasses continue to decline at both localised and global scales, and the global turtle populations are simultaneously on the rise.",
+          "Seagrasses are recognised as ecologically and culturally significant habitats across the globe supporting human livelihoods, biodiversity, and carbon storage. In the Cocos (Keeling) Islands, a remote coral reef atoll in the eastern Indian Ocean, seagrasses provide ecosystem services and support culturally, ecologically, and economically important species. However, these meadows have suffered devastating declines, with ongoing green turtle herbivory identified as a key pressure restricting Thalassia hemprichii persistence.",
+          "To examine how herbivory shapes seagrass traits and function, we compared plots protected from grazing for over two years using exclusion cages against continuously grazed plots across two sites.",
+          "Seagrass traits at the meadow‐scale (shoot density, leaf area and biomass), as well as some functionality (primary production and nutrient storage capacity), were improved with protection from herbivory pressure. Substantial reductions in the belowground biomass in the grazed plots indicate that these seagrasses are operating under severe metabolic constraints. In contrast, some plant‐scale traits (photosynthetic rate and growth rate) were not altered despite ongoing herbivory pressure, indicating some capacity for recovery at the individual plant scale.",
+          "Representing one of the longest turtle exclusion studies in seagrass ecosystems, these results demonstrate that herbivory is driving systemic degradation across multiple biological scales, but these seagrasses currently retain the capacity to recover once grazing pressure is reduced.",
+          "Synthesis. Tropical seagrass meadows subjected to continuous herbivory pressure can persist in a chronically depleted state. Herbivore exclusion experiments demonstrate that reducing herbivory can unlock the recovery potential of seagrass. These findings highlight the need for nuanced management strategies to safeguard these meadows in a time where seagrasses continue to decline at both localised and global scales, and the global turtle populations are simultaneously on the rise."
+        ],
+        "terms": [
+          {
+            "term": "ecosystem services",
+            "definition": "Benefits people obtain from ecosystems, such as water regulation and food provision."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nIn the Cocos (Keeling) Islands, a remote coral reef atoll in the eastern Indian Ocean, seagrasses provide _____ and support culturally, ecologically, and economically important species.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "functional diversity",
+                "explanation": "This is not the expression used in this sentence. Variation in the traits of organisms that influence ecosystem processes."
+              },
+              {
+                "id": "b",
+                "text": "ecosystem services",
+                "explanation": "The original abstract uses this expression. Benefits people obtain from ecosystems, such as water regulation and food provision."
+              },
+              {
+                "id": "c",
+                "text": "carbon content",
+                "explanation": "This is not the expression used in this sentence. The amount or fraction of carbon in a material such as fuel."
+              },
+              {
+                "id": "d",
+                "text": "publication bias",
+                "explanation": "This is not the expression used in this sentence. A distortion caused when the availability of research results depends on their findings."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: ecosystem services. Benefits people obtain from ecosystems, such as water regulation and food provision. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nSeagrasses are recognised as ecologically and culturally significant habitats across the globe supporting human livelihoods, _____, and carbon storage.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "data gaps",
+                "explanation": "This is not the expression used in this sentence. Missing information within the coverage required by an analysis."
+              },
+              {
+                "id": "b",
+                "text": "double counting",
+                "explanation": "This is not the expression used in this sentence. Including the same activity or emissions more than once in a total."
+              },
+              {
+                "id": "c",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "d",
+                "text": "random forest",
+                "explanation": "This is not the expression used in this sentence. An ensemble method that combines predictions from multiple decision trees."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nSynthesis. Tropical seagrass meadows subjected to continuous herbivory pressure can persist in a chronically depleted state. Herbivore exclusion experiments demonstrate that reducing herbivory can unlock the recovery potential of seagrass. These findings highlight the need for nuanced management strategies to safeguard these meadows in a time where seagrasses continue to decline at both localised and global scales, and the global turtle populations are simultaneously on the rise.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-24",
+        "addedAt": "2026-10-27T02:52:04Z"
+      }
+    },
+    {
+      "title": "An integrated GIS and remote-sensing framework for district-level dengue risk assessment in northern India: development of a spatial Dengue Risk Index and assessment of its spatial concordance with reported incidence",
+      "paragraphs": [
+        "Dengue is an increasingly important vector-borne disease driven by climate variability, urbanization, environmental change, and population growth. Despite its rising burden in northern India, district-level spatial epidemiological frameworks integrating environmental suitability, transmission hazard, and population vulnerability remain limited. This study developed an integrated geographic information system (GIS)- and remote-sensing (RS)-based Dengue Risk Index (DRI) describing long-term spatial susceptibility to dengue in Gorakhpur district, Uttar Pradesh, and assessed its spatial concordance with reported dengue incidence.",
+        "A GIS-based multi-criteria decision analysis (MCDA) framework incorporating the analytic hierarchy process (AHP) integrated 14 environmental, topographic, hydrological, and socio-demographic variables into three thematic components: the Environmental Suitability Index (ESI; six variables), Hazard Index (HI; five variables), and Vulnerability Index (VI; three variables). Relative humidity and the Normalized Difference Moisture Index were excluded after redundancy screening. Rainfall was derived from India Meteorological Department (IMD) 0.25° daily gridded data for 2025, elevation from the Copernicus 30 m DEM, and population density from WorldPop 2025 constrained estimates. Standardized (1–5) raster layers were integrated using the Weighted Linear Combination (WLC) approach to construct the DRI. Spatial concordance between block-level mean DRI and laboratory-confirmed dengue incidence in 2025 (225 cases, 20 blocks) was assessed using Pearson’s and Spearman’s correlation, linear and negative binomial regression, influence diagnostics, and global Moran’s I with Lagrange multiplier tests for spatial dependence.",
+        "The DRI (1–5 relative scale) showed marked spatial heterogeneity, with higher values in the central and western parts of the district. Chargawan, which contains Gorakhpur city, was the only block classified as Very High risk, followed by Sahjanwa, Piprauli, and Jungle Kaudia (High), whereas Brahmpur was classified as Very Low risk. Overall, 32.87% of the district (1,090.2 km2) was classified as High or Very High risk. The single very high-risk block accounted for 48.9% of reported cases. However, concordance between block-level DRI and incidence was weak and not statistically significant (Pearson's r = 0.16, p = 0.49; Spearman's ρ = −0.003, p = 0.99; R2 = 0.03; incidence rate ratio per 0.1 DRI = 1.05, 95% CI 0.91–1.21). Neither incidence nor the regression residuals showed significant spatial autocorrelation (Moran's I = −0.13 and −0.17; p ≥ 0.44), so spatial regression was not required.",
+        "The DRI provides a transparent, reproducible description of long-term spatial susceptibility to dengue that integrates environmental suitability, transmission hazard, and population vulnerability. Because its concordance with single-year, block-level incidence was weak and non-significant, it should not be interpreted as a predictor of dengue incidence or as a validated risk model. The framework may help district programs structure surveillance planning, but multi-year incidence, finer spatial units, and entomological data are needed before it is used to allocate interventions.",
+        "The online version contains supplementary material available at https://doi.org/10.1186/s41182-026-01096-1."
+      ],
+      "authors": "U. Venkatesh, Amjed Ali, Arshad Ahmed",
+      "journal": "Tropical Medicine and Health",
+      "doi": "10.1186/s41182-026-01096-1",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "a96b790c8bafcdd07b125bd9d7affdb1a975766191815484bc5e19a298e12669",
+      "pmcid": "PMC13688948",
+      "publishedAt": "2026-10-22",
+      "addedAt": "2026-10-27T02:52:04Z",
+      "topic": "Research methods",
+      "source": {
+        "id": "literature-pmc13688948",
+        "kind": "article",
+        "title": "An integrated GIS and remote-sensing framework for district-level dengue risk assessment in northern India: development of a spatial Dengue Risk Index and assessment of its spatial concordance with reported incidence",
+        "authors": "U. Venkatesh, Amjed Ali, Arshad Ahmed",
+        "organization": "Tropical Medicine and Health",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13688948/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "a96b790c8bafcdd07b125bd9d7affdb1a975766191815484bc5e19a298e12669",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-22",
+        "doi": "10.1186/s41182-026-01096-1"
+      },
+      "lesson": {
+        "id": "literature-pmc13688948",
+        "version": 1,
+        "title": "An integrated GIS and remote-sensing framework for district-level dengue risk assessment in northern India: development of a spatial Dengue Risk Index and assessment of its spatial concordance with reported incidence",
+        "subtitle": "Open-access abstract · Tropical Medicine and Health · 2026-10-22",
+        "topic": "Research methods",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13688948",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Dengue is an increasingly important vector-borne disease driven by climate variability, urbanization, environmental change, and population growth. Despite its rising burden in northern India, district-level spatial epidemiological frameworks integrating environmental suitability, transmission hazard, and population vulnerability remain limited. This study developed an integrated geographic information system (GIS)- and remote-sensing (RS)-based Dengue Risk Index (DRI) describing long-term spatial susceptibility to dengue in Gorakhpur district, Uttar Pradesh, and assessed its spatial concordance with reported dengue incidence.",
+          "A GIS-based multi-criteria decision analysis (MCDA) framework incorporating the analytic hierarchy process (AHP) integrated 14 environmental, topographic, hydrological, and socio-demographic variables into three thematic components: the Environmental Suitability Index (ESI; six variables), Hazard Index (HI; five variables), and Vulnerability Index (VI; three variables). Relative humidity and the Normalized Difference Moisture Index were excluded after redundancy screening. Rainfall was derived from India Meteorological Department (IMD) 0.25° daily gridded data for 2025, elevation from the Copernicus 30 m DEM, and population density from WorldPop 2025 constrained estimates. Standardized (1–5) raster layers were integrated using the Weighted Linear Combination (WLC) approach to construct the DRI. Spatial concordance between block-level mean DRI and laboratory-confirmed dengue incidence in 2025 (225 cases, 20 blocks) was assessed using Pearson’s and Spearman’s correlation, linear and negative binomial regression, influence diagnostics, and global Moran’s I with Lagrange multiplier tests for spatial dependence.",
+          "The DRI (1–5 relative scale) showed marked spatial heterogeneity, with higher values in the central and western parts of the district. Chargawan, which contains Gorakhpur city, was the only block classified as Very High risk, followed by Sahjanwa, Piprauli, and Jungle Kaudia (High), whereas Brahmpur was classified as Very Low risk. Overall, 32.87% of the district (1,090.2 km2) was classified as High or Very High risk. The single very high-risk block accounted for 48.9% of reported cases. However, concordance between block-level DRI and incidence was weak and not statistically significant (Pearson's r = 0.16, p = 0.49; Spearman's ρ = −0.003, p = 0.99; R2 = 0.03; incidence rate ratio per 0.1 DRI = 1.05, 95% CI 0.91–1.21). Neither incidence nor the regression residuals showed significant spatial autocorrelation (Moran's I = −0.13 and −0.17; p ≥ 0.44), so spatial regression was not required.",
+          "The DRI provides a transparent, reproducible description of long-term spatial susceptibility to dengue that integrates environmental suitability, transmission hazard, and population vulnerability. Because its concordance with single-year, block-level incidence was weak and non-significant, it should not be interpreted as a predictor of dengue incidence or as a validated risk model. The framework may help district programs structure surveillance planning, but multi-year incidence, finer spatial units, and entomological data are needed before it is used to allocate interventions.",
+          "The online version contains supplementary material available at https://doi.org/10.1186/s41182-026-01096-1."
+        ],
+        "terms": [
+          {
+            "term": "correlation",
+            "definition": "A statistical relationship in how two quantities vary together."
+          },
+          {
+            "term": "variability",
+            "definition": "Real differences across time, space, or members of a population."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nSpatial concordance between block-level mean DRI and laboratory-confirmed dengue incidence in 2025 (225 cases, 20 blocks) was assessed using Pearson’s and Spearman’s _____, linear and negative binomial regression, influence diagnostics, and global Moran’s I with Lagrange multiplier tests for spatial dependence.",
+            "paragraphs": [
+              2
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "confidentiality",
+                "explanation": "This is not the expression used in this sentence. Protection of information whose access or disclosure is restricted."
+              },
+              {
+                "id": "b",
+                "text": "crop residues",
+                "explanation": "This is not the expression used in this sentence. Plant material remaining after crop production or harvest."
+              },
+              {
+                "id": "c",
+                "text": "climate adaptation",
+                "explanation": "This is not the expression used in this sentence. Adjustment to actual or expected climate and its effects."
+              },
+              {
+                "id": "d",
+                "text": "correlation",
+                "explanation": "The original abstract uses this expression. A statistical relationship in how two quantities vary together."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: correlation. A statistical relationship in how two quantities vary together. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nDengue is an increasingly important vector-borne disease driven by climate _____, urbanization, environmental change, and population growth.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "synthetic fertilisers",
+                "explanation": "This is not the expression used in this sentence. Manufactured fertiliser products applied to supply plant nutrients."
+              },
+              {
+                "id": "b",
+                "text": "particulate matter",
+                "explanation": "This is not the expression used in this sentence. A mixture of solid particles and liquid droplets suspended in air."
+              },
+              {
+                "id": "c",
+                "text": "variability",
+                "explanation": "The original abstract uses this expression. Real differences across time, space, or members of a population."
+              },
+              {
+                "id": "d",
+                "text": "aerosol optical depth",
+                "explanation": "This is not the expression used in this sentence. A measure of the attenuation of light by aerosols through an atmospheric column."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: variability. Real differences across time, space, or members of a population. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe online version contains supplementary material available at https://doi.org/10.1186/s41182-026-01096-1.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-22",
+        "addedAt": "2026-10-27T02:52:04Z"
+      }
+    },
+    {
+      "title": "Analytical Approaches for Detection, Characterization, and Environmental Significance of Suspended Particulate Matter in Aquatic Systems: A Scoping Review",
+      "paragraphs": [
+        "Suspended particulate matter (SPM) represents a component of aquatic systems, acting both as a carrier of contaminants and as a factor shaping ecosystem functioning. This review summarizes recent progress in methods for detecting and quantifying SPM in natural waters. Traditional gravimetric analysis provides a direct mass‐based reference, while optical approaches such as turbidimetry and nephelometry enable rapid and automated assessments. Granulometric techniques, including sedimentation and laser diffraction, contribute to understanding particle size distribution and its role in transport, settling, and pollutant interactions. Chemical characterization, based on spectroscopic and spectrometric methods, identifies the composition of SPM and its association with heavy metals, organic pollutants, and microplastics. Particular attention is given to the ecological risks posed by fine particles, which remain suspended longer and enhance contaminant mobility. The review integrates findings from hydrochemistry, analytical chemistry, and environmental monitoring, outlining both the strengths and limitations of existing methods and highlighting directions for improving water‐quality assessment and ecological risk evaluation."
+      ],
+      "authors": "Pavlo Kuznietsov, Olha Biedunkova, Mykola Klymenko, Oleksandr Hrytsyna, Olha Varzhel, Maksym Stepanenko",
+      "journal": "Scientifica",
+      "doi": "10.1155/sci5/6704648",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "25e0f9d8a96207c11013a3cc2c6c852daf5f34a18baca2eba33d49308211ab18",
+      "pmcid": "PMC13688715",
+      "publishedAt": "2026-10-22",
+      "addedAt": "2026-10-27T02:52:04Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13688715",
+        "kind": "article",
+        "title": "Analytical Approaches for Detection, Characterization, and Environmental Significance of Suspended Particulate Matter in Aquatic Systems: A Scoping Review",
+        "authors": "Pavlo Kuznietsov, Olha Biedunkova, Mykola Klymenko, Oleksandr Hrytsyna, Olha Varzhel, Maksym Stepanenko",
+        "organization": "Scientifica",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13688715/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "25e0f9d8a96207c11013a3cc2c6c852daf5f34a18baca2eba33d49308211ab18",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-22",
+        "doi": "10.1155/sci5/6704648"
+      },
+      "lesson": {
+        "id": "literature-pmc13688715",
+        "version": 1,
+        "title": "Analytical Approaches for Detection, Characterization, and Environmental Significance of Suspended Particulate Matter in Aquatic Systems: A Scoping Review",
+        "subtitle": "Open-access abstract · Scientifica · 2026-10-22",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13688715",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Suspended particulate matter (SPM) represents a component of aquatic systems, acting both as a carrier of contaminants and as a factor shaping ecosystem functioning. This review summarizes recent progress in methods for detecting and quantifying SPM in natural waters. Traditional gravimetric analysis provides a direct mass‐based reference, while optical approaches such as turbidimetry and nephelometry enable rapid and automated assessments. Granulometric techniques, including sedimentation and laser diffraction, contribute to understanding particle size distribution and its role in transport, settling, and pollutant interactions. Chemical characterization, based on spectroscopic and spectrometric methods, identifies the composition of SPM and its association with heavy metals, organic pollutants, and microplastics. Particular attention is given to the ecological risks posed by fine particles, which remain suspended longer and enhance contaminant mobility. The review integrates findings from hydrochemistry, analytical chemistry, and environmental monitoring, outlining both the strengths and limitations of existing methods and highlighting directions for improving water‐quality assessment and ecological risk evaluation."
+        ],
+        "terms": [
+          {
+            "term": "particulate matter",
+            "definition": "A mixture of solid particles and liquid droplets suspended in air."
+          },
+          {
+            "term": "microplastics",
+            "definition": "Small plastic particles, commonly defined as being less than five millimetres in size."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nSuspended _____ (SPM) represents a component of aquatic systems, acting both as a carrier of contaminants and as a factor shaping ecosystem functioning.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "ecological resilience",
+                "explanation": "This is not the expression used in this sentence. The capacity of an ecosystem to absorb disturbance while maintaining its essential functions."
+              },
+              {
+                "id": "b",
+                "text": "particulate matter",
+                "explanation": "The original abstract uses this expression. A mixture of solid particles and liquid droplets suspended in air."
+              },
+              {
+                "id": "c",
+                "text": "precision",
+                "explanation": "This is not the expression used in this sentence. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "d",
+                "text": "nitrogen deposition",
+                "explanation": "This is not the expression used in this sentence. The transfer of atmospheric nitrogen compounds to surfaces by wet and dry processes."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: particulate matter. A mixture of solid particles and liquid droplets suspended in air. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nChemical characterization, based on spectroscopic and spectrometric methods, identifies the composition of SPM and its association with heavy metals, organic pollutants, and _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "causal inference",
+                "explanation": "This is not the expression used in this sentence. Reasoning about the effects of interventions or causes under explicit assumptions."
+              },
+              {
+                "id": "b",
+                "text": "microplastics",
+                "explanation": "The original abstract uses this expression. Small plastic particles, commonly defined as being less than five millimetres in size."
+              },
+              {
+                "id": "c",
+                "text": "soil moisture",
+                "explanation": "This is not the expression used in this sentence. The amount of water held in soil under specified measurement conditions."
+              },
+              {
+                "id": "d",
+                "text": "net calorific value",
+                "explanation": "This is not the expression used in this sentence. The usable heat released per unit of fuel on a net heating-value basis."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: microplastics. Small plastic particles, commonly defined as being less than five millimetres in size. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nSuspended particulate matter (SPM) represents a component of aquatic systems, acting both as a carrier of contaminants and as a factor shaping ecosystem functioning. This review summarizes recent progress in methods for detecting and quantifying SPM in natural waters. Traditional gravimetric analysis provides a direct mass‐based reference, while optical approaches such as turbidimetry and nephelometry enable rapid and automated assessments. Granulometric techniques, including sedimentation and laser diffraction, contribute to understanding particle size distribution and its role in transport, settling, and pollutant interactions. Chemical characterization, based on spectroscopic and spectrometric methods, identifies the composition of SPM and its association with heavy metals, organic pollutants, and microplastics. Particular attention is given to the ecological risks posed by fine particles, which remain suspended longer and enhance contaminant mobility. The review integrates findings from hydrochemistry, analytical chemistry, and environmental monitoring, outlining both the strengths and limitations of existing methods and highlighting directions for improving water‐quality assessment and ecological risk evaluation.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-22",
+        "addedAt": "2026-10-27T02:52:04Z"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "lit-term-199416cb4d64de602fc3",
+      "term": "ecosystem services",
+      "meaning": "Benefits people obtain from ecosystems, such as water regulation and food provision.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "In the Cocos (Keeling) Islands, a remote coral reef atoll in the eastern Indian Ocean, seagrasses provide ecosystem services and support culturally, ecologically, and economically important species.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13695049",
+      "location": "Abstract · paragraph 1",
+      "evidence": "In the Cocos (Keeling) Islands, a remote coral reef atoll in the eastern Indian Ocean, seagrasses provide ecosystem services and support culturally, ecologically, and economically important species.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-39c65f132b0aec8e178a",
+      "term": "biodiversity",
+      "meaning": "The variety of living organisms, including variation within species, between species and among ecosystems.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Seagrasses are recognised as ecologically and culturally significant habitats across the globe supporting human livelihoods, biodiversity, and carbon storage.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13695049",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Seagrasses are recognised as ecologically and culturally significant habitats across the globe supporting human livelihoods, biodiversity, and carbon storage.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-ca5fd2761201ce13db2b",
+      "term": "particulate matter",
+      "meaning": "A mixture of solid particles and liquid droplets suspended in air.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Suspended particulate matter (SPM) represents a component of aquatic systems, acting both as a carrier of contaminants and as a factor shaping ecosystem functioning.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13688715",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Suspended particulate matter (SPM) represents a component of aquatic systems, acting both as a carrier of contaminants and as a factor shaping ecosystem functioning.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-dceab6e71d36458d77f5",
+      "term": "microplastics",
+      "meaning": "Small plastic particles, commonly defined as being less than five millimetres in size.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Chemical characterization, based on spectroscopic and spectrometric methods, identifies the composition of SPM and its association with heavy metals, organic pollutants, and microplastics.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13688715",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Chemical characterization, based on spectroscopic and spectrometric methods, identifies the composition of SPM and its association with heavy metals, organic pollutants, and microplastics.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    }
+  ],
+  "history": [
+    {
+      "checkedAt": "2026-10-27T02:52:04Z",
+      "added": 3,
+      "total": 3
+    }
+  ]
 }
