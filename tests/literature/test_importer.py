@@ -105,6 +105,43 @@ class ImporterTests(unittest.TestCase):
         self.assertEqual(next_day["articles"][0], first["articles"][0])
         self.assertEqual(len(next_day["vocabulary"]), len(first["vocabulary"]))
 
+    def test_catch_up_schedules_run_until_success_and_daily_cap(self):
+        self.config["daily_limit"] = 1
+        self.assertTrue(ingest.scheduled_run_needed(self.config, self.empty, NOW))
+        # A genuine zero-result search still permits later indexing to be checked.
+        no_results = self.collect(rows=[])
+        self.assertTrue(ingest.scheduled_run_needed(self.config, no_results, NOW + timedelta(hours=4)))
+        complete = self.collect()
+        self.assertFalse(ingest.scheduled_run_needed(self.config, complete, NOW + timedelta(hours=4)))
+        self.assertTrue(ingest.scheduled_run_needed(self.config, complete, NOW + timedelta(days=1)))
+        # A failed new-day attempt leaves the old timestamp, allowing catch-up.
+        before = copy.deepcopy(complete)
+        def fail(*_):
+            raise urllib.error.URLError("fixture outage")
+        with self.assertRaises(urllib.error.URLError):
+            ingest.collect(self.config, complete, NOW + timedelta(days=1), fail, fail)
+        self.assertEqual(complete, before)
+        self.assertTrue(ingest.scheduled_run_needed(self.config, complete, NOW + timedelta(days=1, hours=4)))
+
+    def test_daily_cap_and_schedule_share_beijing_midnight(self):
+        self.config["daily_limit"] = 1
+        # 23:30 Beijing, then 00:30 Beijing on the same UTC date.
+        first_at = datetime(2026, 10, 27, 15, 30, tzinfo=timezone.utc)
+        midnight_at = first_at + timedelta(hours=1)
+        first = self.collect(now=first_at)
+        self.assertTrue(ingest.scheduled_run_needed(self.config, first, midnight_at))
+        rows = [record("PMC456", "Another illustrative study", "10.1234/second")]
+        second = self.collect(rows=rows, raw=fixture_xml("PMC456", "Another illustrative study", "10.1234/second"), catalog=first, now=midnight_at)
+        self.assertEqual(len(second["articles"]), 2)
+        self.assertEqual(first["articles"][0], second["articles"][0])
+        # UTC midnight during that same Beijing day must not reset the cap.
+        after_utc_midnight = datetime(2026, 10, 28, 0, 30, tzinfo=timezone.utc)
+        self.assertFalse(ingest.scheduled_run_needed(self.config, second, after_utc_midnight))
+        rows = [record("PMC789", "A third illustrative study", "10.1234/third")]
+        third = self.collect(rows=rows, raw=fixture_xml("PMC789", "A third illustrative study", "10.1234/third"), catalog=second, now=after_utc_midnight)
+        self.assertEqual(len(third["articles"]), 2)
+        self.assertEqual(third["history"][0]["added"], 0)
+
     def test_deterministic_questions_and_tampered_evidence_rejected(self):
         first, second = self.collect(), self.collect()
         self.assertEqual(first, second)

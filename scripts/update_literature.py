@@ -23,6 +23,26 @@ ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "src/data/daily-literature.json"
 API = "https://www.ebi.ac.uk/europepmc/webservices/rest"
 XLINK = "{http://www.w3.org/1999/xlink}href"
+LEARNING_TIMEZONE = timezone(timedelta(hours=8))
+
+
+def literature_day(value):
+    """Use the learner's Beijing calendar day for both scheduling and the cap."""
+    if isinstance(value, str):
+        value = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if value.tzinfo is None:
+        raise ValueError("Literature timestamps must include a timezone")
+    return value.astimezone(LEARNING_TIMEZONE).date()
+
+
+def scheduled_run_needed(config, catalog, now):
+    """Later schedules recover missed/failed runs and try to fill today's cap."""
+    today = literature_day(now)
+    checked = catalog.get("lastCheckedAt")
+    if not checked or literature_day(checked) != today:
+        return True
+    added_today = sum(literature_day(a["addedAt"]) == today for a in catalog["articles"])
+    return added_today < config["daily_limit"]
 
 
 def text(node):
@@ -224,8 +244,8 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
         raise ValueError("Invalid daily content limits")
     timestamp = now.astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
     today = now.date().isoformat()
-    # A retry/manual rerun on the same UTC day cannot exceed the configured cap.
-    added_today = sum(a["addedAt"][:10] == today for a in catalog["articles"])
+    # Automatic retries and manual reruns share one Beijing-calendar-day cap.
+    added_today = sum(literature_day(a["addedAt"]) == literature_day(now) for a in catalog["articles"])
     remaining = max(0, config["daily_limit"] - added_today)
     queues = []
     # Search all topics even on capped days so lastCheckedAt means a real check.

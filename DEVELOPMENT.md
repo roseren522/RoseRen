@@ -165,9 +165,9 @@ npm run verify:sources   # 官方原文远程核对
 
 ## 每日文献与词汇更新
 
-`.github/workflows/daily-literature.yml` 在北京时间每天 **08:17**（UTC 00:17）运行，也支持 Actions 页面的 **Run workflow**；首次推送任务代码会触发一次抓取。GitHub 的计划任务可能延迟，公共仓库长时间无活动时也可能被暂停，因此不保证分钟级实时更新。任务提交新数据到 main，由已有 Vercel Git 集成构建发布；关闭浏览器不影响任务。GitHub Actions 和 Vercel 配额仍适用，无需新的付费 API 密钥。
+`.github/workflows/daily-literature.yml` 在北京时间每天 **08:17**（UTC 00:17）检索，并在 **12:37、20:47**（UTC 04:37、12:47）补检。每次从 main 读取最新记录：当天没有成功检索、上次失败，或新增不足每日上限时继续尝试；当天已成功且达到上限则跳过检索、依赖安装和部署。成功但零新增时仍允许中午、晚上补检，以覆盖延迟入库。也支持 Actions 页面的 **Run workflow**，手动运行与推送任务代码始终检索，仍遵守每日上限；首次推送任务代码会触发一次抓取。GitHub 的计划任务可能延迟或丢弃，公共仓库长时间无活动时也可能被暂停，因此多次触发是补偿措施，不保证每天必定运行或分钟级实时更新。任务提交新数据到 main，由已有 Vercel Git 集成构建发布；关闭浏览器不影响任务。GitHub Actions 和 Vercel 配额仍适用，无需新的付费 API 密钥。
 
-默认方向为大气、气候与能源、生态与生物多样性、环境化学、研究方法。可编辑 `scripts/literature_config.json` 的检索式；每天最多加入 3 篇，同一 UTC 日期手动重跑也受此上限约束。检索最近 30 天入库、过去 365 天发表的英文记录，覆盖延迟收录；这不是全球全部新论文的实时索引。每个方向检查最多 60 条检索结果，每次最多取回 30 篇全文 XML，按方向轮换选取。没有合适来源、明确许可或足够已维护术语时允许零新增。
+默认方向为大气、气候与能源、生态与生物多样性、环境化学、研究方法。可编辑 `scripts/literature_config.json` 的检索式；每天最多加入 3 篇，同一北京时间日期的补检与手动重跑也受此上限约束。检索最近 30 天入库、过去 365 天发表的英文记录，覆盖延迟收录；这不是全球全部新论文的实时索引。每个方向检查最多 60 条检索结果，每次最多取回 30 篇全文 XML，按方向轮换选取。没有合适来源、明确许可或足够已维护术语时允许零新增。
 
 来源是 **Europe PMC 官方 API** `https://www.ebi.ac.uk/europepmc/webservices/rest`。只选有 PMC 编号、非撤稿、非预印本、XML 标为研究文章或综述且明确使用 **CC BY 或 CC0** 的论文。只复制其英文摘要，保留作者、期刊、DOI、发表时间、加入时间、原始链接、许可链接及摘要 SHA256；不会将自动提取描述为人工审阅全文。CC BY-NC、CC BY-ND、不明许可等均跳过。当前云环境的网络代理拒绝直接访问该 API，但 GitHub runner 可以访问。2026-10-27 已通过 GitHub 公共任务页面和自动提交 `bc45e3e` 确认首轮真实抓取成功：3 篇文献、4 个新词，原文证据检查、单元测试与构建通过。首次任务：https://github.com/roseren522/RoseRen/actions/runs/40440890033 。GitHub 管理 API 不可用时，可只读查看公开的 Actions 页面核实结果。
 
@@ -181,4 +181,4 @@ npm run update:literature # 在线运行检索，只有全部成功后原子替�
 python3 scripts/update_literature.py --check # 无网络检查已打包数据的证据与完整性
 ```
 
-在 GitHub 仓库 **Actions → Daily literature** 查看首次任务与日后运行结果。若未启动，启用 Actions 后点 **Run workflow → main**；任务需 `contents: write` 提交数据（工作流已声明）。数据提交沿用最近修改阅读组件的维护者作者身份，自动任务显示为 committer，以兼容 Vercel Hobby 的作者权限检查。若 main 设置了禁止自动提交的保护规则，需要按仓库规则调整发布流程；脚本不会绕过保护或强推。若抓取成功但网站仍旧，请检查 Vercel 新部署状态；本地无法代表线上确认。
+在 GitHub 仓库 **Actions → Daily literature** 查看首次任务与日后运行结果。若未启动，启用 Actions 后点 **Run workflow → main**；任务需 `contents: write` 提交数据（工作流已声明）。数据提交沿用最近修改阅读组件的维护者作者身份，自动任务显示为 committer，以兼容 Vercel Hobby 的作者权限检查。若抓取期间 main 有新代码，自动拉取并 rebase 后重试推送，最多 3 次；内容冲突时安全失败，交给后续补检从 main 重新运行。若 main 设置了禁止自动提交的保护规则，需要按仓库规则调整发布流程；脚本不会绕过保护或强推。若抓取成功但网站仍旧，请检查 Vercel 新部署状态；本地无法代表线上确认。
