@@ -3790,6 +3790,35 @@ kbd {
   background: #fffdf8;
   box-shadow: 0 8px 28px #28372e24;
 }
+.reading-word-existing {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 12px;
+  background: #eef3e5;
+  border-radius: 8px;
+  color: #34553c;
+}
+.reading-word-existing svg {
+  flex: 0 0 auto;
+  margin-top: 4px;
+}
+.reading-word-existing p {
+  margin: 0;
+}
+.reading-vocabulary-dialog .example-block p {
+  overflow-wrap: anywhere;
+}
+.reading-vocabulary-dialog .example-block small {
+  display: block;
+}
+.reading-word-pending {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #52674b;
+  max-width: 38em;
+  margin: 12px auto;
+}
 .reading-highlight-menu > button {
   display: flex;
   align-items: center;

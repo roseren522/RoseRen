@@ -55,6 +55,7 @@ import { AvatarEditor, AvatarView } from "./components/Avatar";
 import { avatarEntryId, avatarPayload, type Avatar } from "./lib/profile";
 import { readingHistory, readingSummary } from "./lib/reading";
 import { highlightEntryId } from "./lib/highlights";
+import { matchingVocabulary } from "./lib/readingVocabulary";
 import { useLearning } from "./lib/useLearning";
 import {
   acceptsAnswer,
@@ -264,6 +265,14 @@ export default function App() {
         state.progress[b.id].card.due.getTime(),
     );
   const current = all.find((e) => e.id === queue[index]);
+  useEffect(() => {
+    if (current && !current.meaning.trim()) {
+      setMode("cards");
+      setRevealed(false);
+      setChecked(null);
+      setAnswer("");
+    }
+  }, [current?.id, current?.meaning]);
   const navigate = (target: Page) => {
     setPage(target);
     setMobileMenu(false);
@@ -690,6 +699,24 @@ export default function App() {
                     </div>
                   )}
                   <ReadingLab
+                    vocabulary={all}
+                    saveVocabulary={async (
+                      entry,
+                      entryEventId,
+                      favoriteEventId,
+                    ) => {
+                      const existing = matchingVocabulary(entry.term, all);
+                      const target = existing || entry;
+                      if (!existing)
+                        await save("entry", { entry }, entry.id, entryEventId);
+                      if (!state.favorites.has(target.id))
+                        await save(
+                          "favorite",
+                          { value: true },
+                          target.id,
+                          favoriteEventId,
+                        );
+                    }}
                     scope={learning.scope}
                     userId={user?.id}
                     restoringAccount={
@@ -1036,6 +1063,41 @@ export default function App() {
                         : `${seed.length} 个词条 · 在科学语境中理解，而不只是记住翻译。`
                     }
                   >
+                    {(page === "personal" || filter === "已收藏") &&
+                      filtered.length > 0 && (
+                        <button
+                          className="button secondary"
+                          onClick={() => {
+                            setQueue(
+                              [...filtered]
+                                .sort(
+                                  (a, b) =>
+                                    Number(Boolean(state.progress[a.id])) -
+                                      Number(Boolean(state.progress[b.id])) ||
+                                    (state.progress[a.id]?.card.due.getTime() ||
+                                      0) -
+                                      (state.progress[
+                                        b.id
+                                      ]?.card.due.getTime() || 0),
+                                )
+                                .slice(0, 20)
+                                .map((entry) => entry.id),
+                            );
+                            setIndex(0);
+                            setMode("cards");
+                            setRevealed(false);
+                            setChecked(null);
+                            setAnswer("");
+                            reviewId.current = crypto.randomUUID();
+                            navigate("study");
+                          }}
+                        >
+                          <BookOpen size={16} />
+                          {page === "personal"
+                            ? "学习我的词汇"
+                            : "学习收藏词汇"}
+                        </button>
+                      )}
                     <button
                       className="button secondary"
                       onClick={() => setImporting(true)}
@@ -1134,7 +1196,7 @@ export default function App() {
                               {e.abbreviation && ` · ${e.abbreviation}`}
                             </small>
                           </button>
-                          <span>{e.meaning}</span>
+                          <span>{e.meaning || "Definition pending"}</span>
                           <span className="topic-pill">{e.topic}</span>
                           <span
                             className={`stage ${state.progress[e.id] ? "learning" : ""}`}
@@ -1374,6 +1436,9 @@ export default function App() {
                             <button
                               key={id}
                               className={mode === id ? "active" : ""}
+                              disabled={
+                                id !== "cards" && !current.meaning.trim()
+                              }
                               onClick={() => {
                                 setMode(id);
                                 setRevealed(false);
@@ -1434,6 +1499,13 @@ export default function App() {
                                 <Volume2 size={20} />
                               </button>
                             </div>
+                          )}
+                          {!current.meaning.trim() && (
+                            <p className="reading-word-pending">
+                              Definition pending. Review this word in its saved
+                              reading context. Add a definition in the word
+                              editor to enable meaning and spelling quizzes.
+                            </p>
                           )}
                           {mode === "cards" && !revealed && (
                             <button
@@ -1527,7 +1599,7 @@ export default function App() {
                             )}
                             <div className="answer-definition">
                               <h3>
-                                {current.meaning}
+                                {current.meaning || "Definition pending"}
                                 {mode === "spelling" && (
                                   <span>{current.term}</span>
                                 )}
@@ -1541,9 +1613,11 @@ export default function App() {
                             </div>
                             <div className="example-block">
                               <span className="tiny-label">
-                                {current.exampleKind === "quotation"
-                                  ? "摘要原文 · SOURCE QUOTATION"
-                                  : "原创科研例句 · ORIGINAL EXAMPLE"}
+                                {current.exampleKind === "reading"
+                                  ? "阅读语境 · READING CONTEXT"
+                                  : current.exampleKind === "quotation"
+                                    ? "摘要原文 · SOURCE QUOTATION"
+                                    : "原创科研例句 · ORIGINAL EXAMPLE"}
                               </span>
                               <p>{current.example}</p>
                               <small>{current.translation}</small>
@@ -1907,7 +1981,9 @@ export default function App() {
               />
             </button>
           </div>
-          <h3 className="detail-meaning">{detail.meaning}</h3>
+          <h3 className="detail-meaning">
+            {detail.meaning || "Definition pending"}
+          </h3>
           <p>{detail.explanation}</p>
           <div className="collocations">
             {detail.collocations.map((c) => (
@@ -1916,9 +1992,11 @@ export default function App() {
           </div>
           <div className="example-block">
             <span className="tiny-label">
-              {detail.exampleKind === "quotation"
-                ? "摘要原文 · SOURCE QUOTATION"
-                : "原创科研例句 · 非文献引文"}
+              {detail.exampleKind === "reading"
+                ? "阅读语境 · READING CONTEXT"
+                : detail.exampleKind === "quotation"
+                  ? "摘要原文 · SOURCE QUOTATION"
+                  : "原创科研例句 · 非文献引文"}
             </span>
             <p>{detail.example}</p>
             <small>{detail.translation}</small>
@@ -2355,8 +2433,16 @@ function SourcePanel({ entry }: { entry: Entry }) {
       ) : (
         <>
           <p>
-            此词条由用户提供，参考文献尚未独立核验。中文释义由用户填写；段落只作为学习内容处理。
+            {entry.exampleKind === "reading"
+              ? "Personal reading word. The context is from the learning passage or question; it is not necessarily a quotation from the linked source. Definitions are learning notes, not independently verified terminology."
+              : "此词条由用户提供，参考文献尚未独立核验。释义由用户填写；段落只作为学习内容处理。"}
           </p>
+          {entry.exampleKind === "reading" && (
+            <>
+              <p>{entry.location}</p>
+              <p>{entry.definitionNote}</p>
+            </>
+          )}
           {entry.reference &&
             (safeReference(entry.reference) ? (
               <a
@@ -2605,7 +2691,15 @@ function EntryFields({
   setEntry: (value: Entry) => void;
 }) {
   const field = (key: keyof Entry, value: unknown) =>
-    setEntry({ ...entry, [key]: value });
+    setEntry({
+      ...entry,
+      [key]: value,
+      ...(key === "meaning" &&
+      entry.exampleKind === "reading" &&
+      entry.explanation === entry.meaning
+        ? { explanation: String(value) }
+        : {}),
+    });
   return (
     <>
       <div className="form-columns">
@@ -2620,7 +2714,8 @@ function EntryFields({
           />
         </label>
         <label>
-          中文含义 <span>*</span>
+          {entry.contentLanguage === "en" ? "English definition" : "中文含义"}{" "}
+          <span>*</span>
           <input
             required
             maxLength={200}
@@ -2631,7 +2726,8 @@ function EntryFields({
         </label>
       </div>
       <label>
-        概念解释 <span>*</span>
+        {entry.contentLanguage === "en" ? "Concept explanation" : "概念解释"}{" "}
+        <span>*</span>
         <textarea
           required
           maxLength={3000}
@@ -2695,7 +2791,7 @@ function EntryFields({
         />
       </label>
       <label>
-        原创英文例句
+        {entry.exampleKind === "reading" ? "Reading context" : "原创英文例句"}
         <input
           value={entry.example}
           maxLength={2000}
@@ -2758,6 +2854,12 @@ function cleanEntry(entry: Entry): Entry {
         ? "https://doi.org/" + reference
         : reference,
     verification: "personal",
+    ...(entry.exampleKind === "reading" && entry.meaning.trim()
+      ? {
+          definitionNote:
+            "Personal English definition; not independently verified.",
+        }
+      : {}),
   };
 }
 function EntryEditor({

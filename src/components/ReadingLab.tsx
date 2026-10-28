@@ -29,6 +29,8 @@ import {
   type WritingFeedback as WritingReport,
 } from "../lib/writingFeedback";
 import WritingFeedback from "./WritingFeedback";
+import ReadingVocabulary from "./ReadingVocabulary";
+import { readingVocabularyEntry } from "../lib/readingVocabulary";
 import {
   readingAnswers,
   readingHistory,
@@ -59,6 +61,12 @@ interface Props {
   saveReview: SaveReview;
   saveProgress: (payload: ReadingVisitPayload) => Promise<unknown>;
   studyVocabulary: (entries: Entry[]) => void;
+  vocabulary: Entry[];
+  saveVocabulary: (
+    entry: Entry,
+    entryEventId: string,
+    favoriteEventId: string,
+  ) => Promise<void>;
 }
 function useDraft(scope: string, key: string) {
   const [value, setValue] = useState(""),
@@ -120,7 +128,10 @@ export default function ReadingLab({
   saveReview,
   saveProgress,
   studyVocabulary,
+  vocabulary,
+  saveVocabulary,
 }: Props) {
+  const [word, setWord] = useState<Entry | null>(null);
   const [selected, setSelected] = useState<string | null>(
       () => readReadingRoute(location.hash, readings)?.lessonId || null,
     ),
@@ -128,6 +139,7 @@ export default function ReadingLab({
     [topic, setTopic] = useState("All topics"),
     [level, setLevel] = useState("All levels"),
     [filter, setFilter] = useState("All passages");
+  useEffect(() => setWord(null), [scope, selected]);
   const lesson = readings.find((l) => l.id === selected);
   const summary = readingSummary(events, readings);
   const history = readingHistory(events, readings);
@@ -357,7 +369,20 @@ export default function ReadingLab({
         version={lesson.version}
         events={highlightEvents}
         saveHighlight={saveHighlight}
+        addVocabulary={(ranges) => {
+          const entry = readingVocabularyEntry(ranges, lesson, source);
+          if (entry) setWord(entry);
+        }}
       >
+        {word && (
+          <ReadingVocabulary
+            key={word.id}
+            entry={word}
+            vocabulary={vocabulary}
+            onSave={saveVocabulary}
+            onClose={() => setWord(null)}
+          />
+        )}
         <div
           className="reading-lab notranslate"
           lang="en"

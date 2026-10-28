@@ -45,7 +45,7 @@ export interface Entry {
   abbreviation?: string;
   collocations: string[];
   example: string;
-  exampleKind?: "quotation";
+  exampleKind?: "quotation" | "reading";
   translation: string;
   topic: Topic;
   difficulty: "基础" | "进阶" | "深入";
@@ -291,6 +291,7 @@ export function makeChoices(entry: Entry, all: Entry[]) {
         .filter(
           (e) =>
             e.id !== entry.id &&
+            Boolean(e.meaning.trim()) &&
             e.meaning !== entry.meaning &&
             (e.contentLanguage || "zh") === (entry.contentLanguage || "zh"),
         )

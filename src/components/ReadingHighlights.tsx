@@ -8,7 +8,8 @@ import {
   type ReactNode,
 } from "react";
 import { createPortal } from "react-dom";
-import { Highlighter, LoaderCircle, Trash2 } from "lucide-react";
+import { BookPlus, Highlighter, LoaderCircle, Trash2 } from "lucide-react";
+import { selectedVocabularyTerm } from "../lib/readingVocabulary";
 import {
   activeHighlights,
   highlightedSegments,
@@ -66,6 +67,7 @@ export function ReadingHighlights({
   version,
   events,
   saveHighlight,
+  addVocabulary,
   children,
 }: {
   lessonId: string;
@@ -75,6 +77,7 @@ export function ReadingHighlights({
     payload: HighlightPayload,
     eventId: string,
   ) => Promise<unknown>;
+  addVocabulary: (ranges: TextAnchor[]) => void;
   children: ReactNode;
 }) {
   const root = useRef<HTMLDivElement>(null),
@@ -98,7 +101,7 @@ export function ReadingHighlights({
   highlightRef.current = highlights;
   const position = (x: number, y: number) => ({
     x: Math.max(8, Math.min(x, innerWidth - 248)),
-    y: Math.max(8, Math.min(y, innerHeight - 118)),
+    y: Math.max(8, Math.min(y, innerHeight - 180)),
   });
   useEffect(() => {
     const update = () => {
@@ -241,6 +244,12 @@ export function ReadingHighlights({
         },
       })),
     );
+  const saveWord = (ranges: TextAnchor[]) => {
+    addVocabulary(ranges);
+    setMenu(null);
+    setSelection(null);
+    window.getSelection()?.removeAllRanges();
+  };
   return (
     <HighlightContext.Provider value={highlights}>
       <div
@@ -290,8 +299,8 @@ export function ReadingHighlights({
         <div className="reading-highlight-help" lang="en">
           <Highlighter size={14} />
           <span>
-            Select passage or question text, then right-click to highlight. On
-            mobile, select text and tap Highlight selection.
+            Select passage or question text, then right-click to highlight or
+            add a word to vocabulary. On mobile, use the selected-text buttons.
           </span>
         </div>
         <div
@@ -366,6 +375,11 @@ export function ReadingHighlights({
                 <Trash2 size={15} /> Remove highlight
               </button>
             )}
+            {selectedVocabularyTerm(menu.ranges) && (
+              <button role="menuitem" onClick={() => saveWord(menu.ranges)}>
+                <BookPlus size={15} /> Add to vocabulary
+              </button>
+            )}
           </div>,
           document.body,
         )}
@@ -388,6 +402,14 @@ export function ReadingHighlights({
             >
               <Highlighter size={15} /> Highlight selection
             </button>
+            {selectedVocabularyTerm(selection.ranges) && (
+              <button
+                className="button secondary"
+                onClick={() => saveWord(selection.ranges)}
+              >
+                <BookPlus size={15} /> Add to vocabulary
+              </button>
+            )}
             {intersectingIds(selection.ranges, highlights).length > 0 && (
               <button
                 className="button secondary"
