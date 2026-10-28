@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-10-28T03:42:20Z",
-  "lastAddedAt": "2026-10-28T03:42:20Z",
+  "lastCheckedAt": "2026-10-28T03:46:04Z",
+  "lastAddedAt": "2026-10-28T03:46:04Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -744,6 +744,149 @@
         "publishedAt": "2026-10-01",
         "addedAt": "2026-10-28T03:42:20Z"
       }
+    },
+    {
+      "title": "Differential Impacts of Anthropogenic Disturbance on Community Composition and Alpha Diversity of Macroinvertebrates at a Large Urban River System",
+      "paragraphs": [
+        "Macroinvertebrates play critical roles in aquatic ecosystems, yet the effects of anthropogenic land‐use disturbance on macroinvertebrate communities and their taxonomic and functional diversity remain poorly understood, particularly in rapidly urbanizing regions of eastern China. Here, we identified 211 macroinvertibrates species from 385 river sites in Ningbo, Zhejiang Province, China. We classified sites as low‐disturbance (LD) or high‐disturbance (HD) based on surrounding land use. This study examined differences in macroinvertebrate community composition, taxonomic and functional diversity, and functional feeding groups (FFGs) between disturbance levels, and further explored the potential direct and indirect effects of land use and environmental factors using structural equation modeling (SEM). Macroinvertebrate community composition differed significantly (p = 0.001) between LD and HD sites, with HD sites showing lower taxonomic and functional diversity. The relative abundance of FFGs also shifted with disturbance level, with filterers, gatherers, and predators more abundant at LD sites, whereas scrapers and shredders increased at HD sites. SEM further indicated that agricultural and urban land uses were negatively associated with both taxonomic and functional diversity, while non‐purgeable organic carbon (NPOC) showed a positive association with diversity. These findings demonstrate that anthropogenic land‐use disturbance can restructure macroinvertebrate communities and reduce multiple dimensions of biodiversity, highlighting the importance of integrating both taxonomic and functional information into ecological assessments of human‐dominated river systems."
+      ],
+      "authors": "Huawei Bao, Zongwei Lin, Zhijun Xia, Min Zhang, Xiao Du, Collins Oduro, Sangar Khan, Naicheng Wu",
+      "journal": "Ecology and Evolution",
+      "doi": "10.1002/ece3.74494",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "345bc663b94a05b8fbd027715af1c5b74b0fa0bf361ca22bb1d95838ae1c38e2",
+      "pmcid": "PMC13688088",
+      "publishedAt": "2026-10-22",
+      "addedAt": "2026-10-28T03:46:04Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13688088",
+        "kind": "article",
+        "title": "Differential Impacts of Anthropogenic Disturbance on Community Composition and Alpha Diversity of Macroinvertebrates at a Large Urban River System",
+        "authors": "Huawei Bao, Zongwei Lin, Zhijun Xia, Min Zhang, Xiao Du, Collins Oduro, Sangar Khan, Naicheng Wu",
+        "organization": "Ecology and Evolution",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13688088/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "345bc663b94a05b8fbd027715af1c5b74b0fa0bf361ca22bb1d95838ae1c38e2",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-22",
+        "doi": "10.1002/ece3.74494"
+      },
+      "lesson": {
+        "id": "literature-pmc13688088",
+        "version": 1,
+        "title": "Differential Impacts of Anthropogenic Disturbance on Community Composition and Alpha Diversity of Macroinvertebrates at a Large Urban River System",
+        "subtitle": "Open-access abstract · Ecology and Evolution · 2026-10-22",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13688088",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Macroinvertebrates play critical roles in aquatic ecosystems, yet the effects of anthropogenic land‐use disturbance on macroinvertebrate communities and their taxonomic and functional diversity remain poorly understood, particularly in rapidly urbanizing regions of eastern China. Here, we identified 211 macroinvertibrates species from 385 river sites in Ningbo, Zhejiang Province, China. We classified sites as low‐disturbance (LD) or high‐disturbance (HD) based on surrounding land use. This study examined differences in macroinvertebrate community composition, taxonomic and functional diversity, and functional feeding groups (FFGs) between disturbance levels, and further explored the potential direct and indirect effects of land use and environmental factors using structural equation modeling (SEM). Macroinvertebrate community composition differed significantly (p = 0.001) between LD and HD sites, with HD sites showing lower taxonomic and functional diversity. The relative abundance of FFGs also shifted with disturbance level, with filterers, gatherers, and predators more abundant at LD sites, whereas scrapers and shredders increased at HD sites. SEM further indicated that agricultural and urban land uses were negatively associated with both taxonomic and functional diversity, while non‐purgeable organic carbon (NPOC) showed a positive association with diversity. These findings demonstrate that anthropogenic land‐use disturbance can restructure macroinvertebrate communities and reduce multiple dimensions of biodiversity, highlighting the importance of integrating both taxonomic and functional information into ecological assessments of human‐dominated river systems."
+        ],
+        "terms": [
+          {
+            "term": "functional diversity",
+            "definition": "Variation in the traits of organisms that influence ecosystem processes."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nMacroinvertebrates play critical roles in aquatic ecosystems, yet the effects of anthropogenic land‐use disturbance on macroinvertebrate communities and their taxonomic and _____ remain poorly understood, particularly in rapidly urbanizing regions of eastern China.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "confidentiality",
+                "explanation": "This is not the expression used in this sentence. Protection of information whose access or disclosure is restricted."
+              },
+              {
+                "id": "b",
+                "text": "decarbonization",
+                "explanation": "This is not the expression used in this sentence. The reduction of carbon dioxide emissions associated with an activity or system."
+              },
+              {
+                "id": "c",
+                "text": "country-specific emission factors",
+                "explanation": "This is not the expression used in this sentence. Factors developed to reflect the conditions of a particular country."
+              },
+              {
+                "id": "d",
+                "text": "functional diversity",
+                "explanation": "The original abstract uses this expression. Variation in the traits of organisms that influence ecosystem processes."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: functional diversity. Variation in the traits of organisms that influence ecosystem processes. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThese findings demonstrate that anthropogenic land‐use disturbance can restructure macroinvertebrate communities and reduce multiple dimensions of _____, highlighting the importance of integrating both taxonomic and functional information into ecological assessments of human‐dominated river systems.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "neural network",
+                "explanation": "This is not the expression used in this sentence. A computational model built from connected units whose parameters are adjusted using data."
+              },
+              {
+                "id": "b",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "c",
+                "text": "functional diversity",
+                "explanation": "This is not the expression used in this sentence. Variation in the traits of organisms that influence ecosystem processes."
+              },
+              {
+                "id": "d",
+                "text": "oxidative potential",
+                "explanation": "This is not the expression used in this sentence. A measure of a material's capacity to drive oxidation in a specified assay or biological context."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nMacroinvertebrates play critical roles in aquatic ecosystems, yet the effects of anthropogenic land‐use disturbance on macroinvertebrate communities and their taxonomic and functional diversity remain poorly understood, particularly in rapidly urbanizing regions of eastern China. Here, we identified 211 macroinvertibrates species from 385 river sites in Ningbo, Zhejiang Province, China. We classified sites as low‐disturbance (LD) or high‐disturbance (HD) based on surrounding land use. This study examined differences in macroinvertebrate community composition, taxonomic and functional diversity, and functional feeding groups (FFGs) between disturbance levels, and further explored the potential direct and indirect effects of land use and environmental factors using structural equation modeling (SEM). Macroinvertebrate community composition differed significantly (p = 0.001) between LD and HD sites, with HD sites showing lower taxonomic and functional diversity. The relative abundance of FFGs also shifted with disturbance level, with filterers, gatherers, and predators more abundant at LD sites, whereas scrapers and shredders increased at HD sites. SEM further indicated that agricultural and urban land uses were negatively associated with both taxonomic and functional diversity, while non‐purgeable organic carbon (NPOC) showed a positive association with diversity. These findings demonstrate that anthropogenic land‐use disturbance can restructure macroinvertebrate communities and reduce multiple dimensions of biodiversity, highlighting the importance of integrating both taxonomic and functional information into ecological assessments of human‐dominated river systems.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-22",
+        "addedAt": "2026-10-28T03:46:04Z"
+      }
     }
   ],
   "vocabulary": [
@@ -872,9 +1015,35 @@
       "evidence": "Our study provides essential baseline data across human, animal, and environmental sectors in Iran, forming a basis for future One Health strategies and policy‐making.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-0d91cc8fa90b742d5169",
+      "term": "functional diversity",
+      "meaning": "Variation in the traits of organisms that influence ecosystem processes.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Macroinvertebrates play critical roles in aquatic ecosystems, yet the effects of anthropogenic land‐use disturbance on macroinvertebrate communities and their taxonomic and functional diversity remain poorly understood, particularly in rapidly urbanizing regions of eastern China.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13688088",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Macroinvertebrates play critical roles in aquatic ecosystems, yet the effects of anthropogenic land‐use disturbance on macroinvertebrate communities and their taxonomic and functional diversity remain poorly understood, particularly in rapidly urbanizing regions of eastern China.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-10-28T03:46:04Z",
+      "added": 1,
+      "total": 6
+    },
     {
       "checkedAt": "2026-10-28T03:42:20Z",
       "added": 2,
