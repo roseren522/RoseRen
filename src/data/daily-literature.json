@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-10-27T02:52:04Z",
-  "lastAddedAt": "2026-10-27T02:52:04Z",
+  "lastCheckedAt": "2026-10-28T03:42:20Z",
+  "lastAddedAt": "2026-10-28T03:42:20Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -458,6 +458,292 @@
         "publishedAt": "2026-10-22",
         "addedAt": "2026-10-27T02:52:04Z"
       }
+    },
+    {
+      "title": "Inkjet and Related Printing Technologies for Plant Systems: From Physiological Monitoring to Functional Biofabrication",
+      "paragraphs": [
+        "Featuring non-contact, high-precision, and multi-material deposition, inkjet and related printing technologies offer a new alternative technique for plant systems. However, the spatial heterogeneity, continuous growth, and sensitivity of plant tissues to external perturbations make it difficult for conventional methods to target specific sites on living organs. This review evaluates thermal and piezoelectric inkjet printing, together with aerosol jet and electrohydrodynamic printing for plant applications. Moreover, it relates the jetting behavior of the printhead to interfacial processes between droplets and plant surfaces. Practical performance is assessed across four dimensions: effective feature size, organ-scale throughput, potential biological damage, and the physiological compatibility of printing inks with plants. Applications are then organized within a framework comprising five tiers: monitoring, delivery, sensing, biofabrication, and intelligent systems. Specifically, recent studies have demonstrated that these printing approaches can be employed for surface labeling and growth tracking of plant organs, localized delivery of agricultural inputs, fabrication of flexible sensors, and construction of living materials (e.g., plant cells). Combined with artificial intelligence technology, these capabilities could form a closed-loop system spanning sensing to feedback, with printing as the precision actuator, potentially shifting plant management from passive observation to active regulation. Finally, this review discusses the challenges of living-interface dynamics, ink biocompatibility, multiscale integration, and data intelligence. It further outlines the prospects of these technologies for programmable plants and living agricultural interfaces. By bridging printing technologies, plant systems, and functional biofabrication, this review provides a unified framework to guide the development of intelligent and sustainable agricultural systems."
+      ],
+      "authors": "Xiukun Wang, Xing Zhang, Guanghui Wang, Bokai Feng, Yang Zhang",
+      "journal": "Biomimetics",
+      "doi": "10.3390/biomimetics11100763",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "82bf6ee0a118834523dd62be63ed57f4b972f27e18b9b2f02a690e81111e664f",
+      "pmcid": "PMC13702445",
+      "publishedAt": "2026-10-21",
+      "addedAt": "2026-10-28T03:42:20Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13702445",
+        "kind": "article",
+        "title": "Inkjet and Related Printing Technologies for Plant Systems: From Physiological Monitoring to Functional Biofabrication",
+        "authors": "Xiukun Wang, Xing Zhang, Guanghui Wang, Bokai Feng, Yang Zhang",
+        "organization": "Biomimetics",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13702445/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "82bf6ee0a118834523dd62be63ed57f4b972f27e18b9b2f02a690e81111e664f",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-21",
+        "doi": "10.3390/biomimetics11100763"
+      },
+      "lesson": {
+        "id": "literature-pmc13702445",
+        "version": 1,
+        "title": "Inkjet and Related Printing Technologies for Plant Systems: From Physiological Monitoring to Functional Biofabrication",
+        "subtitle": "Open-access abstract · Biomimetics · 2026-10-21",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13702445",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Featuring non-contact, high-precision, and multi-material deposition, inkjet and related printing technologies offer a new alternative technique for plant systems. However, the spatial heterogeneity, continuous growth, and sensitivity of plant tissues to external perturbations make it difficult for conventional methods to target specific sites on living organs. This review evaluates thermal and piezoelectric inkjet printing, together with aerosol jet and electrohydrodynamic printing for plant applications. Moreover, it relates the jetting behavior of the printhead to interfacial processes between droplets and plant surfaces. Practical performance is assessed across four dimensions: effective feature size, organ-scale throughput, potential biological damage, and the physiological compatibility of printing inks with plants. Applications are then organized within a framework comprising five tiers: monitoring, delivery, sensing, biofabrication, and intelligent systems. Specifically, recent studies have demonstrated that these printing approaches can be employed for surface labeling and growth tracking of plant organs, localized delivery of agricultural inputs, fabrication of flexible sensors, and construction of living materials (e.g., plant cells). Combined with artificial intelligence technology, these capabilities could form a closed-loop system spanning sensing to feedback, with printing as the precision actuator, potentially shifting plant management from passive observation to active regulation. Finally, this review discusses the challenges of living-interface dynamics, ink biocompatibility, multiscale integration, and data intelligence. It further outlines the prospects of these technologies for programmable plants and living agricultural interfaces. By bridging printing technologies, plant systems, and functional biofabrication, this review provides a unified framework to guide the development of intelligent and sustainable agricultural systems."
+        ],
+        "terms": [
+          {
+            "term": "precision",
+            "definition": "Agreement among repeated measurements or estimates."
+          },
+          {
+            "term": "feedback",
+            "definition": "A process in which a system's response influences the conditions driving that response."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nFeaturing non-contact, high-_____, and multi-material deposition, inkjet and related printing technologies offer a new alternative technique for plant systems.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "runoff",
+                "explanation": "This is not the expression used in this sentence. Water and associated material moving across the land surface."
+              },
+              {
+                "id": "b",
+                "text": "carbon sequestration",
+                "explanation": "This is not the expression used in this sentence. The capture and storage of carbon in a reservoir such as vegetation, soil or geological formations."
+              },
+              {
+                "id": "c",
+                "text": "precision",
+                "explanation": "The original abstract uses this expression. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "d",
+                "text": "census",
+                "explanation": "This is not the expression used in this sentence. A data collection exercise intended to cover the whole population of interest."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: precision. Agreement among repeated measurements or estimates. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nCombined with artificial intelligence technology, these capabilities could form a closed-loop system spanning sensing to _____, with printing as the precision actuator, potentially shifting plant management from passive observation to active regulation.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "species richness",
+                "explanation": "This is not the expression used in this sentence. The number of different species present in a defined area or sample."
+              },
+              {
+                "id": "b",
+                "text": "dissolved organic carbon",
+                "explanation": "This is not the expression used in this sentence. Organic carbon present in the fraction of a water sample operationally classified as dissolved."
+              },
+              {
+                "id": "c",
+                "text": "feedback",
+                "explanation": "The original abstract uses this expression. A process in which a system's response influences the conditions driving that response."
+              },
+              {
+                "id": "d",
+                "text": "correlation",
+                "explanation": "This is not the expression used in this sentence. A statistical relationship in how two quantities vary together."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: feedback. A process in which a system's response influences the conditions driving that response. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nFeaturing non-contact, high-precision, and multi-material deposition, inkjet and related printing technologies offer a new alternative technique for plant systems. However, the spatial heterogeneity, continuous growth, and sensitivity of plant tissues to external perturbations make it difficult for conventional methods to target specific sites on living organs. This review evaluates thermal and piezoelectric inkjet printing, together with aerosol jet and electrohydrodynamic printing for plant applications. Moreover, it relates the jetting behavior of the printhead to interfacial processes between droplets and plant surfaces. Practical performance is assessed across four dimensions: effective feature size, organ-scale throughput, potential biological damage, and the physiological compatibility of printing inks with plants. Applications are then organized within a framework comprising five tiers: monitoring, delivery, sensing, biofabrication, and intelligent systems. Specifically, recent studies have demonstrated that these printing approaches can be employed for surface labeling and growth tracking of plant organs, localized delivery of agricultural inputs, fabrication of flexible sensors, and construction of living materials (e.g., plant cells). Combined with artificial intelligence technology, these capabilities could form a closed-loop system spanning sensing to feedback, with printing as the precision actuator, potentially shifting plant management from passive observation to active regulation. Finally, this review discusses the challenges of living-interface dynamics, ink biocompatibility, multiscale integration, and data intelligence. It further outlines the prospects of these technologies for programmable plants and living agricultural interfaces. By bridging printing technologies, plant systems, and functional biofabrication, this review provides a unified framework to guide the development of intelligent and sustainable agricultural systems.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-21",
+        "addedAt": "2026-10-28T03:42:20Z"
+      }
+    },
+    {
+      "title": "Iran's Escherichia coli AMR Landscape (2010–2025): A One Health Systematic Review and Meta‐Analysis",
+      "paragraphs": [
+        "Escherichia coli (E. coli) has developed resistance to multiple antibiotic classes, complicating treatment in both human and veterinary medicine. This study assesses the prevalence of antimicrobial resistance and antimicrobial resistance genes in E. coli in Iran, within a One Health framework encompassing humans, animals, foods, and the environment. We systematically searched Scopus, Google Scholar, Magiran, PubMed, Scientific Information Database Library (SID), and Web of Science, using keywords related to AMR and Escherichia coli, restricting to English and Persian publications from 2010 to January 2025. The risk of bias was evaluated using the JBI checklist for prevalence studies. Pooled prevalence and 95% confidence intervals (CIs) were calculated for each antibiotic using random‐effects models. A total of 368 studies were included in the meta‐analysis. The highest resistance was observed in the Classes of Penicillins (71.7, 95% CI: 65.6–76.6) and the lowest for Fosfomycins (6.8, 95% CI: 5.2–8.5). Resistance to Ceftizoxime, Ertapenem, Streptomycin, Piperacillin‐Tazobactam, and Colistin increased over time. Phenotypically, 47.2%, 20.2%, and 14.1% of E. coli isolates were identified as extended‐spectrum β‐lactamase‐producing (ESBL), AmpC, and metallo‐beta‐lactamase (MBL) producing, respectively. Among ESBL‐producing isolates, the prevalence of bla CTX‐M, bla TEM, and bla SHV genes was 68.2%, 58.5%, and 24.4%, respectively. The high prevalence of AMR highlights the critical need for robust antimicrobial stewardship within a One Health framework to preserve antibiotic efficacy. Our study provides essential baseline data across human, animal, and environmental sectors in Iran, forming a basis for future One Health strategies and policy‐making."
+      ],
+      "authors": "Arezoo Dehghan, Mina Arabian, Zahra Tahmasebi, Aliasghar Fakhri‐Demeshghieh, Neda Baseri, Ehsan Mostafavi, Farzad Badmasti, Faranak Abnaroodhelleh, Arash Seifi, Fahimeh Bagheri Amiri",
+      "journal": "MicrobiologyOpen",
+      "doi": "10.1002/mbo3.70420",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "4aa273a18b3e3b5ae00371153214424164aba8a362bfc0c565598244fb028aa5",
+      "pmcid": "PMC13635689",
+      "publishedAt": "2026-10-01",
+      "addedAt": "2026-10-28T03:42:20Z",
+      "topic": "Research methods",
+      "source": {
+        "id": "literature-pmc13635689",
+        "kind": "article",
+        "title": "Iran's Escherichia coli AMR Landscape (2010–2025): A One Health Systematic Review and Meta‐Analysis",
+        "authors": "Arezoo Dehghan, Mina Arabian, Zahra Tahmasebi, Aliasghar Fakhri‐Demeshghieh, Neda Baseri, Ehsan Mostafavi, Farzad Badmasti, Faranak Abnaroodhelleh, Arash Seifi, Fahimeh Bagheri Amiri",
+        "organization": "MicrobiologyOpen",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13635689/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "4aa273a18b3e3b5ae00371153214424164aba8a362bfc0c565598244fb028aa5",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-01",
+        "doi": "10.1002/mbo3.70420"
+      },
+      "lesson": {
+        "id": "literature-pmc13635689",
+        "version": 1,
+        "title": "Iran's Escherichia coli AMR Landscape (2010–2025): A One Health Systematic Review and Meta‐Analysis",
+        "subtitle": "Open-access abstract · MicrobiologyOpen · 2026-10-01",
+        "topic": "Research methods",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13635689",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Escherichia coli (E. coli) has developed resistance to multiple antibiotic classes, complicating treatment in both human and veterinary medicine. This study assesses the prevalence of antimicrobial resistance and antimicrobial resistance genes in E. coli in Iran, within a One Health framework encompassing humans, animals, foods, and the environment. We systematically searched Scopus, Google Scholar, Magiran, PubMed, Scientific Information Database Library (SID), and Web of Science, using keywords related to AMR and Escherichia coli, restricting to English and Persian publications from 2010 to January 2025. The risk of bias was evaluated using the JBI checklist for prevalence studies. Pooled prevalence and 95% confidence intervals (CIs) were calculated for each antibiotic using random‐effects models. A total of 368 studies were included in the meta‐analysis. The highest resistance was observed in the Classes of Penicillins (71.7, 95% CI: 65.6–76.6) and the lowest for Fosfomycins (6.8, 95% CI: 5.2–8.5). Resistance to Ceftizoxime, Ertapenem, Streptomycin, Piperacillin‐Tazobactam, and Colistin increased over time. Phenotypically, 47.2%, 20.2%, and 14.1% of E. coli isolates were identified as extended‐spectrum β‐lactamase‐producing (ESBL), AmpC, and metallo‐beta‐lactamase (MBL) producing, respectively. Among ESBL‐producing isolates, the prevalence of bla CTX‐M, bla TEM, and bla SHV genes was 68.2%, 58.5%, and 24.4%, respectively. The high prevalence of AMR highlights the critical need for robust antimicrobial stewardship within a One Health framework to preserve antibiotic efficacy. Our study provides essential baseline data across human, animal, and environmental sectors in Iran, forming a basis for future One Health strategies and policy‐making."
+        ],
+        "terms": [
+          {
+            "term": "baseline",
+            "definition": "A reference state or period against which a change is assessed."
+          },
+          {
+            "term": "bias",
+            "definition": "A systematic tendency to overestimate or underestimate a quantity."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nOur study provides essential _____ data across human, animal, and environmental sectors in Iran, forming a basis for future One Health strategies and policy‐making.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "nitrogen fixation",
+                "explanation": "This is not the expression used in this sentence. The conversion of molecular nitrogen into chemically reactive nitrogen compounds."
+              },
+              {
+                "id": "b",
+                "text": "feedback",
+                "explanation": "This is not the expression used in this sentence. A process in which a system's response influences the conditions driving that response."
+              },
+              {
+                "id": "c",
+                "text": "radiative forcing",
+                "explanation": "This is not the expression used in this sentence. A change in the net energy flux in the Earth system caused by a specified driver."
+              },
+              {
+                "id": "d",
+                "text": "baseline",
+                "explanation": "The original abstract uses this expression. A reference state or period against which a change is assessed."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: baseline. A reference state or period against which a change is assessed. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe risk of _____ was evaluated using the JBI checklist for prevalence studies.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "heat stress",
+                "explanation": "This is not the expression used in this sentence. Strain on organisms or systems caused by exposure to high temperatures."
+              },
+              {
+                "id": "b",
+                "text": "bias",
+                "explanation": "The original abstract uses this expression. A systematic tendency to overestimate or underestimate a quantity."
+              },
+              {
+                "id": "c",
+                "text": "generalizability",
+                "explanation": "This is not the expression used in this sentence. The extent to which findings apply beyond the conditions or population studied."
+              },
+              {
+                "id": "d",
+                "text": "ground truth",
+                "explanation": "This is not the expression used in this sentence. Reference observations used to assess or interpret remotely obtained data."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: bias. A systematic tendency to overestimate or underestimate a quantity. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nEscherichia coli (E. coli) has developed resistance to multiple antibiotic classes, complicating treatment in both human and veterinary medicine. This study assesses the prevalence of antimicrobial resistance and antimicrobial resistance genes in E. coli in Iran, within a One Health framework encompassing humans, animals, foods, and the environment. We systematically searched Scopus, Google Scholar, Magiran, PubMed, Scientific Information Database Library (SID), and Web of Science, using keywords related to AMR and Escherichia coli, restricting to English and Persian publications from 2010 to January 2025. The risk of bias was evaluated using the JBI checklist for prevalence studies. Pooled prevalence and 95% confidence intervals (CIs) were calculated for each antibiotic using random‐effects models. A total of 368 studies were included in the meta‐analysis. The highest resistance was observed in the Classes of Penicillins (71.7, 95% CI: 65.6–76.6) and the lowest for Fosfomycins (6.8, 95% CI: 5.2–8.5). Resistance to Ceftizoxime, Ertapenem, Streptomycin, Piperacillin‐Tazobactam, and Colistin increased over time. Phenotypically, 47.2%, 20.2%, and 14.1% of E. coli isolates were identified as extended‐spectrum β‐lactamase‐producing (ESBL), AmpC, and metallo‐beta‐lactamase (MBL) producing, respectively. Among ESBL‐producing isolates, the prevalence of bla CTX‐M, bla TEM, and bla SHV genes was 68.2%, 58.5%, and 24.4%, respectively. The high prevalence of AMR highlights the critical need for robust antimicrobial stewardship within a One Health framework to preserve antibiotic efficacy. Our study provides essential baseline data across human, animal, and environmental sectors in Iran, forming a basis for future One Health strategies and policy‐making.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-01",
+        "addedAt": "2026-10-28T03:42:20Z"
+      }
     }
   ],
   "vocabulary": [
@@ -544,9 +830,56 @@
       "evidence": "Chemical characterization, based on spectroscopic and spectrometric methods, identifies the composition of SPM and its association with heavy metals, organic pollutants, and microplastics.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-59bda3f8ee98128d5435",
+      "term": "feedback",
+      "meaning": "A process in which a system's response influences the conditions driving that response.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Combined with artificial intelligence technology, these capabilities could form a closed-loop system spanning sensing to feedback, with printing as the precision actuator, potentially shifting plant management from passive observation to active regulation.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13702445",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Combined with artificial intelligence technology, these capabilities could form a closed-loop system spanning sensing to feedback, with printing as the precision actuator, potentially shifting plant management from passive observation to active regulation.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-8ba8496a2525ae171ffd",
+      "term": "baseline",
+      "meaning": "A reference state or period against which a change is assessed.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Our study provides essential baseline data across human, animal, and environmental sectors in Iran, forming a basis for future One Health strategies and policy‐making.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13635689",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Our study provides essential baseline data across human, animal, and environmental sectors in Iran, forming a basis for future One Health strategies and policy‐making.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-10-28T03:42:20Z",
+      "added": 2,
+      "total": 5
+    },
     {
       "checkedAt": "2026-10-27T02:52:04Z",
       "added": 3,
