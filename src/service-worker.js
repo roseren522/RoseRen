@@ -1,5 +1,7 @@
 const CACHE = 'fieldnotes-shell-__CACHE_VERSION__';
-self.addEventListener('install', event => { self.skipWaiting(); event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(__PRECACHE_ASSETS__))); });
+// Let an updated worker wait until existing tabs finish with the old shell.
+// Forced activation evicts their cached assets while they may still need them.
+self.addEventListener('install', event => { event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(__PRECACHE_ASSETS__))); });
 self.addEventListener('activate', event => { event.waitUntil(Promise.all([self.clients.claim(), caches.keys().then(keys => Promise.all(keys.filter(k => k.startsWith('fieldnotes-shell-') && k !== CACHE).map(k => caches.delete(k))))])); });
 self.addEventListener('fetch', event => {
  const url = new URL(event.request.url);

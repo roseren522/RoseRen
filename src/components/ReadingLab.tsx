@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowLeft,
   ArrowRight,
@@ -28,7 +28,7 @@ import {
   validWritingFeedback,
   type WritingFeedback as WritingReport,
 } from "../lib/writingFeedback";
-const WritingFeedback = lazy(() => import("./WritingFeedback"));
+import WritingFeedback from "./WritingFeedback";
 import {
   readingAnswers,
   readingHistory,
@@ -1249,18 +1249,10 @@ function ReadingExercise({
             </button>
           )}
           {currentFeedback && (
-            <Suspense
-              fallback={
-                <p className="writing-feedback-note" role="status">
-                  Preparing feedback…
-                </p>
-              }
-            >
-              <WritingFeedback
-                report={currentFeedback.report}
-                saved={currentFeedback.saved}
-              />
-            </Suspense>
+            <WritingFeedback
+              report={currentFeedback.report}
+              saved={currentFeedback.saved}
+            />
           )}
           {feedback && feedback.answer !== answer && (
             <p className="writing-feedback-note">

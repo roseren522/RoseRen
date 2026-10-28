@@ -1,3 +1,4 @@
+import { Component, type ReactNode } from "react";
 import {
   CheckCircle2,
   Circle,
@@ -6,13 +7,59 @@ import {
 } from "lucide-react";
 import type { WritingFeedback as Report } from "../lib/writingFeedback";
 
-export default function WritingFeedback({
-  report,
-  saved,
-}: {
+interface Props {
   report: Report;
   saved: boolean;
-}) {
+}
+
+// Feedback is optional UI: an unexpected rendering error must never unmount
+// the exercise, its answer box, or the rest of the learning application.
+class FeedbackBoundary extends Component<
+  Props & { children: ReactNode },
+  { failed: boolean }
+> {
+  state = { failed: false };
+
+  static getDerivedStateFromError() {
+    return { failed: true };
+  }
+
+  componentDidUpdate(previous: Props) {
+    if (this.state.failed && previous.report !== this.props.report)
+      this.setState({ failed: false });
+  }
+
+  render() {
+    if (!this.state.failed) return this.props.children;
+    return (
+      <section className="writing-feedback" aria-label="Answer feedback">
+        <p role="alert">
+          Feedback could not be displayed. Your response is still available in
+          the answer box above.
+        </p>
+        {this.props.saved && (
+          <p>Your checked answer is saved on this device.</p>
+        )}
+        <button
+          className="button secondary"
+          onClick={() => this.setState({ failed: false })}
+        >
+          Retry feedback
+        </button>
+      </section>
+    );
+  }
+}
+
+export default function WritingFeedback(props: Props) {
+  return (
+    <FeedbackBoundary {...props}>
+      <FeedbackContent {...props} />
+    </FeedbackBoundary>
+  );
+}
+
+function FeedbackContent({ report, saved }: Props) {
   return (
     <section className="writing-feedback" aria-label="Answer feedback">
       <div className="writing-feedback-heading">
