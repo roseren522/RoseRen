@@ -99,3 +99,27 @@ test("daily section reports pending first search honestly", async ({
     ),
   ).toBe(true);
 });
+
+test("today's successful search with no additions does not look like an unrun schedule", async ({
+  page,
+}) => {
+  await page.clock.setFixedTime(new Date("2026-10-29T07:00:00Z"));
+  const data = { ...fixture, lastCheckedAt: "2026-10-29T05:42:16Z" };
+  await page.route(/\/src\/data\/daily-literature\.json(?:\?.*)?$/, (route) =>
+    route.fulfill({
+      contentType: "application/javascript",
+      body: `export default ${JSON.stringify(data)};`,
+    }),
+  );
+  await page.goto("/#reading");
+  await expect(page.locator(".daily-search-today")).toContainText(
+    "Search completed today · 0 new articles · 0 new words",
+  );
+  await expect(
+    page.getByText("Latest addition: 2026-10-27", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText(/No eligible unseen papers were added/),
+  ).toBeVisible();
+  await expect(page.getByText(/12:37 and 20:47 China time/)).toBeVisible();
+});

@@ -69,7 +69,14 @@ jobs:
         run: python3 -m unittest discover -s tests/literature -v
       - name: Search and import licensed abstracts
         if: steps.plan.outputs.needed == 'true'
-        run: python3 scripts/update_literature.py
+        run: |
+          # The importer publishes atomically. Retry temporary source/network
+          # failures without replacing the last successful catalog.
+          for attempt in 1 2 3; do
+            if python3 scripts/update_literature.py; then exit 0; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+            sleep 5
+          done
       - name: Validate content and build
         if: steps.plan.outputs.needed == 'true'
         run: |
@@ -107,5 +114,7 @@ jobs:
           print('Articles added this run:', data['history'][0]['added'])
           print('Total articles:', len(data['articles']))
           print('New vocabulary total:', len(data['vocabulary']))
+          print('Vocabulary added this run:', data['history'][0].get('vocabularyAdded', 0))
+          print('Screening counts:', json.dumps(data['history'][0].get('screening', {}), sort_keys=True))
           print('\nThe existing Vercel Git integration receives the content commit. Check its deployment status separately.')
           PY

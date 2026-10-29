@@ -13,13 +13,14 @@ export interface DailyArticle {
   source: Source;
   lesson: ReadingLesson;
 }
-export const dailyLiterature = dailyData as {
+export interface DailyCatalog {
   schemaVersion: number;
   lastCheckedAt: string | null;
   lastAddedAt: string | null;
   articles: DailyArticle[];
   vocabulary: Entry[];
-};
+}
+export const dailyLiterature = dailyData as DailyCatalog;
 export const seed = [...(vocabulary as Entry[]), ...dailyLiterature.vocabulary];
 export const sources = [
   ...(references as Source[]),

@@ -3790,6 +3790,13 @@ kbd {
   background: #fffdf8;
   box-shadow: 0 8px 28px #28372e24;
 }
+/* Only plugin-inserted translation targets are hidden, never source text or
+   personal highlights. Explicitly protect marks created after page load too. */
+.reading-highlight-layer .immersive-translate-target-wrapper,
+.reading-lab .immersive-translate-target-wrapper,
+.reading-vocabulary-dialog .immersive-translate-target-wrapper {
+  display: none !important;
+}
 .reading-word-existing {
   display: flex;
   align-items: flex-start;
@@ -4079,8 +4086,22 @@ kbd {
   border-top: 1px solid #e0e9d5;
   padding-top: 20px;
 }
-.writing-check-button {
-  margin: 4px 0 14px;
+.reading-answer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 12px;
+  margin: 8px 0 14px;
+}
+.reading-answer-actions > .button {
+  flex: 1 1 215px;
+  min-height: 44px;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+.reading-answer-actions > .button:hover {
+  transform: none;
 }
 .writing-feedback {
   border: 1px solid #d1dfc5;

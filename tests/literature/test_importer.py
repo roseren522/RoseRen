@@ -4,6 +4,8 @@ import importlib.util
 import json
 import unittest
 import urllib.error
+import io
+from unittest.mock import patch
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -171,8 +173,34 @@ class ImporterTests(unittest.TestCase):
         self.assertIn("FIRST_IDATE:[2026-09-27 TO 2026-10-27]", query)
         self.assertIn("FIRST_PDATE:[2025-10-27 TO 2026-10-27]", query)
         self.assertIn("LANG:eng", query)
+        self.assertIn("IN_PMC:Y", query)
         with self.assertRaisesRegex(ValueError, "Unexpected"):
             original("https://example.invalid/untrusted")
+
+    def test_zero_additions_record_screening_without_changing_latest_addition(self):
+        first = self.collect()
+        with patch.object(ingest, "glossary", return_value={}):
+            later = self.collect(rows=[record("PMC456", "Different paper", "10.1234/other")],
+                                 raw=fixture_xml("PMC456", "Different paper", "10.1234/other"),
+                                 catalog=first, now=NOW + timedelta(days=1))
+        run = later["history"][0]
+        self.assertEqual(run["added"], 0)
+        self.assertEqual(run["vocabularyAdded"], 0)
+        self.assertEqual(run["screening"]["candidates"], 1)
+        self.assertEqual(run["screening"]["xmlInspected"], 1)
+        self.assertEqual(run["screening"]["insufficientTerms"], 1)
+        self.assertEqual(later["lastAddedAt"], first["lastAddedAt"])
+        self.assertNotEqual(later["lastCheckedAt"], first["lastCheckedAt"])
+        self.assertTrue(ingest.scheduled_run_needed(self.config, later, NOW + timedelta(days=1)))
+
+    def test_unavailable_xml_is_counted_and_timeouts_are_retried(self):
+        def missing(_):
+            raise urllib.error.HTTPError(ingest.API + '/PMC123/fullTextXML', 404, 'Not available yet', {}, None)
+        data = ingest.collect(self.config, self.empty, NOW, lambda *_: [record()], missing)
+        self.assertEqual(data["history"][0]["screening"]["unavailable"], 1)
+        with patch.object(ingest.urllib.request, "urlopen", side_effect=[TimeoutError(), io.BytesIO(b'recovered')]) as request, patch.object(ingest.time, "sleep"):
+            self.assertEqual(ingest.request(ingest.API + '/search?query=test'), b'recovered')
+            self.assertEqual(request.call_count, 2)
 
 
 if __name__ == "__main__":

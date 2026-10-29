@@ -75,7 +75,7 @@ def request(url):
         except urllib.error.HTTPError as error:
             if error.code not in (429, 500, 502, 503, 504) or attempt == 2:
                 raise
-        except urllib.error.URLError:
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
             if attempt == 2:
                 raise
         time.sleep(2 ** attempt)
@@ -87,7 +87,7 @@ def search(topic, config, now):
     index_start = today - timedelta(days=config["index_lookback_days"])
     publication_start = today - timedelta(days=config["publication_lookback_days"])
     query = (
-        f'({topic["query"]}) AND OPEN_ACCESS:Y AND HAS_ABSTRACT:Y AND LANG:eng '
+        f'({topic["query"]}) AND OPEN_ACCESS:Y AND IN_PMC:Y AND HAS_ABSTRACT:Y AND LANG:eng '
         f'AND FIRST_IDATE:[{index_start} TO {today}] '
         f'AND FIRST_PDATE:[{publication_start} TO {today}] '
         'AND NOT PUB_TYPE:"Preprint" AND NOT PUB_TYPE:"Retracted Publication" '
@@ -258,6 +258,9 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
     known_terms = {normalized(e["term"]) for e in json.loads((ROOT / "src/data/vocabulary.json").read_text()) + output["vocabulary"]}
     definitions = glossary()
     added = 0
+    vocabulary_before = len(output["vocabulary"])
+    screening = {"candidates": sum(len(records) for _, records in queues), "xmlInspected": 0,
+                 "unavailable": 0, "ineligible": 0, "duplicate": 0, "insufficientTerms": 0}
     errors = []
     inspected = set()
     # Rotate the first topic each day to avoid permanently favouring one field.
@@ -280,25 +283,33 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
                 record.get("isRetracted", "N") == "Y"):
                 continue
             inspected.add(pmcid)
+            screening["xmlInspected"] += 1
             try:
                 raw = xml_fn(pmcid) if xml_fn else request(API + "/" + pmcid + "/fullTextXML")
                 article = licensed_abstract(raw, pmcid)
             except urllib.error.HTTPError as error:
                 if error.code in (404, 410):
+                    screening["unavailable"] += 1
                     continue  # Metadata can appear before the full-text XML.
                 errors.append(f"{pmcid}: HTTP {error.code}")
                 continue
             except (urllib.error.URLError, ET.ParseError, ValueError) as error:
                 errors.append(f"{pmcid}: {type(error).__name__}")
                 continue
-            if not article or (article["doi"] and article["doi"] in seen_doi) or normalized(article["title"]) in seen_title:
+            if not article:
+                screening["ineligible"] += 1
+                continue
+            if (article["doi"] and article["doi"] in seen_doi) or normalized(article["title"]) in seen_title:
+                screening["duplicate"] += 1
                 continue
             if doi and article["doi"] and doi != article["doi"]:
+                screening["ineligible"] += 1
                 continue
             article.update({"pmcid": pmcid, "publishedAt": published, "addedAt": timestamp, "topic": topic["name"]})
             source_id = "literature-" + pmcid.lower()
             lesson = make_lesson(article, source_id, definitions)
             if not lesson:
+                screening["insufficientTerms"] += 1
                 continue
             article["source"] = {
                 "id": source_id, "kind": "article", "title": article["title"], "authors": article["authors"],
@@ -338,7 +349,9 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
     output["lastCheckedAt"] = timestamp
     if added:
         output["lastAddedAt"] = timestamp
-    output["history"] = [{"checkedAt": timestamp, "added": added, "total": len(output["articles"])}] + output["history"][:29]
+    output["history"] = [{"checkedAt": timestamp, "added": added, "total": len(output["articles"]),
+                          "vocabularyAdded": len(output["vocabulary"]) - vocabulary_before,
+                          "screening": screening}] + output["history"][:29]
     validate(output)
     return output
 
@@ -399,6 +412,7 @@ def main():
     temporary.write_text(json.dumps(updated, ensure_ascii=False, indent=2) + "\n")
     os.replace(temporary, CATALOG)
     print(f'Added {len(updated["articles"]) - len(catalog["articles"])} articles; {len(updated["vocabulary"])} daily vocabulary entries total.')
+    print('Search screening: ' + json.dumps(updated['history'][0]['screening'], sort_keys=True))
 
 
 if __name__ == "__main__":

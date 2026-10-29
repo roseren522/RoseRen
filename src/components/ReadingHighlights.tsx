@@ -29,11 +29,17 @@ export function HighlightedText({
 }) {
   const highlights = useContext(HighlightContext);
   return (
-    <span data-highlight-block={blockId}>
+    <span
+      data-highlight-block={blockId}
+      className="notranslate imt-notranslate"
+      translate="no"
+      lang="en"
+    >
       {highlightedSegments(text, blockId, highlights).map((segment) =>
         segment.ids.length ? (
           <mark
-            className="personal-reading-highlight"
+            className="personal-reading-highlight notranslate imt-notranslate"
+            translate="no"
             data-highlight-ids={segment.ids.join(",")}
             key={segment.start}
           >
@@ -253,7 +259,7 @@ export function ReadingHighlights({
   return (
     <HighlightContext.Provider value={highlights}>
       <div
-        className="reading-highlight-layer notranslate"
+        className="reading-highlight-layer notranslate imt-notranslate"
         lang="en"
         translate="no"
         data-immersive-translate="off"

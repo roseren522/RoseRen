@@ -35,6 +35,24 @@ test("automatic reference feedback saves once, survives refresh and supports rev
   await openWriting(page);
   const brief = "Transport can influence concentrations.";
   await page.getByLabel("Your explanation, in English").fill(brief);
+  const checkBox = await page
+    .getByRole("button", { name: "Check my answer", exact: true })
+    .boundingBox();
+  const compareBox = await page
+    .getByRole("button", { name: "Compare with reference points", exact: true })
+    .boundingBox();
+  expect(Math.abs(checkBox!.height - compareBox!.height)).toBeLessThan(1);
+  if (Math.abs(checkBox!.y - compareBox!.y) < 1) {
+    expect(
+      compareBox!.x - (checkBox!.x + checkBox!.width),
+    ).toBeGreaterThanOrEqual(11);
+  } else {
+    expect(Math.abs(checkBox!.x - compareBox!.x)).toBeLessThan(1);
+    expect(Math.abs(checkBox!.width - compareBox!.width)).toBeLessThan(1);
+    expect(
+      compareBox!.y - (checkBox!.y + checkBox!.height),
+    ).toBeGreaterThanOrEqual(11);
+  }
   await page
     .getByRole("button", { name: "Check my answer", exact: true })
     .dblclick();

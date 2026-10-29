@@ -31,6 +31,8 @@ import {
 import WritingFeedback from "./WritingFeedback";
 import ReadingVocabulary from "./ReadingVocabulary";
 import { readingVocabularyEntry } from "../lib/readingVocabulary";
+import { literatureStatus } from "../lib/literatureStatus";
+import { dayKey } from "../lib/model";
 import {
   readingAnswers,
   readingHistory,
@@ -143,6 +145,7 @@ export default function ReadingLab({
   const lesson = readings.find((l) => l.id === selected);
   const summary = readingSummary(events, readings);
   const history = readingHistory(events, readings);
+  const dailyStatus = literatureStatus(dailyLiterature);
   const [progressError, setProgressError] = useState("");
   const [progressSaving, setProgressSaving] = useState(false);
   const failedProgress = useRef<ReadingVisitPayload | null>(null);
@@ -455,9 +458,8 @@ export default function ReadingLab({
                 {lesson.paragraphs.map((text, i) => (
                   <p
                     key={i}
-                    className={
-                      highlight.includes(i + 1) ? "evidence-active" : ""
-                    }
+                    translate="no"
+                    className={`notranslate imt-notranslate ${highlight.includes(i + 1) ? "evidence-active" : ""}`}
                   >
                     <span className="paragraph-number">
                       {String(i + 1).padStart(2, "0")}
@@ -745,17 +747,33 @@ export default function ReadingLab({
         </div>
         <div>
           <strong>{dailyLiterature.articles.length} articles added</strong>
+          <p className="daily-search-today" role="status">
+            {dailyStatus.checkedToday
+              ? `Search completed today · ${dailyStatus.articlesAddedToday} new articles · ${dailyStatus.vocabularyAddedToday} new words (China time).`
+              : "Today's search has not completed in this version yet. Automatic catch-up checks are scheduled."}
+          </p>
           <p>
             {dailyLiterature.lastCheckedAt
-              ? `Last successful search: ${new Date(dailyLiterature.lastCheckedAt).toLocaleString("en-GB", { timeZoneName: "short" })}`
+              ? `Last successful search: ${new Date(dailyLiterature.lastCheckedAt).toLocaleString("en-GB", { timeZone: "Asia/Shanghai", timeZoneName: "short" })}`
               : "Awaiting the first successful automated search."}
           </p>
           {dailyLiterature.lastAddedAt && (
-            <p>Latest addition: {dailyLiterature.lastAddedAt.slice(0, 10)}</p>
+            <p>
+              Latest addition:{" "}
+              {dayKey(dailyLiterature.lastAddedAt, "Asia/Shanghai")}
+            </p>
+          )}
+          {dailyStatus.checkedToday && dailyStatus.articlesAddedToday === 0 && (
+            <p>
+              No eligible unseen papers were added in this search. Later
+              automatic checks can still add content; the latest addition date
+              stays unchanged until something new is saved.
+            </p>
           )}
           <p>
-            Daily schedule: 08:17 China time. Search indexing and scheduled runs
-            can be delayed; some days have no eligible new papers.
+            Daily schedule: 08:17, with catch-up checks at 12:37 and 20:47 China
+            time. Search indexing and scheduled runs can be delayed; some days
+            have no eligible new papers.
           </p>
         </div>
       </section>
@@ -1250,28 +1268,47 @@ function ReadingExercise({
               )}
             </div>
           )}
-          {(!currentFeedback || !currentFeedback.saved) && (
-            <button
-              className="button primary writing-check-button"
-              disabled={
-                !answer.trim() ||
-                busy ||
-                draft.status === "saving" ||
-                draft.status === "loading"
-              }
-              onClick={() => void checkAnswer()}
-            >
-              {busy ? (
-                <LoaderCircle size={15} className="spin" />
-              ) : (
-                <CheckCircle2 size={15} />
+          {(!currentFeedback?.saved || !referenceVisible) && (
+            <div className="reading-answer-actions">
+              {(!currentFeedback || !currentFeedback.saved) && (
+                <button
+                  className="button primary writing-check-button"
+                  disabled={
+                    !answer.trim() ||
+                    busy ||
+                    draft.status === "saving" ||
+                    draft.status === "loading"
+                  }
+                  onClick={() => void checkAnswer()}
+                >
+                  {busy ? (
+                    <LoaderCircle size={15} className="spin" />
+                  ) : (
+                    <CheckCircle2 size={15} />
+                  )}
+                  {busy
+                    ? "Checking & saving…"
+                    : currentFeedback
+                      ? "Retry check & save"
+                      : "Check my answer"}
+                </button>
               )}
-              {busy
-                ? "Checking & saving…"
-                : currentFeedback
-                  ? "Retry check & save"
-                  : "Check my answer"}
-            </button>
+              {!referenceVisible && (
+                <button
+                  className="button secondary"
+                  disabled={
+                    !answer.trim() ||
+                    busy ||
+                    draft.status === "saving" ||
+                    draft.status === "loading"
+                  }
+                  onClick={() => setShowReference(true)}
+                >
+                  Compare with reference points
+                  <ArrowRight size={15} />
+                </button>
+              )}
+            </div>
           )}
           {currentFeedback && (
             <WritingFeedback
@@ -1283,20 +1320,6 @@ function ReadingExercise({
             <p className="writing-feedback-note">
               Your answer has changed. Check it again to update the feedback.
             </p>
-          )}
-          {!referenceVisible && (
-            <button
-              className="button secondary"
-              disabled={
-                !answer.trim() ||
-                draft.status === "saving" ||
-                draft.status === "loading"
-              }
-              onClick={() => setShowReference(true)}
-            >
-              Compare with reference points
-              <ArrowRight size={15} />
-            </button>
           )}
           {referenceVisible && (
             <div className="reading-reference">

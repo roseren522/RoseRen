@@ -87,6 +87,29 @@ test("right-click highlights passage and question text, survives refresh and rem
   await expect(
     page.locator('[data-highlight-block="paragraph:0"] mark'),
   ).toHaveText("emissions inventory");
+  await expect(
+    page.locator('[data-highlight-block="paragraph:0"] mark'),
+  ).toHaveAttribute("translate", "no");
+  await expect(
+    page.locator('[data-highlight-block="paragraph:0"] mark'),
+  ).toHaveClass(/imt-notranslate/);
+  await expect(page.locator('meta[name="google"]')).toHaveAttribute(
+    "content",
+    "notranslate",
+  );
+  // Simulate the actual plugin's translation target, leaving original text intact.
+  await page.evaluate(() => {
+    const node = document.createElement("font");
+    node.className = "immersive-translate-target-wrapper";
+    node.textContent = "这是翻译插件插入的译文。";
+    document.querySelector(".reading-text > p")!.append(node);
+  });
+  await expect(
+    page.locator(".immersive-translate-target-wrapper"),
+  ).toBeHidden();
+  await expect(
+    page.locator('[data-highlight-block="paragraph:0"]'),
+  ).toContainText("An emissions inventory describes material");
   await highlight(page, "question:q1:prompt", 5, 16);
   await expect(
     page.locator('[data-highlight-block="question:q1:prompt"] mark'),
