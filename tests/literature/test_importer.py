@@ -202,6 +202,52 @@ class ImporterTests(unittest.TestCase):
             self.assertEqual(ingest.request(ingest.API + '/search?query=test'), b'recovered')
             self.assertEqual(request.call_count, 2)
 
+    def test_catch_up_moves_past_rejected_xml_budget_and_rechecks_after_expiry_or_glossary_change(self):
+        rows = [record(f"PMC{1000+i}", f"Candidate {i}", f"10.1234/candidate{i}") for i in range(31)]
+        calls = []
+        def xml(pmcid):
+            calls.append(pmcid)
+            index = int(pmcid[3:]) - 1000
+            return fixture_xml(pmcid, f"Candidate {index}", f"10.1234/candidate{index}",
+                               "https://creativecommons.org/licenses/by/4.0/" if index == 30 else "https://creativecommons.org/licenses/by-nc/4.0/")
+        first = ingest.collect(self.config, self.empty, NOW, lambda *_: rows, xml)
+        self.assertEqual(first["articles"], [])
+        self.assertEqual(len(calls), 30)
+        calls.clear()
+        second = ingest.collect(self.config, first, NOW + timedelta(hours=4), lambda *_: rows, xml)
+        self.assertEqual(calls, ["PMC1030"])
+        self.assertEqual(second["articles"][0]["pmcid"], "PMC1030")
+        self.assertEqual(second["history"][0]["screening"]["cachedSkipped"], 30)
+        self.assertEqual(first["articles"], [])
+        calls.clear()
+        ingest.collect(self.config, first, NOW + timedelta(days=8), lambda *_: rows, xml)
+        self.assertEqual(len(calls), 30)
+        calls.clear()
+        updated_glossary = {**ingest.glossary(), "extra cue": "A changed maintained definition."}
+        with patch.object(ingest, "glossary", return_value=updated_glossary):
+            ingest.collect(self.config, first, NOW + timedelta(hours=4), lambda *_: rows, xml)
+        self.assertEqual(len(calls), 30)
+        calls.clear()
+        completed = ingest.collect_with_catch_up(self.config, self.empty, NOW, lambda *_: rows, xml)
+        self.assertEqual(completed["articles"][0]["pmcid"], "PMC1030")
+        self.assertEqual(len(calls), 31)
+        self.assertEqual(len(completed["history"]), 1)
+        self.assertEqual(completed["history"][0]["added"], 1)
+        self.assertEqual(completed["history"][0]["screening"]["passes"], 2)
+        self.assertEqual(completed["history"][0]["screening"]["xmlInspected"], 31)
+
+    def test_later_batch_failure_keeps_the_original_catalog(self):
+        rows = [record(f"PMC{1000+i}", f"Candidate {i}", f"10.1234/candidate{i}") for i in range(31)]
+        before = copy.deepcopy(self.empty)
+        def xml(pmcid):
+            index = int(pmcid[3:]) - 1000
+            if index == 30:
+                raise urllib.error.URLError("source failed in later batch")
+            return fixture_xml(pmcid, f"Candidate {index}", f"10.1234/candidate{index}", "https://creativecommons.org/licenses/by-nc/4.0/")
+        with self.assertRaisesRegex(RuntimeError, "existing content kept"):
+            ingest.collect_with_catch_up(self.config, self.empty, NOW, lambda *_: rows, xml)
+        self.assertEqual(self.empty, before)
+
 
 if __name__ == "__main__":
     unittest.main()

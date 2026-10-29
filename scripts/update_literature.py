@@ -257,12 +257,29 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
     seen_title = {normalized(a["title"]) for a in output["articles"]}
     known_terms = {normalized(e["term"]) for e in json.loads((ROOT / "src/data/vocabulary.json").read_text()) + output["vocabulary"]}
     definitions = glossary()
+    # A bounded XML budget must advance beyond the same rejected first page on
+    # subsequent catch-up runs. Retry temporary failures, but remember stable
+    # exclusions for a week. Glossary edits immediately reopen term exclusions.
+    glossary_hash = hashlib.sha256(json.dumps(definitions, sort_keys=True).encode()).hexdigest()
+    prior_screening = catalog.get("screened", {})
+    screened = {}
+    if isinstance(prior_screening, dict) and prior_screening.get("glossaryHash") == glossary_hash:
+        for row in prior_screening.get("records", []):
+            if not isinstance(row, dict) or not re.fullmatch(r"PMC\d+", str(row.get("pmcid", ""))):
+                continue
+            try:
+                checked = datetime.fromisoformat(row["checkedAt"].replace("Z", "+00:00"))
+                if timedelta(0) <= now - checked < timedelta(days=7):
+                    screened[row["pmcid"]] = row["checkedAt"]
+            except (KeyError, ValueError, TypeError):
+                continue
     added = 0
     vocabulary_before = len(output["vocabulary"])
-    screening = {"candidates": sum(len(records) for _, records in queues), "xmlInspected": 0,
+    screening = {"candidates": sum(len(records) for _, records in queues), "xmlInspected": 0, "cachedSkipped": 0,
                  "unavailable": 0, "ineligible": 0, "duplicate": 0, "insufficientTerms": 0}
     errors = []
     inspected = set()
+    cached_seen = set()
     # Rotate the first topic each day to avoid permanently favouring one field.
     shift = now.date().toordinal() % len(queues)
     queues = queues[shift:] + queues[:shift]
@@ -282,6 +299,11 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
                 not (now.date() - timedelta(days=config["publication_lookback_days"])).isoformat() <= published <= today or
                 record.get("isRetracted", "N") == "Y"):
                 continue
+            if pmcid in screened:
+                if pmcid not in cached_seen:
+                    screening["cachedSkipped"] += 1
+                    cached_seen.add(pmcid)
+                continue
             inspected.add(pmcid)
             screening["xmlInspected"] += 1
             try:
@@ -298,6 +320,7 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
                 continue
             if not article:
                 screening["ineligible"] += 1
+                screened[pmcid] = timestamp
                 continue
             if (article["doi"] and article["doi"] in seen_doi) or normalized(article["title"]) in seen_title:
                 screening["duplicate"] += 1
@@ -310,6 +333,7 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
             lesson = make_lesson(article, source_id, definitions)
             if not lesson:
                 screening["insufficientTerms"] += 1
+                screened[pmcid] = timestamp
                 continue
             article["source"] = {
                 "id": source_id, "kind": "article", "title": article["title"], "authors": article["authors"],
@@ -347,6 +371,9 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
     if errors:
         raise RuntimeError("Source retrieval failed; existing content kept: " + "; ".join(errors[:5]))
     output["lastCheckedAt"] = timestamp
+    output["screened"] = {"glossaryHash": glossary_hash,
+                          "records": [{"pmcid": pmcid, "checkedAt": checked}
+                                      for pmcid, checked in sorted(screened.items(), key=lambda row: (row[1], row[0]))[-1000:]]}
     if added:
         output["lastAddedAt"] = timestamp
     output["history"] = [{"checkedAt": timestamp, "added": added, "total": len(output["articles"]),
@@ -354,6 +381,31 @@ def collect(config, catalog, now, search_fn=search, xml_fn=None):
                           "screening": screening}] + output["history"][:29]
     validate(output)
     return output
+
+
+def collect_with_catch_up(config, catalog, now, search_fn=search, xml_fn=None):
+    """Scan at most three bounded batches; publish only if all batches succeed."""
+    updated = catalog
+    runs = []
+    for _ in range(3):
+        previous_screening = updated.get("screened")
+        updated = collect(config, updated, now, search_fn, xml_fn)
+        run = updated["history"][0]
+        runs.append(run)
+        today_count = sum(literature_day(article["addedAt"]) == literature_day(now) for article in updated["articles"])
+        if (today_count >= config["daily_limit"] or run["screening"]["xmlInspected"] < 30 or
+                updated.get("screened") == previous_screening):
+            break
+    screening = {key: sum(run["screening"][key] for run in runs) for key in runs[0]["screening"]}
+    # The same search window may be returned on more than one pass.
+    screening["candidates"] = max(run["screening"]["candidates"] for run in runs)
+    screening["passes"] = len(runs)
+    updated["history"] = [{
+        "checkedAt": updated["lastCheckedAt"], "added": len(updated["articles"]) - len(catalog["articles"]),
+        "total": len(updated["articles"]), "vocabularyAdded": len(updated["vocabulary"]) - len(catalog["vocabulary"]),
+        "screening": screening,
+    }] + catalog["history"][:29]
+    return updated
 
 
 def validate(catalog):
@@ -407,7 +459,7 @@ def main():
         print(f'Validated {len(catalog["articles"])} daily articles and {len(catalog["vocabulary"])} daily vocabulary entries.')
         return
     config = json.loads((ROOT / "scripts/literature_config.json").read_text())
-    updated = collect(config, catalog, datetime.now(timezone.utc))
+    updated = collect_with_catch_up(config, catalog, datetime.now(timezone.utc))
     temporary = CATALOG.with_suffix(".json.tmp")
     temporary.write_text(json.dumps(updated, ensure_ascii=False, indent=2) + "\n")
     os.replace(temporary, CATALOG)
