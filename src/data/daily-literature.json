@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-10-29T07:35:03Z",
-  "lastAddedAt": "2026-10-28T03:46:04Z",
+  "lastCheckedAt": "2026-10-29T07:42:41Z",
+  "lastAddedAt": "2026-10-29T07:42:41Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -887,6 +887,443 @@
         "publishedAt": "2026-10-22",
         "addedAt": "2026-10-28T03:46:04Z"
       }
+    },
+    {
+      "title": "Fungus above us: exploring the atmospheric mycobiome by aircraft",
+      "paragraphs": [
+        "Fungi play a key role in ecosystems, influencing the global bioaerosol budget and pollution dynamics even when metabolically inactive. Despite this, diversity and transport of fungi in the atmosphere are not well explored. This study shows that the atmosphere contains diverse fungi with varied ecological classifications and recruitment patterns reflecting underlying terrestrial habitats. Abundant genera include Neoascochyta, Cladosporium, Alternaria, Coniothyrium, Penicillium, Hymenochaetopsis, Lachnum, and Fonsecazyma. The atmospheric mycobiome is dominated by decomposers and pathogens; over 40% of the sampled airborne fungi are putative plant or animal pathogens. Using aircraft surveys from 2022 to 2023 in distinct seasons alongside comprehensive environmental datasets, airborne fungal diversity was found to decline with altitude and increasing vegetation productivity. Patterns of diversity in atmospheric fungal communities are shaped by vegetation productivity and meteorology. Remote sensing and meteorological data provide valuable insight into this diversity and reinforce the role of local or regional phenology as an important determinant of atmospheric biodiversity. Additionally, the proportional composition of functional guilds in the atmosphere shifts with vegetation productivity and surface winds, suggesting that seasonal transport dynamics may contribute to shaping assembly of the atmospheric mycobiome. This work demonstrates how integrated genomic and environmental datasets acquired by aircraft and satellite data could be leveraged in future to clarify aerobiology questions and contribute to a unified view of fungal ecology."
+      ],
+      "authors": "Kimberly L. Métris, Jérémy Métris",
+      "journal": "PeerJ",
+      "doi": "10.7717/peerj.21746",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "f30caf8b172b1f9a38bb0e190e16a38279d9c51dbd2bae4030ad3ac561d5e711",
+      "pmcid": "PMC13633693",
+      "publishedAt": "2026-09-30",
+      "addedAt": "2026-10-29T07:42:41Z",
+      "topic": "Research methods",
+      "source": {
+        "id": "literature-pmc13633693",
+        "kind": "article",
+        "title": "Fungus above us: exploring the atmospheric mycobiome by aircraft",
+        "authors": "Kimberly L. Métris, Jérémy Métris",
+        "organization": "PeerJ",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13633693/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "f30caf8b172b1f9a38bb0e190e16a38279d9c51dbd2bae4030ad3ac561d5e711",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-09-30",
+        "doi": "10.7717/peerj.21746"
+      },
+      "lesson": {
+        "id": "literature-pmc13633693",
+        "version": 1,
+        "title": "Fungus above us: exploring the atmospheric mycobiome by aircraft",
+        "subtitle": "Open-access abstract · PeerJ · 2026-09-30",
+        "topic": "Research methods",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13633693",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Fungi play a key role in ecosystems, influencing the global bioaerosol budget and pollution dynamics even when metabolically inactive. Despite this, diversity and transport of fungi in the atmosphere are not well explored. This study shows that the atmosphere contains diverse fungi with varied ecological classifications and recruitment patterns reflecting underlying terrestrial habitats. Abundant genera include Neoascochyta, Cladosporium, Alternaria, Coniothyrium, Penicillium, Hymenochaetopsis, Lachnum, and Fonsecazyma. The atmospheric mycobiome is dominated by decomposers and pathogens; over 40% of the sampled airborne fungi are putative plant or animal pathogens. Using aircraft surveys from 2022 to 2023 in distinct seasons alongside comprehensive environmental datasets, airborne fungal diversity was found to decline with altitude and increasing vegetation productivity. Patterns of diversity in atmospheric fungal communities are shaped by vegetation productivity and meteorology. Remote sensing and meteorological data provide valuable insight into this diversity and reinforce the role of local or regional phenology as an important determinant of atmospheric biodiversity. Additionally, the proportional composition of functional guilds in the atmosphere shifts with vegetation productivity and surface winds, suggesting that seasonal transport dynamics may contribute to shaping assembly of the atmospheric mycobiome. This work demonstrates how integrated genomic and environmental datasets acquired by aircraft and satellite data could be leveraged in future to clarify aerobiology questions and contribute to a unified view of fungal ecology."
+        ],
+        "terms": [
+          {
+            "term": "remote sensing",
+            "definition": "Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "phenology",
+            "definition": "The timing of recurring biological events and their relationship to environmental conditions."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\n_____ and meteorological data provide valuable insight into this diversity and reinforce the role of local or regional phenology as an important determinant of atmospheric biodiversity.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "hourly averages",
+                "explanation": "This is not the expression used in this sentence. Values averaged over an hour rather than measured at a single instant."
+              },
+              {
+                "id": "b",
+                "text": "remote sensing",
+                "explanation": "The original abstract uses this expression. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              },
+              {
+                "id": "c",
+                "text": "eutrophication",
+                "explanation": "This is not the expression used in this sentence. Nutrient enrichment of a water body that can stimulate excessive biological growth."
+              },
+              {
+                "id": "d",
+                "text": "denitrification",
+                "explanation": "This is not the expression used in this sentence. Microbial reduction of oxidised nitrogen compounds to gaseous nitrogen products."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: remote sensing. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nRemote sensing and meteorological data provide valuable insight into this diversity and reinforce the role of local or regional phenology as an important determinant of atmospheric _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "expert judgement",
+                "explanation": "This is not the expression used in this sentence. An informed assessment based on relevant specialist knowledge."
+              },
+              {
+                "id": "b",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "c",
+                "text": "variability",
+                "explanation": "This is not the expression used in this sentence. Real differences across time, space, or members of a population."
+              },
+              {
+                "id": "d",
+                "text": "eutrophication",
+                "explanation": "This is not the expression used in this sentence. Nutrient enrichment of a water body that can stimulate excessive biological growth."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nFungi play a key role in ecosystems, influencing the global bioaerosol budget and pollution dynamics even when metabolically inactive. Despite this, diversity and transport of fungi in the atmosphere are not well explored. This study shows that the atmosphere contains diverse fungi with varied ecological classifications and recruitment patterns reflecting underlying terrestrial habitats. Abundant genera include Neoascochyta, Cladosporium, Alternaria, Coniothyrium, Penicillium, Hymenochaetopsis, Lachnum, and Fonsecazyma. The atmospheric mycobiome is dominated by decomposers and pathogens; over 40% of the sampled airborne fungi are putative plant or animal pathogens. Using aircraft surveys from 2022 to 2023 in distinct seasons alongside comprehensive environmental datasets, airborne fungal diversity was found to decline with altitude and increasing vegetation productivity. Patterns of diversity in atmospheric fungal communities are shaped by vegetation productivity and meteorology. Remote sensing and meteorological data provide valuable insight into this diversity and reinforce the role of local or regional phenology as an important determinant of atmospheric biodiversity. Additionally, the proportional composition of functional guilds in the atmosphere shifts with vegetation productivity and surface winds, suggesting that seasonal transport dynamics may contribute to shaping assembly of the atmospheric mycobiome. This work demonstrates how integrated genomic and environmental datasets acquired by aircraft and satellite data could be leveraged in future to clarify aerobiology questions and contribute to a unified view of fungal ecology.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-09-30",
+        "addedAt": "2026-10-29T07:42:41Z"
+      }
+    },
+    {
+      "title": "Wolf Predation Likely Eliminated a Beaver Colony in a Drought‐Stressed Pond",
+      "paragraphs": [
+        "Wolves and beavers increasingly co‐occur across the Northern Hemisphere, yet direct observations of their interactions remain rare, and little is known about how beavers respond behaviourally to predation risk under natural conditions. On 29 December 2024, a wolf killed an adult beaver on a foraging trail in Białowieża Forest, Poland, among the first video‐documented wolf–beaver predation events in Europe. Over the 53‐day monitoring period prior to the predation event, wolves visited the trail on 4 days, while beavers were active on 33 of those days (62%), averaging 4.9 detections per day (7.9 on days with activity). This contrasts with experimental work showing that predator cues alone are often enough to sharply suppress beaver activity. The predation occurred during hydrological drought. The watercourse above and below the pond was nearly dry, likely leaving the colony with nowhere safer to go. We interpret this apparent risk tolerance as consistent with the risk allocation hypothesis, where prey with no low‐risk foraging options cannot sustain antipredator behaviour without compromising essential foraging. Following the predation, the pond remained abandoned for at least 18 months. This expands on a previous report of ponds becoming inactive following wolves predating on dispersing beavers, suggesting predation can also displace established colonies, with potentially cascading consequences for water retention, nutrient cycling and vegetation dynamics. In drought‐affected landscapes, wolf predation could plausibly act as a spatial filter, disproportionately removing these ecosystem engineers from suboptimal habitats. This is a hypothesis that warrants future testing. As droughts intensify under climate change, this could compound into a feedback loop. Fewer active beaver sites would mean less landscape‐scale water retention, deepening drought and further constraining the beaver habitat that remains, and undermining the ecosystem functions that make beaver recolonisation so ecologically valuable."
+      ],
+      "authors": "Tom A. Diserens, Marcin Brzeziński, Marcin Churski, Dries P. J. Kuijper, Andrzej Zalewski",
+      "journal": "Ecology and Evolution",
+      "doi": "10.1002/ece3.74472",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "c8d2dbd87e679ed5fbeeb1945b2f3557696cec323b4f23b2a96eb19535a112e6",
+      "pmcid": "PMC13687660",
+      "publishedAt": "2026-10-21",
+      "addedAt": "2026-10-29T07:42:41Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13687660",
+        "kind": "article",
+        "title": "Wolf Predation Likely Eliminated a Beaver Colony in a Drought‐Stressed Pond",
+        "authors": "Tom A. Diserens, Marcin Brzeziński, Marcin Churski, Dries P. J. Kuijper, Andrzej Zalewski",
+        "organization": "Ecology and Evolution",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13687660/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "c8d2dbd87e679ed5fbeeb1945b2f3557696cec323b4f23b2a96eb19535a112e6",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-21",
+        "doi": "10.1002/ece3.74472"
+      },
+      "lesson": {
+        "id": "literature-pmc13687660",
+        "version": 1,
+        "title": "Wolf Predation Likely Eliminated a Beaver Colony in a Drought‐Stressed Pond",
+        "subtitle": "Open-access abstract · Ecology and Evolution · 2026-10-21",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13687660",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Wolves and beavers increasingly co‐occur across the Northern Hemisphere, yet direct observations of their interactions remain rare, and little is known about how beavers respond behaviourally to predation risk under natural conditions. On 29 December 2024, a wolf killed an adult beaver on a foraging trail in Białowieża Forest, Poland, among the first video‐documented wolf–beaver predation events in Europe. Over the 53‐day monitoring period prior to the predation event, wolves visited the trail on 4 days, while beavers were active on 33 of those days (62%), averaging 4.9 detections per day (7.9 on days with activity). This contrasts with experimental work showing that predator cues alone are often enough to sharply suppress beaver activity. The predation occurred during hydrological drought. The watercourse above and below the pond was nearly dry, likely leaving the colony with nowhere safer to go. We interpret this apparent risk tolerance as consistent with the risk allocation hypothesis, where prey with no low‐risk foraging options cannot sustain antipredator behaviour without compromising essential foraging. Following the predation, the pond remained abandoned for at least 18 months. This expands on a previous report of ponds becoming inactive following wolves predating on dispersing beavers, suggesting predation can also displace established colonies, with potentially cascading consequences for water retention, nutrient cycling and vegetation dynamics. In drought‐affected landscapes, wolf predation could plausibly act as a spatial filter, disproportionately removing these ecosystem engineers from suboptimal habitats. This is a hypothesis that warrants future testing. As droughts intensify under climate change, this could compound into a feedback loop. Fewer active beaver sites would mean less landscape‐scale water retention, deepening drought and further constraining the beaver habitat that remains, and undermining the ecosystem functions that make beaver recolonisation so ecologically valuable."
+        ],
+        "terms": [
+          {
+            "term": "feedback",
+            "definition": "A process in which a system's response influences the conditions driving that response."
+          },
+          {
+            "term": "drought",
+            "definition": "A period of water shortage relative to a defined climatic, hydrological or biological reference."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAs droughts intensify under climate change, this could compound into a _____ loop.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "baseline",
+                "explanation": "This is not the expression used in this sentence. A reference state or period against which a change is assessed."
+              },
+              {
+                "id": "b",
+                "text": "machine learning",
+                "explanation": "This is not the expression used in this sentence. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "c",
+                "text": "reproducibility",
+                "explanation": "This is not the expression used in this sentence. The ability to obtain consistent results using the same data and analytical procedures."
+              },
+              {
+                "id": "d",
+                "text": "feedback",
+                "explanation": "The original abstract uses this expression. A process in which a system's response influences the conditions driving that response."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: feedback. A process in which a system's response influences the conditions driving that response. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe predation occurred during hydrological _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "drought",
+                "explanation": "The original abstract uses this expression. A period of water shortage relative to a defined climatic, hydrological or biological reference."
+              },
+              {
+                "id": "b",
+                "text": "sampling error",
+                "explanation": "This is not the expression used in this sentence. Error arising because a sample represents only part of a population."
+              },
+              {
+                "id": "c",
+                "text": "census",
+                "explanation": "This is not the expression used in this sentence. A data collection exercise intended to cover the whole population of interest."
+              },
+              {
+                "id": "d",
+                "text": "correlation",
+                "explanation": "This is not the expression used in this sentence. A statistical relationship in how two quantities vary together."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: drought. A period of water shortage relative to a defined climatic, hydrological or biological reference. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nWolves and beavers increasingly co‐occur across the Northern Hemisphere, yet direct observations of their interactions remain rare, and little is known about how beavers respond behaviourally to predation risk under natural conditions. On 29 December 2024, a wolf killed an adult beaver on a foraging trail in Białowieża Forest, Poland, among the first video‐documented wolf–beaver predation events in Europe. Over the 53‐day monitoring period prior to the predation event, wolves visited the trail on 4 days, while beavers were active on 33 of those days (62%), averaging 4.9 detections per day (7.9 on days with activity). This contrasts with experimental work showing that predator cues alone are often enough to sharply suppress beaver activity. The predation occurred during hydrological drought. The watercourse above and below the pond was nearly dry, likely leaving the colony with nowhere safer to go. We interpret this apparent risk tolerance as consistent with the risk allocation hypothesis, where prey with no low‐risk foraging options cannot sustain antipredator behaviour without compromising essential foraging. Following the predation, the pond remained abandoned for at least 18 months. This expands on a previous report of ponds becoming inactive following wolves predating on dispersing beavers, suggesting predation can also displace established colonies, with potentially cascading consequences for water retention, nutrient cycling and vegetation dynamics. In drought‐affected landscapes, wolf predation could plausibly act as a spatial filter, disproportionately removing these ecosystem engineers from suboptimal habitats. This is a hypothesis that warrants future testing. As droughts intensify under climate change, this could compound into a feedback loop. Fewer active beaver sites would mean less landscape‐scale water retention, deepening drought and further constraining the beaver habitat that remains, and undermining the ecosystem functions that make beaver recolonisation so ecologically valuable.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-21",
+        "addedAt": "2026-10-29T07:42:41Z"
+      }
+    },
+    {
+      "title": "Regenerating forests around Taï National Park sustain biodiversity despite constrained floristic recovery",
+      "paragraphs": [
+        "Extensive deforestation and disturbance have reshaped forest landscapes in West Africa, including areas surrounding Taï National Park, the largest remaining block of Upper Guinean rainforest. Although many degraded areas are currently undergoing regeneration, the capacity of these secondary forests to recover their biodiversity attributes remains insufficiently assessed within this park. This study quantifies the multidimensional restoration of biodiversity across 125 secondary forest plots and 15 primary forest plots representing 14,731 inventoried individuals in four sectors of the park. Using a Bayesian modelling framework, we estimate recovery trajectories of Shannon diversity, floristic composition, functional traits (wood density, leaf mass per area, seed mass), and conservation-relevant species. The different biodiversity attributes recovered at contrasting rates. Diversity was restored more rapidly (λ = 0.06) than floristic composition (λ = 0.03), and these recovery rates varied according to environmental variables. Among these, the presence of remnant trees showed the highest median on diversity (0.53 ± 0.61) and floristic composition (0.37 ± 0.17), promoting the rapid recovery of both attributes, followed by prior land use, particularly cocoa farming which also positively influenced the recovery of alpha diversity (λ = 0.03) and floristic composition (λ = 0.02). Regarding functional traits, they displayed contrasting dynamics: leaf mass per area (LMA) and seed mass recovered rapidly along successional gradients, whereas wood density followed a more gradual recovery trajectory. From a conservation perspective, although the proportion of IUCN Red List species remained stable along the successional gradient, old-growth indicator species were significantly more abundant in primary forests. To ensure the long-term conservation of biodiversity, protecting both primary and regenerating forests is essential to preserve the ecological resilience of this park."
+      ],
+      "authors": "Aya Diane Larissa Houphouët, Yao Charles Sangne, Abdoulaye Diarrassouba, Evans Ehouman, Bruno Hérault",
+      "journal": "PLOS One",
+      "doi": "10.1371/journal.pone.0356900",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "0745d7360c3e19d0b95317c4aaac9eb66baee33af57ae51360eb1b8cffe0610e",
+      "pmcid": "PMC13686277",
+      "publishedAt": "2026-10-21",
+      "addedAt": "2026-10-29T07:42:41Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13686277",
+        "kind": "article",
+        "title": "Regenerating forests around Taï National Park sustain biodiversity despite constrained floristic recovery",
+        "authors": "Aya Diane Larissa Houphouët, Yao Charles Sangne, Abdoulaye Diarrassouba, Evans Ehouman, Bruno Hérault",
+        "organization": "PLOS One",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13686277/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "0745d7360c3e19d0b95317c4aaac9eb66baee33af57ae51360eb1b8cffe0610e",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-21",
+        "doi": "10.1371/journal.pone.0356900"
+      },
+      "lesson": {
+        "id": "literature-pmc13686277",
+        "version": 1,
+        "title": "Regenerating forests around Taï National Park sustain biodiversity despite constrained floristic recovery",
+        "subtitle": "Open-access abstract · PLOS One · 2026-10-21",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13686277",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Extensive deforestation and disturbance have reshaped forest landscapes in West Africa, including areas surrounding Taï National Park, the largest remaining block of Upper Guinean rainforest. Although many degraded areas are currently undergoing regeneration, the capacity of these secondary forests to recover their biodiversity attributes remains insufficiently assessed within this park. This study quantifies the multidimensional restoration of biodiversity across 125 secondary forest plots and 15 primary forest plots representing 14,731 inventoried individuals in four sectors of the park. Using a Bayesian modelling framework, we estimate recovery trajectories of Shannon diversity, floristic composition, functional traits (wood density, leaf mass per area, seed mass), and conservation-relevant species. The different biodiversity attributes recovered at contrasting rates. Diversity was restored more rapidly (λ = 0.06) than floristic composition (λ = 0.03), and these recovery rates varied according to environmental variables. Among these, the presence of remnant trees showed the highest median on diversity (0.53 ± 0.61) and floristic composition (0.37 ± 0.17), promoting the rapid recovery of both attributes, followed by prior land use, particularly cocoa farming which also positively influenced the recovery of alpha diversity (λ = 0.03) and floristic composition (λ = 0.02). Regarding functional traits, they displayed contrasting dynamics: leaf mass per area (LMA) and seed mass recovered rapidly along successional gradients, whereas wood density followed a more gradual recovery trajectory. From a conservation perspective, although the proportion of IUCN Red List species remained stable along the successional gradient, old-growth indicator species were significantly more abundant in primary forests. To ensure the long-term conservation of biodiversity, protecting both primary and regenerating forests is essential to preserve the ecological resilience of this park."
+        ],
+        "terms": [
+          {
+            "term": "ecological resilience",
+            "definition": "The capacity of an ecosystem to absorb disturbance while maintaining its essential functions."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "restoration",
+            "definition": "Actions intended to assist the recovery of a degraded ecosystem or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nTo ensure the long-term conservation of biodiversity, protecting both primary and regenerating forests is essential to preserve the _____ of this park.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "runoff",
+                "explanation": "This is not the expression used in this sentence. Water and associated material moving across the land surface."
+              },
+              {
+                "id": "b",
+                "text": "systematic review",
+                "explanation": "This is not the expression used in this sentence. A review using explicit, reproducible methods to identify and assess relevant research."
+              },
+              {
+                "id": "c",
+                "text": "carbon neutrality",
+                "explanation": "This is not the expression used in this sentence. A balance between specified carbon emissions and removals over a defined boundary and period."
+              },
+              {
+                "id": "d",
+                "text": "ecological resilience",
+                "explanation": "The original abstract uses this expression. The capacity of an ecosystem to absorb disturbance while maintaining its essential functions."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: ecological resilience. The capacity of an ecosystem to absorb disturbance while maintaining its essential functions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAlthough many degraded areas are currently undergoing regeneration, the capacity of these secondary forests to recover their _____ attributes remains insufficiently assessed within this park.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "b",
+                "text": "hourly averages",
+                "explanation": "This is not the expression used in this sentence. Values averaged over an hour rather than measured at a single instant."
+              },
+              {
+                "id": "c",
+                "text": "reproducibility",
+                "explanation": "This is not the expression used in this sentence. The ability to obtain consistent results using the same data and analytical procedures."
+              },
+              {
+                "id": "d",
+                "text": "land-use change",
+                "explanation": "This is not the expression used in this sentence. A change in how an area of land is used or managed."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nExtensive deforestation and disturbance have reshaped forest landscapes in West Africa, including areas surrounding Taï National Park, the largest remaining block of Upper Guinean rainforest. Although many degraded areas are currently undergoing regeneration, the capacity of these secondary forests to recover their biodiversity attributes remains insufficiently assessed within this park. This study quantifies the multidimensional restoration of biodiversity across 125 secondary forest plots and 15 primary forest plots representing 14,731 inventoried individuals in four sectors of the park. Using a Bayesian modelling framework, we estimate recovery trajectories of Shannon diversity, floristic composition, functional traits (wood density, leaf mass per area, seed mass), and conservation-relevant species. The different biodiversity attributes recovered at contrasting rates. Diversity was restored more rapidly (λ = 0.06) than floristic composition (λ = 0.03), and these recovery rates varied according to environmental variables. Among these, the presence of remnant trees showed the highest median on diversity (0.53 ± 0.61) and floristic composition (0.37 ± 0.17), promoting the rapid recovery of both attributes, followed by prior land use, particularly cocoa farming which also positively influenced the recovery of alpha diversity (λ = 0.03) and floristic composition (λ = 0.02). Regarding functional traits, they displayed contrasting dynamics: leaf mass per area (LMA) and seed mass recovered rapidly along successional gradients, whereas wood density followed a more gradual recovery trajectory. From a conservation perspective, although the proportion of IUCN Red List species remained stable along the successional gradient, old-growth indicator species were significantly more abundant in primary forests. To ensure the long-term conservation of biodiversity, protecting both primary and regenerating forests is essential to preserve the ecological resilience of this park.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-21",
+        "addedAt": "2026-10-29T07:42:41Z"
+      }
     }
   ],
   "vocabulary": [
@@ -1036,9 +1473,130 @@
       "evidence": "Macroinvertebrates play critical roles in aquatic ecosystems, yet the effects of anthropogenic land‐use disturbance on macroinvertebrate communities and their taxonomic and functional diversity remain poorly understood, particularly in rapidly urbanizing regions of eastern China.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-7a7480bb9a1ad53cb7af",
+      "term": "remote sensing",
+      "meaning": "Obtaining information about a target without direct contact, commonly using satellite or airborne sensors.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Remote sensing and meteorological data provide valuable insight into this diversity and reinforce the role of local or regional phenology as an important determinant of atmospheric biodiversity.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13633693",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Remote sensing and meteorological data provide valuable insight into this diversity and reinforce the role of local or regional phenology as an important determinant of atmospheric biodiversity.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-d0191340fa564e83f3b2",
+      "term": "phenology",
+      "meaning": "The timing of recurring biological events and their relationship to environmental conditions.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Remote sensing and meteorological data provide valuable insight into this diversity and reinforce the role of local or regional phenology as an important determinant of atmospheric biodiversity.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13633693",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Remote sensing and meteorological data provide valuable insight into this diversity and reinforce the role of local or regional phenology as an important determinant of atmospheric biodiversity.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-caaed8c4eb8dfedde10e",
+      "term": "drought",
+      "meaning": "A period of water shortage relative to a defined climatic, hydrological or biological reference.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "The predation occurred during hydrological drought.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13687660",
+      "location": "Abstract · paragraph 1",
+      "evidence": "The predation occurred during hydrological drought.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-b98deecaa82d4c83b320",
+      "term": "ecological resilience",
+      "meaning": "The capacity of an ecosystem to absorb disturbance while maintaining its essential functions.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "To ensure the long-term conservation of biodiversity, protecting both primary and regenerating forests is essential to preserve the ecological resilience of this park.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13686277",
+      "location": "Abstract · paragraph 1",
+      "evidence": "To ensure the long-term conservation of biodiversity, protecting both primary and regenerating forests is essential to preserve the ecological resilience of this park.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-a7fd11ebf9937f9d1576",
+      "term": "restoration",
+      "meaning": "Actions intended to assist the recovery of a degraded ecosystem or system.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "This study quantifies the multidimensional restoration of biodiversity across 125 secondary forest plots and 15 primary forest plots representing 14,731 inventoried individuals in four sectors of the park.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13686277",
+      "location": "Abstract · paragraph 1",
+      "evidence": "This study quantifies the multidimensional restoration of biodiversity across 125 secondary forest plots and 15 primary forest plots representing 14,731 inventoried individuals in four sectors of the park.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-10-29T07:42:41Z",
+      "added": 3,
+      "total": 9,
+      "vocabularyAdded": 5,
+      "screening": {
+        "candidates": 253,
+        "xmlInspected": 68,
+        "cachedSkipped": 88,
+        "unavailable": 0,
+        "ineligible": 52,
+        "duplicate": 0,
+        "insufficientTerms": 13,
+        "passes": 3
+      }
+    },
     {
       "checkedAt": "2026-10-29T07:35:03Z",
       "added": 0,
@@ -1073,5 +1631,270 @@
       "added": 3,
       "total": 3
     }
-  ]
+  ],
+  "screened": {
+    "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
+    "records": [
+      {
+        "pmcid": "PMC13585055",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13620196",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13626036",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13626920",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13638034",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13648242",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13650202",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13651769",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13652058",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13657036",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13658437",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13678534",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13679184",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13679344",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13679707",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13680866",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13680975",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13680981",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13681004",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13681104",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13682058",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13682305",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13682311",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13682895",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13682914",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13685301",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13685448",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13685972",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13686256",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13686961",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13686970",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13687031",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13687103",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13687209",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13687924",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13687997",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13688481",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13689534",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13689744",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13690201",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13690251",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13690690",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13693711",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13693946",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13694259",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13694299",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13694349",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13694404",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13694466",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13694548",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13694760",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13694825",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13694848",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13695023",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13695128",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13695516",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13695669",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13696011",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13696172",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13696594",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13698877",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13702604",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13703130",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13703665",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      },
+      {
+        "pmcid": "PMC13704137",
+        "checkedAt": "2026-10-29T07:42:41Z"
+      }
+    ]
+  }
 }
