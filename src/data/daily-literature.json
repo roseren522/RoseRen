@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-10-29T18:40:09Z",
-  "lastAddedAt": "2026-10-29T18:40:09Z",
+  "lastCheckedAt": "2026-10-30T18:15:50Z",
+  "lastAddedAt": "2026-10-30T18:15:50Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -1766,6 +1766,452 @@
         "publishedAt": "2026-09-20",
         "addedAt": "2026-10-29T18:40:09Z"
       }
+    },
+    {
+      "title": "Cave‐Dwelling Planariidae in Dinaric Karst Exhibit Differing Levels of Cave Trait Evolution",
+      "paragraphs": [
+        "The Dinaric karst encompasses a network of over 10,000 caves and represents one of the world's most important subterranean biodiversity hotspots. It is inhabited by remarkably diverse and often endemic species, including planarian flatworms. Although cave planarians have long been known from the region, they have not yet been investigated using an integrative approach, and their evolutionary relationships with surface‐dwelling relatives remain unresolved. To address these gaps, we combined field sampling, phylogenetic analyses based on the COI and 18S genes, and phenotypic characterisation. Our results show that cave planariids in the Dinaric karst belong to at least three genera and are more widespread and diverse than previously assumed. We increased the number of cave records in the Dinaric karst from 26 to 37 and documented cf. Atrioplanaria and Phagocata in Croatian caves for the first time. Phylogenetic reconstructions are consistent with independent cave colonisation events, including multiple instances within the genera Crenobia and cf. Atrioplanaria. Variation in pigmentation and eye reduction, both within and between populations, further reveals heterogeneous evolutionary trajectories of cave‐associated phenotypes. Our molecular phylogeny and documentation of trait variability constitute a first step towards establishing Planariidae as a model for investigating the mechanisms underlying the convergent evolution of pigment loss and eye reduction in cave environments."
+      ],
+      "authors": "Lucija Kauf, Miquel Vila‐Farré, Fruszina Ficze‐Schmidt, Emilija Bakula, Jochen C. Rink, Helena Bilandžija",
+      "journal": "Ecology and Evolution",
+      "doi": "10.1002/ece3.74488",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "7734c42fed3c1a78ab8075e219281a80025d34ca0caf7705359a2b9d14678571",
+      "pmcid": "PMC13714693",
+      "publishedAt": "2026-10-28",
+      "addedAt": "2026-10-30T18:15:50Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13714693",
+        "kind": "article",
+        "title": "Cave‐Dwelling Planariidae in Dinaric Karst Exhibit Differing Levels of Cave Trait Evolution",
+        "authors": "Lucija Kauf, Miquel Vila‐Farré, Fruszina Ficze‐Schmidt, Emilija Bakula, Jochen C. Rink, Helena Bilandžija",
+        "organization": "Ecology and Evolution",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13714693/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "7734c42fed3c1a78ab8075e219281a80025d34ca0caf7705359a2b9d14678571",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-28",
+        "doi": "10.1002/ece3.74488"
+      },
+      "lesson": {
+        "id": "literature-pmc13714693",
+        "version": 1,
+        "title": "Cave‐Dwelling Planariidae in Dinaric Karst Exhibit Differing Levels of Cave Trait Evolution",
+        "subtitle": "Open-access abstract · Ecology and Evolution · 2026-10-28",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13714693",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "The Dinaric karst encompasses a network of over 10,000 caves and represents one of the world's most important subterranean biodiversity hotspots. It is inhabited by remarkably diverse and often endemic species, including planarian flatworms. Although cave planarians have long been known from the region, they have not yet been investigated using an integrative approach, and their evolutionary relationships with surface‐dwelling relatives remain unresolved. To address these gaps, we combined field sampling, phylogenetic analyses based on the COI and 18S genes, and phenotypic characterisation. Our results show that cave planariids in the Dinaric karst belong to at least three genera and are more widespread and diverse than previously assumed. We increased the number of cave records in the Dinaric karst from 26 to 37 and documented cf. Atrioplanaria and Phagocata in Croatian caves for the first time. Phylogenetic reconstructions are consistent with independent cave colonisation events, including multiple instances within the genera Crenobia and cf. Atrioplanaria. Variation in pigmentation and eye reduction, both within and between populations, further reveals heterogeneous evolutionary trajectories of cave‐associated phenotypes. Our molecular phylogeny and documentation of trait variability constitute a first step towards establishing Planariidae as a model for investigating the mechanisms underlying the convergent evolution of pigment loss and eye reduction in cave environments."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "variability",
+            "definition": "Real differences across time, space, or members of a population."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe Dinaric karst encompasses a network of over 10,000 caves and represents one of the world's most important subterranean _____ hotspots.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "b",
+                "text": "stationary combustion",
+                "explanation": "This is not the expression used in this sentence. Fuel burning in stationary equipment or installations."
+              },
+              {
+                "id": "c",
+                "text": "probability density function",
+                "explanation": "This is not the expression used in this sentence. A description of the range and relative likelihood of possible values."
+              },
+              {
+                "id": "d",
+                "text": "surrogate data",
+                "explanation": "This is not the expression used in this sentence. Alternative data used to approximate an unavailable quantity of interest."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nOur molecular phylogeny and documentation of trait _____ constitute a first step towards establishing Planariidae as a model for investigating the mechanisms underlying the convergent evolution of pigment loss and eye reduction in cave environments.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "soil respiration",
+                "explanation": "This is not the expression used in this sentence. The release of carbon dioxide from soil through biological activity."
+              },
+              {
+                "id": "b",
+                "text": "fine particulate matter",
+                "explanation": "This is not the expression used in this sentence. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+              },
+              {
+                "id": "c",
+                "text": "variability",
+                "explanation": "The original abstract uses this expression. Real differences across time, space, or members of a population."
+              },
+              {
+                "id": "d",
+                "text": "remote sensing",
+                "explanation": "This is not the expression used in this sentence. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: variability. Real differences across time, space, or members of a population. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe Dinaric karst encompasses a network of over 10,000 caves and represents one of the world's most important subterranean biodiversity hotspots. It is inhabited by remarkably diverse and often endemic species, including planarian flatworms. Although cave planarians have long been known from the region, they have not yet been investigated using an integrative approach, and their evolutionary relationships with surface‐dwelling relatives remain unresolved. To address these gaps, we combined field sampling, phylogenetic analyses based on the COI and 18S genes, and phenotypic characterisation. Our results show that cave planariids in the Dinaric karst belong to at least three genera and are more widespread and diverse than previously assumed. We increased the number of cave records in the Dinaric karst from 26 to 37 and documented cf. Atrioplanaria and Phagocata in Croatian caves for the first time. Phylogenetic reconstructions are consistent with independent cave colonisation events, including multiple instances within the genera Crenobia and cf. Atrioplanaria. Variation in pigmentation and eye reduction, both within and between populations, further reveals heterogeneous evolutionary trajectories of cave‐associated phenotypes. Our molecular phylogeny and documentation of trait variability constitute a first step towards establishing Planariidae as a model for investigating the mechanisms underlying the convergent evolution of pigment loss and eye reduction in cave environments.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-28",
+        "addedAt": "2026-10-30T18:15:50Z"
+      }
+    },
+    {
+      "title": "Ecosystem Health Assessment of Hulun Lake Using an eDNA Metabarcoding‐Based Phytoplankton Index of Biotic Integrity",
+      "paragraphs": [
+        "Hulun Lake, one of the largest freshwater lakes in China, is currently experiencing significant water quality deterioration. Therefore, water quality assessment is of paramount importance, as it not only provides critical insights into the current pollution status of lakes but also offers a scientific basis for effective lake management and ecological restoration. Using environmental DNA‐metabarcoding data from 13 sampling sites in Hulun Lake in June 2023, our study explored the spatial variation of α‐diversity, the community composition, and phytoplankton index of biotic integrity (P‐IBI). A total of 431 phytoplankton species were identified across 10 phyla, 191 families, and 335 genera, with Chlorophyta and Bacillariophyta predominating. Biodiversity was higher in the northern and southern regions, except for the site XHK, but lower in the central region. P‐IBI scores exhibited clear spatial variation, with relatively high scores in the central and northern regions, except for the site XHK, indicating comparatively favorable ecological conditions. In contrast, lower P‐IBI scores were observed in the southern region, except for DNHWZ and GZ, suggesting relatively greater ecological degradation. The P‐IBI scores were significantly negatively correlated with Water Quality Index (WQI) values, indicating that higher biotic integrity was generally associated with better physicochemical water quality. RDA and Spearman rank correlation analyses revealed that ammonia nitrogen (NH3–N) and total organic carbon (TOC) were positively correlated with P‐IBI, whereas temperature (T) and total nitrogen (TN) showed negative correlations with P‐IBI, indicating that spatial variation in P‐IBI was closely associated with nutrient status and organic carbon availability. Lake management should integrate both P‐IBI and WQI‐based assessment approaches, providing a scientifically robust basis for the identification of environmental pressures and the diagnosis of ecological health."
+      ],
+      "authors": "Qi An, Ruiying Fu, Hao Cui, Yuan Wang, Yihan Huo, Yang Bai, Wei Ding, Bowen Xiao, Chengzhen Jia, Huamin Liu, Lixin Wang",
+      "journal": "Ecology and Evolution",
+      "doi": "10.1002/ece3.74543",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "e070d3121b37833baf4b58e2f58cdf8bd8c55b925438adaf96ad2f371731e14a",
+      "pmcid": "PMC13714098",
+      "publishedAt": "2026-10-27",
+      "addedAt": "2026-10-30T18:15:50Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13714098",
+        "kind": "article",
+        "title": "Ecosystem Health Assessment of Hulun Lake Using an eDNA Metabarcoding‐Based Phytoplankton Index of Biotic Integrity",
+        "authors": "Qi An, Ruiying Fu, Hao Cui, Yuan Wang, Yihan Huo, Yang Bai, Wei Ding, Bowen Xiao, Chengzhen Jia, Huamin Liu, Lixin Wang",
+        "organization": "Ecology and Evolution",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13714098/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "e070d3121b37833baf4b58e2f58cdf8bd8c55b925438adaf96ad2f371731e14a",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-27",
+        "doi": "10.1002/ece3.74543"
+      },
+      "lesson": {
+        "id": "literature-pmc13714098",
+        "version": 1,
+        "title": "Ecosystem Health Assessment of Hulun Lake Using an eDNA Metabarcoding‐Based Phytoplankton Index of Biotic Integrity",
+        "subtitle": "Open-access abstract · Ecology and Evolution · 2026-10-27",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13714098",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Hulun Lake, one of the largest freshwater lakes in China, is currently experiencing significant water quality deterioration. Therefore, water quality assessment is of paramount importance, as it not only provides critical insights into the current pollution status of lakes but also offers a scientific basis for effective lake management and ecological restoration. Using environmental DNA‐metabarcoding data from 13 sampling sites in Hulun Lake in June 2023, our study explored the spatial variation of α‐diversity, the community composition, and phytoplankton index of biotic integrity (P‐IBI). A total of 431 phytoplankton species were identified across 10 phyla, 191 families, and 335 genera, with Chlorophyta and Bacillariophyta predominating. Biodiversity was higher in the northern and southern regions, except for the site XHK, but lower in the central region. P‐IBI scores exhibited clear spatial variation, with relatively high scores in the central and northern regions, except for the site XHK, indicating comparatively favorable ecological conditions. In contrast, lower P‐IBI scores were observed in the southern region, except for DNHWZ and GZ, suggesting relatively greater ecological degradation. The P‐IBI scores were significantly negatively correlated with Water Quality Index (WQI) values, indicating that higher biotic integrity was generally associated with better physicochemical water quality. RDA and Spearman rank correlation analyses revealed that ammonia nitrogen (NH3–N) and total organic carbon (TOC) were positively correlated with P‐IBI, whereas temperature (T) and total nitrogen (TN) showed negative correlations with P‐IBI, indicating that spatial variation in P‐IBI was closely associated with nutrient status and organic carbon availability. Lake management should integrate both P‐IBI and WQI‐based assessment approaches, providing a scientifically robust basis for the identification of environmental pressures and the diagnosis of ecological health."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "correlation",
+            "definition": "A statistical relationship in how two quantities vary together."
+          },
+          {
+            "term": "restoration",
+            "definition": "Actions intended to assist the recovery of a degraded ecosystem or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\n_____ was higher in the northern and southern regions, except for the site XHK, but lower in the central region.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "heat stress",
+                "explanation": "This is not the expression used in this sentence. Strain on organisms or systems caused by exposure to high temperatures."
+              },
+              {
+                "id": "b",
+                "text": "carbon dioxide",
+                "explanation": "This is not the expression used in this sentence. The greenhouse gas CO₂, including emissions from fuel carbon oxidation."
+              },
+              {
+                "id": "c",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "d",
+                "text": "oxidative potential",
+                "explanation": "This is not the expression used in this sentence. A measure of a material's capacity to drive oxidation in a specified assay or biological context."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nRDA and Spearman rank _____ analyses revealed that ammonia nitrogen (NH3–N) and total organic carbon (TOC) were positively correlated with P‐IBI, whereas temperature (T) and total nitrogen (TN) showed negative correlations with P‐IBI, indicating that spatial variation in P‐IBI was closely associated with nutrient status and organic carbon availability.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "confidentiality",
+                "explanation": "This is not the expression used in this sentence. Protection of information whose access or disclosure is restricted."
+              },
+              {
+                "id": "b",
+                "text": "machine learning",
+                "explanation": "This is not the expression used in this sentence. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "c",
+                "text": "correlation",
+                "explanation": "The original abstract uses this expression. A statistical relationship in how two quantities vary together."
+              },
+              {
+                "id": "d",
+                "text": "oxidation factor",
+                "explanation": "This is not the expression used in this sentence. The fraction of fuel carbon assumed to be oxidised during combustion."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: correlation. A statistical relationship in how two quantities vary together. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nHulun Lake, one of the largest freshwater lakes in China, is currently experiencing significant water quality deterioration. Therefore, water quality assessment is of paramount importance, as it not only provides critical insights into the current pollution status of lakes but also offers a scientific basis for effective lake management and ecological restoration. Using environmental DNA‐metabarcoding data from 13 sampling sites in Hulun Lake in June 2023, our study explored the spatial variation of α‐diversity, the community composition, and phytoplankton index of biotic integrity (P‐IBI). A total of 431 phytoplankton species were identified across 10 phyla, 191 families, and 335 genera, with Chlorophyta and Bacillariophyta predominating. Biodiversity was higher in the northern and southern regions, except for the site XHK, but lower in the central region. P‐IBI scores exhibited clear spatial variation, with relatively high scores in the central and northern regions, except for the site XHK, indicating comparatively favorable ecological conditions. In contrast, lower P‐IBI scores were observed in the southern region, except for DNHWZ and GZ, suggesting relatively greater ecological degradation. The P‐IBI scores were significantly negatively correlated with Water Quality Index (WQI) values, indicating that higher biotic integrity was generally associated with better physicochemical water quality. RDA and Spearman rank correlation analyses revealed that ammonia nitrogen (NH3–N) and total organic carbon (TOC) were positively correlated with P‐IBI, whereas temperature (T) and total nitrogen (TN) showed negative correlations with P‐IBI, indicating that spatial variation in P‐IBI was closely associated with nutrient status and organic carbon availability. Lake management should integrate both P‐IBI and WQI‐based assessment approaches, providing a scientifically robust basis for the identification of environmental pressures and the diagnosis of ecological health.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-27",
+        "addedAt": "2026-10-30T18:15:50Z"
+      }
+    },
+    {
+      "title": "Geographic variation in Dendrocalamus latiflorus culm physical and mechanical traits is associated with source-climate gradients",
+      "paragraphs": [
+        "Geographic variation in bamboo culm traits can reveal associations between source environments and biomechanical performance and can help prioritize germplasm for further testing.",
+        "We quantified 11 physical and mechanical traits in 31 geographic sources of Dendrocalamus latiflorus from nine provincial-level regions of China and related source-level means to 25 geographic and climatic variables. Analyses combined coefficients of variation, Pearson correlations with Benjamini–Hochberg false-discovery-rate correction, partial least squares regression (PLSR) with leave-one-out cross-validation and 1,000 bootstrap resamples, Moran’s I tests of residual spatial autocorrelation, principal component analysis, objectively validated Ward clustering, and a seven-trait entropy-weighted TOPSIS evaluation with equal-weight sensitivity analysis.",
+        "Trait coefficients of variation ranged from 7.1% to 24.4%. After correction of 100 Pearson tests, 32 associations remained significant at q < 0.05; the strongest was between precipitation of the warmest quarter (BIO18) and compressive strength parallel to grain (CSPG; r = 0.658, q = 0.0058). PLSR showed the highest cross-validated performance for CSPG (Q2 = 0.599), moderate performance for air-dry and oven-dry density, and weak performance for modulus of rupture (Q2 = 0.076). Raw density and CSPG values were spatially autocorrelated, but PLSR residuals were not. Two validated trait classes showed no significant differences in six key source-climate variables. Entropy-weighted TOPSIS ranked P6, P4, and P19 highest; equal weighting produced strongly concordant ranks (Spearman rho = 0.911).",
+        "These results identify robust climate-associated trait patterns and candidate sources for further testing while avoiding causal inference from source-site sampling."
+      ],
+      "authors": "Ying Fang, Hang Tao, Jiannan Lin, Jiaying Liu, Yawen Yang, Yushan Zheng, Liguang Chen, Jundong Rong, Tianyou He",
+      "journal": "Frontiers in Plant Science",
+      "doi": "10.3389/fpls.2026.1946733",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "2817063cb1157a4659b7b89920ff976c5ddb55ab042983370a2059a1c7d8ab23",
+      "pmcid": "PMC13713850",
+      "publishedAt": "2026-10-14",
+      "addedAt": "2026-10-30T18:15:50Z",
+      "topic": "Research methods",
+      "source": {
+        "id": "literature-pmc13713850",
+        "kind": "article",
+        "title": "Geographic variation in Dendrocalamus latiflorus culm physical and mechanical traits is associated with source-climate gradients",
+        "authors": "Ying Fang, Hang Tao, Jiannan Lin, Jiaying Liu, Yawen Yang, Yushan Zheng, Liguang Chen, Jundong Rong, Tianyou He",
+        "organization": "Frontiers in Plant Science",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13713850/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "2817063cb1157a4659b7b89920ff976c5ddb55ab042983370a2059a1c7d8ab23",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-14",
+        "doi": "10.3389/fpls.2026.1946733"
+      },
+      "lesson": {
+        "id": "literature-pmc13713850",
+        "version": 1,
+        "title": "Geographic variation in Dendrocalamus latiflorus culm physical and mechanical traits is associated with source-climate gradients",
+        "subtitle": "Open-access abstract · Frontiers in Plant Science · 2026-10-14",
+        "topic": "Research methods",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13713850",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Geographic variation in bamboo culm traits can reveal associations between source environments and biomechanical performance and can help prioritize germplasm for further testing.",
+          "We quantified 11 physical and mechanical traits in 31 geographic sources of Dendrocalamus latiflorus from nine provincial-level regions of China and related source-level means to 25 geographic and climatic variables. Analyses combined coefficients of variation, Pearson correlations with Benjamini–Hochberg false-discovery-rate correction, partial least squares regression (PLSR) with leave-one-out cross-validation and 1,000 bootstrap resamples, Moran’s I tests of residual spatial autocorrelation, principal component analysis, objectively validated Ward clustering, and a seven-trait entropy-weighted TOPSIS evaluation with equal-weight sensitivity analysis.",
+          "Trait coefficients of variation ranged from 7.1% to 24.4%. After correction of 100 Pearson tests, 32 associations remained significant at q < 0.05; the strongest was between precipitation of the warmest quarter (BIO18) and compressive strength parallel to grain (CSPG; r = 0.658, q = 0.0058). PLSR showed the highest cross-validated performance for CSPG (Q2 = 0.599), moderate performance for air-dry and oven-dry density, and weak performance for modulus of rupture (Q2 = 0.076). Raw density and CSPG values were spatially autocorrelated, but PLSR residuals were not. Two validated trait classes showed no significant differences in six key source-climate variables. Entropy-weighted TOPSIS ranked P6, P4, and P19 highest; equal weighting produced strongly concordant ranks (Spearman rho = 0.911).",
+          "These results identify robust climate-associated trait patterns and candidate sources for further testing while avoiding causal inference from source-site sampling."
+        ],
+        "terms": [
+          {
+            "term": "sensitivity analysis",
+            "definition": "Examining how a result responds to changes in selected inputs or assumptions."
+          },
+          {
+            "term": "causal inference",
+            "definition": "Reasoning about the effects of interventions or causes under explicit assumptions."
+          },
+          {
+            "term": "cross-validation",
+            "definition": "A procedure that evaluates a model by repeatedly separating data used for fitting from data used for assessment."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAnalyses combined coefficients of variation, Pearson correlations with Benjamini–Hochberg false-discovery-rate correction, partial least squares regression (PLSR) with leave-one-out cross-validation and 1,000 bootstrap resamples, Moran’s I tests of residual spatial autocorrelation, principal component analysis, objectively validated Ward clustering, and a seven-trait entropy-weighted TOPSIS evaluation with equal-weight _____.",
+            "paragraphs": [
+              2
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "census",
+                "explanation": "This is not the expression used in this sentence. A data collection exercise intended to cover the whole population of interest."
+              },
+              {
+                "id": "b",
+                "text": "sensitivity analysis",
+                "explanation": "The original abstract uses this expression. Examining how a result responds to changes in selected inputs or assumptions."
+              },
+              {
+                "id": "c",
+                "text": "urban heat island",
+                "explanation": "This is not the expression used in this sentence. The tendency for an urban area to be warmer than its surroundings under specified conditions."
+              },
+              {
+                "id": "d",
+                "text": "carbon neutrality",
+                "explanation": "This is not the expression used in this sentence. A balance between specified carbon emissions and removals over a defined boundary and period."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: sensitivity analysis. Examining how a result responds to changes in selected inputs or assumptions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThese results identify robust climate-associated trait patterns and candidate sources for further testing while avoiding _____ from source-site sampling.",
+            "paragraphs": [
+              4
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "quality control",
+                "explanation": "This is not the expression used in this sentence. Routine checks used to identify errors and maintain consistency in an inventory."
+              },
+              {
+                "id": "b",
+                "text": "crop residues",
+                "explanation": "This is not the expression used in this sentence. Plant material remaining after crop production or harvest."
+              },
+              {
+                "id": "c",
+                "text": "causal inference",
+                "explanation": "The original abstract uses this expression. Reasoning about the effects of interventions or causes under explicit assumptions."
+              },
+              {
+                "id": "d",
+                "text": "monte carlo simulation",
+                "explanation": "This is not the expression used in this sentence. Repeated calculations using inputs sampled from specified probability distributions."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: causal inference. Reasoning about the effects of interventions or causes under explicit assumptions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThese results identify robust climate-associated trait patterns and candidate sources for further testing while avoiding causal inference from source-site sampling.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-14",
+        "addedAt": "2026-10-30T18:15:50Z"
+      }
     }
   ],
   "vocabulary": [
@@ -2062,9 +2508,67 @@
       "evidence": "It establishes a reproducibility benchmark for biodiversity genomics and yields a transferable workflow for ecological and evolutionary initiatives where high-quality DNA or long-read sequencing is not feasible.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-b6c116930c9948500f5b",
+      "term": "causal inference",
+      "meaning": "Reasoning about the effects of interventions or causes under explicit assumptions.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "These results identify robust climate-associated trait patterns and candidate sources for further testing while avoiding causal inference from source-site sampling.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13713850",
+      "location": "Abstract · paragraph 4",
+      "evidence": "These results identify robust climate-associated trait patterns and candidate sources for further testing while avoiding causal inference from source-site sampling.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-14fdc6d25c5cbc5bdc71",
+      "term": "cross-validation",
+      "meaning": "A procedure that evaluates a model by repeatedly separating data used for fitting from data used for assessment.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Analyses combined coefficients of variation, Pearson correlations with Benjamini–Hochberg false-discovery-rate correction, partial least squares regression (PLSR) with leave-one-out cross-validation and 1,000 bootstrap resamples, Moran’s I tests of residual spatial autocorrelation, principal component analysis, objectively validated Ward clustering, and a seven-trait entropy-weighted TOPSIS evaluation with equal-weight sensitivity analysis.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13713850",
+      "location": "Abstract · paragraph 2",
+      "evidence": "Analyses combined coefficients of variation, Pearson correlations with Benjamini–Hochberg false-discovery-rate correction, partial least squares regression (PLSR) with leave-one-out cross-validation and 1,000 bootstrap resamples, Moran’s I tests of residual spatial autocorrelation, principal component analysis, objectively validated Ward clustering, and a seven-trait entropy-weighted TOPSIS evaluation with equal-weight sensitivity analysis.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-10-30T18:15:50Z",
+      "added": 3,
+      "total": 15,
+      "vocabularyAdded": 2,
+      "screening": {
+        "candidates": 268,
+        "xmlInspected": 10,
+        "cachedSkipped": 0,
+        "unavailable": 0,
+        "ineligible": 6,
+        "duplicate": 0,
+        "insufficientTerms": 1,
+        "passes": 1
+      }
+    },
     {
       "checkedAt": "2026-10-29T18:40:09Z",
       "added": 3,
@@ -2634,6 +3138,34 @@
       {
         "pmcid": "PMC13702258",
         "checkedAt": "2026-10-29T18:40:09Z"
+      },
+      {
+        "pmcid": "PMC13712740",
+        "checkedAt": "2026-10-30T18:15:50Z"
+      },
+      {
+        "pmcid": "PMC13714414",
+        "checkedAt": "2026-10-30T18:15:50Z"
+      },
+      {
+        "pmcid": "PMC13714631",
+        "checkedAt": "2026-10-30T18:15:50Z"
+      },
+      {
+        "pmcid": "PMC13715692",
+        "checkedAt": "2026-10-30T18:15:50Z"
+      },
+      {
+        "pmcid": "PMC13715699",
+        "checkedAt": "2026-10-30T18:15:50Z"
+      },
+      {
+        "pmcid": "PMC13715721",
+        "checkedAt": "2026-10-30T18:15:50Z"
+      },
+      {
+        "pmcid": "PMC13715839",
+        "checkedAt": "2026-10-30T18:15:50Z"
       }
     ]
   }
