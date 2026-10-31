@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-10-30T18:15:50Z",
-  "lastAddedAt": "2026-10-30T18:15:50Z",
+  "lastCheckedAt": "2026-10-31T17:22:57Z",
+  "lastAddedAt": "2026-10-31T17:22:57Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -2212,6 +2212,451 @@
         "publishedAt": "2026-10-14",
         "addedAt": "2026-10-30T18:15:50Z"
       }
+    },
+    {
+      "title": "The agricultural synergistic dividend of environmental regulation and the identification of the net total effect: Evidence from China’s Air Pollution Prevention and Control Action Plan",
+      "paragraphs": [
+        "This study evaluates the agricultural co-benefits of large-scale environmental regulation. Existing studies often focus on crop yields and condition on production inputs that may themselves respond to policy interventions, potentially understating the overall production effect. Using Chinese county-level panel data from 2000 to 2024, we employ a reduced-form difference-in-differences (DiD) design to estimate the net total effect of the Air Pollution Prevention and Control Action Plan (hereafter, the Action Plan) on per-capita agricultural output, with double machine learning used as a robustness check for flexible meteorological adjustment. The baseline DiD estimates indicate that the policy increased per-capita output of grain, vegetables and edible fungi, and oilseeds by approximately 42.6%, 10.4%, and 18.1%, respectively, in key regulated regions. Mechanism analysis shows that the policy significantly reduced fine particulate matter (PM2.5) concentrations, consistent with the proposed biophysical pathway linking improved air quality to agricultural production. The reduced-form design may also retain production adjustments induced by environmental improvement, although these behavioral responses are not directly identified. Heterogeneity analysis indicates stronger grain responses in northern regions, whereas vegetables, edible fungi, and oilseeds show stronger responses in the South; grain and oilseed responses are also stronger in high-population areas. These findings provide evidence of agricultural co-benefits from air-pollution regulation and support closer coordination between environmental and agricultural policies."
+      ],
+      "authors": "Xiaohan Yu, Jing Zhang",
+      "journal": "PLOS One",
+      "doi": "10.1371/journal.pone.0350060",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "f06a0d4f036a964b089a068aff854ce05aa9a55cb46418bbdeeeddb3ce068472",
+      "pmcid": "PMC13718976",
+      "publishedAt": "2026-10-29",
+      "addedAt": "2026-10-31T17:22:57Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13718976",
+        "kind": "article",
+        "title": "The agricultural synergistic dividend of environmental regulation and the identification of the net total effect: Evidence from China’s Air Pollution Prevention and Control Action Plan",
+        "authors": "Xiaohan Yu, Jing Zhang",
+        "organization": "PLOS One",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13718976/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "f06a0d4f036a964b089a068aff854ce05aa9a55cb46418bbdeeeddb3ce068472",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-29",
+        "doi": "10.1371/journal.pone.0350060"
+      },
+      "lesson": {
+        "id": "literature-pmc13718976",
+        "version": 1,
+        "title": "The agricultural synergistic dividend of environmental regulation and the identification of the net total effect: Evidence from China’s Air Pollution Prevention and Control Action Plan",
+        "subtitle": "Open-access abstract · PLOS One · 2026-10-29",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13718976",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "This study evaluates the agricultural co-benefits of large-scale environmental regulation. Existing studies often focus on crop yields and condition on production inputs that may themselves respond to policy interventions, potentially understating the overall production effect. Using Chinese county-level panel data from 2000 to 2024, we employ a reduced-form difference-in-differences (DiD) design to estimate the net total effect of the Air Pollution Prevention and Control Action Plan (hereafter, the Action Plan) on per-capita agricultural output, with double machine learning used as a robustness check for flexible meteorological adjustment. The baseline DiD estimates indicate that the policy increased per-capita output of grain, vegetables and edible fungi, and oilseeds by approximately 42.6%, 10.4%, and 18.1%, respectively, in key regulated regions. Mechanism analysis shows that the policy significantly reduced fine particulate matter (PM2.5) concentrations, consistent with the proposed biophysical pathway linking improved air quality to agricultural production. The reduced-form design may also retain production adjustments induced by environmental improvement, although these behavioral responses are not directly identified. Heterogeneity analysis indicates stronger grain responses in northern regions, whereas vegetables, edible fungi, and oilseeds show stronger responses in the South; grain and oilseed responses are also stronger in high-population areas. These findings provide evidence of agricultural co-benefits from air-pollution regulation and support closer coordination between environmental and agricultural policies."
+        ],
+        "terms": [
+          {
+            "term": "fine particulate matter",
+            "definition": "Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+          },
+          {
+            "term": "machine learning",
+            "definition": "Methods that learn patterns from data to support prediction or other tasks."
+          },
+          {
+            "term": "co-benefits",
+            "definition": "Additional beneficial outcomes of an action beyond its primary intended purpose."
+          },
+          {
+            "term": "baseline",
+            "definition": "A reference state or period against which a change is assessed."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nMechanism analysis shows that the policy significantly reduced _____ (PM2.5) concentrations, consistent with the proposed biophysical pathway linking improved air quality to agricultural production.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "fine particulate matter",
+                "explanation": "The original abstract uses this expression. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+              },
+              {
+                "id": "b",
+                "text": "ecosystem services",
+                "explanation": "This is not the expression used in this sentence. Benefits people obtain from ecosystems, such as water regulation and food provision."
+              },
+              {
+                "id": "c",
+                "text": "trade-off",
+                "explanation": "This is not the expression used in this sentence. A situation in which improving one outcome comes at the expense of another."
+              },
+              {
+                "id": "d",
+                "text": "albedo",
+                "explanation": "This is not the expression used in this sentence. The fraction of incoming radiation reflected by a surface or system."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: fine particulate matter. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nUsing Chinese county-level panel data from 2000 to 2024, we employ a reduced-form difference-in-differences (DiD) design to estimate the net total effect of the Air Pollution Prevention and Control Action Plan (hereafter, the Action Plan) on per-capita agricultural output, with double _____ used as a robustness check for flexible meteorological adjustment.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "reproducibility",
+                "explanation": "This is not the expression used in this sentence. The ability to obtain consistent results using the same data and analytical procedures."
+              },
+              {
+                "id": "b",
+                "text": "machine learning",
+                "explanation": "The original abstract uses this expression. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "c",
+                "text": "confounding",
+                "explanation": "This is not the expression used in this sentence. A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+              },
+              {
+                "id": "d",
+                "text": "source categories",
+                "explanation": "This is not the expression used in this sentence. Groups of emissions sources defined for inventory reporting."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: machine learning. Methods that learn patterns from data to support prediction or other tasks. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThis study evaluates the agricultural co-benefits of large-scale environmental regulation. Existing studies often focus on crop yields and condition on production inputs that may themselves respond to policy interventions, potentially understating the overall production effect. Using Chinese county-level panel data from 2000 to 2024, we employ a reduced-form difference-in-differences (DiD) design to estimate the net total effect of the Air Pollution Prevention and Control Action Plan (hereafter, the Action Plan) on per-capita agricultural output, with double machine learning used as a robustness check for flexible meteorological adjustment. The baseline DiD estimates indicate that the policy increased per-capita output of grain, vegetables and edible fungi, and oilseeds by approximately 42.6%, 10.4%, and 18.1%, respectively, in key regulated regions. Mechanism analysis shows that the policy significantly reduced fine particulate matter (PM2.5) concentrations, consistent with the proposed biophysical pathway linking improved air quality to agricultural production. The reduced-form design may also retain production adjustments induced by environmental improvement, although these behavioral responses are not directly identified. Heterogeneity analysis indicates stronger grain responses in northern regions, whereas vegetables, edible fungi, and oilseeds show stronger responses in the South; grain and oilseed responses are also stronger in high-population areas. These findings provide evidence of agricultural co-benefits from air-pollution regulation and support closer coordination between environmental and agricultural policies.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-29",
+        "addedAt": "2026-10-31T17:22:57Z"
+      }
+    },
+    {
+      "title": "Smart Agriculture Research in Date Palm (Phoenix dactylifera L.) Production: A Comprehensive Bibliometric Study",
+      "paragraphs": [
+        "The date palm (Phoenix dactylifera L.) is fundamental to food security, livelihoods, and agro-ecosystem sustainability across the Arabian Peninsula, yet its production is increasingly constrained by water scarcity, salinity, climate change, and biotic stresses. Smart agriculture technologies offer opportunities to improve crop monitoring, resource-use efficiency, and decision-making; however, their application in date palm production remains fragmented and insufficiently validated. This study evaluates the development, geographic distribution, technological focus, research approaches, and thematic structure of smart agriculture research on date palms in the Arabian Peninsula and other major date-producing countries. A bibliometric analysis was conducted using peer-reviewed English-language articles and reviews indexed in Scopus and Web of Science from 2016 to 2026, with 2026 representing a partial year. Following screening and duplicate removal, 164 published studies were retained. Publication output increased gradually, although the trend was not statistically significant (β = 1.25 articles year−1, p = 0.068; Mann–Kendall τ = 0.489, p = 0.060). The literature was concentrated in the Gulf Cooperation Council (GCC) region, with Saudi Arabia contributing 54 publications (32.9%). General agronomy/other topics accounted for 46.3% of publications, while remote sensing/UAVs (17.1%), GIS/geospatial technologies (14.0%), IoT/sensors (13.4%), and AI/machine learning (9.8%) represented the leading specific technology categories. Water and irrigation management dominated thematic applications (46.3%), whereas Smart Farming/IoT accounted for only 11.0%. Observational and monitoring studies comprised 50.0% of publications, compared with only 6.1% involving field experiments, indicating limited field-scale validation. Internationally co-authored studies received significantly more citations than domestically authored studies (16.55 vs. 8.68; p = 0.0007). Thematic analysis identified four major clusters: geospatial monitoring, water management, pest control, and sustainability, with AI/machine learning showing marked growth after 2022. Altogether, the field is expanding but remains fragmented, highlighting the need for integrated IoT and sensor networks, rigorous field trials, AI-driven decision-support systems, and stronger regional and international collaboration to enable scalable, context-specific smart agriculture for date palm production."
+      ],
+      "authors": "Sajid Safeer, Adnan Nadeem, Sajid Maqsood, Cataldo Pulvento",
+      "journal": "Plants",
+      "doi": "10.3390/plants15203137",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "d5feac87d50ae66f75afe2d4b79e12e3d45fca0ec26b6400b9633878096675bb",
+      "pmcid": "PMC13708776",
+      "publishedAt": "2026-10-14",
+      "addedAt": "2026-10-31T17:22:57Z",
+      "topic": "Research methods",
+      "source": {
+        "id": "literature-pmc13708776",
+        "kind": "article",
+        "title": "Smart Agriculture Research in Date Palm (Phoenix dactylifera L.) Production: A Comprehensive Bibliometric Study",
+        "authors": "Sajid Safeer, Adnan Nadeem, Sajid Maqsood, Cataldo Pulvento",
+        "organization": "Plants",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13708776/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "d5feac87d50ae66f75afe2d4b79e12e3d45fca0ec26b6400b9633878096675bb",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-14",
+        "doi": "10.3390/plants15203137"
+      },
+      "lesson": {
+        "id": "literature-pmc13708776",
+        "version": 1,
+        "title": "Smart Agriculture Research in Date Palm (Phoenix dactylifera L.) Production: A Comprehensive Bibliometric Study",
+        "subtitle": "Open-access abstract · Plants · 2026-10-14",
+        "topic": "Research methods",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13708776",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "The date palm (Phoenix dactylifera L.) is fundamental to food security, livelihoods, and agro-ecosystem sustainability across the Arabian Peninsula, yet its production is increasingly constrained by water scarcity, salinity, climate change, and biotic stresses. Smart agriculture technologies offer opportunities to improve crop monitoring, resource-use efficiency, and decision-making; however, their application in date palm production remains fragmented and insufficiently validated. This study evaluates the development, geographic distribution, technological focus, research approaches, and thematic structure of smart agriculture research on date palms in the Arabian Peninsula and other major date-producing countries. A bibliometric analysis was conducted using peer-reviewed English-language articles and reviews indexed in Scopus and Web of Science from 2016 to 2026, with 2026 representing a partial year. Following screening and duplicate removal, 164 published studies were retained. Publication output increased gradually, although the trend was not statistically significant (β = 1.25 articles year−1, p = 0.068; Mann–Kendall τ = 0.489, p = 0.060). The literature was concentrated in the Gulf Cooperation Council (GCC) region, with Saudi Arabia contributing 54 publications (32.9%). General agronomy/other topics accounted for 46.3% of publications, while remote sensing/UAVs (17.1%), GIS/geospatial technologies (14.0%), IoT/sensors (13.4%), and AI/machine learning (9.8%) represented the leading specific technology categories. Water and irrigation management dominated thematic applications (46.3%), whereas Smart Farming/IoT accounted for only 11.0%. Observational and monitoring studies comprised 50.0% of publications, compared with only 6.1% involving field experiments, indicating limited field-scale validation. Internationally co-authored studies received significantly more citations than domestically authored studies (16.55 vs. 8.68; p = 0.0007). Thematic analysis identified four major clusters: geospatial monitoring, water management, pest control, and sustainability, with AI/machine learning showing marked growth after 2022. Altogether, the field is expanding but remains fragmented, highlighting the need for integrated IoT and sensor networks, rigorous field trials, AI-driven decision-support systems, and stronger regional and international collaboration to enable scalable, context-specific smart agriculture for date palm production."
+        ],
+        "terms": [
+          {
+            "term": "machine learning",
+            "definition": "Methods that learn patterns from data to support prediction or other tasks."
+          },
+          {
+            "term": "remote sensing",
+            "definition": "Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+          },
+          {
+            "term": "water scarcity",
+            "definition": "Insufficient available water to meet demand within a defined place and period."
+          },
+          {
+            "term": "sustainability",
+            "definition": "The capacity to maintain environmental, social or economic conditions over time within stated constraints."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nGeneral agronomy/other topics accounted for 46.3% of publications, while remote sensing/UAVs (17.1%), GIS/geospatial technologies (14.0%), IoT/sensors (13.4%), and AI/_____ (9.8%) represented the leading specific technology categories.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "life cycle assessment",
+                "explanation": "This is not the expression used in this sentence. A method for evaluating environmental impacts across defined stages of a product or service's life."
+              },
+              {
+                "id": "b",
+                "text": "machine learning",
+                "explanation": "The original abstract uses this expression. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "c",
+                "text": "trophic level",
+                "explanation": "This is not the expression used in this sentence. A position in a food web defined by the source of an organism's energy."
+              },
+              {
+                "id": "d",
+                "text": "fuel consumption",
+                "explanation": "This is not the expression used in this sentence. The amount of fuel used over a defined period and boundary."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: machine learning. Methods that learn patterns from data to support prediction or other tasks. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nGeneral agronomy/other topics accounted for 46.3% of publications, while _____/UAVs (17.1%), GIS/geospatial technologies (14.0%), IoT/sensors (13.4%), and AI/machine learning (9.8%) represented the leading specific technology categories.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "remote sensing",
+                "explanation": "The original abstract uses this expression. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              },
+              {
+                "id": "b",
+                "text": "aerosol optical depth",
+                "explanation": "This is not the expression used in this sentence. A measure of the attenuation of light by aerosols through an atmospheric column."
+              },
+              {
+                "id": "c",
+                "text": "urban heat island",
+                "explanation": "This is not the expression used in this sentence. The tendency for an urban area to be warmer than its surroundings under specified conditions."
+              },
+              {
+                "id": "d",
+                "text": "fuel consumption",
+                "explanation": "This is not the expression used in this sentence. The amount of fuel used over a defined period and boundary."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: remote sensing. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe date palm (Phoenix dactylifera L.) is fundamental to food security, livelihoods, and agro-ecosystem sustainability across the Arabian Peninsula, yet its production is increasingly constrained by water scarcity, salinity, climate change, and biotic stresses. Smart agriculture technologies offer opportunities to improve crop monitoring, resource-use efficiency, and decision-making; however, their application in date palm production remains fragmented and insufficiently validated. This study evaluates the development, geographic distribution, technological focus, research approaches, and thematic structure of smart agriculture research on date palms in the Arabian Peninsula and other major date-producing countries. A bibliometric analysis was conducted using peer-reviewed English-language articles and reviews indexed in Scopus and Web of Science from 2016 to 2026, with 2026 representing a partial year. Following screening and duplicate removal, 164 published studies were retained. Publication output increased gradually, although the trend was not statistically significant (β = 1.25 articles year−1, p = 0.068; Mann–Kendall τ = 0.489, p = 0.060). The literature was concentrated in the Gulf Cooperation Council (GCC) region, with Saudi Arabia contributing 54 publications (32.9%). General agronomy/other topics accounted for 46.3% of publications, while remote sensing/UAVs (17.1%), GIS/geospatial technologies (14.0%), IoT/sensors (13.4%), and AI/machine learning (9.8%) represented the leading specific technology categories. Water and irrigation management dominated thematic applications (46.3%), whereas Smart Farming/IoT accounted for only 11.0%. Observational and monitoring studies comprised 50.0% of publications, compared with only 6.1% involving field experiments, indicating limited field-scale validation. Internationally co-authored studies received significantly more citations than domestically authored studies (16.55 vs. 8.68; p = 0.0007). Thematic analysis identified four major clusters: geospatial monitoring, water management, pest control, and sustainability, with AI/machine learning showing marked growth after 2022. Altogether, the field is expanding but remains fragmented, highlighting the need for integrated IoT and sensor networks, rigorous field trials, AI-driven decision-support systems, and stronger regional and international collaboration to enable scalable, context-specific smart agriculture for date palm production.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-14",
+        "addedAt": "2026-10-31T17:22:57Z"
+      }
+    },
+    {
+      "title": "Inverter control for wind–solar–storage based on distributed generation and virtual synchronous machines",
+      "paragraphs": [
+        "To enhance the operational stability of the power system and address the issues of weak inertia support and sluggish dynamic response of traditional inverter control strategies when dealing with complex scenarios involving a high proportion of new energy sources, a new intelligent control strategy has been proposed. This study adopts the VSG control strategy as the core technology for the regulation of wind-solar-storage power generation inverters, and divides the dynamic response process into acceleration period, deceleration period, reverse acceleration period and reverse deceleration period. Different control strategies are adopted for different system states at different stages. Additionally, the DDPG algorithm is introduced, and the single DDPG agent is extended to a multi-agent interactive deep deterministic policy gradient algorithm. Finally, the multi-agent collaborative optimization is achieved in a “centralized training and decentralized execution” form. The research results show that in the case of sudden load increase, the voltage deviation at the grid connection point is stabilized at 371.7 V, and the voltage recovery time is significantly shorter than the comparison strategy. At the same time, the time-weighted absolute error integral reaches optimal values of 1.82 V/s2 and 1.85 V/s2 in scenarios of sudden load increase and sudden drops in photovoltaic power, and the strategy efficiency reaches 97.83%, and the steady-state accuracy reaches 99.63%, demonstrating superior control capabilities. In the three typical fault conditions of practical application, the average frequency deviation of the control strategy was 0.197 Hz, the number of protection lockouts was 0.3 times, the average depth of voltage sag was 24.63%, the average recovery time was 1.21 hours, and the number of abnormal warnings did not exceed 5 times. The proposed framework for coordinated wind, solar, and storage regulation, based on distributed power generation and virtual synchronous machine, can effectively support the safe, flexible, and efficient operation of the new power system under high penetration of renewable energy."
+      ],
+      "authors": "Heng Cao",
+      "journal": "PLOS One",
+      "doi": "10.1371/journal.pone.0359162",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "0d33881410167e679d1c7ea8e13e582d670d96a2a52b07054a35c937585137d0",
+      "pmcid": "PMC13712625",
+      "publishedAt": "2026-10-27",
+      "addedAt": "2026-10-31T17:22:57Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13712625",
+        "kind": "article",
+        "title": "Inverter control for wind–solar–storage based on distributed generation and virtual synchronous machines",
+        "authors": "Heng Cao",
+        "organization": "PLOS One",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13712625/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "0d33881410167e679d1c7ea8e13e582d670d96a2a52b07054a35c937585137d0",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-27",
+        "doi": "10.1371/journal.pone.0359162"
+      },
+      "lesson": {
+        "id": "literature-pmc13712625",
+        "version": 1,
+        "title": "Inverter control for wind–solar–storage based on distributed generation and virtual synchronous machines",
+        "subtitle": "Open-access abstract · PLOS One · 2026-10-27",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13712625",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "To enhance the operational stability of the power system and address the issues of weak inertia support and sluggish dynamic response of traditional inverter control strategies when dealing with complex scenarios involving a high proportion of new energy sources, a new intelligent control strategy has been proposed. This study adopts the VSG control strategy as the core technology for the regulation of wind-solar-storage power generation inverters, and divides the dynamic response process into acceleration period, deceleration period, reverse acceleration period and reverse deceleration period. Different control strategies are adopted for different system states at different stages. Additionally, the DDPG algorithm is introduced, and the single DDPG agent is extended to a multi-agent interactive deep deterministic policy gradient algorithm. Finally, the multi-agent collaborative optimization is achieved in a “centralized training and decentralized execution” form. The research results show that in the case of sudden load increase, the voltage deviation at the grid connection point is stabilized at 371.7 V, and the voltage recovery time is significantly shorter than the comparison strategy. At the same time, the time-weighted absolute error integral reaches optimal values of 1.82 V/s2 and 1.85 V/s2 in scenarios of sudden load increase and sudden drops in photovoltaic power, and the strategy efficiency reaches 97.83%, and the steady-state accuracy reaches 99.63%, demonstrating superior control capabilities. In the three typical fault conditions of practical application, the average frequency deviation of the control strategy was 0.197 Hz, the number of protection lockouts was 0.3 times, the average depth of voltage sag was 24.63%, the average recovery time was 1.21 hours, and the number of abnormal warnings did not exceed 5 times. The proposed framework for coordinated wind, solar, and storage regulation, based on distributed power generation and virtual synchronous machine, can effectively support the safe, flexible, and efficient operation of the new power system under high penetration of renewable energy."
+        ],
+        "terms": [
+          {
+            "term": "renewable energy",
+            "definition": "Energy obtained from sources that are naturally replenished on human timescales."
+          },
+          {
+            "term": "accuracy",
+            "definition": "The extent to which an estimate avoids systematic departure from the true value."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe proposed framework for coordinated wind, solar, and storage regulation, based on distributed power generation and virtual synchronous machine, can effectively support the safe, flexible, and efficient operation of the new power system under high penetration of _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "functional diversity",
+                "explanation": "This is not the expression used in this sentence. Variation in the traits of organisms that influence ecosystem processes."
+              },
+              {
+                "id": "b",
+                "text": "confidentiality",
+                "explanation": "This is not the expression used in this sentence. Protection of information whose access or disclosure is restricted."
+              },
+              {
+                "id": "c",
+                "text": "radiative forcing",
+                "explanation": "This is not the expression used in this sentence. A change in the net energy flux in the Earth system caused by a specified driver."
+              },
+              {
+                "id": "d",
+                "text": "renewable energy",
+                "explanation": "The original abstract uses this expression. Energy obtained from sources that are naturally replenished on human timescales."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: renewable energy. Energy obtained from sources that are naturally replenished on human timescales. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAt the same time, the time-weighted absolute error integral reaches optimal values of 1.82 V/s2 and 1.85 V/s2 in scenarios of sudden load increase and sudden drops in photovoltaic power, and the strategy efficiency reaches 97.83%, and the steady-state _____ reaches 99.63%, demonstrating superior control capabilities.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "climate mitigation",
+                "explanation": "This is not the expression used in this sentence. Actions that reduce greenhouse-gas sources or enhance their sinks."
+              },
+              {
+                "id": "b",
+                "text": "accuracy",
+                "explanation": "The original abstract uses this expression. The extent to which an estimate avoids systematic departure from the true value."
+              },
+              {
+                "id": "c",
+                "text": "dissolved organic carbon",
+                "explanation": "This is not the expression used in this sentence. Organic carbon present in the fraction of a water sample operationally classified as dissolved."
+              },
+              {
+                "id": "d",
+                "text": "temporal resolution",
+                "explanation": "This is not the expression used in this sentence. The time interval or level of temporal detail represented by data."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: accuracy. The extent to which an estimate avoids systematic departure from the true value. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nTo enhance the operational stability of the power system and address the issues of weak inertia support and sluggish dynamic response of traditional inverter control strategies when dealing with complex scenarios involving a high proportion of new energy sources, a new intelligent control strategy has been proposed. This study adopts the VSG control strategy as the core technology for the regulation of wind-solar-storage power generation inverters, and divides the dynamic response process into acceleration period, deceleration period, reverse acceleration period and reverse deceleration period. Different control strategies are adopted for different system states at different stages. Additionally, the DDPG algorithm is introduced, and the single DDPG agent is extended to a multi-agent interactive deep deterministic policy gradient algorithm. Finally, the multi-agent collaborative optimization is achieved in a “centralized training and decentralized execution” form. The research results show that in the case of sudden load increase, the voltage deviation at the grid connection point is stabilized at 371.7 V, and the voltage recovery time is significantly shorter than the comparison strategy. At the same time, the time-weighted absolute error integral reaches optimal values of 1.82 V/s2 and 1.85 V/s2 in scenarios of sudden load increase and sudden drops in photovoltaic power, and the strategy efficiency reaches 97.83%, and the steady-state accuracy reaches 99.63%, demonstrating superior control capabilities. In the three typical fault conditions of practical application, the average frequency deviation of the control strategy was 0.197 Hz, the number of protection lockouts was 0.3 times, the average depth of voltage sag was 24.63%, the average recovery time was 1.21 hours, and the number of abnormal warnings did not exceed 5 times. The proposed framework for coordinated wind, solar, and storage regulation, based on distributed power generation and virtual synchronous machine, can effectively support the safe, flexible, and efficient operation of the new power system under high penetration of renewable energy.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-27",
+        "addedAt": "2026-10-31T17:22:57Z"
+      }
     }
   ],
   "vocabulary": [
@@ -2550,9 +2995,151 @@
       "evidence": "Analyses combined coefficients of variation, Pearson correlations with Benjamini–Hochberg false-discovery-rate correction, partial least squares regression (PLSR) with leave-one-out cross-validation and 1,000 bootstrap resamples, Moran’s I tests of residual spatial autocorrelation, principal component analysis, objectively validated Ward clustering, and a seven-trait entropy-weighted TOPSIS evaluation with equal-weight sensitivity analysis.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-d7f2b5cb0170f76c2f72",
+      "term": "fine particulate matter",
+      "meaning": "Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Mechanism analysis shows that the policy significantly reduced fine particulate matter (PM2.5) concentrations, consistent with the proposed biophysical pathway linking improved air quality to agricultural production.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13718976",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Mechanism analysis shows that the policy significantly reduced fine particulate matter (PM2.5) concentrations, consistent with the proposed biophysical pathway linking improved air quality to agricultural production.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-dcaa8e5ecb8d70ad4ede",
+      "term": "machine learning",
+      "meaning": "Methods that learn patterns from data to support prediction or other tasks.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Using Chinese county-level panel data from 2000 to 2024, we employ a reduced-form difference-in-differences (DiD) design to estimate the net total effect of the Air Pollution Prevention and Control Action Plan (hereafter, the Action Plan) on per-capita agricultural output, with double machine learning used as a robustness check for flexible meteorological adjustment.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13718976",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Using Chinese county-level panel data from 2000 to 2024, we employ a reduced-form difference-in-differences (DiD) design to estimate the net total effect of the Air Pollution Prevention and Control Action Plan (hereafter, the Action Plan) on per-capita agricultural output, with double machine learning used as a robustness check for flexible meteorological adjustment.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-f3c1a1ae36bdba0e0872",
+      "term": "co-benefits",
+      "meaning": "Additional beneficial outcomes of an action beyond its primary intended purpose.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "This study evaluates the agricultural co-benefits of large-scale environmental regulation.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13718976",
+      "location": "Abstract · paragraph 1",
+      "evidence": "This study evaluates the agricultural co-benefits of large-scale environmental regulation.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-cb9b797b19428bab12aa",
+      "term": "water scarcity",
+      "meaning": "Insufficient available water to meet demand within a defined place and period.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "The date palm (Phoenix dactylifera L.) is fundamental to food security, livelihoods, and agro-ecosystem sustainability across the Arabian Peninsula, yet its production is increasingly constrained by water scarcity, salinity, climate change, and biotic stresses.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13708776",
+      "location": "Abstract · paragraph 1",
+      "evidence": "The date palm (Phoenix dactylifera L.) is fundamental to food security, livelihoods, and agro-ecosystem sustainability across the Arabian Peninsula, yet its production is increasingly constrained by water scarcity, salinity, climate change, and biotic stresses.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-43029a964b518f9c8281",
+      "term": "sustainability",
+      "meaning": "The capacity to maintain environmental, social or economic conditions over time within stated constraints.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "The date palm (Phoenix dactylifera L.) is fundamental to food security, livelihoods, and agro-ecosystem sustainability across the Arabian Peninsula, yet its production is increasingly constrained by water scarcity, salinity, climate change, and biotic stresses.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13708776",
+      "location": "Abstract · paragraph 1",
+      "evidence": "The date palm (Phoenix dactylifera L.) is fundamental to food security, livelihoods, and agro-ecosystem sustainability across the Arabian Peninsula, yet its production is increasingly constrained by water scarcity, salinity, climate change, and biotic stresses.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-6750cb68b37eb3314785",
+      "term": "renewable energy",
+      "meaning": "Energy obtained from sources that are naturally replenished on human timescales.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "The proposed framework for coordinated wind, solar, and storage regulation, based on distributed power generation and virtual synchronous machine, can effectively support the safe, flexible, and efficient operation of the new power system under high penetration of renewable energy.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13712625",
+      "location": "Abstract · paragraph 1",
+      "evidence": "The proposed framework for coordinated wind, solar, and storage regulation, based on distributed power generation and virtual synchronous machine, can effectively support the safe, flexible, and efficient operation of the new power system under high penetration of renewable energy.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-10-31T17:22:57Z",
+      "added": 3,
+      "total": 18,
+      "vocabularyAdded": 6,
+      "screening": {
+        "candidates": 267,
+        "xmlInspected": 23,
+        "cachedSkipped": 9,
+        "unavailable": 0,
+        "ineligible": 16,
+        "duplicate": 0,
+        "insufficientTerms": 4,
+        "passes": 1
+      }
+    },
     {
       "checkedAt": "2026-10-30T18:15:50Z",
       "added": 3,
@@ -3166,6 +3753,86 @@
       {
         "pmcid": "PMC13715839",
         "checkedAt": "2026-10-30T18:15:50Z"
+      },
+      {
+        "pmcid": "PMC13697509",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13705788",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13709588",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13710540",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13710892",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13712539",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13712690",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13712723",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13712746",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13713171",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13713970",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13715015",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13715698",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13716175",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13717229",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13719766",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13719833",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13720272",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13721042",
+        "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13721831",
+        "checkedAt": "2026-10-31T17:22:57Z"
       }
     ]
   }
