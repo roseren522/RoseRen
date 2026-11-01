@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-10-31T17:22:57Z",
-  "lastAddedAt": "2026-10-31T17:22:57Z",
+  "lastCheckedAt": "2026-11-01T18:08:41Z",
+  "lastAddedAt": "2026-11-01T18:08:41Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -2657,6 +2657,435 @@
         "publishedAt": "2026-10-27",
         "addedAt": "2026-10-31T17:22:57Z"
       }
+    },
+    {
+      "title": "Quantifying Light-Absorbing Aerosol Snow Darkening Using Cryogenic Snow Generation and Integrating Sphere Spectrophotometry",
+      "paragraphs": [
+        "The deposition of light-absorbing aerosols like dark brown carbon (d-BrC) accelerates cryospheric melt, yet accurately modeling this radiative forcing is hindered by a lack of empirical data. To address this gap, we developed a novel, low-footprint laboratory snow synthesis and deposition apparatus. This system couples the cryogenic generation of synthetic snow with controlled aerosol dry deposition, allowing spectral albedo reductions to be quantified via an integrating sphere spectrophotometer. The setup was rigorously validated using Cabojet, a highly absorbing black carbon (BC) proxy, achieving high-fidelity optical closure with the Snow, Ice, and Aerosol Radiative (SNICAR) model (root-mean-square error < 0.022) and establishing a 165 parts per billion (ppb) detection limit of BC in snow. Applying this validated methodology to nebulized d-BrC tarballs revealed that the dry deposition of ∼1000 ppb d-BrC drives a visible broadband albedo decrease of 0.06. This apparatus offers a highly controlled, empirical platform to ground-truth theoretical radiative forcing calculations for diverse, real-world cryospheric contaminants. Further, by introducing a modular and rapid laboratory setup, these experiments overcome the limitations of outdoor field studies and resource-intensive cold rooms."
+      ],
+      "authors": "Ganesh S. Chelluboyina, Longrui Zhang, Shu-Wen You, Rajan K. Chakrabarty",
+      "journal": "Sensors (Basel, Switzerland)",
+      "doi": "10.3390/s26206650",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "d3ef5be832f4642630c3e9459a21f21be73bc8048340c6000ceb69b4cd37830d",
+      "pmcid": "PMC13709210",
+      "publishedAt": "2026-10-21",
+      "addedAt": "2026-11-01T18:08:41Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13709210",
+        "kind": "article",
+        "title": "Quantifying Light-Absorbing Aerosol Snow Darkening Using Cryogenic Snow Generation and Integrating Sphere Spectrophotometry",
+        "authors": "Ganesh S. Chelluboyina, Longrui Zhang, Shu-Wen You, Rajan K. Chakrabarty",
+        "organization": "Sensors (Basel, Switzerland)",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13709210/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "d3ef5be832f4642630c3e9459a21f21be73bc8048340c6000ceb69b4cd37830d",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-21",
+        "doi": "10.3390/s26206650"
+      },
+      "lesson": {
+        "id": "literature-pmc13709210",
+        "version": 1,
+        "title": "Quantifying Light-Absorbing Aerosol Snow Darkening Using Cryogenic Snow Generation and Integrating Sphere Spectrophotometry",
+        "subtitle": "Open-access abstract · Sensors (Basel, Switzerland) · 2026-10-21",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13709210",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "The deposition of light-absorbing aerosols like dark brown carbon (d-BrC) accelerates cryospheric melt, yet accurately modeling this radiative forcing is hindered by a lack of empirical data. To address this gap, we developed a novel, low-footprint laboratory snow synthesis and deposition apparatus. This system couples the cryogenic generation of synthetic snow with controlled aerosol dry deposition, allowing spectral albedo reductions to be quantified via an integrating sphere spectrophotometer. The setup was rigorously validated using Cabojet, a highly absorbing black carbon (BC) proxy, achieving high-fidelity optical closure with the Snow, Ice, and Aerosol Radiative (SNICAR) model (root-mean-square error < 0.022) and establishing a 165 parts per billion (ppb) detection limit of BC in snow. Applying this validated methodology to nebulized d-BrC tarballs revealed that the dry deposition of ∼1000 ppb d-BrC drives a visible broadband albedo decrease of 0.06. This apparatus offers a highly controlled, empirical platform to ground-truth theoretical radiative forcing calculations for diverse, real-world cryospheric contaminants. Further, by introducing a modular and rapid laboratory setup, these experiments overcome the limitations of outdoor field studies and resource-intensive cold rooms."
+        ],
+        "terms": [
+          {
+            "term": "radiative forcing",
+            "definition": "A change in the net energy flux in the Earth system caused by a specified driver."
+          },
+          {
+            "term": "albedo",
+            "definition": "The fraction of incoming radiation reflected by a surface or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe deposition of light-absorbing aerosols like dark brown carbon (d-BrC) accelerates cryospheric melt, yet accurately modeling this _____ is hindered by a lack of empirical data.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "expert judgement",
+                "explanation": "This is not the expression used in this sentence. An informed assessment based on relevant specialist knowledge."
+              },
+              {
+                "id": "b",
+                "text": "default emission factor",
+                "explanation": "This is not the expression used in this sentence. A reference factor supplied for use when an appropriate more specific factor is unavailable."
+              },
+              {
+                "id": "c",
+                "text": "tipping point",
+                "explanation": "This is not the expression used in this sentence. A threshold beyond which a system may shift into a substantially different state."
+              },
+              {
+                "id": "d",
+                "text": "radiative forcing",
+                "explanation": "The original abstract uses this expression. A change in the net energy flux in the Earth system caused by a specified driver."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: radiative forcing. A change in the net energy flux in the Earth system caused by a specified driver. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThis system couples the cryogenic generation of synthetic snow with controlled aerosol dry deposition, allowing spectral _____ reductions to be quantified via an integrating sphere spectrophotometer.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "stationary combustion",
+                "explanation": "This is not the expression used in this sentence. Fuel burning in stationary equipment or installations."
+              },
+              {
+                "id": "b",
+                "text": "soil respiration",
+                "explanation": "This is not the expression used in this sentence. The release of carbon dioxide from soil through biological activity."
+              },
+              {
+                "id": "c",
+                "text": "representativeness",
+                "explanation": "This is not the expression used in this sentence. How well available data correspond to the conditions of interest."
+              },
+              {
+                "id": "d",
+                "text": "albedo",
+                "explanation": "The original abstract uses this expression. The fraction of incoming radiation reflected by a surface or system."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: albedo. The fraction of incoming radiation reflected by a surface or system. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe deposition of light-absorbing aerosols like dark brown carbon (d-BrC) accelerates cryospheric melt, yet accurately modeling this radiative forcing is hindered by a lack of empirical data. To address this gap, we developed a novel, low-footprint laboratory snow synthesis and deposition apparatus. This system couples the cryogenic generation of synthetic snow with controlled aerosol dry deposition, allowing spectral albedo reductions to be quantified via an integrating sphere spectrophotometer. The setup was rigorously validated using Cabojet, a highly absorbing black carbon (BC) proxy, achieving high-fidelity optical closure with the Snow, Ice, and Aerosol Radiative (SNICAR) model (root-mean-square error < 0.022) and establishing a 165 parts per billion (ppb) detection limit of BC in snow. Applying this validated methodology to nebulized d-BrC tarballs revealed that the dry deposition of ∼1000 ppb d-BrC drives a visible broadband albedo decrease of 0.06. This apparatus offers a highly controlled, empirical platform to ground-truth theoretical radiative forcing calculations for diverse, real-world cryospheric contaminants. Further, by introducing a modular and rapid laboratory setup, these experiments overcome the limitations of outdoor field studies and resource-intensive cold rooms.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-21",
+        "addedAt": "2026-11-01T18:08:41Z"
+      }
+    },
+    {
+      "title": "Environmental Cancer Risk Scenarios for Lebanon: Quantitative Sensitivity Analysis and a Qualitative Genetic Susceptibility Framework",
+      "paragraphs": [
+        "Background: Environmental exposures and biological susceptibility contribute to the complexity in cancer vulnerability, particularly in settings where comprehensive environmental monitoring and longitudinal exposure data are limited. Scenario-based modeling can provide a structured approach for exploring potential environmental cancer risks under uncertainty and identifying priorities for future research and surveillance. Methods: We developed a scenario-based environmental cancer risk framework for Lebanon incorporating three exposure domains—perchlorate contamination, nitrate/nitrite exposure, and conflict-derived environmental contamination— and a qualitative Genetic Susceptibility Index (GSI). Monte Carlo simulations with 100,000 iterations were used to propagate uncertainty in literature-derived epidemiological effect estimates for colorectal and lung cancers under alternative hypothetical scaling assumptions. The GSI was used to organize qualitative susceptibility pathways but was not incorporated as a numerical modifier in the simulations. Thyroid cancer was evaluated separately through an illustrative hypothetical sensitivity analysis using author-defined relative-effect ranges because direct epidemiological estimates linking perchlorate exposure to thyroid cancer incidence were unavailable. Results: For colorectal cancer, the mean simulated relative effect increased from 3.79% (95% UI: 1.90–5.70%) under the low-exposure-contrast scenario to 7.72% (95% UI: 3.83–11.71%) under the moderate scenario and 16.09% (95% UI: 7.81–24.80%) under the high scenario, which applied the full published log-relative effect. For lung cancer, corresponding mean simulated relative effects were 2.18% (95% UI: 1.01–3.36%), 4.41% (95% UI: 2.02–6.83%), and 9.03% (95% UI: 4.09–14.13%). Under the full published exposure contrast, 92.34% of colorectal cancer simulations exceeded a 10% relative-effect threshold and 94.52% of lung cancer simulations exceeded a 5% threshold. The thyroid cancer analysis produced mean simulated relative effects of 1.03%, 3.50%, and 7.51% under the low-, moderate-, and high-scenario assumptions, respectively; these outputs were conditional on the prespecified hypothetical ranges. Conclusions: This framework demonstrates how alternative exposure-contrast assumptions can influence the distribution of literature-derived relative effects in a data-limited setting. By combining quantitative exposure-contrast sensitivity analysis with a qualitative genetic susceptibility framework, the approach may support environmental health planning, surveillance prioritization, and the design of future population-based studies in Lebanon. The thyroid cancer results illustrate model behavior under author-defined hypothetical assumptions and do not constitute epidemiological estimates of perchlorate-associated thyroid cancer risk. The findings are exploratory and should not be interpreted as estimates of cancer incidence, population-attributable risk, or causal effects in the Lebanese population."
+      ],
+      "authors": "Magie Tamraz, Rihab Nasr, Sally Temraz",
+      "journal": "Toxics",
+      "doi": "10.3390/toxics14100921",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "d294fce616cde5dda20de26bc67b76f3cb8f5eb0e4f98137ae0597e2d39d74d5",
+      "pmcid": "PMC13709853",
+      "publishedAt": "2026-10-17",
+      "addedAt": "2026-11-01T18:08:41Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13709853",
+        "kind": "article",
+        "title": "Environmental Cancer Risk Scenarios for Lebanon: Quantitative Sensitivity Analysis and a Qualitative Genetic Susceptibility Framework",
+        "authors": "Magie Tamraz, Rihab Nasr, Sally Temraz",
+        "organization": "Toxics",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13709853/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "d294fce616cde5dda20de26bc67b76f3cb8f5eb0e4f98137ae0597e2d39d74d5",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-17",
+        "doi": "10.3390/toxics14100921"
+      },
+      "lesson": {
+        "id": "literature-pmc13709853",
+        "version": 1,
+        "title": "Environmental Cancer Risk Scenarios for Lebanon: Quantitative Sensitivity Analysis and a Qualitative Genetic Susceptibility Framework",
+        "subtitle": "Open-access abstract · Toxics · 2026-10-17",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13709853",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Background: Environmental exposures and biological susceptibility contribute to the complexity in cancer vulnerability, particularly in settings where comprehensive environmental monitoring and longitudinal exposure data are limited. Scenario-based modeling can provide a structured approach for exploring potential environmental cancer risks under uncertainty and identifying priorities for future research and surveillance. Methods: We developed a scenario-based environmental cancer risk framework for Lebanon incorporating three exposure domains—perchlorate contamination, nitrate/nitrite exposure, and conflict-derived environmental contamination— and a qualitative Genetic Susceptibility Index (GSI). Monte Carlo simulations with 100,000 iterations were used to propagate uncertainty in literature-derived epidemiological effect estimates for colorectal and lung cancers under alternative hypothetical scaling assumptions. The GSI was used to organize qualitative susceptibility pathways but was not incorporated as a numerical modifier in the simulations. Thyroid cancer was evaluated separately through an illustrative hypothetical sensitivity analysis using author-defined relative-effect ranges because direct epidemiological estimates linking perchlorate exposure to thyroid cancer incidence were unavailable. Results: For colorectal cancer, the mean simulated relative effect increased from 3.79% (95% UI: 1.90–5.70%) under the low-exposure-contrast scenario to 7.72% (95% UI: 3.83–11.71%) under the moderate scenario and 16.09% (95% UI: 7.81–24.80%) under the high scenario, which applied the full published log-relative effect. For lung cancer, corresponding mean simulated relative effects were 2.18% (95% UI: 1.01–3.36%), 4.41% (95% UI: 2.02–6.83%), and 9.03% (95% UI: 4.09–14.13%). Under the full published exposure contrast, 92.34% of colorectal cancer simulations exceeded a 10% relative-effect threshold and 94.52% of lung cancer simulations exceeded a 5% threshold. The thyroid cancer analysis produced mean simulated relative effects of 1.03%, 3.50%, and 7.51% under the low-, moderate-, and high-scenario assumptions, respectively; these outputs were conditional on the prespecified hypothetical ranges. Conclusions: This framework demonstrates how alternative exposure-contrast assumptions can influence the distribution of literature-derived relative effects in a data-limited setting. By combining quantitative exposure-contrast sensitivity analysis with a qualitative genetic susceptibility framework, the approach may support environmental health planning, surveillance prioritization, and the design of future population-based studies in Lebanon. The thyroid cancer results illustrate model behavior under author-defined hypothetical assumptions and do not constitute epidemiological estimates of perchlorate-associated thyroid cancer risk. The findings are exploratory and should not be interpreted as estimates of cancer incidence, population-attributable risk, or causal effects in the Lebanese population."
+        ],
+        "terms": [
+          {
+            "term": "sensitivity analysis",
+            "definition": "Examining how a result responds to changes in selected inputs or assumptions."
+          },
+          {
+            "term": "uncertainty",
+            "definition": "Incomplete knowledge about the true value of a quantity."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThyroid cancer was evaluated separately through an illustrative hypothetical _____ using author-defined relative-effect ranges because direct epidemiological estimates linking perchlorate exposure to thyroid cancer incidence were unavailable.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "fuel consumption",
+                "explanation": "This is not the expression used in this sentence. The amount of fuel used over a defined period and boundary."
+              },
+              {
+                "id": "b",
+                "text": "accuracy",
+                "explanation": "This is not the expression used in this sentence. The extent to which an estimate avoids systematic departure from the true value."
+              },
+              {
+                "id": "c",
+                "text": "sensitivity analysis",
+                "explanation": "The original abstract uses this expression. Examining how a result responds to changes in selected inputs or assumptions."
+              },
+              {
+                "id": "d",
+                "text": "nitrogen deposition",
+                "explanation": "This is not the expression used in this sentence. The transfer of atmospheric nitrogen compounds to surfaces by wet and dry processes."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: sensitivity analysis. Examining how a result responds to changes in selected inputs or assumptions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nScenario-based modeling can provide a structured approach for exploring potential environmental cancer risks under _____ and identifying priorities for future research and surveillance.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "carbon content",
+                "explanation": "This is not the expression used in this sentence. The amount or fraction of carbon in a material such as fuel."
+              },
+              {
+                "id": "b",
+                "text": "uncertainty",
+                "explanation": "The original abstract uses this expression. Incomplete knowledge about the true value of a quantity."
+              },
+              {
+                "id": "c",
+                "text": "feedback",
+                "explanation": "This is not the expression used in this sentence. A process in which a system's response influences the conditions driving that response."
+              },
+              {
+                "id": "d",
+                "text": "organic soils",
+                "explanation": "This is not the expression used in this sentence. Soils with organic characteristics classified under the inventory guidance."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: uncertainty. Incomplete knowledge about the true value of a quantity. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nBackground: Environmental exposures and biological susceptibility contribute to the complexity in cancer vulnerability, particularly in settings where comprehensive environmental monitoring and longitudinal exposure data are limited. Scenario-based modeling can provide a structured approach for exploring potential environmental cancer risks under uncertainty and identifying priorities for future research and surveillance. Methods: We developed a scenario-based environmental cancer risk framework for Lebanon incorporating three exposure domains—perchlorate contamination, nitrate/nitrite exposure, and conflict-derived environmental contamination— and a qualitative Genetic Susceptibility Index (GSI). Monte Carlo simulations with 100,000 iterations were used to propagate uncertainty in literature-derived epidemiological effect estimates for colorectal and lung cancers under alternative hypothetical scaling assumptions. The GSI was used to organize qualitative susceptibility pathways but was not incorporated as a numerical modifier in the simulations. Thyroid cancer was evaluated separately through an illustrative hypothetical sensitivity analysis using author-defined relative-effect ranges because direct epidemiological estimates linking perchlorate exposure to thyroid cancer incidence were unavailable. Results: For colorectal cancer, the mean simulated relative effect increased from 3.79% (95% UI: 1.90–5.70%) under the low-exposure-contrast scenario to 7.72% (95% UI: 3.83–11.71%) under the moderate scenario and 16.09% (95% UI: 7.81–24.80%) under the high scenario, which applied the full published log-relative effect. For lung cancer, corresponding mean simulated relative effects were 2.18% (95% UI: 1.01–3.36%), 4.41% (95% UI: 2.02–6.83%), and 9.03% (95% UI: 4.09–14.13%). Under the full published exposure contrast, 92.34% of colorectal cancer simulations exceeded a 10% relative-effect threshold and 94.52% of lung cancer simulations exceeded a 5% threshold. The thyroid cancer analysis produced mean simulated relative effects of 1.03%, 3.50%, and 7.51% under the low-, moderate-, and high-scenario assumptions, respectively; these outputs were conditional on the prespecified hypothetical ranges. Conclusions: This framework demonstrates how alternative exposure-contrast assumptions can influence the distribution of literature-derived relative effects in a data-limited setting. By combining quantitative exposure-contrast sensitivity analysis with a qualitative genetic susceptibility framework, the approach may support environmental health planning, surveillance prioritization, and the design of future population-based studies in Lebanon. The thyroid cancer results illustrate model behavior under author-defined hypothetical assumptions and do not constitute epidemiological estimates of perchlorate-associated thyroid cancer risk. The findings are exploratory and should not be interpreted as estimates of cancer incidence, population-attributable risk, or causal effects in the Lebanese population.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-17",
+        "addedAt": "2026-11-01T18:08:41Z"
+      }
+    },
+    {
+      "title": "The Environmental Exposome and Age-Related Macular Degeneration: Oxidative Stress as a Molecular Link",
+      "paragraphs": [
+        "Age-related macular degeneration (AMD) is a multifactorial retinal disease in which genetic susceptibility, aging, metabolic dysfunction, and environmental factors interact to determine disease onset and progression. Although environmental exposures are increasingly recognized as modifiable risk factors for AMD, the molecular mechanisms linking cumulative environmental stress to retinal degeneration remain incompletely understood. In this review, we examine the environmental exposome relevant to AMD and propose oxidative stress as a central molecular link connecting diverse environmental exposures with retinal aging and AMD susceptibility. Epidemiological evidence linking air pollution, particulate matter, cigarette smoke, and other environmental stressors to AMD is reviewed, followed by an analysis of their effects on redox homeostasis and the retinal pigment epithelium (RPE)–Bruch’s membrane–choriocapillaris complex. We further discuss how chronic oxidative stress promotes mitochondrial dysfunction, lipid peroxidation, ferroptosis, autophagy and mitophagy impairment, cellular senescence, and senescence-associated inflammation. These processes interact with complement activation, microglial activation, and chronic retinal inflammation, ultimately contributing to RPE dysfunction, choriocapillaris and Bruch’s membrane abnormalities, photoreceptor degeneration, and AMD progression. Integrating these mechanisms, we propose an environmental exposome–oxidative stress–retinal aging axis in which cumulative environmental exposures progressively reduce retinal resilience and increase susceptibility to AMD. We also evaluate antioxidant and redox-modulating strategies, including the established evidence for AREDS/AREDS2 supplementation and emerging approaches targeting Nrf2 signaling, glutathione homeostasis, mitochondria, and ferroptosis. Importantly, antioxidant supplementation should not be equated with primary prevention of environmentally induced AMD. Future studies integrating individual exposure monitoring, oxidative stress biomarkers, genetic susceptibility, and retinal phenotyping may enable precision prevention and personalized redox-based interventions. This framework positions environmental exposure as a potentially modifiable driver of retinal biological aging and provides a mechanistic basis for understanding and preventing environmentally driven AMD."
+      ],
+      "authors": "Tatsuya Mimura, Hidetaka Noma",
+      "journal": "Antioxidants",
+      "doi": "10.3390/antiox15101351",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "98969515a9ef51153a1183e25c09f3bfd4a138e0d0ac8db33a0b0eeae53289c3",
+      "pmcid": "PMC13701881",
+      "publishedAt": "2026-10-19",
+      "addedAt": "2026-11-01T18:08:41Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13701881",
+        "kind": "article",
+        "title": "The Environmental Exposome and Age-Related Macular Degeneration: Oxidative Stress as a Molecular Link",
+        "authors": "Tatsuya Mimura, Hidetaka Noma",
+        "organization": "Antioxidants",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13701881/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "98969515a9ef51153a1183e25c09f3bfd4a138e0d0ac8db33a0b0eeae53289c3",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-19",
+        "doi": "10.3390/antiox15101351"
+      },
+      "lesson": {
+        "id": "literature-pmc13701881",
+        "version": 1,
+        "title": "The Environmental Exposome and Age-Related Macular Degeneration: Oxidative Stress as a Molecular Link",
+        "subtitle": "Open-access abstract · Antioxidants · 2026-10-19",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13701881",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Age-related macular degeneration (AMD) is a multifactorial retinal disease in which genetic susceptibility, aging, metabolic dysfunction, and environmental factors interact to determine disease onset and progression. Although environmental exposures are increasingly recognized as modifiable risk factors for AMD, the molecular mechanisms linking cumulative environmental stress to retinal degeneration remain incompletely understood. In this review, we examine the environmental exposome relevant to AMD and propose oxidative stress as a central molecular link connecting diverse environmental exposures with retinal aging and AMD susceptibility. Epidemiological evidence linking air pollution, particulate matter, cigarette smoke, and other environmental stressors to AMD is reviewed, followed by an analysis of their effects on redox homeostasis and the retinal pigment epithelium (RPE)–Bruch’s membrane–choriocapillaris complex. We further discuss how chronic oxidative stress promotes mitochondrial dysfunction, lipid peroxidation, ferroptosis, autophagy and mitophagy impairment, cellular senescence, and senescence-associated inflammation. These processes interact with complement activation, microglial activation, and chronic retinal inflammation, ultimately contributing to RPE dysfunction, choriocapillaris and Bruch’s membrane abnormalities, photoreceptor degeneration, and AMD progression. Integrating these mechanisms, we propose an environmental exposome–oxidative stress–retinal aging axis in which cumulative environmental exposures progressively reduce retinal resilience and increase susceptibility to AMD. We also evaluate antioxidant and redox-modulating strategies, including the established evidence for AREDS/AREDS2 supplementation and emerging approaches targeting Nrf2 signaling, glutathione homeostasis, mitochondria, and ferroptosis. Importantly, antioxidant supplementation should not be equated with primary prevention of environmentally induced AMD. Future studies integrating individual exposure monitoring, oxidative stress biomarkers, genetic susceptibility, and retinal phenotyping may enable precision prevention and personalized redox-based interventions. This framework positions environmental exposure as a potentially modifiable driver of retinal biological aging and provides a mechanistic basis for understanding and preventing environmentally driven AMD."
+        ],
+        "terms": [
+          {
+            "term": "particulate matter",
+            "definition": "A mixture of solid particles and liquid droplets suspended in air."
+          },
+          {
+            "term": "precision",
+            "definition": "Agreement among repeated measurements or estimates."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nEpidemiological evidence linking air pollution, _____, cigarette smoke, and other environmental stressors to AMD is reviewed, followed by an analysis of their effects on redox homeostasis and the retinal pigment epithelium (RPE)–Bruch’s membrane–choriocapillaris complex.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "feedback",
+                "explanation": "This is not the expression used in this sentence. A process in which a system's response influences the conditions driving that response."
+              },
+              {
+                "id": "b",
+                "text": "heat stress",
+                "explanation": "This is not the expression used in this sentence. Strain on organisms or systems caused by exposure to high temperatures."
+              },
+              {
+                "id": "c",
+                "text": "carbon footprint",
+                "explanation": "This is not the expression used in this sentence. An estimate of greenhouse-gas emissions associated with a defined activity, product or organisation."
+              },
+              {
+                "id": "d",
+                "text": "particulate matter",
+                "explanation": "The original abstract uses this expression. A mixture of solid particles and liquid droplets suspended in air."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: particulate matter. A mixture of solid particles and liquid droplets suspended in air. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nFuture studies integrating individual exposure monitoring, oxidative stress biomarkers, genetic susceptibility, and retinal phenotyping may enable _____ prevention and personalized redox-based interventions.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "synthetic fertilisers",
+                "explanation": "This is not the expression used in this sentence. Manufactured fertiliser products applied to supply plant nutrients."
+              },
+              {
+                "id": "b",
+                "text": "precision",
+                "explanation": "The original abstract uses this expression. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "c",
+                "text": "radiative forcing",
+                "explanation": "This is not the expression used in this sentence. A change in the net energy flux in the Earth system caused by a specified driver."
+              },
+              {
+                "id": "d",
+                "text": "model evaluation",
+                "explanation": "This is not the expression used in this sentence. Assessing model outputs against relevant observations or other evidence."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: precision. Agreement among repeated measurements or estimates. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nAge-related macular degeneration (AMD) is a multifactorial retinal disease in which genetic susceptibility, aging, metabolic dysfunction, and environmental factors interact to determine disease onset and progression. Although environmental exposures are increasingly recognized as modifiable risk factors for AMD, the molecular mechanisms linking cumulative environmental stress to retinal degeneration remain incompletely understood. In this review, we examine the environmental exposome relevant to AMD and propose oxidative stress as a central molecular link connecting diverse environmental exposures with retinal aging and AMD susceptibility. Epidemiological evidence linking air pollution, particulate matter, cigarette smoke, and other environmental stressors to AMD is reviewed, followed by an analysis of their effects on redox homeostasis and the retinal pigment epithelium (RPE)–Bruch’s membrane–choriocapillaris complex. We further discuss how chronic oxidative stress promotes mitochondrial dysfunction, lipid peroxidation, ferroptosis, autophagy and mitophagy impairment, cellular senescence, and senescence-associated inflammation. These processes interact with complement activation, microglial activation, and chronic retinal inflammation, ultimately contributing to RPE dysfunction, choriocapillaris and Bruch’s membrane abnormalities, photoreceptor degeneration, and AMD progression. Integrating these mechanisms, we propose an environmental exposome–oxidative stress–retinal aging axis in which cumulative environmental exposures progressively reduce retinal resilience and increase susceptibility to AMD. We also evaluate antioxidant and redox-modulating strategies, including the established evidence for AREDS/AREDS2 supplementation and emerging approaches targeting Nrf2 signaling, glutathione homeostasis, mitochondria, and ferroptosis. Importantly, antioxidant supplementation should not be equated with primary prevention of environmentally induced AMD. Future studies integrating individual exposure monitoring, oxidative stress biomarkers, genetic susceptibility, and retinal phenotyping may enable precision prevention and personalized redox-based interventions. This framework positions environmental exposure as a potentially modifiable driver of retinal biological aging and provides a mechanistic basis for understanding and preventing environmentally driven AMD.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-19",
+        "addedAt": "2026-11-01T18:08:41Z"
+      }
     }
   ],
   "vocabulary": [
@@ -3121,9 +3550,67 @@
       "evidence": "The proposed framework for coordinated wind, solar, and storage regulation, based on distributed power generation and virtual synchronous machine, can effectively support the safe, flexible, and efficient operation of the new power system under high penetration of renewable energy.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-be544a5fd26e72a1cbd3",
+      "term": "radiative forcing",
+      "meaning": "A change in the net energy flux in the Earth system caused by a specified driver.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "The deposition of light-absorbing aerosols like dark brown carbon (d-BrC) accelerates cryospheric melt, yet accurately modeling this radiative forcing is hindered by a lack of empirical data.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13709210",
+      "location": "Abstract · paragraph 1",
+      "evidence": "The deposition of light-absorbing aerosols like dark brown carbon (d-BrC) accelerates cryospheric melt, yet accurately modeling this radiative forcing is hindered by a lack of empirical data.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-7b84cc4655a06af24c9b",
+      "term": "albedo",
+      "meaning": "The fraction of incoming radiation reflected by a surface or system.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "This system couples the cryogenic generation of synthetic snow with controlled aerosol dry deposition, allowing spectral albedo reductions to be quantified via an integrating sphere spectrophotometer.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13709210",
+      "location": "Abstract · paragraph 1",
+      "evidence": "This system couples the cryogenic generation of synthetic snow with controlled aerosol dry deposition, allowing spectral albedo reductions to be quantified via an integrating sphere spectrophotometer.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-01T18:08:41Z",
+      "added": 3,
+      "total": 21,
+      "vocabularyAdded": 2,
+      "screening": {
+        "candidates": 266,
+        "xmlInspected": 40,
+        "cachedSkipped": 137,
+        "unavailable": 0,
+        "ineligible": 29,
+        "duplicate": 0,
+        "insufficientTerms": 8,
+        "passes": 2
+      }
+    },
     {
       "checkedAt": "2026-10-31T17:22:57Z",
       "added": 3,
@@ -3833,6 +4320,154 @@
       {
         "pmcid": "PMC13721831",
         "checkedAt": "2026-10-31T17:22:57Z"
+      },
+      {
+        "pmcid": "PMC13692952",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13693048",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13698066",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13700127",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13701080",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13701640",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13704844",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13705311",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13707107",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13707653",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13709325",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13709670",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13709722",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13709757",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13710713",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13710740",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13710800",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13710853",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13712314",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13713060",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13713181",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13714135",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13714330",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13715106",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13715459",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13715750",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13717283",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13717286",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13717291",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13719045",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13721432",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13721986",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13721999",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13722314",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13722404",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13722676",
+        "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13723083",
+        "checkedAt": "2026-11-01T18:08:41Z"
       }
     ]
   }
