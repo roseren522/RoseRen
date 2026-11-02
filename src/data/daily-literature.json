@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-01T18:08:41Z",
-  "lastAddedAt": "2026-11-01T18:08:41Z",
+  "lastCheckedAt": "2026-11-02T21:57:00Z",
+  "lastAddedAt": "2026-11-02T21:57:00Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -3086,6 +3086,435 @@
         "publishedAt": "2026-10-19",
         "addedAt": "2026-11-01T18:08:41Z"
       }
+    },
+    {
+      "title": "Multicentre Evaluation of Loop-Mediated Isothermal Amplification (LAMP) for Environmental Monitoring of Nosocomial Pathogens in Italian Hospitals",
+      "paragraphs": [
+        "Background: Environmental contamination of hospital surfaces, especially in high-risk clinical areas, partly sustains healthcare-associated infections. The detection of microbiological contamination in hospital settings using culture-based methods remains fundamental, even though these methods are not rapid, show moderate sensitivity in areas with low microbial loads, and are unsuitable for some microbial species. This multicentre study evaluated the performance of loop-mediated isothermal amplification (LAMP) for the rapid detection of major nosocomial pathogens on hospital surfaces. Methods: A multicentre observational method–comparison study was conducted in three Italian hospital centres. Overall, 298 environmental surface samples were collected from clinical areas included in local infection-prevention monitoring plans. For each sampling point, LAMP swab sampling was paired with an adjacent contact plate culture. LAMP assays targeted Staphylococcus aureus, Acinetobacter baumannii, Klebsiella pneumoniae, and Pseudomonas aeruginosa. Manual and automated nucleic acid extraction workflows were analysed separately. Diagnostic performance, agreement metrics, and discordant paired results were assessed using a contact plate culture as the microbiological comparator. Results: No LAMP-negative/RODAC-positive pairs were observed. Positive percent agreement (PPA) relative to contact plate culture was therefore 100% in the subgroups evaluated. Relative specificity ranged from 90.9% to 98.6%, while overall accuracy ranged from 93.8% to 98.6%. Discordant results were exclusively LAMP-positive/contact plate-negative and were more frequent for S. aureus and P. aeruginosa. Selective culture verification supported several LAMP-positive findings not recovered by routine contact plates. Conclusions: LAMP showed high negative agreement, high specificity, and rapid target-specific detection of selected nosocomial pathogens on hospital surfaces. It may complement conventional cultures in environmental surveillance, particularly when timely feedback is needed to guide infection-prevention and sanitation-monitoring strategies."
+      ],
+      "authors": "Biagio Santella, Antonio Donato, Vittoria Satriani, Laura Grumiro, Stefano Stracquadanio, Emanuela Santoro, Luigi Fortino, Claudia Colosimo, Alice Nicolosi, Maddalena Calvo, Graziella Manciagli, Zirone Nunziata, Agata Silvana Trifilò, Maria Giuseppina Pecora, Giuseppe Arcoleo, Monica Cricca, Stefania Stefani, Vittorio Sambri, Giovanni Boccia",
+      "journal": "Antibiotics",
+      "doi": "10.3390/antibiotics15101012",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "16f19b5bb1f9769402bd3f1096d0b664c038a38789500121936be266e306c88a",
+      "pmcid": "PMC13700765",
+      "publishedAt": "2026-10-12",
+      "addedAt": "2026-11-02T21:57:00Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13700765",
+        "kind": "article",
+        "title": "Multicentre Evaluation of Loop-Mediated Isothermal Amplification (LAMP) for Environmental Monitoring of Nosocomial Pathogens in Italian Hospitals",
+        "authors": "Biagio Santella, Antonio Donato, Vittoria Satriani, Laura Grumiro, Stefano Stracquadanio, Emanuela Santoro, Luigi Fortino, Claudia Colosimo, Alice Nicolosi, Maddalena Calvo, Graziella Manciagli, Zirone Nunziata, Agata Silvana Trifilò, Maria Giuseppina Pecora, Giuseppe Arcoleo, Monica Cricca, Stefania Stefani, Vittorio Sambri, Giovanni Boccia",
+        "organization": "Antibiotics",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13700765/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "16f19b5bb1f9769402bd3f1096d0b664c038a38789500121936be266e306c88a",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-12",
+        "doi": "10.3390/antibiotics15101012"
+      },
+      "lesson": {
+        "id": "literature-pmc13700765",
+        "version": 1,
+        "title": "Multicentre Evaluation of Loop-Mediated Isothermal Amplification (LAMP) for Environmental Monitoring of Nosocomial Pathogens in Italian Hospitals",
+        "subtitle": "Open-access abstract · Antibiotics · 2026-10-12",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13700765",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Background: Environmental contamination of hospital surfaces, especially in high-risk clinical areas, partly sustains healthcare-associated infections. The detection of microbiological contamination in hospital settings using culture-based methods remains fundamental, even though these methods are not rapid, show moderate sensitivity in areas with low microbial loads, and are unsuitable for some microbial species. This multicentre study evaluated the performance of loop-mediated isothermal amplification (LAMP) for the rapid detection of major nosocomial pathogens on hospital surfaces. Methods: A multicentre observational method–comparison study was conducted in three Italian hospital centres. Overall, 298 environmental surface samples were collected from clinical areas included in local infection-prevention monitoring plans. For each sampling point, LAMP swab sampling was paired with an adjacent contact plate culture. LAMP assays targeted Staphylococcus aureus, Acinetobacter baumannii, Klebsiella pneumoniae, and Pseudomonas aeruginosa. Manual and automated nucleic acid extraction workflows were analysed separately. Diagnostic performance, agreement metrics, and discordant paired results were assessed using a contact plate culture as the microbiological comparator. Results: No LAMP-negative/RODAC-positive pairs were observed. Positive percent agreement (PPA) relative to contact plate culture was therefore 100% in the subgroups evaluated. Relative specificity ranged from 90.9% to 98.6%, while overall accuracy ranged from 93.8% to 98.6%. Discordant results were exclusively LAMP-positive/contact plate-negative and were more frequent for S. aureus and P. aeruginosa. Selective culture verification supported several LAMP-positive findings not recovered by routine contact plates. Conclusions: LAMP showed high negative agreement, high specificity, and rapid target-specific detection of selected nosocomial pathogens on hospital surfaces. It may complement conventional cultures in environmental surveillance, particularly when timely feedback is needed to guide infection-prevention and sanitation-monitoring strategies."
+        ],
+        "terms": [
+          {
+            "term": "accuracy",
+            "definition": "The extent to which an estimate avoids systematic departure from the true value."
+          },
+          {
+            "term": "feedback",
+            "definition": "A process in which a system's response influences the conditions driving that response."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nRelative specificity ranged from 90.9% to 98.6%, while overall _____ ranged from 93.8% to 98.6%.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "evapotranspiration",
+                "explanation": "This is not the expression used in this sentence. The combined transfer of water to the atmosphere by evaporation and plant transpiration."
+              },
+              {
+                "id": "b",
+                "text": "accuracy",
+                "explanation": "The original abstract uses this expression. The extent to which an estimate avoids systematic departure from the true value."
+              },
+              {
+                "id": "c",
+                "text": "model evaluation",
+                "explanation": "This is not the expression used in this sentence. Assessing model outputs against relevant observations or other evidence."
+              },
+              {
+                "id": "d",
+                "text": "double counting",
+                "explanation": "This is not the expression used in this sentence. Including the same activity or emissions more than once in a total."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: accuracy. The extent to which an estimate avoids systematic departure from the true value. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nIt may complement conventional cultures in environmental surveillance, particularly when timely _____ is needed to guide infection-prevention and sanitation-monitoring strategies.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "overfitting",
+                "explanation": "This is not the expression used in this sentence. Fitting patterns specific to the training data that do not generalise well to new data."
+              },
+              {
+                "id": "b",
+                "text": "feedback",
+                "explanation": "The original abstract uses this expression. A process in which a system's response influences the conditions driving that response."
+              },
+              {
+                "id": "c",
+                "text": "meta-analysis",
+                "explanation": "This is not the expression used in this sentence. A statistical synthesis of results from multiple studies addressing a related question."
+              },
+              {
+                "id": "d",
+                "text": "restoration",
+                "explanation": "This is not the expression used in this sentence. Actions intended to assist the recovery of a degraded ecosystem or system."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: feedback. A process in which a system's response influences the conditions driving that response. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nBackground: Environmental contamination of hospital surfaces, especially in high-risk clinical areas, partly sustains healthcare-associated infections. The detection of microbiological contamination in hospital settings using culture-based methods remains fundamental, even though these methods are not rapid, show moderate sensitivity in areas with low microbial loads, and are unsuitable for some microbial species. This multicentre study evaluated the performance of loop-mediated isothermal amplification (LAMP) for the rapid detection of major nosocomial pathogens on hospital surfaces. Methods: A multicentre observational method–comparison study was conducted in three Italian hospital centres. Overall, 298 environmental surface samples were collected from clinical areas included in local infection-prevention monitoring plans. For each sampling point, LAMP swab sampling was paired with an adjacent contact plate culture. LAMP assays targeted Staphylococcus aureus, Acinetobacter baumannii, Klebsiella pneumoniae, and Pseudomonas aeruginosa. Manual and automated nucleic acid extraction workflows were analysed separately. Diagnostic performance, agreement metrics, and discordant paired results were assessed using a contact plate culture as the microbiological comparator. Results: No LAMP-negative/RODAC-positive pairs were observed. Positive percent agreement (PPA) relative to contact plate culture was therefore 100% in the subgroups evaluated. Relative specificity ranged from 90.9% to 98.6%, while overall accuracy ranged from 93.8% to 98.6%. Discordant results were exclusively LAMP-positive/contact plate-negative and were more frequent for S. aureus and P. aeruginosa. Selective culture verification supported several LAMP-positive findings not recovered by routine contact plates. Conclusions: LAMP showed high negative agreement, high specificity, and rapid target-specific detection of selected nosocomial pathogens on hospital surfaces. It may complement conventional cultures in environmental surveillance, particularly when timely feedback is needed to guide infection-prevention and sanitation-monitoring strategies.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-12",
+        "addedAt": "2026-11-02T21:57:00Z"
+      }
+    },
+    {
+      "title": "Atopic Dermatitis in the Era of Exposome and Artificial Intelligence",
+      "paragraphs": [
+        "Atopic dermatitis (AD) is a heterogeneous, relapsing inflammatory skin disease in which epidermal barrier dysfunction, immune dysregulation, microbial imbalance, genetics, and the environment interact continuously over time. Although a substantial body of literature has linked AD with air pollution, weather, allergens, stress, infections, sleep disturbance, skin care practices and microbial perturbation, most studies have assessed single exposures in isolation. This reductionist approach only partially reflects the real-world biology of AD, where patients experience dynamic combinations of external and internal exposures whose effects are non-linear, cumulative and modified by age, phenotype, treatment and susceptibility. The exposome paradigm offers a broader conceptual lens by considering the totality of exposures over the life course. However, exposomic research in AD is methodologically challenging because the data are multimodal, high-dimensional, time-dependent, and often incomplete. Artificial intelligence (AI) can help address this complexity by integrating heterogeneous data layers, modelling temporal dependencies, discovering latent patterns, and generating individualized predictions. This narrative review examines current evidence and proposes a theoretical framework that integrates AI and the exposome in AD. We define the principal domains of the AD exposome, describe a multilevel analytical architecture spanning environmental, clinical, behavioural, microbiome, and multi-omics data. We distinguish applications evaluated in AD studies from exploratory analyses and proposed objectives: prediction of annual flare burden remains exploratory, whereas exposome-informed short-term flare alerts are proposed applications. Although selected AI applications have been evaluated in AD, the added predictive value of exposure data and the clinical utility of a fully integrated exposome–AI system remain to be established. We also outline key methodological and translational priorities, including exposure assessment, temporality, treatment-confounding, interpretability, fairness, data governance, and external validation. The proposed framework offers a structured basis for future research, with clinical translation dependent on prospective validation and evidence of benefit to patient care."
+      ],
+      "authors": "Sara Manti, Federica Li Pomi, Luca Gammeri, Francesco Borgia, Giuseppe Murdaca, Sebastiano Gangemi",
+      "journal": "International Journal of Molecular Sciences",
+      "doi": "10.3390/ijms27209209",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "7c926b2781b758fe6c6df1e723c117bf8916fb1cc4515ff07222e6a36ad1ec62",
+      "pmcid": "PMC13705081",
+      "publishedAt": "2026-10-16",
+      "addedAt": "2026-11-02T21:57:00Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13705081",
+        "kind": "article",
+        "title": "Atopic Dermatitis in the Era of Exposome and Artificial Intelligence",
+        "authors": "Sara Manti, Federica Li Pomi, Luca Gammeri, Francesco Borgia, Giuseppe Murdaca, Sebastiano Gangemi",
+        "organization": "International Journal of Molecular Sciences",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13705081/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "7c926b2781b758fe6c6df1e723c117bf8916fb1cc4515ff07222e6a36ad1ec62",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-16",
+        "doi": "10.3390/ijms27209209"
+      },
+      "lesson": {
+        "id": "literature-pmc13705081",
+        "version": 1,
+        "title": "Atopic Dermatitis in the Era of Exposome and Artificial Intelligence",
+        "subtitle": "Open-access abstract · International Journal of Molecular Sciences · 2026-10-16",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13705081",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Atopic dermatitis (AD) is a heterogeneous, relapsing inflammatory skin disease in which epidermal barrier dysfunction, immune dysregulation, microbial imbalance, genetics, and the environment interact continuously over time. Although a substantial body of literature has linked AD with air pollution, weather, allergens, stress, infections, sleep disturbance, skin care practices and microbial perturbation, most studies have assessed single exposures in isolation. This reductionist approach only partially reflects the real-world biology of AD, where patients experience dynamic combinations of external and internal exposures whose effects are non-linear, cumulative and modified by age, phenotype, treatment and susceptibility. The exposome paradigm offers a broader conceptual lens by considering the totality of exposures over the life course. However, exposomic research in AD is methodologically challenging because the data are multimodal, high-dimensional, time-dependent, and often incomplete. Artificial intelligence (AI) can help address this complexity by integrating heterogeneous data layers, modelling temporal dependencies, discovering latent patterns, and generating individualized predictions. This narrative review examines current evidence and proposes a theoretical framework that integrates AI and the exposome in AD. We define the principal domains of the AD exposome, describe a multilevel analytical architecture spanning environmental, clinical, behavioural, microbiome, and multi-omics data. We distinguish applications evaluated in AD studies from exploratory analyses and proposed objectives: prediction of annual flare burden remains exploratory, whereas exposome-informed short-term flare alerts are proposed applications. Although selected AI applications have been evaluated in AD, the added predictive value of exposure data and the clinical utility of a fully integrated exposome–AI system remain to be established. We also outline key methodological and translational priorities, including exposure assessment, temporality, treatment-confounding, interpretability, fairness, data governance, and external validation. The proposed framework offers a structured basis for future research, with clinical translation dependent on prospective validation and evidence of benefit to patient care."
+        ],
+        "terms": [
+          {
+            "term": "exposure assessment",
+            "definition": "The estimation or measurement of contact with a physical, chemical or biological agent."
+          },
+          {
+            "term": "confounding",
+            "definition": "A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWe also outline key methodological and translational priorities, including _____, temporality, treatment-confounding, interpretability, fairness, data governance, and external validation.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "species richness",
+                "explanation": "This is not the expression used in this sentence. The number of different species present in a defined area or sample."
+              },
+              {
+                "id": "b",
+                "text": "functional diversity",
+                "explanation": "This is not the expression used in this sentence. Variation in the traits of organisms that influence ecosystem processes."
+              },
+              {
+                "id": "c",
+                "text": "exposure assessment",
+                "explanation": "The original abstract uses this expression. The estimation or measurement of contact with a physical, chemical or biological agent."
+              },
+              {
+                "id": "d",
+                "text": "soil organic carbon",
+                "explanation": "This is not the expression used in this sentence. Carbon contained in organic material in soil."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: exposure assessment. The estimation or measurement of contact with a physical, chemical or biological agent. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWe also outline key methodological and translational priorities, including exposure assessment, temporality, treatment-_____, interpretability, fairness, data governance, and external validation.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "carbon content",
+                "explanation": "This is not the expression used in this sentence. The amount or fraction of carbon in a material such as fuel."
+              },
+              {
+                "id": "b",
+                "text": "meta-analysis",
+                "explanation": "This is not the expression used in this sentence. A statistical synthesis of results from multiple studies addressing a related question."
+              },
+              {
+                "id": "c",
+                "text": "covariance",
+                "explanation": "This is not the expression used in this sentence. A measure of how two quantities depart from their means together."
+              },
+              {
+                "id": "d",
+                "text": "confounding",
+                "explanation": "The original abstract uses this expression. A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: confounding. A distortion in an estimated association caused by a factor related to both the exposure and the outcome. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nAtopic dermatitis (AD) is a heterogeneous, relapsing inflammatory skin disease in which epidermal barrier dysfunction, immune dysregulation, microbial imbalance, genetics, and the environment interact continuously over time. Although a substantial body of literature has linked AD with air pollution, weather, allergens, stress, infections, sleep disturbance, skin care practices and microbial perturbation, most studies have assessed single exposures in isolation. This reductionist approach only partially reflects the real-world biology of AD, where patients experience dynamic combinations of external and internal exposures whose effects are non-linear, cumulative and modified by age, phenotype, treatment and susceptibility. The exposome paradigm offers a broader conceptual lens by considering the totality of exposures over the life course. However, exposomic research in AD is methodologically challenging because the data are multimodal, high-dimensional, time-dependent, and often incomplete. Artificial intelligence (AI) can help address this complexity by integrating heterogeneous data layers, modelling temporal dependencies, discovering latent patterns, and generating individualized predictions. This narrative review examines current evidence and proposes a theoretical framework that integrates AI and the exposome in AD. We define the principal domains of the AD exposome, describe a multilevel analytical architecture spanning environmental, clinical, behavioural, microbiome, and multi-omics data. We distinguish applications evaluated in AD studies from exploratory analyses and proposed objectives: prediction of annual flare burden remains exploratory, whereas exposome-informed short-term flare alerts are proposed applications. Although selected AI applications have been evaluated in AD, the added predictive value of exposure data and the clinical utility of a fully integrated exposome–AI system remain to be established. We also outline key methodological and translational priorities, including exposure assessment, temporality, treatment-confounding, interpretability, fairness, data governance, and external validation. The proposed framework offers a structured basis for future research, with clinical translation dependent on prospective validation and evidence of benefit to patient care.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-16",
+        "addedAt": "2026-11-02T21:57:00Z"
+      }
+    },
+    {
+      "title": "Intelligence-enabled smart inhalable biomaterials for chronic inflammatory airway diseases: integrating responsive carrier engineering, lung-on-chip validation, and patient-specific pulmonary modeling",
+      "paragraphs": [
+        "Chronic inflammatory airway diseases, particularly asthma and chronic obstructive pulmonary disease (COPD), are commonly treated by inhalation, yet the nominal dose placed in an inhaler often differs substantially from the dose that reaches diseased airway regions, crosses mucus, enters target cells, and remains pharmacologically active. Airway narrowing, heterogeneous ventilation, mucus plugging, impaired mucociliary clearance, oxidative and proteolytic stress, epithelial barrier dysfunction, inflammatory-cell diversity, device characteristics, and patient-specific inhalation maneuvers jointly shape therapeutic exposure. Smart inhalable biomaterials can be designed to address some of these barriers by controlling transport, retention, activation, or release, but many systems are still optimized primarily at the nanoparticle level and evaluated in static models that do not capture realistic aerosol performance or patient-specific deposition. This review develops an intelligence-enabled bioengineering framework linking disease-informed material design with machine-learning-assisted formulation optimization, formulation–device–patient coupling, lung-on-chip validation, and patient-specific pulmonary modeling. Within this framework, airway features such as mucus architecture, redox gradients, protease activity, epithelial permeability, immune-cell state, extracellular-matrix remodeling, and regional airflow are considered measurable variables that can inform material design and evaluation. The material platforms considered include mucus-penetrating and mucoadhesive carriers, responsive materials, transformable nano-in-micro systems, polymeric and lipid nanoparticles, biomimetic carriers, extracellular vesicles, and systems for pulmonary delivery of nucleic acids and biologics. Their development is considered alongside structured experimental design, machine learning, active learning, mechanistic aerosol modeling, physics-informed surrogates, multi-objective optimization, and uncertainty analysis. Lung-on-chip systems provide human-relevant settings in which deposited dose, mucus transport, barrier function, immune responses, and repeated-exposure effects can be examined under air–liquid-interface and breathing-like conditions. Patient-specific computational fluid dynamics and reduced-order models can complement these platforms by predicting regional deposition, whereas the term digital twin should be reserved for longitudinally updated, uncertainty-aware models linked to actionable decisions. Together, these approaches support a closed-loop design–delivery–validation strategy in which material performance, aerosol behavior, biological response, and patient-specific deposition are evaluated as connected rather than separate development problems."
+      ],
+      "authors": "Qi Fan, Zhongxu Li, Yongliang Sun, Yu Liu, Hangyu Chen",
+      "journal": "Frontiers in Bioengineering and Biotechnology",
+      "doi": "10.3389/fbioe.2026.1964825",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "a8afc13783b0fd813b4a87d726c67ac2157407a6c5cf649c209211a71ae5368a",
+      "pmcid": "PMC13717362",
+      "publishedAt": "2026-10-15",
+      "addedAt": "2026-11-02T21:57:00Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13717362",
+        "kind": "article",
+        "title": "Intelligence-enabled smart inhalable biomaterials for chronic inflammatory airway diseases: integrating responsive carrier engineering, lung-on-chip validation, and patient-specific pulmonary modeling",
+        "authors": "Qi Fan, Zhongxu Li, Yongliang Sun, Yu Liu, Hangyu Chen",
+        "organization": "Frontiers in Bioengineering and Biotechnology",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13717362/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "a8afc13783b0fd813b4a87d726c67ac2157407a6c5cf649c209211a71ae5368a",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-15",
+        "doi": "10.3389/fbioe.2026.1964825"
+      },
+      "lesson": {
+        "id": "literature-pmc13717362",
+        "version": 1,
+        "title": "Intelligence-enabled smart inhalable biomaterials for chronic inflammatory airway diseases: integrating responsive carrier engineering, lung-on-chip validation, and patient-specific pulmonary modeling",
+        "subtitle": "Open-access abstract · Frontiers in Bioengineering and Biotechnology · 2026-10-15",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13717362",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Chronic inflammatory airway diseases, particularly asthma and chronic obstructive pulmonary disease (COPD), are commonly treated by inhalation, yet the nominal dose placed in an inhaler often differs substantially from the dose that reaches diseased airway regions, crosses mucus, enters target cells, and remains pharmacologically active. Airway narrowing, heterogeneous ventilation, mucus plugging, impaired mucociliary clearance, oxidative and proteolytic stress, epithelial barrier dysfunction, inflammatory-cell diversity, device characteristics, and patient-specific inhalation maneuvers jointly shape therapeutic exposure. Smart inhalable biomaterials can be designed to address some of these barriers by controlling transport, retention, activation, or release, but many systems are still optimized primarily at the nanoparticle level and evaluated in static models that do not capture realistic aerosol performance or patient-specific deposition. This review develops an intelligence-enabled bioengineering framework linking disease-informed material design with machine-learning-assisted formulation optimization, formulation–device–patient coupling, lung-on-chip validation, and patient-specific pulmonary modeling. Within this framework, airway features such as mucus architecture, redox gradients, protease activity, epithelial permeability, immune-cell state, extracellular-matrix remodeling, and regional airflow are considered measurable variables that can inform material design and evaluation. The material platforms considered include mucus-penetrating and mucoadhesive carriers, responsive materials, transformable nano-in-micro systems, polymeric and lipid nanoparticles, biomimetic carriers, extracellular vesicles, and systems for pulmonary delivery of nucleic acids and biologics. Their development is considered alongside structured experimental design, machine learning, active learning, mechanistic aerosol modeling, physics-informed surrogates, multi-objective optimization, and uncertainty analysis. Lung-on-chip systems provide human-relevant settings in which deposited dose, mucus transport, barrier function, immune responses, and repeated-exposure effects can be examined under air–liquid-interface and breathing-like conditions. Patient-specific computational fluid dynamics and reduced-order models can complement these platforms by predicting regional deposition, whereas the term digital twin should be reserved for longitudinally updated, uncertainty-aware models linked to actionable decisions. Together, these approaches support a closed-loop design–delivery–validation strategy in which material performance, aerosol behavior, biological response, and patient-specific deposition are evaluated as connected rather than separate development problems."
+        ],
+        "terms": [
+          {
+            "term": "machine learning",
+            "definition": "Methods that learn patterns from data to support prediction or other tasks."
+          },
+          {
+            "term": "uncertainty",
+            "definition": "Incomplete knowledge about the true value of a quantity."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nTheir development is considered alongside structured experimental design, _____, active learning, mechanistic aerosol modeling, physics-informed surrogates, multi-objective optimization, and uncertainty analysis.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "normal distribution",
+                "explanation": "This is not the expression used in this sentence. A symmetric probability distribution often used for relatively small uncertainties."
+              },
+              {
+                "id": "b",
+                "text": "machine learning",
+                "explanation": "The original abstract uses this expression. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "c",
+                "text": "bioavailability",
+                "explanation": "This is not the expression used in this sentence. The extent to which a substance is available for uptake or biological action under specified conditions."
+              },
+              {
+                "id": "d",
+                "text": "baseline",
+                "explanation": "This is not the expression used in this sentence. A reference state or period against which a change is assessed."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: machine learning. Methods that learn patterns from data to support prediction or other tasks. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nTheir development is considered alongside structured experimental design, machine learning, active learning, mechanistic aerosol modeling, physics-informed surrogates, multi-objective optimization, and _____ analysis.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "decarbonization",
+                "explanation": "This is not the expression used in this sentence. The reduction of carbon dioxide emissions associated with an activity or system."
+              },
+              {
+                "id": "b",
+                "text": "accuracy",
+                "explanation": "This is not the expression used in this sentence. The extent to which an estimate avoids systematic departure from the true value."
+              },
+              {
+                "id": "c",
+                "text": "uncertainty",
+                "explanation": "The original abstract uses this expression. Incomplete knowledge about the true value of a quantity."
+              },
+              {
+                "id": "d",
+                "text": "evapotranspiration",
+                "explanation": "This is not the expression used in this sentence. The combined transfer of water to the atmosphere by evaporation and plant transpiration."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: uncertainty. Incomplete knowledge about the true value of a quantity. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nChronic inflammatory airway diseases, particularly asthma and chronic obstructive pulmonary disease (COPD), are commonly treated by inhalation, yet the nominal dose placed in an inhaler often differs substantially from the dose that reaches diseased airway regions, crosses mucus, enters target cells, and remains pharmacologically active. Airway narrowing, heterogeneous ventilation, mucus plugging, impaired mucociliary clearance, oxidative and proteolytic stress, epithelial barrier dysfunction, inflammatory-cell diversity, device characteristics, and patient-specific inhalation maneuvers jointly shape therapeutic exposure. Smart inhalable biomaterials can be designed to address some of these barriers by controlling transport, retention, activation, or release, but many systems are still optimized primarily at the nanoparticle level and evaluated in static models that do not capture realistic aerosol performance or patient-specific deposition. This review develops an intelligence-enabled bioengineering framework linking disease-informed material design with machine-learning-assisted formulation optimization, formulation–device–patient coupling, lung-on-chip validation, and patient-specific pulmonary modeling. Within this framework, airway features such as mucus architecture, redox gradients, protease activity, epithelial permeability, immune-cell state, extracellular-matrix remodeling, and regional airflow are considered measurable variables that can inform material design and evaluation. The material platforms considered include mucus-penetrating and mucoadhesive carriers, responsive materials, transformable nano-in-micro systems, polymeric and lipid nanoparticles, biomimetic carriers, extracellular vesicles, and systems for pulmonary delivery of nucleic acids and biologics. Their development is considered alongside structured experimental design, machine learning, active learning, mechanistic aerosol modeling, physics-informed surrogates, multi-objective optimization, and uncertainty analysis. Lung-on-chip systems provide human-relevant settings in which deposited dose, mucus transport, barrier function, immune responses, and repeated-exposure effects can be examined under air–liquid-interface and breathing-like conditions. Patient-specific computational fluid dynamics and reduced-order models can complement these platforms by predicting regional deposition, whereas the term digital twin should be reserved for longitudinally updated, uncertainty-aware models linked to actionable decisions. Together, these approaches support a closed-loop design–delivery–validation strategy in which material performance, aerosol behavior, biological response, and patient-specific deposition are evaluated as connected rather than separate development problems.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-15",
+        "addedAt": "2026-11-02T21:57:00Z"
+      }
     }
   ],
   "vocabulary": [
@@ -3592,9 +4021,67 @@
       "evidence": "This system couples the cryogenic generation of synthetic snow with controlled aerosol dry deposition, allowing spectral albedo reductions to be quantified via an integrating sphere spectrophotometer.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-eba1330997f960c978cc",
+      "term": "exposure assessment",
+      "meaning": "The estimation or measurement of contact with a physical, chemical or biological agent.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "We also outline key methodological and translational priorities, including exposure assessment, temporality, treatment-confounding, interpretability, fairness, data governance, and external validation.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13705081",
+      "location": "Abstract · paragraph 1",
+      "evidence": "We also outline key methodological and translational priorities, including exposure assessment, temporality, treatment-confounding, interpretability, fairness, data governance, and external validation.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-c2cf52fe70a815504f1c",
+      "term": "confounding",
+      "meaning": "A distortion in an estimated association caused by a factor related to both the exposure and the outcome.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "We also outline key methodological and translational priorities, including exposure assessment, temporality, treatment-confounding, interpretability, fairness, data governance, and external validation.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13705081",
+      "location": "Abstract · paragraph 1",
+      "evidence": "We also outline key methodological and translational priorities, including exposure assessment, temporality, treatment-confounding, interpretability, fairness, data governance, and external validation.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-02T21:57:00Z",
+      "added": 3,
+      "total": 24,
+      "vocabularyAdded": 2,
+      "screening": {
+        "candidates": 263,
+        "xmlInspected": 25,
+        "cachedSkipped": 114,
+        "unavailable": 0,
+        "ineligible": 15,
+        "duplicate": 0,
+        "insufficientTerms": 7,
+        "passes": 1
+      }
+    },
     {
       "checkedAt": "2026-11-01T18:08:41Z",
       "added": 3,
@@ -4468,6 +4955,94 @@
       {
         "pmcid": "PMC13723083",
         "checkedAt": "2026-11-01T18:08:41Z"
+      },
+      {
+        "pmcid": "PMC13697005",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13701509",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13705030",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13705378",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13707401",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13707492",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13707603",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13708787",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13708874",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13709194",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13709542",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13709543",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13709772",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13714496",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13714498",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13714573",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13716924",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13716927",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13717332",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13717696",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13718673",
+        "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13719830",
+        "checkedAt": "2026-11-02T21:57:00Z"
       }
     ]
   }
