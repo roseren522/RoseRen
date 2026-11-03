@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-02T21:57:00Z",
-  "lastAddedAt": "2026-11-02T21:57:00Z",
+  "lastCheckedAt": "2026-11-03T19:50:49Z",
+  "lastAddedAt": "2026-11-03T19:50:49Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -3515,6 +3515,457 @@
         "publishedAt": "2026-10-15",
         "addedAt": "2026-11-02T21:57:00Z"
       }
+    },
+    {
+      "title": "Sustainability and Integrated Energy Recovery Scheme for Health Care Waste Management for Megacity Dhaka: Through Material Flow and Life Cycle Assessment",
+      "paragraphs": [
+        "A sustainable healthcare waste (HCW) management strategy for Dhaka integrating material flow analysis and comparative life cycle assessment is proposed. The current scenario (SC1), heavily reliant on landfilling, low recycling, and incineration without energy integration, is compared with the proposed alternative scenario (SC2), with higher material recycling, waste‐to‐energy conversion, and heat integration. Using gate‐to‐grave life‐cycle assessment across eighteen ReCiPe 2016 midpoint (H) impact categories, the proposed SC2 outperforms SC1 in ten categories, notably acidification potential by 96%, land‐use potential by 97%, climate change impacts by 78%, and marine eutrophication by 44%, while PM formation potential falls by 20.499 kg PM2.5‐eq and energy resource depletion becomes a net credit through 20572 kWh/day of recovered electricity. However, trade‐offs are observed in the toxicity, eutrophication, and photochemical oxidant formation categories, notably carcinogenic human toxicity (∼3.8x increase), marine ecotoxicity (∼2.3x increase), freshwater eutrophication (∼97% increase), and photochemical oxidant formation potential (∼3x increase). The proposed scheme also supports Bangladesh's drive toward SDG 7 and 13 outright, and toward SDG 3, 6, 11, and 14 once the toxicity and oxidant formation burdens are controlled. Our findings can provide a substantial quantitative framework for improving existing systems to achieve sustainability with a circular economy strategy."
+      ],
+      "authors": "Mahmudul Hasan Sajid, S. M. Akimus Salehin, Musfekur Rahman Dihan, Rayhan Bin Masud, Rumana Afrin, Md. Shahinoor Islam, Md. Mujibur Rahman",
+      "journal": "Global Challenges",
+      "doi": "10.1002/gch2.70172",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "dc21515268f7b8bafde03eac8c6aeb17cf0a174d3dbee07058130c8a281df958",
+      "pmcid": "PMC13723702",
+      "publishedAt": "2026-10-31",
+      "addedAt": "2026-11-03T19:50:49Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13723702",
+        "kind": "article",
+        "title": "Sustainability and Integrated Energy Recovery Scheme for Health Care Waste Management for Megacity Dhaka: Through Material Flow and Life Cycle Assessment",
+        "authors": "Mahmudul Hasan Sajid, S. M. Akimus Salehin, Musfekur Rahman Dihan, Rayhan Bin Masud, Rumana Afrin, Md. Shahinoor Islam, Md. Mujibur Rahman",
+        "organization": "Global Challenges",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13723702/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "dc21515268f7b8bafde03eac8c6aeb17cf0a174d3dbee07058130c8a281df958",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-31",
+        "doi": "10.1002/gch2.70172"
+      },
+      "lesson": {
+        "id": "literature-pmc13723702",
+        "version": 1,
+        "title": "Sustainability and Integrated Energy Recovery Scheme for Health Care Waste Management for Megacity Dhaka: Through Material Flow and Life Cycle Assessment",
+        "subtitle": "Open-access abstract · Global Challenges · 2026-10-31",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13723702",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "A sustainable healthcare waste (HCW) management strategy for Dhaka integrating material flow analysis and comparative life cycle assessment is proposed. The current scenario (SC1), heavily reliant on landfilling, low recycling, and incineration without energy integration, is compared with the proposed alternative scenario (SC2), with higher material recycling, waste‐to‐energy conversion, and heat integration. Using gate‐to‐grave life‐cycle assessment across eighteen ReCiPe 2016 midpoint (H) impact categories, the proposed SC2 outperforms SC1 in ten categories, notably acidification potential by 96%, land‐use potential by 97%, climate change impacts by 78%, and marine eutrophication by 44%, while PM formation potential falls by 20.499 kg PM2.5‐eq and energy resource depletion becomes a net credit through 20572 kWh/day of recovered electricity. However, trade‐offs are observed in the toxicity, eutrophication, and photochemical oxidant formation categories, notably carcinogenic human toxicity (∼3.8x increase), marine ecotoxicity (∼2.3x increase), freshwater eutrophication (∼97% increase), and photochemical oxidant formation potential (∼3x increase). The proposed scheme also supports Bangladesh's drive toward SDG 7 and 13 outright, and toward SDG 3, 6, 11, and 14 once the toxicity and oxidant formation burdens are controlled. Our findings can provide a substantial quantitative framework for improving existing systems to achieve sustainability with a circular economy strategy."
+        ],
+        "terms": [
+          {
+            "term": "life cycle assessment",
+            "definition": "A method for evaluating environmental impacts across defined stages of a product or service's life."
+          },
+          {
+            "term": "circular economy",
+            "definition": "An approach that aims to keep materials in use and reduce resource consumption and waste."
+          },
+          {
+            "term": "eutrophication",
+            "definition": "Nutrient enrichment of a water body that can stimulate excessive biological growth."
+          },
+          {
+            "term": "sustainability",
+            "definition": "The capacity to maintain environmental, social or economic conditions over time within stated constraints."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nA sustainable healthcare waste (HCW) management strategy for Dhaka integrating material flow analysis and comparative _____ is proposed.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "country-specific emission factors",
+                "explanation": "This is not the expression used in this sentence. Factors developed to reflect the conditions of a particular country."
+              },
+              {
+                "id": "b",
+                "text": "co-benefits",
+                "explanation": "This is not the expression used in this sentence. Additional beneficial outcomes of an action beyond its primary intended purpose."
+              },
+              {
+                "id": "c",
+                "text": "feedback",
+                "explanation": "This is not the expression used in this sentence. A process in which a system's response influences the conditions driving that response."
+              },
+              {
+                "id": "d",
+                "text": "life cycle assessment",
+                "explanation": "The original abstract uses this expression. A method for evaluating environmental impacts across defined stages of a product or service's life."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: life cycle assessment. A method for evaluating environmental impacts across defined stages of a product or service's life. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nOur findings can provide a substantial quantitative framework for improving existing systems to achieve sustainability with a _____ strategy.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "circular economy",
+                "explanation": "The original abstract uses this expression. An approach that aims to keep materials in use and reduce resource consumption and waste."
+              },
+              {
+                "id": "b",
+                "text": "probability density function",
+                "explanation": "This is not the expression used in this sentence. A description of the range and relative likelihood of possible values."
+              },
+              {
+                "id": "c",
+                "text": "expert judgement",
+                "explanation": "This is not the expression used in this sentence. An informed assessment based on relevant specialist knowledge."
+              },
+              {
+                "id": "d",
+                "text": "correlation",
+                "explanation": "This is not the expression used in this sentence. A statistical relationship in how two quantities vary together."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: circular economy. An approach that aims to keep materials in use and reduce resource consumption and waste. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nA sustainable healthcare waste (HCW) management strategy for Dhaka integrating material flow analysis and comparative life cycle assessment is proposed. The current scenario (SC1), heavily reliant on landfilling, low recycling, and incineration without energy integration, is compared with the proposed alternative scenario (SC2), with higher material recycling, waste‐to‐energy conversion, and heat integration. Using gate‐to‐grave life‐cycle assessment across eighteen ReCiPe 2016 midpoint (H) impact categories, the proposed SC2 outperforms SC1 in ten categories, notably acidification potential by 96%, land‐use potential by 97%, climate change impacts by 78%, and marine eutrophication by 44%, while PM formation potential falls by 20.499 kg PM2.5‐eq and energy resource depletion becomes a net credit through 20572 kWh/day of recovered electricity. However, trade‐offs are observed in the toxicity, eutrophication, and photochemical oxidant formation categories, notably carcinogenic human toxicity (∼3.8x increase), marine ecotoxicity (∼2.3x increase), freshwater eutrophication (∼97% increase), and photochemical oxidant formation potential (∼3x increase). The proposed scheme also supports Bangladesh's drive toward SDG 7 and 13 outright, and toward SDG 3, 6, 11, and 14 once the toxicity and oxidant formation burdens are controlled. Our findings can provide a substantial quantitative framework for improving existing systems to achieve sustainability with a circular economy strategy.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-31",
+        "addedAt": "2026-11-03T19:50:49Z"
+      }
+    },
+    {
+      "title": "An integrated multi-scale framework for economically feasible landscape connectivity in working agricultural systems",
+      "paragraphs": [
+        "Agricultural landscapes must simultaneously sustain food production, support rural economies, and maintain ecological resilience. However, decades of landscape simplification have reduced semi-natural habitats, fragmented ecological networks, and weakened the ecosystem services that underpin agricultural productivity. Existing approaches to ecological intensification improve some farm-level services but do not generate the spatial coordination required for landscape-scale ecological function. Here, we present an integrated modeling framework that links farm-level ecological intensification, spatial habitat connectivity optimization, and a Bayesian search over realistic agri-environmental policies. Applied to a real agricultural landscape, the framework identifies feasible pathways for enhancing ecological function while maintaining economic viability. By explicitly connecting the scales at which farmers make decisions, ecosystems operate, and policies are implemented, this approach reveals how coordinated restoration can transform fragmented agricultural mosaics into more resilient, multifunctional landscapes. Our results demonstrate the potential for policy design to enable ecologically strategic and economically feasible habitat restoration, offering a pathway toward more sustainable agricultural systems."
+      ],
+      "authors": "Kevin Bradley Dsouza, Graham Alexander Watt, Yuri Leonenko, Juan Moreno-Cruz",
+      "journal": "Npj Sustainable Agriculture",
+      "doi": "10.1038/s44264-026-00166-5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "55f9e16b7684f8a1ba115da4105a643e4e28d8cef0607c25cf200e6f8b133748",
+      "pmcid": "PMC13722584",
+      "publishedAt": "2026-10-30",
+      "addedAt": "2026-11-03T19:50:49Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13722584",
+        "kind": "article",
+        "title": "An integrated multi-scale framework for economically feasible landscape connectivity in working agricultural systems",
+        "authors": "Kevin Bradley Dsouza, Graham Alexander Watt, Yuri Leonenko, Juan Moreno-Cruz",
+        "organization": "Npj Sustainable Agriculture",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13722584/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "55f9e16b7684f8a1ba115da4105a643e4e28d8cef0607c25cf200e6f8b133748",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-30",
+        "doi": "10.1038/s44264-026-00166-5"
+      },
+      "lesson": {
+        "id": "literature-pmc13722584",
+        "version": 1,
+        "title": "An integrated multi-scale framework for economically feasible landscape connectivity in working agricultural systems",
+        "subtitle": "Open-access abstract · Npj Sustainable Agriculture · 2026-10-30",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13722584",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Agricultural landscapes must simultaneously sustain food production, support rural economies, and maintain ecological resilience. However, decades of landscape simplification have reduced semi-natural habitats, fragmented ecological networks, and weakened the ecosystem services that underpin agricultural productivity. Existing approaches to ecological intensification improve some farm-level services but do not generate the spatial coordination required for landscape-scale ecological function. Here, we present an integrated modeling framework that links farm-level ecological intensification, spatial habitat connectivity optimization, and a Bayesian search over realistic agri-environmental policies. Applied to a real agricultural landscape, the framework identifies feasible pathways for enhancing ecological function while maintaining economic viability. By explicitly connecting the scales at which farmers make decisions, ecosystems operate, and policies are implemented, this approach reveals how coordinated restoration can transform fragmented agricultural mosaics into more resilient, multifunctional landscapes. Our results demonstrate the potential for policy design to enable ecologically strategic and economically feasible habitat restoration, offering a pathway toward more sustainable agricultural systems."
+        ],
+        "terms": [
+          {
+            "term": "ecological resilience",
+            "definition": "The capacity of an ecosystem to absorb disturbance while maintaining its essential functions."
+          },
+          {
+            "term": "ecosystem services",
+            "definition": "Benefits people obtain from ecosystems, such as water regulation and food provision."
+          },
+          {
+            "term": "restoration",
+            "definition": "Actions intended to assist the recovery of a degraded ecosystem or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAgricultural landscapes must simultaneously sustain food production, support rural economies, and maintain _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "carbon sink",
+                "explanation": "This is not the expression used in this sentence. A system that takes up more carbon than it releases over a specified period."
+              },
+              {
+                "id": "b",
+                "text": "ecological resilience",
+                "explanation": "The original abstract uses this expression. The capacity of an ecosystem to absorb disturbance while maintaining its essential functions."
+              },
+              {
+                "id": "c",
+                "text": "energy efficiency",
+                "explanation": "This is not the expression used in this sentence. The amount of useful output obtained for a given energy input."
+              },
+              {
+                "id": "d",
+                "text": "particulate matter",
+                "explanation": "This is not the expression used in this sentence. A mixture of solid particles and liquid droplets suspended in air."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: ecological resilience. The capacity of an ecosystem to absorb disturbance while maintaining its essential functions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nHowever, decades of landscape simplification have reduced semi-natural habitats, fragmented ecological networks, and weakened the _____ that underpin agricultural productivity.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "fuel consumption",
+                "explanation": "This is not the expression used in this sentence. The amount of fuel used over a defined period and boundary."
+              },
+              {
+                "id": "b",
+                "text": "ecosystem services",
+                "explanation": "The original abstract uses this expression. Benefits people obtain from ecosystems, such as water regulation and food provision."
+              },
+              {
+                "id": "c",
+                "text": "soil respiration",
+                "explanation": "This is not the expression used in this sentence. The release of carbon dioxide from soil through biological activity."
+              },
+              {
+                "id": "d",
+                "text": "renewable energy",
+                "explanation": "This is not the expression used in this sentence. Energy obtained from sources that are naturally replenished on human timescales."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: ecosystem services. Benefits people obtain from ecosystems, such as water regulation and food provision. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nAgricultural landscapes must simultaneously sustain food production, support rural economies, and maintain ecological resilience. However, decades of landscape simplification have reduced semi-natural habitats, fragmented ecological networks, and weakened the ecosystem services that underpin agricultural productivity. Existing approaches to ecological intensification improve some farm-level services but do not generate the spatial coordination required for landscape-scale ecological function. Here, we present an integrated modeling framework that links farm-level ecological intensification, spatial habitat connectivity optimization, and a Bayesian search over realistic agri-environmental policies. Applied to a real agricultural landscape, the framework identifies feasible pathways for enhancing ecological function while maintaining economic viability. By explicitly connecting the scales at which farmers make decisions, ecosystems operate, and policies are implemented, this approach reveals how coordinated restoration can transform fragmented agricultural mosaics into more resilient, multifunctional landscapes. Our results demonstrate the potential for policy design to enable ecologically strategic and economically feasible habitat restoration, offering a pathway toward more sustainable agricultural systems.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-30",
+        "addedAt": "2026-11-03T19:50:49Z"
+      }
+    },
+    {
+      "title": "PhenoFECT: A Python package for forecasting and exploring plant phenology under climate change",
+      "paragraphs": [
+        "Climate change and global warming significantly affect the timing of plant flowering in spring. Accurately predicting these phenological events is crucial for understanding plant biology and agriculture. The chill‐day model (CDM) based on seasonal temperature changes has been a reliable model for predicting phenological activities; however, recent global warming has challenged its accuracy due to extreme weather variability, necessitating the adjustment of the CDM parameters to reflect recent climate change. We developed an open‐source Python package, PhenoFECT (Phenology Forecasting Exploring ClimaTe), that refines temperature‐based phenology models. The package enables efficient phenological analysis for open and user‐specified data.",
+        "The Python package embeds open meteorological data collected over 53 years (1973–2025) in Korea for cherry (Prunus yedoensis), golden‐bell (Forsythia koreana), and azalea (Rhododendron mucronulatum). PhenoFECT was utilized to adjust the parameters of the CDM to reflect recent climate changes. The refined CDM improved the prediction accuracy of flowering at the average root mean square error (RMSE) of 5.74 days for three angiosperms.",
+        "PhenoFECT is a versatile tool for accurate forecasting, exploration, and visualization across diverse open meteorological data. Exploring data using PhenoFECT revealed that the CDM can be influenced by geographic features and global climate phenomena."
+      ],
+      "authors": "Songwon Kim, In‐Geol Choi",
+      "journal": "Applications in Plant Sciences",
+      "doi": "10.1002/aps3.70088",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "a2b7d47163672e4087b8f0983eacbf95dd6e53600812a7a64d4a4b7344b7c2c7",
+      "pmcid": "PMC13722615",
+      "publishedAt": "2026-10-30",
+      "addedAt": "2026-11-03T19:50:49Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13722615",
+        "kind": "article",
+        "title": "PhenoFECT: A Python package for forecasting and exploring plant phenology under climate change",
+        "authors": "Songwon Kim, In‐Geol Choi",
+        "organization": "Applications in Plant Sciences",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13722615/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "a2b7d47163672e4087b8f0983eacbf95dd6e53600812a7a64d4a4b7344b7c2c7",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-30",
+        "doi": "10.1002/aps3.70088"
+      },
+      "lesson": {
+        "id": "literature-pmc13722615",
+        "version": 1,
+        "title": "PhenoFECT: A Python package for forecasting and exploring plant phenology under climate change",
+        "subtitle": "Open-access abstract · Applications in Plant Sciences · 2026-10-30",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13722615",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Climate change and global warming significantly affect the timing of plant flowering in spring. Accurately predicting these phenological events is crucial for understanding plant biology and agriculture. The chill‐day model (CDM) based on seasonal temperature changes has been a reliable model for predicting phenological activities; however, recent global warming has challenged its accuracy due to extreme weather variability, necessitating the adjustment of the CDM parameters to reflect recent climate change. We developed an open‐source Python package, PhenoFECT (Phenology Forecasting Exploring ClimaTe), that refines temperature‐based phenology models. The package enables efficient phenological analysis for open and user‐specified data.",
+          "The Python package embeds open meteorological data collected over 53 years (1973–2025) in Korea for cherry (Prunus yedoensis), golden‐bell (Forsythia koreana), and azalea (Rhododendron mucronulatum). PhenoFECT was utilized to adjust the parameters of the CDM to reflect recent climate changes. The refined CDM improved the prediction accuracy of flowering at the average root mean square error (RMSE) of 5.74 days for three angiosperms.",
+          "PhenoFECT is a versatile tool for accurate forecasting, exploration, and visualization across diverse open meteorological data. Exploring data using PhenoFECT revealed that the CDM can be influenced by geographic features and global climate phenomena."
+        ],
+        "terms": [
+          {
+            "term": "variability",
+            "definition": "Real differences across time, space, or members of a population."
+          },
+          {
+            "term": "phenology",
+            "definition": "The timing of recurring biological events and their relationship to environmental conditions."
+          },
+          {
+            "term": "accuracy",
+            "definition": "The extent to which an estimate avoids systematic departure from the true value."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe chill‐day model (CDM) based on seasonal temperature changes has been a reliable model for predicting phenological activities; however, recent global warming has challenged its accuracy due to extreme weather _____, necessitating the adjustment of the CDM parameters to reflect recent climate change.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "leaching",
+                "explanation": "This is not the expression used in this sentence. Movement of dissolved material through soil with draining water."
+              },
+              {
+                "id": "b",
+                "text": "survey data",
+                "explanation": "This is not the expression used in this sentence. Information collected through an organised survey."
+              },
+              {
+                "id": "c",
+                "text": "comparability",
+                "explanation": "This is not the expression used in this sentence. The extent to which estimates can be meaningfully compared."
+              },
+              {
+                "id": "d",
+                "text": "variability",
+                "explanation": "The original abstract uses this expression. Real differences across time, space, or members of a population."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: variability. Real differences across time, space, or members of a population. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWe developed an open‐source Python package, PhenoFECT (_____ Forecasting Exploring ClimaTe), that refines temperature‐based _____ models.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "phenology",
+                "explanation": "The original abstract uses this expression. The timing of recurring biological events and their relationship to environmental conditions."
+              },
+              {
+                "id": "b",
+                "text": "carbon sink",
+                "explanation": "This is not the expression used in this sentence. A system that takes up more carbon than it releases over a specified period."
+              },
+              {
+                "id": "c",
+                "text": "precision",
+                "explanation": "This is not the expression used in this sentence. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "d",
+                "text": "expert judgement",
+                "explanation": "This is not the expression used in this sentence. An informed assessment based on relevant specialist knowledge."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: phenology. The timing of recurring biological events and their relationship to environmental conditions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nPhenoFECT is a versatile tool for accurate forecasting, exploration, and visualization across diverse open meteorological data. Exploring data using PhenoFECT revealed that the CDM can be influenced by geographic features and global climate phenomena.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-30",
+        "addedAt": "2026-11-03T19:50:49Z"
+      }
     }
   ],
   "vocabulary": [
@@ -4063,9 +4514,88 @@
       "evidence": "We also outline key methodological and translational priorities, including exposure assessment, temporality, treatment-confounding, interpretability, fairness, data governance, and external validation.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-c423b367e3081170c6b5",
+      "term": "life cycle assessment",
+      "meaning": "A method for evaluating environmental impacts across defined stages of a product or service's life.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "A sustainable healthcare waste (HCW) management strategy for Dhaka integrating material flow analysis and comparative life cycle assessment is proposed.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13723702",
+      "location": "Abstract · paragraph 1",
+      "evidence": "A sustainable healthcare waste (HCW) management strategy for Dhaka integrating material flow analysis and comparative life cycle assessment is proposed.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-27e3e1cb5bf4b8944f63",
+      "term": "circular economy",
+      "meaning": "An approach that aims to keep materials in use and reduce resource consumption and waste.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Our findings can provide a substantial quantitative framework for improving existing systems to achieve sustainability with a circular economy strategy.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13723702",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Our findings can provide a substantial quantitative framework for improving existing systems to achieve sustainability with a circular economy strategy.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-579df9551f3c8a21241f",
+      "term": "eutrophication",
+      "meaning": "Nutrient enrichment of a water body that can stimulate excessive biological growth.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Using gate‐to‐grave life‐cycle assessment across eighteen ReCiPe 2016 midpoint (H) impact categories, the proposed SC2 outperforms SC1 in ten categories, notably acidification potential by 96%, land‐use potential by 97%, climate change impacts by 78%, and marine eutrophication by 44%, while PM formation potential falls by 20.499 kg PM2.5‐eq and energy resource depletion becomes a net credit through 20572 kWh/day of recovered electricity.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13723702",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Using gate‐to‐grave life‐cycle assessment across eighteen ReCiPe 2016 midpoint (H) impact categories, the proposed SC2 outperforms SC1 in ten categories, notably acidification potential by 96%, land‐use potential by 97%, climate change impacts by 78%, and marine eutrophication by 44%, while PM formation potential falls by 20.499 kg PM2.5‐eq and energy resource depletion becomes a net credit through 20572 kWh/day of recovered electricity.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-03T19:50:49Z",
+      "added": 3,
+      "total": 27,
+      "vocabularyAdded": 3,
+      "screening": {
+        "candidates": 264,
+        "xmlInspected": 10,
+        "cachedSkipped": 22,
+        "unavailable": 0,
+        "ineligible": 7,
+        "duplicate": 0,
+        "insufficientTerms": 0,
+        "passes": 1
+      }
+    },
     {
       "checkedAt": "2026-11-02T21:57:00Z",
       "added": 3,
@@ -5043,6 +5573,34 @@
       {
         "pmcid": "PMC13719830",
         "checkedAt": "2026-11-02T21:57:00Z"
+      },
+      {
+        "pmcid": "PMC13722575",
+        "checkedAt": "2026-11-03T19:50:49Z"
+      },
+      {
+        "pmcid": "PMC13722579",
+        "checkedAt": "2026-11-03T19:50:49Z"
+      },
+      {
+        "pmcid": "PMC13722604",
+        "checkedAt": "2026-11-03T19:50:49Z"
+      },
+      {
+        "pmcid": "PMC13723011",
+        "checkedAt": "2026-11-03T19:50:49Z"
+      },
+      {
+        "pmcid": "PMC13723676",
+        "checkedAt": "2026-11-03T19:50:49Z"
+      },
+      {
+        "pmcid": "PMC13723693",
+        "checkedAt": "2026-11-03T19:50:49Z"
+      },
+      {
+        "pmcid": "PMC13724144",
+        "checkedAt": "2026-11-03T19:50:49Z"
       }
     ]
   }
