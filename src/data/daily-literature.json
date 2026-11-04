@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-03T19:50:49Z",
-  "lastAddedAt": "2026-11-03T19:50:49Z",
+  "lastCheckedAt": "2026-11-04T20:04:36Z",
+  "lastAddedAt": "2026-11-04T20:04:36Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -3966,6 +3966,448 @@
         "publishedAt": "2026-10-30",
         "addedAt": "2026-11-03T19:50:49Z"
       }
+    },
+    {
+      "title": "Contact in context: How land use histories, sociocultural practices, and animal profiles shape human-animal contact and zoonotic pathogen exposure in a fragmented forest of the Democratic Republic of Congo",
+      "paragraphs": [
+        "Pathogenic spillovers from animals into humans have catalyzed epidemics throughout history. They result from multiple factors. One such factor, human-animal contact, remains poorly understood. Current studies often neglect variability in human-animal engagements across ecological zones and the broader processes bringing people, animals, and pathogens into engagement. We investigated factors and longer-term processes shaping human-animal contacts and indirectly, potential exposures to zoonotic pathogens in a fragmentated forest. We conducted our mixed-methods investigation in three villages along an ecological gradient of forest fragmentation in the Democratic Republic of Congo (DRC), a hotspot of biodiversity and disease emergence. Twenty-four village participants recorded their daily activities and contacts with animal species over five months. We developed a cluster analysis to categorize classes of animals according to type and frequency of contact and conducted transects to estimate animal species abundance according to village proximity. We then tested the influence of species abundance, human activities, gender, and village on contact frequency. We also undertook ethnographic and ethnohistorical interviews and observations to explore changing human-animal relations. Participants had physical and environmental contact with 61 animal species, which clustered into three classes according to their contact profiles. Relative abundance of animal species was associated with contact frequency, but its effects were weak. Our ethnohistorical and anthropological analyses, however, situated these contacts within their longer-term processes and sociocultural practices that our models could not capture. The animals with which participants had most frequent contact were those whose abundance and accessibility resulted from decades of land use change and hunting intensification. Several abundant species were rarely contacted because local categorizations of animals as ngeyi (“disgusting”) suppressed contacts that proximity alone would have predicted. Human-animal contact profiles are thus historically produced and socioculturally mediated; they cannot be derived exclusively from species ecology, land cover, or demographic variables.",
+        "Pathogenic spillovers from animals into humans have catalyzed epidemics throughout history. These spillovers result from many factors, although one, human-animal contact, is poorly understood. Studies of contact rarely account for the variability of human-animal interactions or for the longer-term changes shaping engagements between people, animals, and pathogens. Our mixed-methods study explored factors and longer-term processes affecting human-animal contacts and indirectly, potential risks of exposure to zoonotic pathogens in a fragmented forest of the Democratic Republic of Congo.",
+        "Over five months, participants recorded contacts with 61 different animal species. We grouped these species into three different classes according to how frequent and in what ways people encountered them. Animal abundance predicted some contacts, but historical changes and sociocultural practices accounted for much of the rest. Decades of land use change and intensive hunting shaped which animals are now abundant and accessible near villages, whereas local understandings of certain animals as “disgusting” suppressed contact that proximity alone would have predicted.",
+        "Human-animal contacts are thus historically produced and socioculturally mediated. They cannot be anticipated from ecology alone. We recommend that future studies examine a wider array of contacts and situate them in their historical contexts."
+      ],
+      "authors": "Romain Duda, Victor Narat, Thibaut Langlois, Robert Monfura, Marc Allassonnière Tang, Placide Mbala, Claude Monghiemo, Tamara Giles-Vernick",
+      "journal": "PLOS Neglected Tropical Diseases",
+      "doi": "10.1371/journal.pntd.0013823",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "d7bdb20511bcb2c1c519ede32cc6289651241fa69dcb6920c73a9775d7c7ef44",
+      "pmcid": "PMC13727040",
+      "publishedAt": "2026-10-26",
+      "addedAt": "2026-11-04T20:04:36Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13727040",
+        "kind": "article",
+        "title": "Contact in context: How land use histories, sociocultural practices, and animal profiles shape human-animal contact and zoonotic pathogen exposure in a fragmented forest of the Democratic Republic of Congo",
+        "authors": "Romain Duda, Victor Narat, Thibaut Langlois, Robert Monfura, Marc Allassonnière Tang, Placide Mbala, Claude Monghiemo, Tamara Giles-Vernick",
+        "organization": "PLOS Neglected Tropical Diseases",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13727040/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "d7bdb20511bcb2c1c519ede32cc6289651241fa69dcb6920c73a9775d7c7ef44",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-26",
+        "doi": "10.1371/journal.pntd.0013823"
+      },
+      "lesson": {
+        "id": "literature-pmc13727040",
+        "version": 1,
+        "title": "Contact in context: How land use histories, sociocultural practices, and animal profiles shape human-animal contact and zoonotic pathogen exposure in a fragmented forest of the Democratic Republic of Congo",
+        "subtitle": "Open-access abstract · PLOS Neglected Tropical Diseases · 2026-10-26",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13727040",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Pathogenic spillovers from animals into humans have catalyzed epidemics throughout history. They result from multiple factors. One such factor, human-animal contact, remains poorly understood. Current studies often neglect variability in human-animal engagements across ecological zones and the broader processes bringing people, animals, and pathogens into engagement. We investigated factors and longer-term processes shaping human-animal contacts and indirectly, potential exposures to zoonotic pathogens in a fragmentated forest. We conducted our mixed-methods investigation in three villages along an ecological gradient of forest fragmentation in the Democratic Republic of Congo (DRC), a hotspot of biodiversity and disease emergence. Twenty-four village participants recorded their daily activities and contacts with animal species over five months. We developed a cluster analysis to categorize classes of animals according to type and frequency of contact and conducted transects to estimate animal species abundance according to village proximity. We then tested the influence of species abundance, human activities, gender, and village on contact frequency. We also undertook ethnographic and ethnohistorical interviews and observations to explore changing human-animal relations. Participants had physical and environmental contact with 61 animal species, which clustered into three classes according to their contact profiles. Relative abundance of animal species was associated with contact frequency, but its effects were weak. Our ethnohistorical and anthropological analyses, however, situated these contacts within their longer-term processes and sociocultural practices that our models could not capture. The animals with which participants had most frequent contact were those whose abundance and accessibility resulted from decades of land use change and hunting intensification. Several abundant species were rarely contacted because local categorizations of animals as ngeyi (“disgusting”) suppressed contacts that proximity alone would have predicted. Human-animal contact profiles are thus historically produced and socioculturally mediated; they cannot be derived exclusively from species ecology, land cover, or demographic variables.",
+          "Pathogenic spillovers from animals into humans have catalyzed epidemics throughout history. These spillovers result from many factors, although one, human-animal contact, is poorly understood. Studies of contact rarely account for the variability of human-animal interactions or for the longer-term changes shaping engagements between people, animals, and pathogens. Our mixed-methods study explored factors and longer-term processes affecting human-animal contacts and indirectly, potential risks of exposure to zoonotic pathogens in a fragmented forest of the Democratic Republic of Congo.",
+          "Over five months, participants recorded contacts with 61 different animal species. We grouped these species into three different classes according to how frequent and in what ways people encountered them. Animal abundance predicted some contacts, but historical changes and sociocultural practices accounted for much of the rest. Decades of land use change and intensive hunting shaped which animals are now abundant and accessible near villages, whereas local understandings of certain animals as “disgusting” suppressed contact that proximity alone would have predicted.",
+          "Human-animal contacts are thus historically produced and socioculturally mediated. They cannot be anticipated from ecology alone. We recommend that future studies examine a wider array of contacts and situate them in their historical contexts."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "variability",
+            "definition": "Real differences across time, space, or members of a population."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWe conducted our mixed-methods investigation in three villages along an ecological gradient of forest fragmentation in the Democratic Republic of Congo (DRC), a hotspot of _____ and disease emergence.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "quality assurance",
+                "explanation": "This is not the expression used in this sentence. Planned review activities used to assess whether quality objectives are being met."
+              },
+              {
+                "id": "b",
+                "text": "bias",
+                "explanation": "This is not the expression used in this sentence. A systematic tendency to overestimate or underestimate a quantity."
+              },
+              {
+                "id": "c",
+                "text": "default emission factor",
+                "explanation": "This is not the expression used in this sentence. A reference factor supplied for use when an appropriate more specific factor is unavailable."
+              },
+              {
+                "id": "d",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nCurrent studies often neglect _____ in human-animal engagements across ecological zones and the broader processes bringing people, animals, and pathogens into engagement.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "neural network",
+                "explanation": "This is not the expression used in this sentence. A computational model built from connected units whose parameters are adjusted using data."
+              },
+              {
+                "id": "b",
+                "text": "evapotranspiration",
+                "explanation": "This is not the expression used in this sentence. The combined transfer of water to the atmosphere by evaporation and plant transpiration."
+              },
+              {
+                "id": "c",
+                "text": "variability",
+                "explanation": "The original abstract uses this expression. Real differences across time, space, or members of a population."
+              },
+              {
+                "id": "d",
+                "text": "overfitting",
+                "explanation": "This is not the expression used in this sentence. Fitting patterns specific to the training data that do not generalise well to new data."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: variability. Real differences across time, space, or members of a population. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nHuman-animal contacts are thus historically produced and socioculturally mediated. They cannot be anticipated from ecology alone. We recommend that future studies examine a wider array of contacts and situate them in their historical contexts.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-26",
+        "addedAt": "2026-11-04T20:04:36Z"
+      }
+    },
+    {
+      "title": "The role of ponds in the retention of micro(nano)plastics, tyre wear particles and their leachates: current state of the science, research gaps and opportunities",
+      "paragraphs": [
+        "Natural and artificial ponds offer a cost-effective management technique to potentially remove water contaminants including micro(nano)plastics (MNPs) and tyre wear particles (TWPs). The use of sustainable urban drainage systems (SuDS), including ponds, is increasingly being promoted by governmental guidance in countries such as the UK, the USA, and Denmark in part to address contaminated runoff in new road and housing developments with increasing calls to make these systems mandatory. Traditionally, the focus has been on the removal of contaminants such as metals, suspended particles, PAHs and pesticides, improving water quality and reducing diffuse pollution. In more recent years, the efficacy of ponds in the removal of MPs and TWPs has been increasingly investigated. Studies estimate, albeit with potentially substantial uncertainty, that pond removal efficiencies for microplastics (MPs) and TWPs range from 83.9% to 99.9% and 80.1% to 100.0%, respectively. However, with current legislative steps toward ponds becoming increasingly widespread as a remediation tool, there are a number of significant gaps in the current body of research that need to be addressed. The transport and fate of nanoplastics (NPs) need to be examined, TWPs need to be consistently included in studies, and the transport through ponds of contaminants sorbed by MNPs and TWPs alongside manufacturing additives leached by MNPs and TWPs must be considered. As analytical techniques develop and are standardised, future studies should ensure that these aspects are considered more thoroughly to enable relevant conclusions to be drawn that could shape the design of future pond systems."
+      ],
+      "authors": "Stuart Cairns, Muhammad Junaid, Iain Robertson",
+      "journal": "Environmental Science",
+      "doi": "10.1039/d6ew00639f",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "license": "CC BY 3.0",
+      "abstractSha256": "120863db2e29baf2731e10520dc99fa34c6174ce7eda95540968aeda9b000bd1",
+      "pmcid": "PMC13726797",
+      "publishedAt": "2026-10-19",
+      "addedAt": "2026-11-04T20:04:36Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13726797",
+        "kind": "article",
+        "title": "The role of ponds in the retention of micro(nano)plastics, tyre wear particles and their leachates: current state of the science, research gaps and opportunities",
+        "authors": "Stuart Cairns, Muhammad Junaid, Iain Robertson",
+        "organization": "Environmental Science",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13726797/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "120863db2e29baf2731e10520dc99fa34c6174ce7eda95540968aeda9b000bd1",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "publishedAt": "2026-10-19",
+        "doi": "10.1039/d6ew00639f"
+      },
+      "lesson": {
+        "id": "literature-pmc13726797",
+        "version": 1,
+        "title": "The role of ponds in the retention of micro(nano)plastics, tyre wear particles and their leachates: current state of the science, research gaps and opportunities",
+        "subtitle": "Open-access abstract · Environmental Science · 2026-10-19",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13726797",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Natural and artificial ponds offer a cost-effective management technique to potentially remove water contaminants including micro(nano)plastics (MNPs) and tyre wear particles (TWPs). The use of sustainable urban drainage systems (SuDS), including ponds, is increasingly being promoted by governmental guidance in countries such as the UK, the USA, and Denmark in part to address contaminated runoff in new road and housing developments with increasing calls to make these systems mandatory. Traditionally, the focus has been on the removal of contaminants such as metals, suspended particles, PAHs and pesticides, improving water quality and reducing diffuse pollution. In more recent years, the efficacy of ponds in the removal of MPs and TWPs has been increasingly investigated. Studies estimate, albeit with potentially substantial uncertainty, that pond removal efficiencies for microplastics (MPs) and TWPs range from 83.9% to 99.9% and 80.1% to 100.0%, respectively. However, with current legislative steps toward ponds becoming increasingly widespread as a remediation tool, there are a number of significant gaps in the current body of research that need to be addressed. The transport and fate of nanoplastics (NPs) need to be examined, TWPs need to be consistently included in studies, and the transport through ponds of contaminants sorbed by MNPs and TWPs alongside manufacturing additives leached by MNPs and TWPs must be considered. As analytical techniques develop and are standardised, future studies should ensure that these aspects are considered more thoroughly to enable relevant conclusions to be drawn that could shape the design of future pond systems."
+        ],
+        "terms": [
+          {
+            "term": "microplastics",
+            "definition": "Small plastic particles, commonly defined as being less than five millimetres in size."
+          },
+          {
+            "term": "uncertainty",
+            "definition": "Incomplete knowledge about the true value of a quantity."
+          },
+          {
+            "term": "runoff",
+            "definition": "Water and associated material moving across the land surface."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nStudies estimate, albeit with potentially substantial uncertainty, that pond removal efficiencies for _____ (MPs) and TWPs range from 83.9% to 99.9% and 80.1% to 100.0%, respectively.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "bioavailability",
+                "explanation": "This is not the expression used in this sentence. The extent to which a substance is available for uptake or biological action under specified conditions."
+              },
+              {
+                "id": "b",
+                "text": "microplastics",
+                "explanation": "The original abstract uses this expression. Small plastic particles, commonly defined as being less than five millimetres in size."
+              },
+              {
+                "id": "c",
+                "text": "soil organic carbon",
+                "explanation": "This is not the expression used in this sentence. Carbon contained in organic material in soil."
+              },
+              {
+                "id": "d",
+                "text": "neural network",
+                "explanation": "This is not the expression used in this sentence. A computational model built from connected units whose parameters are adjusted using data."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: microplastics. Small plastic particles, commonly defined as being less than five millimetres in size. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nStudies estimate, albeit with potentially substantial _____, that pond removal efficiencies for microplastics (MPs) and TWPs range from 83.9% to 99.9% and 80.1% to 100.0%, respectively.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "feedback",
+                "explanation": "This is not the expression used in this sentence. A process in which a system's response influences the conditions driving that response."
+              },
+              {
+                "id": "b",
+                "text": "co-benefits",
+                "explanation": "This is not the expression used in this sentence. Additional beneficial outcomes of an action beyond its primary intended purpose."
+              },
+              {
+                "id": "c",
+                "text": "uncertainty",
+                "explanation": "The original abstract uses this expression. Incomplete knowledge about the true value of a quantity."
+              },
+              {
+                "id": "d",
+                "text": "habitat fragmentation",
+                "explanation": "This is not the expression used in this sentence. The division of a continuous habitat into smaller, more isolated patches."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: uncertainty. Incomplete knowledge about the true value of a quantity. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nNatural and artificial ponds offer a cost-effective management technique to potentially remove water contaminants including micro(nano)plastics (MNPs) and tyre wear particles (TWPs). The use of sustainable urban drainage systems (SuDS), including ponds, is increasingly being promoted by governmental guidance in countries such as the UK, the USA, and Denmark in part to address contaminated runoff in new road and housing developments with increasing calls to make these systems mandatory. Traditionally, the focus has been on the removal of contaminants such as metals, suspended particles, PAHs and pesticides, improving water quality and reducing diffuse pollution. In more recent years, the efficacy of ponds in the removal of MPs and TWPs has been increasingly investigated. Studies estimate, albeit with potentially substantial uncertainty, that pond removal efficiencies for microplastics (MPs) and TWPs range from 83.9% to 99.9% and 80.1% to 100.0%, respectively. However, with current legislative steps toward ponds becoming increasingly widespread as a remediation tool, there are a number of significant gaps in the current body of research that need to be addressed. The transport and fate of nanoplastics (NPs) need to be examined, TWPs need to be consistently included in studies, and the transport through ponds of contaminants sorbed by MNPs and TWPs alongside manufacturing additives leached by MNPs and TWPs must be considered. As analytical techniques develop and are standardised, future studies should ensure that these aspects are considered more thoroughly to enable relevant conclusions to be drawn that could shape the design of future pond systems.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-19",
+        "addedAt": "2026-11-04T20:04:36Z"
+      }
+    },
+    {
+      "title": "The microbial aerial thread: co-restoring source and sink across dryland-urban gradients",
+      "paragraphs": [
+        "Dryland ecosystems serve as major sources of atmospheric bioaerosols through aeolian transport of dust-associated microorganisms. These microbial communities are dispersed across vast distances, connecting dryland soils and vegetation to distant recipient ecosystems, particularly urban areas. This review synthesizes current understanding of microbial ecology in arid soils, microbial dispersal through dust, and interactions with urban ecosystems. We propose that restoration efforts should move beyond isolated, site-level interventions toward integrated strategies that account for the atmospheric connectivity between dryland source areas and urban sink environments. Practical restoration approaches, including dryland soil stabilization to reduce harmful dust emissions, microbial inoculant development, and urban green infrastructure designed to function as dispersal corridors, can generate cross-boundary synergies that enhance ecological resilience across the dryland–urban gradient. By reconceptualizing cities as nodes within broader ecological networks linked by microbial dispersal, and by leveraging insights from dryland ecology to guide urban restoration under resource-limited conditions, this framework offers a pathway for co-restoring connected landscapes in an era of accelerating urbanization and desertification."
+      ],
+      "authors": "Albert Barberán, Elise S. Gornish",
+      "journal": "Frontiers in Microbiomes",
+      "doi": "10.3389/frmbi.2026.1965062",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "013b25c8314b101fa46ee263fb3d3372f36ebd614b68857a1a2ab7e64c1b5a10",
+      "pmcid": "PMC13725210",
+      "publishedAt": "2026-10-19",
+      "addedAt": "2026-11-04T20:04:36Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13725210",
+        "kind": "article",
+        "title": "The microbial aerial thread: co-restoring source and sink across dryland-urban gradients",
+        "authors": "Albert Barberán, Elise S. Gornish",
+        "organization": "Frontiers in Microbiomes",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13725210/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "013b25c8314b101fa46ee263fb3d3372f36ebd614b68857a1a2ab7e64c1b5a10",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-19",
+        "doi": "10.3389/frmbi.2026.1965062"
+      },
+      "lesson": {
+        "id": "literature-pmc13725210",
+        "version": 1,
+        "title": "The microbial aerial thread: co-restoring source and sink across dryland-urban gradients",
+        "subtitle": "Open-access abstract · Frontiers in Microbiomes · 2026-10-19",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13725210",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Dryland ecosystems serve as major sources of atmospheric bioaerosols through aeolian transport of dust-associated microorganisms. These microbial communities are dispersed across vast distances, connecting dryland soils and vegetation to distant recipient ecosystems, particularly urban areas. This review synthesizes current understanding of microbial ecology in arid soils, microbial dispersal through dust, and interactions with urban ecosystems. We propose that restoration efforts should move beyond isolated, site-level interventions toward integrated strategies that account for the atmospheric connectivity between dryland source areas and urban sink environments. Practical restoration approaches, including dryland soil stabilization to reduce harmful dust emissions, microbial inoculant development, and urban green infrastructure designed to function as dispersal corridors, can generate cross-boundary synergies that enhance ecological resilience across the dryland–urban gradient. By reconceptualizing cities as nodes within broader ecological networks linked by microbial dispersal, and by leveraging insights from dryland ecology to guide urban restoration under resource-limited conditions, this framework offers a pathway for co-restoring connected landscapes in an era of accelerating urbanization and desertification."
+        ],
+        "terms": [
+          {
+            "term": "ecological resilience",
+            "definition": "The capacity of an ecosystem to absorb disturbance while maintaining its essential functions."
+          },
+          {
+            "term": "restoration",
+            "definition": "Actions intended to assist the recovery of a degraded ecosystem or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nPractical restoration approaches, including dryland soil stabilization to reduce harmful dust emissions, microbial inoculant development, and urban green infrastructure designed to function as dispersal corridors, can generate cross-boundary synergies that enhance _____ across the dryland–urban gradient.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "ecological resilience",
+                "explanation": "The original abstract uses this expression. The capacity of an ecosystem to absorb disturbance while maintaining its essential functions."
+              },
+              {
+                "id": "b",
+                "text": "census",
+                "explanation": "This is not the expression used in this sentence. A data collection exercise intended to cover the whole population of interest."
+              },
+              {
+                "id": "c",
+                "text": "regression analysis",
+                "explanation": "This is not the expression used in this sentence. Statistical modeling of the relationship between a response and explanatory variables."
+              },
+              {
+                "id": "d",
+                "text": "climate sensitivity",
+                "explanation": "This is not the expression used in this sentence. The change in a measure of climate, often temperature, in response to a specified forcing."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: ecological resilience. The capacity of an ecosystem to absorb disturbance while maintaining its essential functions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWe propose that _____ efforts should move beyond isolated, site-level interventions toward integrated strategies that account for the atmospheric connectivity between dryland source areas and urban sink environments.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "restoration",
+                "explanation": "The original abstract uses this expression. Actions intended to assist the recovery of a degraded ecosystem or system."
+              },
+              {
+                "id": "b",
+                "text": "correlation",
+                "explanation": "This is not the expression used in this sentence. A statistical relationship in how two quantities vary together."
+              },
+              {
+                "id": "c",
+                "text": "stationary combustion",
+                "explanation": "This is not the expression used in this sentence. Fuel burning in stationary equipment or installations."
+              },
+              {
+                "id": "d",
+                "text": "publication bias",
+                "explanation": "This is not the expression used in this sentence. A distortion caused when the availability of research results depends on their findings."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: restoration. Actions intended to assist the recovery of a degraded ecosystem or system. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nDryland ecosystems serve as major sources of atmospheric bioaerosols through aeolian transport of dust-associated microorganisms. These microbial communities are dispersed across vast distances, connecting dryland soils and vegetation to distant recipient ecosystems, particularly urban areas. This review synthesizes current understanding of microbial ecology in arid soils, microbial dispersal through dust, and interactions with urban ecosystems. We propose that restoration efforts should move beyond isolated, site-level interventions toward integrated strategies that account for the atmospheric connectivity between dryland source areas and urban sink environments. Practical restoration approaches, including dryland soil stabilization to reduce harmful dust emissions, microbial inoculant development, and urban green infrastructure designed to function as dispersal corridors, can generate cross-boundary synergies that enhance ecological resilience across the dryland–urban gradient. By reconceptualizing cities as nodes within broader ecological networks linked by microbial dispersal, and by leveraging insights from dryland ecology to guide urban restoration under resource-limited conditions, this framework offers a pathway for co-restoring connected landscapes in an era of accelerating urbanization and desertification.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-19",
+        "addedAt": "2026-11-04T20:04:36Z"
+      }
     }
   ],
   "vocabulary": [
@@ -4580,6 +5022,22 @@
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-04T20:04:36Z",
+      "added": 3,
+      "total": 30,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 265,
+        "xmlInspected": 23,
+        "cachedSkipped": 135,
+        "unavailable": 0,
+        "ineligible": 13,
+        "duplicate": 0,
+        "insufficientTerms": 7,
+        "passes": 1
+      }
+    },
     {
       "checkedAt": "2026-11-03T19:50:49Z",
       "added": 3,
@@ -5601,6 +6059,86 @@
       {
         "pmcid": "PMC13724144",
         "checkedAt": "2026-11-03T19:50:49Z"
+      },
+      {
+        "pmcid": "PMC13662905",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13674507",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13717500",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13719954",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13721103",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13721926",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13721931",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13722083",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13723012",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13724269",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13724295",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13725843",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13725870",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13726165",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13726574",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13727255",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13727957",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13727961",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13729303",
+        "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13730137",
+        "checkedAt": "2026-11-04T20:04:36Z"
       }
     ]
   }
