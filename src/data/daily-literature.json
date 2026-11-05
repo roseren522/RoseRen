@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-04T20:04:36Z",
-  "lastAddedAt": "2026-11-04T20:04:36Z",
+  "lastCheckedAt": "2026-11-05T20:17:27Z",
+  "lastAddedAt": "2026-11-05T20:17:27Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -4408,6 +4408,449 @@
         "publishedAt": "2026-10-19",
         "addedAt": "2026-11-04T20:04:36Z"
       }
+    },
+    {
+      "title": "Adaptive Mechanisms of Endemic Fish Triplophysa yarkandensis in the Tarim River Basin of Northwestern China",
+      "paragraphs": [
+        "Freshwater fish living in dryland rivers face increasing threats from climate change, water shortages, increasing salt levels, habitat changes, and human activities. These challenges are especially serious for native fish species that survive only in limited areas. This study reviewed how the endemic fish Triplophysa yarkandensis adapts to the harsh environment of the Tarim River Basin and identified the factors affecting its survival. The review highlights key responses of T. yarkandensis, including osmoregulatory mechanisms that maintain ion balance under saline–alkaline stress, activation of the IRE1–JNK signaling axis associated with heat-stress-induced apoptosis, and the functional roles of the gut microbiota in metabolism, nutrient utilization, and stress resilience. The review also highlighted how changes in water availability, habitat loss, pollution, and introduced species may reduce its ability to survive in the future. Understanding these survival strategies provides important knowledge for protecting native fish populations and maintaining healthy freshwater ecosystems. The findings can support better conservation planning, habitat restoration, and management strategies to protect aquatic biodiversity in dryland river systems under future environmental changes.",
+        "Dryland river ecosystems are among the most susceptible freshwater environments, with climate change, hydrological shifts, salinization and anthropogenic disturbance posing increasing threats to aquatic biodiversity. Endemic fishes in these regions are particularly vulnerable because of restricted geographic range, ecological specialization and narrow environmental tolerance limits, which reduce their capacity to cope with rapid environmental change. Triplophysa yarkandensis has a coordinated set of adaptive responses such as benthic morphological specialization, adaptable trophic modes, osmoregulatory ability to cope with saline–alkaline stress, and thermal tolerance mediated by stress-sensitive genes. Notably, muscle transcriptomic evidence indicates heat-associated expression changes in genes of the IRE1–TRAF2–MAP3K5–JNK signaling axis, suggesting this pathway as a candidate link between endoplasmic-reticulum stress and apoptosis-related responses. But its activation and causal role in apoptosis have not yet been confirmed at the protein and functional level. Nevertheless, these adaptations are increasingly constrained by habitat fragmentation, invasive species, declining water quality, and altered flow regimes, highlighting the limited buffering capacity of endemic species under increasing environmental disturbance. These observations provide a scientific basis for conservation planning, ecological monitoring, and adaptive management in arid inland waters, including habitat restoration, ecological flow regulation, and species-specific protection. Future studies must combine long-term field studies, multi-stressor experimental systems, and genomic–ecophysiological designs to define adaptive limits and improve conservation outcomes under continued climate change."
+      ],
+      "authors": "Sadia Bibi, Yafan Zhu, Changcai Liu, Liting Yang, Kai Wang, Aiai Zhu, Liu Yu, Yong Song, Hongmei Li, Bin Huo, Shengao Chen",
+      "journal": "Animals : an Open Access Journal from MDPI",
+      "doi": "10.3390/ani16203183",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "b83a890b22f778227da473d2487280566aa9934f300a949bf7ac3243f0ab54b9",
+      "pmcid": "PMC13700832",
+      "publishedAt": "2026-10-10",
+      "addedAt": "2026-11-05T20:17:27Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13700832",
+        "kind": "article",
+        "title": "Adaptive Mechanisms of Endemic Fish Triplophysa yarkandensis in the Tarim River Basin of Northwestern China",
+        "authors": "Sadia Bibi, Yafan Zhu, Changcai Liu, Liting Yang, Kai Wang, Aiai Zhu, Liu Yu, Yong Song, Hongmei Li, Bin Huo, Shengao Chen",
+        "organization": "Animals : an Open Access Journal from MDPI",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13700832/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "b83a890b22f778227da473d2487280566aa9934f300a949bf7ac3243f0ab54b9",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-10",
+        "doi": "10.3390/ani16203183"
+      },
+      "lesson": {
+        "id": "literature-pmc13700832",
+        "version": 1,
+        "title": "Adaptive Mechanisms of Endemic Fish Triplophysa yarkandensis in the Tarim River Basin of Northwestern China",
+        "subtitle": "Open-access abstract · Animals : an Open Access Journal from MDPI · 2026-10-10",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13700832",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Freshwater fish living in dryland rivers face increasing threats from climate change, water shortages, increasing salt levels, habitat changes, and human activities. These challenges are especially serious for native fish species that survive only in limited areas. This study reviewed how the endemic fish Triplophysa yarkandensis adapts to the harsh environment of the Tarim River Basin and identified the factors affecting its survival. The review highlights key responses of T. yarkandensis, including osmoregulatory mechanisms that maintain ion balance under saline–alkaline stress, activation of the IRE1–JNK signaling axis associated with heat-stress-induced apoptosis, and the functional roles of the gut microbiota in metabolism, nutrient utilization, and stress resilience. The review also highlighted how changes in water availability, habitat loss, pollution, and introduced species may reduce its ability to survive in the future. Understanding these survival strategies provides important knowledge for protecting native fish populations and maintaining healthy freshwater ecosystems. The findings can support better conservation planning, habitat restoration, and management strategies to protect aquatic biodiversity in dryland river systems under future environmental changes.",
+          "Dryland river ecosystems are among the most susceptible freshwater environments, with climate change, hydrological shifts, salinization and anthropogenic disturbance posing increasing threats to aquatic biodiversity. Endemic fishes in these regions are particularly vulnerable because of restricted geographic range, ecological specialization and narrow environmental tolerance limits, which reduce their capacity to cope with rapid environmental change. Triplophysa yarkandensis has a coordinated set of adaptive responses such as benthic morphological specialization, adaptable trophic modes, osmoregulatory ability to cope with saline–alkaline stress, and thermal tolerance mediated by stress-sensitive genes. Notably, muscle transcriptomic evidence indicates heat-associated expression changes in genes of the IRE1–TRAF2–MAP3K5–JNK signaling axis, suggesting this pathway as a candidate link between endoplasmic-reticulum stress and apoptosis-related responses. But its activation and causal role in apoptosis have not yet been confirmed at the protein and functional level. Nevertheless, these adaptations are increasingly constrained by habitat fragmentation, invasive species, declining water quality, and altered flow regimes, highlighting the limited buffering capacity of endemic species under increasing environmental disturbance. These observations provide a scientific basis for conservation planning, ecological monitoring, and adaptive management in arid inland waters, including habitat restoration, ecological flow regulation, and species-specific protection. Future studies must combine long-term field studies, multi-stressor experimental systems, and genomic–ecophysiological designs to define adaptive limits and improve conservation outcomes under continued climate change."
+        ],
+        "terms": [
+          {
+            "term": "habitat fragmentation",
+            "definition": "The division of a continuous habitat into smaller, more isolated patches."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "restoration",
+            "definition": "Actions intended to assist the recovery of a degraded ecosystem or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nNevertheless, these adaptations are increasingly constrained by _____, invasive species, declining water quality, and altered flow regimes, highlighting the limited buffering capacity of endemic species under increasing environmental disturbance.",
+            "paragraphs": [
+              2
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "runoff",
+                "explanation": "This is not the expression used in this sentence. Water and associated material moving across the land surface."
+              },
+              {
+                "id": "b",
+                "text": "mineralisation",
+                "explanation": "This is not the expression used in this sentence. Conversion of organic nitrogen into inorganic forms."
+              },
+              {
+                "id": "c",
+                "text": "habitat fragmentation",
+                "explanation": "The original abstract uses this expression. The division of a continuous habitat into smaller, more isolated patches."
+              },
+              {
+                "id": "d",
+                "text": "monte carlo simulation",
+                "explanation": "This is not the expression used in this sentence. Repeated calculations using inputs sampled from specified probability distributions."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: habitat fragmentation. The division of a continuous habitat into smaller, more isolated patches. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe findings can support better conservation planning, habitat restoration, and management strategies to protect aquatic _____ in dryland river systems under future environmental changes.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "net calorific value",
+                "explanation": "This is not the expression used in this sentence. The usable heat released per unit of fuel on a net heating-value basis."
+              },
+              {
+                "id": "b",
+                "text": "heat stress",
+                "explanation": "This is not the expression used in this sentence. Strain on organisms or systems caused by exposure to high temperatures."
+              },
+              {
+                "id": "c",
+                "text": "surrogate data",
+                "explanation": "This is not the expression used in this sentence. Alternative data used to approximate an unavailable quantity of interest."
+              },
+              {
+                "id": "d",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nDryland river ecosystems are among the most susceptible freshwater environments, with climate change, hydrological shifts, salinization and anthropogenic disturbance posing increasing threats to aquatic biodiversity. Endemic fishes in these regions are particularly vulnerable because of restricted geographic range, ecological specialization and narrow environmental tolerance limits, which reduce their capacity to cope with rapid environmental change. Triplophysa yarkandensis has a coordinated set of adaptive responses such as benthic morphological specialization, adaptable trophic modes, osmoregulatory ability to cope with saline–alkaline stress, and thermal tolerance mediated by stress-sensitive genes. Notably, muscle transcriptomic evidence indicates heat-associated expression changes in genes of the IRE1–TRAF2–MAP3K5–JNK signaling axis, suggesting this pathway as a candidate link between endoplasmic-reticulum stress and apoptosis-related responses. But its activation and causal role in apoptosis have not yet been confirmed at the protein and functional level. Nevertheless, these adaptations are increasingly constrained by habitat fragmentation, invasive species, declining water quality, and altered flow regimes, highlighting the limited buffering capacity of endemic species under increasing environmental disturbance. These observations provide a scientific basis for conservation planning, ecological monitoring, and adaptive management in arid inland waters, including habitat restoration, ecological flow regulation, and species-specific protection. Future studies must combine long-term field studies, multi-stressor experimental systems, and genomic–ecophysiological designs to define adaptive limits and improve conservation outcomes under continued climate change.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-10",
+        "addedAt": "2026-11-05T20:17:27Z"
+      }
+    },
+    {
+      "title": "Eco-Virological Patterns of Zoonotic Viruses in Neotropical Bats: Insights for Host Species Distributed in the Northern Andes—A Scoping Review and Trait-Based Analysis",
+      "paragraphs": [
+        "Bats are recognized as important reservoirs of zoonotic viruses; however, the ecological determinants shaping virus–host associations in regions of high biodiversity remain poorly understood. In this study, we conducted a scoping review and a trait-based analysis to characterize eco-virological patterns of zoonotic RNA viruses reported in Neotropical bat species whose distributions include the Northern Andes (Colombia, Ecuador, and Venezuela). We compiled 578 unique viral detection records reported across Neotropics from 235 studies and sequence records for 56 bat species occurring in the Northern Andes, including members of the families Coronaviridae, Flaviviridae, Orthomyxoviridae, Paramyxoviridae, and Rhabdoviridae. Ecological, spatial, and life-history traits of host species were incorporated, and their associations were evaluated using multiple correspondence analysis, chi-square tests, and Cramér’s V statistics. Although multivariate analyses and flow diagrams suggested recurrent ecological patterns, statistical tests revealed weak and non-significant associations between viral families and ecological traits (V = 0.05–0.20; p > 0.05). Viral records were concentrated in lowland, non-migratory species with generalist roosting behavior and frequent use of anthropogenic habitats; however, these patterns likely reflect host availability and sampling effort rather than ecological specialization. Viral detections were distributed across multiple ecological contexts, suggesting broad virus–host associations among Neotropical bat species. Importantly, we identified a marked geographical bias in the available evidence: 64.0% of records originated from Brazil, whereas direct records from the Northern Andes were scarce (Colombia: 5.0%) or absent (Ecuador and Venezuela: 0%). Consequently, our findings provide a baseline of potential viral diversity and virus–host associations for bat species occurring in the Northern Andes rather than direct evidence of local viral circulation. These results highlight critical knowledge gaps and underscore the need for strengthened surveillance and One Health research across the Northern Andes."
+      ],
+      "authors": "J. Milena Astorquiza, Leonardo Padilla Sanabria, Laura Ávila-Vargas, Julián Ruiz-Saenz",
+      "journal": "Viruses",
+      "doi": "10.3390/v18101148",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "f3195da7a32a7115f92fc9c2df5c4e44d16272e368641b9d45295dba9717cec1",
+      "pmcid": "PMC13709678",
+      "publishedAt": "2026-10-16",
+      "addedAt": "2026-11-05T20:17:27Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13709678",
+        "kind": "article",
+        "title": "Eco-Virological Patterns of Zoonotic Viruses in Neotropical Bats: Insights for Host Species Distributed in the Northern Andes—A Scoping Review and Trait-Based Analysis",
+        "authors": "J. Milena Astorquiza, Leonardo Padilla Sanabria, Laura Ávila-Vargas, Julián Ruiz-Saenz",
+        "organization": "Viruses",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13709678/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "f3195da7a32a7115f92fc9c2df5c4e44d16272e368641b9d45295dba9717cec1",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-16",
+        "doi": "10.3390/v18101148"
+      },
+      "lesson": {
+        "id": "literature-pmc13709678",
+        "version": 1,
+        "title": "Eco-Virological Patterns of Zoonotic Viruses in Neotropical Bats: Insights for Host Species Distributed in the Northern Andes—A Scoping Review and Trait-Based Analysis",
+        "subtitle": "Open-access abstract · Viruses · 2026-10-16",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13709678",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Bats are recognized as important reservoirs of zoonotic viruses; however, the ecological determinants shaping virus–host associations in regions of high biodiversity remain poorly understood. In this study, we conducted a scoping review and a trait-based analysis to characterize eco-virological patterns of zoonotic RNA viruses reported in Neotropical bat species whose distributions include the Northern Andes (Colombia, Ecuador, and Venezuela). We compiled 578 unique viral detection records reported across Neotropics from 235 studies and sequence records for 56 bat species occurring in the Northern Andes, including members of the families Coronaviridae, Flaviviridae, Orthomyxoviridae, Paramyxoviridae, and Rhabdoviridae. Ecological, spatial, and life-history traits of host species were incorporated, and their associations were evaluated using multiple correspondence analysis, chi-square tests, and Cramér’s V statistics. Although multivariate analyses and flow diagrams suggested recurrent ecological patterns, statistical tests revealed weak and non-significant associations between viral families and ecological traits (V = 0.05–0.20; p > 0.05). Viral records were concentrated in lowland, non-migratory species with generalist roosting behavior and frequent use of anthropogenic habitats; however, these patterns likely reflect host availability and sampling effort rather than ecological specialization. Viral detections were distributed across multiple ecological contexts, suggesting broad virus–host associations among Neotropical bat species. Importantly, we identified a marked geographical bias in the available evidence: 64.0% of records originated from Brazil, whereas direct records from the Northern Andes were scarce (Colombia: 5.0%) or absent (Ecuador and Venezuela: 0%). Consequently, our findings provide a baseline of potential viral diversity and virus–host associations for bat species occurring in the Northern Andes rather than direct evidence of local viral circulation. These results highlight critical knowledge gaps and underscore the need for strengthened surveillance and One Health research across the Northern Andes."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "baseline",
+            "definition": "A reference state or period against which a change is assessed."
+          },
+          {
+            "term": "bias",
+            "definition": "A systematic tendency to overestimate or underestimate a quantity."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nBats are recognized as important reservoirs of zoonotic viruses; however, the ecological determinants shaping virus–host associations in regions of high _____ remain poorly understood.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "b",
+                "text": "confounding",
+                "explanation": "This is not the expression used in this sentence. A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+              },
+              {
+                "id": "c",
+                "text": "carbon footprint",
+                "explanation": "This is not the expression used in this sentence. An estimate of greenhouse-gas emissions associated with a defined activity, product or organisation."
+              },
+              {
+                "id": "d",
+                "text": "lognormal distribution",
+                "explanation": "This is not the expression used in this sentence. A positive-valued distribution whose logarithm follows a normal distribution."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nConsequently, our findings provide a _____ of potential viral diversity and virus–host associations for bat species occurring in the Northern Andes rather than direct evidence of local viral circulation.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "time series",
+                "explanation": "This is not the expression used in this sentence. An ordered sequence of estimates or observations over time."
+              },
+              {
+                "id": "b",
+                "text": "baseline",
+                "explanation": "The original abstract uses this expression. A reference state or period against which a change is assessed."
+              },
+              {
+                "id": "c",
+                "text": "volatilisation",
+                "explanation": "This is not the expression used in this sentence. Transfer of a substance into the gaseous phase."
+              },
+              {
+                "id": "d",
+                "text": "effect size",
+                "explanation": "This is not the expression used in this sentence. A quantitative measure of the magnitude of a difference or association."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: baseline. A reference state or period against which a change is assessed. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nBats are recognized as important reservoirs of zoonotic viruses; however, the ecological determinants shaping virus–host associations in regions of high biodiversity remain poorly understood. In this study, we conducted a scoping review and a trait-based analysis to characterize eco-virological patterns of zoonotic RNA viruses reported in Neotropical bat species whose distributions include the Northern Andes (Colombia, Ecuador, and Venezuela). We compiled 578 unique viral detection records reported across Neotropics from 235 studies and sequence records for 56 bat species occurring in the Northern Andes, including members of the families Coronaviridae, Flaviviridae, Orthomyxoviridae, Paramyxoviridae, and Rhabdoviridae. Ecological, spatial, and life-history traits of host species were incorporated, and their associations were evaluated using multiple correspondence analysis, chi-square tests, and Cramér’s V statistics. Although multivariate analyses and flow diagrams suggested recurrent ecological patterns, statistical tests revealed weak and non-significant associations between viral families and ecological traits (V = 0.05–0.20; p > 0.05). Viral records were concentrated in lowland, non-migratory species with generalist roosting behavior and frequent use of anthropogenic habitats; however, these patterns likely reflect host availability and sampling effort rather than ecological specialization. Viral detections were distributed across multiple ecological contexts, suggesting broad virus–host associations among Neotropical bat species. Importantly, we identified a marked geographical bias in the available evidence: 64.0% of records originated from Brazil, whereas direct records from the Northern Andes were scarce (Colombia: 5.0%) or absent (Ecuador and Venezuela: 0%). Consequently, our findings provide a baseline of potential viral diversity and virus–host associations for bat species occurring in the Northern Andes rather than direct evidence of local viral circulation. These results highlight critical knowledge gaps and underscore the need for strengthened surveillance and One Health research across the Northern Andes.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-16",
+        "addedAt": "2026-11-05T20:17:27Z"
+      }
+    },
+    {
+      "title": "Grazing Management Regimen Shapes Soil Carbon Stocks and Associated Bacterial Community Composition in a Semi-Arid Rangeland",
+      "paragraphs": [
+        "Drylands and natural grasslands are increasingly threatened by overgrazing and climate change, which damage soil functionality and reduce their natural carbon sequestration capacity. This study evaluated how different livestock management practices, such as high-stocking-density rotational grazing and temporary rest periods, relate to soil carbon storage and bacterial community structures. The findings suggest that non-selective intensive grazing is associated with higher soil carbon levels and distinct microbial groups linked to potential nutrient cycling and organic matter turnover. In contrast, long-term rest and fencing tend to favor more stable carbon forms. Ultimately, these exploratory results provide preliminary evidence that well-managed non-selective intensive grazing livestock practices may contribute to potential soil carbon storage and microbial community adjustments, supporting future restoration efforts in semi-arid rangelands.",
+        "Semi-arid rangelands are highly vulnerable to climate change and overgrazing, yet the functional coupling between soil carbon stabilization and microbial recovery remains largely unquantified. This study was carried out in Northern Mexico (24°0′33″ N, 104°42′28″ W, 1990 m.a.s.l.) and evaluated associations between a grazing management gradient comprising continuous grazing (CG), closed non-selective intensive grazing (GE), and open non-selective intensive grazing (SG) on soil carbon stocks and different labile fractions, bacterial community structures, and functional metabolic pathways in semi-arid soils. The results show that SG showed the highest observed organic and inorganic carbon stocks (SOC and SIC stocks, respectively), along with the labile carbon (LC) fraction. Conversely, GE favors the accumulation of stable, non-labile carbon (NLC). Although alpha diversity remained unaffected, grazing management induced differences in beta diversity. Redundancy and LEfSe analyses revealed a strong coupling between carbon fractions and microbial assembly, characterized by the exclusive enrichment of copiotrophic biomarker families (Burkholderiaceae and Sphingobacteriaceae) under SG. Furthermore, predictive functional profiling (PICRUSt2 and ANCOM) showed that pathways such as tRNA charging and nicotinate degradation were enriched under SG and GE, reflecting potential metabolic capacities and inferred microbial adjustments to heterogeneous, excreta-derived nutrient microenvironments during intermediate recovery states. Ultimately, the findings suggest that targeted rotational grazing may contribute to improved soil carbon stocks and microbial community recovery in semi-arid rangelands."
+      ],
+      "authors": "Erickson Basave-Villalobos, José A. Sigala, María del Rosario Jacobo-Salcedo, Ignacio Sánchez-Cohen, Vicenta Constante-García, Judith Abigail Sánchez-Ledesma, Erika Nava-Reyna",
+      "journal": "Biology",
+      "doi": "10.3390/biology15201901",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "4be62c89ca4d4f92c51c0a1ff96c5c3029f03248be10b924d29d8f6cc3d3c02a",
+      "pmcid": "PMC13701752",
+      "publishedAt": "2026-10-21",
+      "addedAt": "2026-11-05T20:17:27Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13701752",
+        "kind": "article",
+        "title": "Grazing Management Regimen Shapes Soil Carbon Stocks and Associated Bacterial Community Composition in a Semi-Arid Rangeland",
+        "authors": "Erickson Basave-Villalobos, José A. Sigala, María del Rosario Jacobo-Salcedo, Ignacio Sánchez-Cohen, Vicenta Constante-García, Judith Abigail Sánchez-Ledesma, Erika Nava-Reyna",
+        "organization": "Biology",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13701752/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "4be62c89ca4d4f92c51c0a1ff96c5c3029f03248be10b924d29d8f6cc3d3c02a",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-21",
+        "doi": "10.3390/biology15201901"
+      },
+      "lesson": {
+        "id": "literature-pmc13701752",
+        "version": 1,
+        "title": "Grazing Management Regimen Shapes Soil Carbon Stocks and Associated Bacterial Community Composition in a Semi-Arid Rangeland",
+        "subtitle": "Open-access abstract · Biology · 2026-10-21",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13701752",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Drylands and natural grasslands are increasingly threatened by overgrazing and climate change, which damage soil functionality and reduce their natural carbon sequestration capacity. This study evaluated how different livestock management practices, such as high-stocking-density rotational grazing and temporary rest periods, relate to soil carbon storage and bacterial community structures. The findings suggest that non-selective intensive grazing is associated with higher soil carbon levels and distinct microbial groups linked to potential nutrient cycling and organic matter turnover. In contrast, long-term rest and fencing tend to favor more stable carbon forms. Ultimately, these exploratory results provide preliminary evidence that well-managed non-selective intensive grazing livestock practices may contribute to potential soil carbon storage and microbial community adjustments, supporting future restoration efforts in semi-arid rangelands.",
+          "Semi-arid rangelands are highly vulnerable to climate change and overgrazing, yet the functional coupling between soil carbon stabilization and microbial recovery remains largely unquantified. This study was carried out in Northern Mexico (24°0′33″ N, 104°42′28″ W, 1990 m.a.s.l.) and evaluated associations between a grazing management gradient comprising continuous grazing (CG), closed non-selective intensive grazing (GE), and open non-selective intensive grazing (SG) on soil carbon stocks and different labile fractions, bacterial community structures, and functional metabolic pathways in semi-arid soils. The results show that SG showed the highest observed organic and inorganic carbon stocks (SOC and SIC stocks, respectively), along with the labile carbon (LC) fraction. Conversely, GE favors the accumulation of stable, non-labile carbon (NLC). Although alpha diversity remained unaffected, grazing management induced differences in beta diversity. Redundancy and LEfSe analyses revealed a strong coupling between carbon fractions and microbial assembly, characterized by the exclusive enrichment of copiotrophic biomarker families (Burkholderiaceae and Sphingobacteriaceae) under SG. Furthermore, predictive functional profiling (PICRUSt2 and ANCOM) showed that pathways such as tRNA charging and nicotinate degradation were enriched under SG and GE, reflecting potential metabolic capacities and inferred microbial adjustments to heterogeneous, excreta-derived nutrient microenvironments during intermediate recovery states. Ultimately, the findings suggest that targeted rotational grazing may contribute to improved soil carbon stocks and microbial community recovery in semi-arid rangelands."
+        ],
+        "terms": [
+          {
+            "term": "carbon sequestration",
+            "definition": "The capture and storage of carbon in a reservoir such as vegetation, soil or geological formations."
+          },
+          {
+            "term": "restoration",
+            "definition": "Actions intended to assist the recovery of a degraded ecosystem or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nDrylands and natural grasslands are increasingly threatened by overgrazing and climate change, which damage soil functionality and reduce their natural _____ capacity.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "lognormal distribution",
+                "explanation": "This is not the expression used in this sentence. A positive-valued distribution whose logarithm follows a normal distribution."
+              },
+              {
+                "id": "b",
+                "text": "carbon sequestration",
+                "explanation": "The original abstract uses this expression. The capture and storage of carbon in a reservoir such as vegetation, soil or geological formations."
+              },
+              {
+                "id": "c",
+                "text": "data gaps",
+                "explanation": "This is not the expression used in this sentence. Missing information within the coverage required by an analysis."
+              },
+              {
+                "id": "d",
+                "text": "ecosystem services",
+                "explanation": "This is not the expression used in this sentence. Benefits people obtain from ecosystems, such as water regulation and food provision."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: carbon sequestration. The capture and storage of carbon in a reservoir such as vegetation, soil or geological formations. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nUltimately, these exploratory results provide preliminary evidence that well-managed non-selective intensive grazing livestock practices may contribute to potential soil carbon storage and microbial community adjustments, supporting future _____ efforts in semi-arid rangelands.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "measurement campaigns",
+                "explanation": "This is not the expression used in this sentence. Organised periods of measurements designed to collect new observations."
+              },
+              {
+                "id": "b",
+                "text": "watershed",
+                "explanation": "This is not the expression used in this sentence. An area of land that drains water toward a common outlet."
+              },
+              {
+                "id": "c",
+                "text": "default emission factor",
+                "explanation": "This is not the expression used in this sentence. A reference factor supplied for use when an appropriate more specific factor is unavailable."
+              },
+              {
+                "id": "d",
+                "text": "restoration",
+                "explanation": "The original abstract uses this expression. Actions intended to assist the recovery of a degraded ecosystem or system."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: restoration. Actions intended to assist the recovery of a degraded ecosystem or system. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nSemi-arid rangelands are highly vulnerable to climate change and overgrazing, yet the functional coupling between soil carbon stabilization and microbial recovery remains largely unquantified. This study was carried out in Northern Mexico (24°0′33″ N, 104°42′28″ W, 1990 m.a.s.l.) and evaluated associations between a grazing management gradient comprising continuous grazing (CG), closed non-selective intensive grazing (GE), and open non-selective intensive grazing (SG) on soil carbon stocks and different labile fractions, bacterial community structures, and functional metabolic pathways in semi-arid soils. The results show that SG showed the highest observed organic and inorganic carbon stocks (SOC and SIC stocks, respectively), along with the labile carbon (LC) fraction. Conversely, GE favors the accumulation of stable, non-labile carbon (NLC). Although alpha diversity remained unaffected, grazing management induced differences in beta diversity. Redundancy and LEfSe analyses revealed a strong coupling between carbon fractions and microbial assembly, characterized by the exclusive enrichment of copiotrophic biomarker families (Burkholderiaceae and Sphingobacteriaceae) under SG. Furthermore, predictive functional profiling (PICRUSt2 and ANCOM) showed that pathways such as tRNA charging and nicotinate degradation were enriched under SG and GE, reflecting potential metabolic capacities and inferred microbial adjustments to heterogeneous, excreta-derived nutrient microenvironments during intermediate recovery states. Ultimately, the findings suggest that targeted rotational grazing may contribute to improved soil carbon stocks and microbial community recovery in semi-arid rangelands.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-21",
+        "addedAt": "2026-11-05T20:17:27Z"
+      }
     }
   ],
   "vocabulary": [
@@ -5019,9 +5462,67 @@
       "evidence": "Using gate‐to‐grave life‐cycle assessment across eighteen ReCiPe 2016 midpoint (H) impact categories, the proposed SC2 outperforms SC1 in ten categories, notably acidification potential by 96%, land‐use potential by 97%, climate change impacts by 78%, and marine eutrophication by 44%, while PM formation potential falls by 20.499 kg PM2.5‐eq and energy resource depletion becomes a net credit through 20572 kWh/day of recovered electricity.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-28716a40bab25a3946a9",
+      "term": "habitat fragmentation",
+      "meaning": "The division of a continuous habitat into smaller, more isolated patches.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Nevertheless, these adaptations are increasingly constrained by habitat fragmentation, invasive species, declining water quality, and altered flow regimes, highlighting the limited buffering capacity of endemic species under increasing environmental disturbance.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13700832",
+      "location": "Abstract · paragraph 2",
+      "evidence": "Nevertheless, these adaptations are increasingly constrained by habitat fragmentation, invasive species, declining water quality, and altered flow regimes, highlighting the limited buffering capacity of endemic species under increasing environmental disturbance.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-cd20e8b1287b47934bb1",
+      "term": "carbon sequestration",
+      "meaning": "The capture and storage of carbon in a reservoir such as vegetation, soil or geological formations.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Drylands and natural grasslands are increasingly threatened by overgrazing and climate change, which damage soil functionality and reduce their natural carbon sequestration capacity.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13701752",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Drylands and natural grasslands are increasingly threatened by overgrazing and climate change, which damage soil functionality and reduce their natural carbon sequestration capacity.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-05T20:17:27Z",
+      "added": 3,
+      "total": 33,
+      "vocabularyAdded": 2,
+      "screening": {
+        "candidates": 264,
+        "xmlInspected": 65,
+        "cachedSkipped": 402,
+        "unavailable": 0,
+        "ineligible": 48,
+        "duplicate": 0,
+        "insufficientTerms": 14,
+        "passes": 3
+      }
+    },
     {
       "checkedAt": "2026-11-04T20:04:36Z",
       "added": 3,
@@ -5188,506 +5689,6 @@
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13585055",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13620196",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13626036",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13626920",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13638034",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13648242",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13650202",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13651769",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13652058",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13657036",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13658437",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13678534",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13679184",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13679344",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13679707",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13680866",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13680975",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13680981",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13681004",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13681104",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13682058",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13682305",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13682311",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13682895",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13682914",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13685301",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13685448",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13685972",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13686256",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13686961",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13686970",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13687031",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13687103",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13687209",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13687924",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13687997",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13688481",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13689534",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13689744",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13690201",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13690251",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13690690",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13693711",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13693946",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13694259",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13694299",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13694349",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13694404",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13694466",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13694548",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13694760",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13694825",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13694848",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13695023",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13695128",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13695516",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13695669",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13696011",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13696172",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13696594",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13698877",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13702604",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13703130",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13703665",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13704137",
-        "checkedAt": "2026-10-29T07:42:41Z"
-      },
-      {
-        "pmcid": "PMC13611320",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13618340",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13621409",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13621487",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13624538",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13629481",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13629750",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13630425",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13631894",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13633102",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13633141",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13633472",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13633954",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13634169",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13644799",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13651332",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13660104",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13665944",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13670892",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13674053",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13674061",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13674071",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13674106",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13675341",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13676670",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13677283",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13677411",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13677416",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13677625",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13678276",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13678686",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13679050",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13679543",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13680134",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13680281",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13680376",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13680450",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13680454",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13682222",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13682426",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13682429",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13682899",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13682915",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13683138",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13683873",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13683967",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13684311",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13686153",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13686784",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13689029",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13689103",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13689821",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13689822",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13693495",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13694892",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13695770",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13700091",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13700227",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13702104",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
-      {
-        "pmcid": "PMC13702258",
-        "checkedAt": "2026-10-29T18:40:09Z"
-      },
       {
         "pmcid": "PMC13712740",
         "checkedAt": "2026-10-30T18:15:50Z"
@@ -6139,6 +6140,254 @@
       {
         "pmcid": "PMC13730137",
         "checkedAt": "2026-11-04T20:04:36Z"
+      },
+      {
+        "pmcid": "PMC13585055",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13648242",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13651769",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13678534",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13679184",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13679344",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13679707",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13680134",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13680866",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13680975",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13680981",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13682222",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13682305",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13682311",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13682899",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13682915",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13685301",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13685448",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13685972",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13686256",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13686961",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13686970",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13687031",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13687209",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13687924",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13687997",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13689534",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13689744",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13690201",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13690251",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13693711",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13693946",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13694259",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13694299",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13694349",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13694404",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13694466",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13694548",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13694760",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13694825",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13694848",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13695023",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13695516",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13695669",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13696011",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13696172",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13696594",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13697217",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13698877",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13700227",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13701709",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13702387",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13702604",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13706777",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13707692",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13708896",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13709098",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13709486",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13714880",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13715657",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13716622",
+        "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13716731",
+        "checkedAt": "2026-11-05T20:17:27Z"
       }
     ]
   }
