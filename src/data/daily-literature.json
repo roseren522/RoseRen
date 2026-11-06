@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-05T20:17:27Z",
-  "lastAddedAt": "2026-11-05T20:17:27Z",
+  "lastCheckedAt": "2026-11-06T19:43:48Z",
+  "lastAddedAt": "2026-11-06T19:43:48Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -4851,6 +4851,459 @@
         "publishedAt": "2026-10-21",
         "addedAt": "2026-11-05T20:17:27Z"
       }
+    },
+    {
+      "title": "An integrated instance segmentation and deep feature fusion model for robust leaf species classification in natural environments",
+      "paragraphs": [
+        "The recognition of leaf segments and species in nature is a difficult process due to the changes in brightness, too much clutter in the background, and the overlapping of leaves due to which the accuracy falls down for 20-40% when using laboratory scans instead of field-ready applications.",
+        "This research presents a unified framework of deep learning that includes Mask R-CNN -based instance segmentation and deep feature fusion in order to overcome this problem. The process of extracting a number of leaves took place through Detectron2 and the excessive stream extractor that included ResNet-50 and VGG-16 used in conjunction with other descriptive methods allowed providing a joint representation of 6,148 dimensions. The classifier was trained according to three methods: Baseline, PSO (particle swarm optimization), and Grid search.",
+        "The masked fusion system cut off the noise in the background while retaining the important botanical features with the help of achieving the mean Intersection-over-Union equal to 0.752, detection precision of 98.39%, and mAP@0.5 of 0.8291. The ResNet-50 model enhanced with PSO techniques has the best performance among other technologies based on ResNet-50 (90% accuracy, F1 score 0.9002), while the technology of Grid search revealed a little higher result for the special techniques such as ResNet-50 plus traditional features (F1 score = 0.9135) which means that the efficiency of the methodology is contingent to the type of the features not the fact if the technology is better than the other.",
+        "Comparative and ablation data analysis proved the efficiency of the instance segmentation used in combination with multi-mode fusion especially when used in occlusion-prone conditions. The system offers a scalable application for smart agriculture and biodiversity monitoring while being a good example of bridging the gap in automated environmental intelligence."
+      ],
+      "authors": "K. Arunkumar, S. Leninisha",
+      "journal": "Frontiers in Plant Science",
+      "doi": "10.3389/fpls.2026.1893779",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "2f9ea42fffc6611b230b17b7b677a82a509430040b9e581e35f0a17b89e232f1",
+      "pmcid": "PMC13716794",
+      "publishedAt": "2026-10-15",
+      "addedAt": "2026-11-06T19:43:48Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13716794",
+        "kind": "article",
+        "title": "An integrated instance segmentation and deep feature fusion model for robust leaf species classification in natural environments",
+        "authors": "K. Arunkumar, S. Leninisha",
+        "organization": "Frontiers in Plant Science",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13716794/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "2f9ea42fffc6611b230b17b7b677a82a509430040b9e581e35f0a17b89e232f1",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-15",
+        "doi": "10.3389/fpls.2026.1893779"
+      },
+      "lesson": {
+        "id": "literature-pmc13716794",
+        "version": 1,
+        "title": "An integrated instance segmentation and deep feature fusion model for robust leaf species classification in natural environments",
+        "subtitle": "Open-access abstract · Frontiers in Plant Science · 2026-10-15",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13716794",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "The recognition of leaf segments and species in nature is a difficult process due to the changes in brightness, too much clutter in the background, and the overlapping of leaves due to which the accuracy falls down for 20-40% when using laboratory scans instead of field-ready applications.",
+          "This research presents a unified framework of deep learning that includes Mask R-CNN -based instance segmentation and deep feature fusion in order to overcome this problem. The process of extracting a number of leaves took place through Detectron2 and the excessive stream extractor that included ResNet-50 and VGG-16 used in conjunction with other descriptive methods allowed providing a joint representation of 6,148 dimensions. The classifier was trained according to three methods: Baseline, PSO (particle swarm optimization), and Grid search.",
+          "The masked fusion system cut off the noise in the background while retaining the important botanical features with the help of achieving the mean Intersection-over-Union equal to 0.752, detection precision of 98.39%, and mAP@0.5 of 0.8291. The ResNet-50 model enhanced with PSO techniques has the best performance among other technologies based on ResNet-50 (90% accuracy, F1 score 0.9002), while the technology of Grid search revealed a little higher result for the special techniques such as ResNet-50 plus traditional features (F1 score = 0.9135) which means that the efficiency of the methodology is contingent to the type of the features not the fact if the technology is better than the other.",
+          "Comparative and ablation data analysis proved the efficiency of the instance segmentation used in combination with multi-mode fusion especially when used in occlusion-prone conditions. The system offers a scalable application for smart agriculture and biodiversity monitoring while being a good example of bridging the gap in automated environmental intelligence."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "precision",
+            "definition": "Agreement among repeated measurements or estimates."
+          },
+          {
+            "term": "accuracy",
+            "definition": "The extent to which an estimate avoids systematic departure from the true value."
+          },
+          {
+            "term": "baseline",
+            "definition": "A reference state or period against which a change is assessed."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe system offers a scalable application for smart agriculture and _____ monitoring while being a good example of bridging the gap in automated environmental intelligence.",
+            "paragraphs": [
+              4
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "uncertainty",
+                "explanation": "This is not the expression used in this sentence. Incomplete knowledge about the true value of a quantity."
+              },
+              {
+                "id": "b",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "c",
+                "text": "neural network",
+                "explanation": "This is not the expression used in this sentence. A computational model built from connected units whose parameters are adjusted using data."
+              },
+              {
+                "id": "d",
+                "text": "baseline",
+                "explanation": "This is not the expression used in this sentence. A reference state or period against which a change is assessed."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe masked fusion system cut off the noise in the background while retaining the important botanical features with the help of achieving the mean Intersection-over-Union equal to 0.752, detection _____ of 98.39%, and mAP@0.5 of 0.8291.",
+            "paragraphs": [
+              3
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "probability density function",
+                "explanation": "This is not the expression used in this sentence. A description of the range and relative likelihood of possible values."
+              },
+              {
+                "id": "b",
+                "text": "baseline",
+                "explanation": "This is not the expression used in this sentence. A reference state or period against which a change is assessed."
+              },
+              {
+                "id": "c",
+                "text": "land-use change",
+                "explanation": "This is not the expression used in this sentence. A change in how an area of land is used or managed."
+              },
+              {
+                "id": "d",
+                "text": "precision",
+                "explanation": "The original abstract uses this expression. Agreement among repeated measurements or estimates."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: precision. Agreement among repeated measurements or estimates. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nComparative and ablation data analysis proved the efficiency of the instance segmentation used in combination with multi-mode fusion especially when used in occlusion-prone conditions. The system offers a scalable application for smart agriculture and biodiversity monitoring while being a good example of bridging the gap in automated environmental intelligence.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-15",
+        "addedAt": "2026-11-06T19:43:48Z"
+      }
+    },
+    {
+      "title": "Food- and Waterborne Bacteria Transmission and Antimicrobial Resistance Under Climate Change: Evidence Gaps in Mainland Portugal",
+      "paragraphs": [
+        "Climate change is increasingly recognised as a driver of microbial risks and antimicrobial resistance (AMR) dynamics across environmental and human systems. This review synthesises current evidence on how climate-related factors may affect the persistence, dissemination, and AMR profiles of some food- and waterborne bacterial pathogens, using mainland Portugal as a climate-vulnerable Mediterranean case study. The analyses focused on Salmonella spp., pathogenic Escherichia coli, Vibrio spp., Listeria monocytogenes, Shigella spp. and Yersinia enterocolitica, integrating findings from environmental, food-chain, and clinical research within a One Health framework. Evidence associates increasing temperatures with enhanced bacterial growth and shifts in seasonal dynamics. Extreme rainfall and flooding events promote faecal contamination through runoff and sediment resuspension, compromising water quality. Drought conditions may concentrate microbial loads and promote the use of alternative water sources, introducing additional exposure pathways. Aquatic and terrestrial systems emerge as critical interfaces for pathogen transmission and AMR dissemination. In mainland Portugal, data from clinical, food, animal, wildlife, and environmental studies are available. However, studies linking climate variables with environmental metadata, AMR and genomic data remain limited. Climate-informed One Health surveillance, through longitudinal sampling, harmonised metadata, whole-genome sequencing and predictive modelling, is essential to anticipate and mitigate climate-driven microbial and AMR risk."
+      ],
+      "authors": "Mariana Borges, Angela Pista, Leonor Silveira",
+      "journal": "Microorganisms",
+      "doi": "10.3390/microorganisms14102231",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "6fad2ef48ef2132ba55731548ff4e02c44cb77ab16e3a430d6eadcc802291b98",
+      "pmcid": "PMC13707665",
+      "publishedAt": "2026-10-03",
+      "addedAt": "2026-11-06T19:43:48Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13707665",
+        "kind": "article",
+        "title": "Food- and Waterborne Bacteria Transmission and Antimicrobial Resistance Under Climate Change: Evidence Gaps in Mainland Portugal",
+        "authors": "Mariana Borges, Angela Pista, Leonor Silveira",
+        "organization": "Microorganisms",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13707665/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "6fad2ef48ef2132ba55731548ff4e02c44cb77ab16e3a430d6eadcc802291b98",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-03",
+        "doi": "10.3390/microorganisms14102231"
+      },
+      "lesson": {
+        "id": "literature-pmc13707665",
+        "version": 1,
+        "title": "Food- and Waterborne Bacteria Transmission and Antimicrobial Resistance Under Climate Change: Evidence Gaps in Mainland Portugal",
+        "subtitle": "Open-access abstract · Microorganisms · 2026-10-03",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13707665",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Climate change is increasingly recognised as a driver of microbial risks and antimicrobial resistance (AMR) dynamics across environmental and human systems. This review synthesises current evidence on how climate-related factors may affect the persistence, dissemination, and AMR profiles of some food- and waterborne bacterial pathogens, using mainland Portugal as a climate-vulnerable Mediterranean case study. The analyses focused on Salmonella spp., pathogenic Escherichia coli, Vibrio spp., Listeria monocytogenes, Shigella spp. and Yersinia enterocolitica, integrating findings from environmental, food-chain, and clinical research within a One Health framework. Evidence associates increasing temperatures with enhanced bacterial growth and shifts in seasonal dynamics. Extreme rainfall and flooding events promote faecal contamination through runoff and sediment resuspension, compromising water quality. Drought conditions may concentrate microbial loads and promote the use of alternative water sources, introducing additional exposure pathways. Aquatic and terrestrial systems emerge as critical interfaces for pathogen transmission and AMR dissemination. In mainland Portugal, data from clinical, food, animal, wildlife, and environmental studies are available. However, studies linking climate variables with environmental metadata, AMR and genomic data remain limited. Climate-informed One Health surveillance, through longitudinal sampling, harmonised metadata, whole-genome sequencing and predictive modelling, is essential to anticipate and mitigate climate-driven microbial and AMR risk."
+        ],
+        "terms": [
+          {
+            "term": "drought",
+            "definition": "A period of water shortage relative to a defined climatic, hydrological or biological reference."
+          },
+          {
+            "term": "runoff",
+            "definition": "Water and associated material moving across the land surface."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\n_____ conditions may concentrate microbial loads and promote the use of alternative water sources, introducing additional exposure pathways.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "sampling error",
+                "explanation": "This is not the expression used in this sentence. Error arising because a sample represents only part of a population."
+              },
+              {
+                "id": "b",
+                "text": "carbon dioxide",
+                "explanation": "This is not the expression used in this sentence. The greenhouse gas CO₂, including emissions from fuel carbon oxidation."
+              },
+              {
+                "id": "c",
+                "text": "covariance",
+                "explanation": "This is not the expression used in this sentence. A measure of how two quantities depart from their means together."
+              },
+              {
+                "id": "d",
+                "text": "drought",
+                "explanation": "The original abstract uses this expression. A period of water shortage relative to a defined climatic, hydrological or biological reference."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: drought. A period of water shortage relative to a defined climatic, hydrological or biological reference. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nExtreme rainfall and flooding events promote faecal contamination through _____ and sediment resuspension, compromising water quality.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "carbon dioxide",
+                "explanation": "This is not the expression used in this sentence. The greenhouse gas CO₂, including emissions from fuel carbon oxidation."
+              },
+              {
+                "id": "b",
+                "text": "activity data",
+                "explanation": "This is not the expression used in this sentence. Data describing the scale of an activity associated with emissions or removals."
+              },
+              {
+                "id": "c",
+                "text": "synthetic fertilisers",
+                "explanation": "This is not the expression used in this sentence. Manufactured fertiliser products applied to supply plant nutrients."
+              },
+              {
+                "id": "d",
+                "text": "runoff",
+                "explanation": "The original abstract uses this expression. Water and associated material moving across the land surface."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: runoff. Water and associated material moving across the land surface. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nClimate change is increasingly recognised as a driver of microbial risks and antimicrobial resistance (AMR) dynamics across environmental and human systems. This review synthesises current evidence on how climate-related factors may affect the persistence, dissemination, and AMR profiles of some food- and waterborne bacterial pathogens, using mainland Portugal as a climate-vulnerable Mediterranean case study. The analyses focused on Salmonella spp., pathogenic Escherichia coli, Vibrio spp., Listeria monocytogenes, Shigella spp. and Yersinia enterocolitica, integrating findings from environmental, food-chain, and clinical research within a One Health framework. Evidence associates increasing temperatures with enhanced bacterial growth and shifts in seasonal dynamics. Extreme rainfall and flooding events promote faecal contamination through runoff and sediment resuspension, compromising water quality. Drought conditions may concentrate microbial loads and promote the use of alternative water sources, introducing additional exposure pathways. Aquatic and terrestrial systems emerge as critical interfaces for pathogen transmission and AMR dissemination. In mainland Portugal, data from clinical, food, animal, wildlife, and environmental studies are available. However, studies linking climate variables with environmental metadata, AMR and genomic data remain limited. Climate-informed One Health surveillance, through longitudinal sampling, harmonised metadata, whole-genome sequencing and predictive modelling, is essential to anticipate and mitigate climate-driven microbial and AMR risk.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-03",
+        "addedAt": "2026-11-06T19:43:48Z"
+      }
+    },
+    {
+      "title": "Daily and Seasonal Activity Patterns of the Endemic Balkan Snow Vole (Dinaromys bogdanovi) Within a Sympatric Small Mammal Community",
+      "paragraphs": [
+        "Species found only in small geographic areas contribute to regional biodiversity, but gaps in basic knowledge about their ecology can make conservation planning difficult. Over three years, we used motion-activated cameras to study the daily and seasonal activity of the Balkan snow vole, a small endemic mammal restricted to the western Balkans, and other small mammals living in the same habitat in Biokovo Nature Park, Croatia. The Balkan snow vole remained active throughout the year, predominantly at night, with low levels of daytime activity in spring, autumn, and winter. Its activity patterns varied among seasons and differed from those of other small mammals in spring, autumn, and winter. In summer, activity was concentrated at night, and we detected no significant differences between the vole and the other groups studied. The study also provides new information on the activity of the poorly known Dinaric population of the garden dormouse. Our findings demonstrate the value of long-term camera monitoring for studying small mammals that are otherwise difficult to observe. This information can help guide wildlife surveys, provide a baseline for detecting future changes in activity, and inform conservation planning for regional biodiversity.",
+        "Understanding the temporal ecology of endemic species is important for conservation planning in biodiversity hotspots during global climate change and habitat alteration. We used three years of camera-trap monitoring across two deployment periods to quantify daily and seasonal activity patterns of the endemic Balkan snow vole (Dinaromys bogdanovi) and sympatric terrestrial small mammals in Biokovo Nature Park, Croatia, within the Western Balkan glacial refugia. Dinaromys bogdanovi was predominantly nocturnal, with minor but consistent diurnal activity, and shifted from multimodal nocturnal activity in spring, summer and autumn to a unimodal winter peak. Temporal niche differentiation occurred between D. bogdanovi and the sympatric small mammals during some seasons. These differences were associated with nocturnal peak timing and the greater diurnal activity of D. bogdanovi. In summer, the detected taxa showed greater overlap in predominantly nocturnal activity, consistent with a possible influence of thermal conditions on surface activity, although temperature was not measured. We also provide quantitative activity data for the geographically isolated Dinaric population of Eliomys quercinus. This study demonstrates the value of long-term camera trapping for monitoring cryptic small mammals and provides a baseline for evaluating future changes in activity, habitat use and community interactions, supporting conservation planning for endemic species facing climate change and anthropogenic pressures."
+      ],
+      "authors": "Duje Lisičić, Marko Glogoški, Ivana Selanec, Ivan Budinski, Toni Safner, Maša Ljuština, Tomislav Gojak, Vesna Benković",
+      "journal": "Animals : an Open Access Journal from MDPI",
+      "doi": "10.3390/ani16203236",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "b057bdb418eb65cdb57dd30fb16fe972e307eadbc952e8e1989b23bc0753be6a",
+      "pmcid": "PMC13700632",
+      "publishedAt": "2026-10-15",
+      "addedAt": "2026-11-06T19:43:48Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13700632",
+        "kind": "article",
+        "title": "Daily and Seasonal Activity Patterns of the Endemic Balkan Snow Vole (Dinaromys bogdanovi) Within a Sympatric Small Mammal Community",
+        "authors": "Duje Lisičić, Marko Glogoški, Ivana Selanec, Ivan Budinski, Toni Safner, Maša Ljuština, Tomislav Gojak, Vesna Benković",
+        "organization": "Animals : an Open Access Journal from MDPI",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13700632/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "b057bdb418eb65cdb57dd30fb16fe972e307eadbc952e8e1989b23bc0753be6a",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-15",
+        "doi": "10.3390/ani16203236"
+      },
+      "lesson": {
+        "id": "literature-pmc13700632",
+        "version": 1,
+        "title": "Daily and Seasonal Activity Patterns of the Endemic Balkan Snow Vole (Dinaromys bogdanovi) Within a Sympatric Small Mammal Community",
+        "subtitle": "Open-access abstract · Animals : an Open Access Journal from MDPI · 2026-10-15",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13700632",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Species found only in small geographic areas contribute to regional biodiversity, but gaps in basic knowledge about their ecology can make conservation planning difficult. Over three years, we used motion-activated cameras to study the daily and seasonal activity of the Balkan snow vole, a small endemic mammal restricted to the western Balkans, and other small mammals living in the same habitat in Biokovo Nature Park, Croatia. The Balkan snow vole remained active throughout the year, predominantly at night, with low levels of daytime activity in spring, autumn, and winter. Its activity patterns varied among seasons and differed from those of other small mammals in spring, autumn, and winter. In summer, activity was concentrated at night, and we detected no significant differences between the vole and the other groups studied. The study also provides new information on the activity of the poorly known Dinaric population of the garden dormouse. Our findings demonstrate the value of long-term camera monitoring for studying small mammals that are otherwise difficult to observe. This information can help guide wildlife surveys, provide a baseline for detecting future changes in activity, and inform conservation planning for regional biodiversity.",
+          "Understanding the temporal ecology of endemic species is important for conservation planning in biodiversity hotspots during global climate change and habitat alteration. We used three years of camera-trap monitoring across two deployment periods to quantify daily and seasonal activity patterns of the endemic Balkan snow vole (Dinaromys bogdanovi) and sympatric terrestrial small mammals in Biokovo Nature Park, Croatia, within the Western Balkan glacial refugia. Dinaromys bogdanovi was predominantly nocturnal, with minor but consistent diurnal activity, and shifted from multimodal nocturnal activity in spring, summer and autumn to a unimodal winter peak. Temporal niche differentiation occurred between D. bogdanovi and the sympatric small mammals during some seasons. These differences were associated with nocturnal peak timing and the greater diurnal activity of D. bogdanovi. In summer, the detected taxa showed greater overlap in predominantly nocturnal activity, consistent with a possible influence of thermal conditions on surface activity, although temperature was not measured. We also provide quantitative activity data for the geographically isolated Dinaric population of Eliomys quercinus. This study demonstrates the value of long-term camera trapping for monitoring cryptic small mammals and provides a baseline for evaluating future changes in activity, habitat use and community interactions, supporting conservation planning for endemic species facing climate change and anthropogenic pressures."
+        ],
+        "terms": [
+          {
+            "term": "activity data",
+            "definition": "Data describing the scale of an activity associated with emissions or removals."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "baseline",
+            "definition": "A reference state or period against which a change is assessed."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWe also provide quantitative _____ for the geographically isolated Dinaric population of Eliomys quercinus.",
+            "paragraphs": [
+              2
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "transparency",
+                "explanation": "This is not the expression used in this sentence. Clear documentation that enables others to understand how an estimate was produced."
+              },
+              {
+                "id": "b",
+                "text": "trophic level",
+                "explanation": "This is not the expression used in this sentence. A position in a food web defined by the source of an organism's energy."
+              },
+              {
+                "id": "c",
+                "text": "causal inference",
+                "explanation": "This is not the expression used in this sentence. Reasoning about the effects of interventions or causes under explicit assumptions."
+              },
+              {
+                "id": "d",
+                "text": "activity data",
+                "explanation": "The original abstract uses this expression. Data describing the scale of an activity associated with emissions or removals."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: activity data. Data describing the scale of an activity associated with emissions or removals. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nSpecies found only in small geographic areas contribute to regional _____, but gaps in basic knowledge about their ecology can make conservation planning difficult.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "oxidative potential",
+                "explanation": "This is not the expression used in this sentence. A measure of a material's capacity to drive oxidation in a specified assay or biological context."
+              },
+              {
+                "id": "b",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "c",
+                "text": "time series",
+                "explanation": "This is not the expression used in this sentence. An ordered sequence of estimates or observations over time."
+              },
+              {
+                "id": "d",
+                "text": "trophic level",
+                "explanation": "This is not the expression used in this sentence. A position in a food web defined by the source of an organism's energy."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nUnderstanding the temporal ecology of endemic species is important for conservation planning in biodiversity hotspots during global climate change and habitat alteration. We used three years of camera-trap monitoring across two deployment periods to quantify daily and seasonal activity patterns of the endemic Balkan snow vole (Dinaromys bogdanovi) and sympatric terrestrial small mammals in Biokovo Nature Park, Croatia, within the Western Balkan glacial refugia. Dinaromys bogdanovi was predominantly nocturnal, with minor but consistent diurnal activity, and shifted from multimodal nocturnal activity in spring, summer and autumn to a unimodal winter peak. Temporal niche differentiation occurred between D. bogdanovi and the sympatric small mammals during some seasons. These differences were associated with nocturnal peak timing and the greater diurnal activity of D. bogdanovi. In summer, the detected taxa showed greater overlap in predominantly nocturnal activity, consistent with a possible influence of thermal conditions on surface activity, although temperature was not measured. We also provide quantitative activity data for the geographically isolated Dinaric population of Eliomys quercinus. This study demonstrates the value of long-term camera trapping for monitoring cryptic small mammals and provides a baseline for evaluating future changes in activity, habitat use and community interactions, supporting conservation planning for endemic species facing climate change and anthropogenic pressures.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-15",
+        "addedAt": "2026-11-06T19:43:48Z"
+      }
     }
   ],
   "vocabulary": [
@@ -5508,6 +5961,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-06T19:43:48Z",
+      "added": 3,
+      "total": 36,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 264,
+        "xmlInspected": 36,
+        "cachedSkipped": 363,
+        "unavailable": 0,
+        "ineligible": 23,
+        "duplicate": 0,
+        "insufficientTerms": 10,
+        "passes": 2
+      }
+    },
+    {
       "checkedAt": "2026-11-05T20:17:27Z",
       "added": 3,
       "total": 33,
@@ -5689,34 +6158,6 @@
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13712740",
-        "checkedAt": "2026-10-30T18:15:50Z"
-      },
-      {
-        "pmcid": "PMC13714414",
-        "checkedAt": "2026-10-30T18:15:50Z"
-      },
-      {
-        "pmcid": "PMC13714631",
-        "checkedAt": "2026-10-30T18:15:50Z"
-      },
-      {
-        "pmcid": "PMC13715692",
-        "checkedAt": "2026-10-30T18:15:50Z"
-      },
-      {
-        "pmcid": "PMC13715699",
-        "checkedAt": "2026-10-30T18:15:50Z"
-      },
-      {
-        "pmcid": "PMC13715721",
-        "checkedAt": "2026-10-30T18:15:50Z"
-      },
-      {
-        "pmcid": "PMC13715839",
-        "checkedAt": "2026-10-30T18:15:50Z"
-      },
       {
         "pmcid": "PMC13697509",
         "checkedAt": "2026-10-31T17:22:57Z"
@@ -6388,6 +6829,138 @@
       {
         "pmcid": "PMC13716731",
         "checkedAt": "2026-11-05T20:17:27Z"
+      },
+      {
+        "pmcid": "PMC13642451",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13650202",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13652058",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13675341",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13682058",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13682895",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13683967",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13687103",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13689103",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13696305",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13701901",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13704137",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13705565",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13707267",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13707426",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13707445",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13707560",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13707760",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13708998",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13712740",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13713511",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13713736",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13714414",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13714631",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13715692",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13715699",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13715721",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13715839",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13716835",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13717488",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13717753",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13717895",
+        "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13727387",
+        "checkedAt": "2026-11-06T19:43:48Z"
       }
     ]
   }
