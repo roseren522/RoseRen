@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-06T19:43:48Z",
-  "lastAddedAt": "2026-11-06T19:43:48Z",
+  "lastCheckedAt": "2026-11-07T17:52:26Z",
+  "lastAddedAt": "2026-11-07T17:52:26Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -5304,6 +5304,465 @@
         "publishedAt": "2026-10-15",
         "addedAt": "2026-11-06T19:43:48Z"
       }
+    },
+    {
+      "title": "Towards Intelligent Membrane Systems: A Critical Analysis of Digital Twin–ML Integration for Real–Time Process Optimization, Fouling Management, and Autonomous Design",
+      "paragraphs": [
+        "Membrane separation is central to potable water production, wastewater reclamation, desalination, gas separation, and decarbonization, yet its economics remain constrained by fouling and by a gap between process data and timely operating decisions. Digital twins (DTs) offer live, bidirectionally coupled virtual representations of physical assets, while machine learning (ML) extracts predictive and prescriptive insights from operational data. Together, they are promising computational approaches for membrane systems. However, their applications have largely evolved independently across fouling prediction, DT development, and ML-based materials discovery. This review argues that these are converging strands of a single trajectory toward self-sensing, self-predicting, and eventually self-designing membrane systems, and that treating them separately obscures key interdependencies. The contributions are threefold. First, applying the digital model/digital shadow/digital twin taxonomy, it shows that most published membrane DTs are digital shadows (DSs). Second, it proposes a five-level autonomy framework, inspired by vehicle automation taxonomies, providing a unified scale for comparing applications ranging from LSTM-based fouling forecasting and reinforcement learning dosing control to autonomous materials laboratories. Third, it integrates autonomous materials design, including self-driving laboratories, inverse design, generative models, and Bayesian search, into the upper levels of this ladder. Evidence is synthesized across reverse osmosis, nanofiltration, ultrafiltration, microfiltration, membrane bioreactors, membrane distillation, and gas separation membranes, with emphasis on critically assessing model performance and generalizability. The study concludes with a roadmap for overcoming data limitations, poor interpretability, interoperability gaps, cybersecurity risks, techno-economic barriers, and regulatory trust deficits that block autonomous membrane systems."
+      ],
+      "authors": "Olawumi O. Sadare, Samuel P. Alonge, Azeez G. Akinyemi, Abass A. Adesina, Shukrah Adesola-Olabiyi, Lanrewaju I. Fajimi",
+      "journal": "Membranes",
+      "doi": "10.3390/membranes16100348",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "b6f85f7ed63b7add3b7b89781424c2553939a1dee2081ba3fb264a92c4633f75",
+      "pmcid": "PMC13706972",
+      "publishedAt": "2026-10-20",
+      "addedAt": "2026-11-07T17:52:26Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13706972",
+        "kind": "article",
+        "title": "Towards Intelligent Membrane Systems: A Critical Analysis of Digital Twin–ML Integration for Real–Time Process Optimization, Fouling Management, and Autonomous Design",
+        "authors": "Olawumi O. Sadare, Samuel P. Alonge, Azeez G. Akinyemi, Abass A. Adesina, Shukrah Adesola-Olabiyi, Lanrewaju I. Fajimi",
+        "organization": "Membranes",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13706972/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "b6f85f7ed63b7add3b7b89781424c2553939a1dee2081ba3fb264a92c4633f75",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-20",
+        "doi": "10.3390/membranes16100348"
+      },
+      "lesson": {
+        "id": "literature-pmc13706972",
+        "version": 1,
+        "title": "Towards Intelligent Membrane Systems: A Critical Analysis of Digital Twin–ML Integration for Real–Time Process Optimization, Fouling Management, and Autonomous Design",
+        "subtitle": "Open-access abstract · Membranes · 2026-10-20",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13706972",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Membrane separation is central to potable water production, wastewater reclamation, desalination, gas separation, and decarbonization, yet its economics remain constrained by fouling and by a gap between process data and timely operating decisions. Digital twins (DTs) offer live, bidirectionally coupled virtual representations of physical assets, while machine learning (ML) extracts predictive and prescriptive insights from operational data. Together, they are promising computational approaches for membrane systems. However, their applications have largely evolved independently across fouling prediction, DT development, and ML-based materials discovery. This review argues that these are converging strands of a single trajectory toward self-sensing, self-predicting, and eventually self-designing membrane systems, and that treating them separately obscures key interdependencies. The contributions are threefold. First, applying the digital model/digital shadow/digital twin taxonomy, it shows that most published membrane DTs are digital shadows (DSs). Second, it proposes a five-level autonomy framework, inspired by vehicle automation taxonomies, providing a unified scale for comparing applications ranging from LSTM-based fouling forecasting and reinforcement learning dosing control to autonomous materials laboratories. Third, it integrates autonomous materials design, including self-driving laboratories, inverse design, generative models, and Bayesian search, into the upper levels of this ladder. Evidence is synthesized across reverse osmosis, nanofiltration, ultrafiltration, microfiltration, membrane bioreactors, membrane distillation, and gas separation membranes, with emphasis on critically assessing model performance and generalizability. The study concludes with a roadmap for overcoming data limitations, poor interpretability, interoperability gaps, cybersecurity risks, techno-economic barriers, and regulatory trust deficits that block autonomous membrane systems."
+        ],
+        "terms": [
+          {
+            "term": "machine learning",
+            "definition": "Methods that learn patterns from data to support prediction or other tasks."
+          },
+          {
+            "term": "generalizability",
+            "definition": "The extent to which findings apply beyond the conditions or population studied."
+          },
+          {
+            "term": "decarbonization",
+            "definition": "The reduction of carbon dioxide emissions associated with an activity or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nDigital twins (DTs) offer live, bidirectionally coupled virtual representations of physical assets, while _____ (ML) extracts predictive and prescriptive insights from operational data.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "sampling error",
+                "explanation": "This is not the expression used in this sentence. Error arising because a sample represents only part of a population."
+              },
+              {
+                "id": "b",
+                "text": "machine learning",
+                "explanation": "The original abstract uses this expression. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "c",
+                "text": "renewable energy",
+                "explanation": "This is not the expression used in this sentence. Energy obtained from sources that are naturally replenished on human timescales."
+              },
+              {
+                "id": "d",
+                "text": "country-specific emission factors",
+                "explanation": "This is not the expression used in this sentence. Factors developed to reflect the conditions of a particular country."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: machine learning. Methods that learn patterns from data to support prediction or other tasks. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nEvidence is synthesized across reverse osmosis, nanofiltration, ultrafiltration, microfiltration, membrane bioreactors, membrane distillation, and gas separation membranes, with emphasis on critically assessing model performance and _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "extrapolation",
+                "explanation": "This is not the expression used in this sentence. Estimating values beyond the range covered by the available observations."
+              },
+              {
+                "id": "b",
+                "text": "generalizability",
+                "explanation": "The original abstract uses this expression. The extent to which findings apply beyond the conditions or population studied."
+              },
+              {
+                "id": "c",
+                "text": "mineralisation",
+                "explanation": "This is not the expression used in this sentence. Conversion of organic nitrogen into inorganic forms."
+              },
+              {
+                "id": "d",
+                "text": "correlation",
+                "explanation": "This is not the expression used in this sentence. A statistical relationship in how two quantities vary together."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: generalizability. The extent to which findings apply beyond the conditions or population studied. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nMembrane separation is central to potable water production, wastewater reclamation, desalination, gas separation, and decarbonization, yet its economics remain constrained by fouling and by a gap between process data and timely operating decisions. Digital twins (DTs) offer live, bidirectionally coupled virtual representations of physical assets, while machine learning (ML) extracts predictive and prescriptive insights from operational data. Together, they are promising computational approaches for membrane systems. However, their applications have largely evolved independently across fouling prediction, DT development, and ML-based materials discovery. This review argues that these are converging strands of a single trajectory toward self-sensing, self-predicting, and eventually self-designing membrane systems, and that treating them separately obscures key interdependencies. The contributions are threefold. First, applying the digital model/digital shadow/digital twin taxonomy, it shows that most published membrane DTs are digital shadows (DSs). Second, it proposes a five-level autonomy framework, inspired by vehicle automation taxonomies, providing a unified scale for comparing applications ranging from LSTM-based fouling forecasting and reinforcement learning dosing control to autonomous materials laboratories. Third, it integrates autonomous materials design, including self-driving laboratories, inverse design, generative models, and Bayesian search, into the upper levels of this ladder. Evidence is synthesized across reverse osmosis, nanofiltration, ultrafiltration, microfiltration, membrane bioreactors, membrane distillation, and gas separation membranes, with emphasis on critically assessing model performance and generalizability. The study concludes with a roadmap for overcoming data limitations, poor interpretability, interoperability gaps, cybersecurity risks, techno-economic barriers, and regulatory trust deficits that block autonomous membrane systems.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-20",
+        "addedAt": "2026-11-07T17:52:26Z"
+      }
+    },
+    {
+      "title": "Catchment structure and functioning mediates beaver activity in contrasting lowland agricultural landscapes",
+      "paragraphs": [
+        "The reintroduction of beavers in Germany and across Europe has revived interest in their function as ecosystem engineers and their associated impacts on landscapes, hydrological regimes, and water quality. Despite mounting evidence of effects on the hydrology and water quality of rivers, beaver distribution and the links to landscape heterogeneity are still poorly understood. In this study, an extensive intercomparison of two topographically contrasting lowland agricultural catchments was conducted—the Sophienfliess (SOFL) and the Demnitzer Mill Creek (DMC), both in Eastern Brandenburg, Germany. The goal of this study was to assess how catchment structure and functioning mediate beaver activity in terms of distribution and dam density, and how this in turn affects water and nutrient fluxes. A survey of beaver dams in terms of dam location, density, and attributes in both catchments revealed significant differences in the evolution of beaver habitat over time, the number of dams present, and their effects on water flow and nutrient cycling. Most notably, in the lower SOFL catchment, dam density has increased steadily over the last decade and was almost 10 times higher compared to the DMC catchment. In contrast, the recent multi‐year drought in Eastern Germany, as well as differential catchment functioning, has led to reduced beaver activity in the DMC catchment, despite recent wetland rehabilitation efforts. Furthermore, physical differences in dam structure and size could be linked to landscape settings (i.e., valley gradient), surface‐groundwater connectivity, and channel characteristics (straightened vs. meandering). In SOFL, a beaver dam cascade system in the lower catchment propagated significant denitrification, reduction in dissolved organic carbon, and phosphorus concentrations. In contrast, the spatial dynamics of nutrient fluxes in the DMC revealed more localized mobilization processes and strong responses of solutes to hydrological connectivity, which could not be solely linked to beaver activity. Overall, the study showed that catchment structure, hydrological conditions, and stream channel characteristics influence how and where beaver dams are established, and how they in turn influence the physical, chemical, and biological characteristics of surface waters."
+      ],
+      "authors": "Maria Magdalena Warter, Dörthe Tetzlaff, Tobias Goldhammer, Luisa Wurbs, Lisa Grof, Franziska Schmid, Chris Soulsby",
+      "journal": "Ecological Applications",
+      "doi": "10.1002/eap.70335",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "05921fe0172c05c1f59a2a141f0bda922c370ba1d7f8e3c76cf3e997c238480b",
+      "pmcid": "PMC13710877",
+      "publishedAt": "2026-10-01",
+      "addedAt": "2026-11-07T17:52:26Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13710877",
+        "kind": "article",
+        "title": "Catchment structure and functioning mediates beaver activity in contrasting lowland agricultural landscapes",
+        "authors": "Maria Magdalena Warter, Dörthe Tetzlaff, Tobias Goldhammer, Luisa Wurbs, Lisa Grof, Franziska Schmid, Chris Soulsby",
+        "organization": "Ecological Applications",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13710877/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "05921fe0172c05c1f59a2a141f0bda922c370ba1d7f8e3c76cf3e997c238480b",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-01",
+        "doi": "10.1002/eap.70335"
+      },
+      "lesson": {
+        "id": "literature-pmc13710877",
+        "version": 1,
+        "title": "Catchment structure and functioning mediates beaver activity in contrasting lowland agricultural landscapes",
+        "subtitle": "Open-access abstract · Ecological Applications · 2026-10-01",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13710877",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "The reintroduction of beavers in Germany and across Europe has revived interest in their function as ecosystem engineers and their associated impacts on landscapes, hydrological regimes, and water quality. Despite mounting evidence of effects on the hydrology and water quality of rivers, beaver distribution and the links to landscape heterogeneity are still poorly understood. In this study, an extensive intercomparison of two topographically contrasting lowland agricultural catchments was conducted—the Sophienfliess (SOFL) and the Demnitzer Mill Creek (DMC), both in Eastern Brandenburg, Germany. The goal of this study was to assess how catchment structure and functioning mediate beaver activity in terms of distribution and dam density, and how this in turn affects water and nutrient fluxes. A survey of beaver dams in terms of dam location, density, and attributes in both catchments revealed significant differences in the evolution of beaver habitat over time, the number of dams present, and their effects on water flow and nutrient cycling. Most notably, in the lower SOFL catchment, dam density has increased steadily over the last decade and was almost 10 times higher compared to the DMC catchment. In contrast, the recent multi‐year drought in Eastern Germany, as well as differential catchment functioning, has led to reduced beaver activity in the DMC catchment, despite recent wetland rehabilitation efforts. Furthermore, physical differences in dam structure and size could be linked to landscape settings (i.e., valley gradient), surface‐groundwater connectivity, and channel characteristics (straightened vs. meandering). In SOFL, a beaver dam cascade system in the lower catchment propagated significant denitrification, reduction in dissolved organic carbon, and phosphorus concentrations. In contrast, the spatial dynamics of nutrient fluxes in the DMC revealed more localized mobilization processes and strong responses of solutes to hydrological connectivity, which could not be solely linked to beaver activity. Overall, the study showed that catchment structure, hydrological conditions, and stream channel characteristics influence how and where beaver dams are established, and how they in turn influence the physical, chemical, and biological characteristics of surface waters."
+        ],
+        "terms": [
+          {
+            "term": "dissolved organic carbon",
+            "definition": "Organic carbon present in the fraction of a water sample operationally classified as dissolved."
+          },
+          {
+            "term": "denitrification",
+            "definition": "Microbial reduction of oxidised nitrogen compounds to gaseous nitrogen products."
+          },
+          {
+            "term": "drought",
+            "definition": "A period of water shortage relative to a defined climatic, hydrological or biological reference."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nIn SOFL, a beaver dam cascade system in the lower catchment propagated significant denitrification, reduction in _____, and phosphorus concentrations.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "biomagnification",
+                "explanation": "This is not the expression used in this sentence. An increase in a substance's concentration at higher trophic levels in a food web."
+              },
+              {
+                "id": "b",
+                "text": "remote sensing",
+                "explanation": "This is not the expression used in this sentence. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              },
+              {
+                "id": "c",
+                "text": "dissolved organic carbon",
+                "explanation": "The original abstract uses this expression. Organic carbon present in the fraction of a water sample operationally classified as dissolved."
+              },
+              {
+                "id": "d",
+                "text": "microplastics",
+                "explanation": "This is not the expression used in this sentence. Small plastic particles, commonly defined as being less than five millimetres in size."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: dissolved organic carbon. Organic carbon present in the fraction of a water sample operationally classified as dissolved. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nIn SOFL, a beaver dam cascade system in the lower catchment propagated significant _____, reduction in dissolved organic carbon, and phosphorus concentrations.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "denitrification",
+                "explanation": "The original abstract uses this expression. Microbial reduction of oxidised nitrogen compounds to gaseous nitrogen products."
+              },
+              {
+                "id": "b",
+                "text": "surrogate data",
+                "explanation": "This is not the expression used in this sentence. Alternative data used to approximate an unavailable quantity of interest."
+              },
+              {
+                "id": "c",
+                "text": "dose-response",
+                "explanation": "This is not the expression used in this sentence. The relationship between the amount of an exposure and a measured response."
+              },
+              {
+                "id": "d",
+                "text": "ecological resilience",
+                "explanation": "This is not the expression used in this sentence. The capacity of an ecosystem to absorb disturbance while maintaining its essential functions."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: denitrification. Microbial reduction of oxidised nitrogen compounds to gaseous nitrogen products. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe reintroduction of beavers in Germany and across Europe has revived interest in their function as ecosystem engineers and their associated impacts on landscapes, hydrological regimes, and water quality. Despite mounting evidence of effects on the hydrology and water quality of rivers, beaver distribution and the links to landscape heterogeneity are still poorly understood. In this study, an extensive intercomparison of two topographically contrasting lowland agricultural catchments was conducted—the Sophienfliess (SOFL) and the Demnitzer Mill Creek (DMC), both in Eastern Brandenburg, Germany. The goal of this study was to assess how catchment structure and functioning mediate beaver activity in terms of distribution and dam density, and how this in turn affects water and nutrient fluxes. A survey of beaver dams in terms of dam location, density, and attributes in both catchments revealed significant differences in the evolution of beaver habitat over time, the number of dams present, and their effects on water flow and nutrient cycling. Most notably, in the lower SOFL catchment, dam density has increased steadily over the last decade and was almost 10 times higher compared to the DMC catchment. In contrast, the recent multi‐year drought in Eastern Germany, as well as differential catchment functioning, has led to reduced beaver activity in the DMC catchment, despite recent wetland rehabilitation efforts. Furthermore, physical differences in dam structure and size could be linked to landscape settings (i.e., valley gradient), surface‐groundwater connectivity, and channel characteristics (straightened vs. meandering). In SOFL, a beaver dam cascade system in the lower catchment propagated significant denitrification, reduction in dissolved organic carbon, and phosphorus concentrations. In contrast, the spatial dynamics of nutrient fluxes in the DMC revealed more localized mobilization processes and strong responses of solutes to hydrological connectivity, which could not be solely linked to beaver activity. Overall, the study showed that catchment structure, hydrological conditions, and stream channel characteristics influence how and where beaver dams are established, and how they in turn influence the physical, chemical, and biological characteristics of surface waters.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-01",
+        "addedAt": "2026-11-07T17:52:26Z"
+      }
+    },
+    {
+      "title": "Outdoor Environmental Risk Factors for Paediatric Ragweed Sensitisation: A Formal Model Comparison",
+      "paragraphs": [
+        "What are the main findings? PM10 and categorical pollen exposure were statistically equivalent predictors of ragweed sensitisation, consistent with their strong area-level correlation; NO2 provided no additional information; indoor exposures added no independent risk.Children with more green space within 5 km of home and children living in rural locations were less often sensitised; whether broadleaved forest cover explains the rural association could not be determined.",
+        "PM10 and categorical pollen exposure were statistically equivalent predictors of ragweed sensitisation, consistent with their strong area-level correlation; NO2 provided no additional information; indoor exposures added no independent risk.",
+        "Children with more green space within 5 km of home and children living in rural locations were less often sensitised; whether broadleaved forest cover explains the rural association could not be determined.",
+        "What are the implications of the main findings? When two environmental exposures are highly correlated, comparing models by an information criterion shows whether the data can tell them apart at all, which guards against attributing sensitisation risk to one exposure when the two cannot be statistically distinguished.The association between surrounding green space and lower paediatric ragweed sensitisation is hypothesis-generating; confirmation in longitudinal studies would be needed before drawing implications for urban greening as a preventive strategy.",
+        "When two environmental exposures are highly correlated, comparing models by an information criterion shows whether the data can tell them apart at all, which guards against attributing sensitisation risk to one exposure when the two cannot be statistically distinguished.",
+        "The association between surrounding green space and lower paediatric ragweed sensitisation is hypothesis-generating; confirmation in longitudinal studies would be needed before drawing implications for urban greening as a preventive strategy.",
+        "Background/Objectives: Ragweed (Ambrosia artemisiifolia) is a major aeroallergen in Central and Eastern Europe. Croatian children in regions with twofold difference in pollen exposure show near-identical sensitisation prevalence (the “Zagreb paradox”), and an earlier analysis found regional pollen and rural residence to be the only associated environmental factors. We re-examined whether air pollution, surrounding landscape and indoor environment contribute to it. Methods: This cross-sectional analysis used 3520 of the 4016 children recruited to the EU FP7 ATOPICA study, who had their complete data re-analysed within the EU Horizon Europe EDIAQI project. Sensitisation was defined as a skin prick test wheal of at least 2 mm. Environmental predictors (particulate matter, PM10; nitrogen dioxide, NO2; regional pollen; CORINE land cover within 5 km; rural residence; and indoor exposures) were compared using the Akaike Information Criterion (AIC) in logistic regression models, which were adjusted for age and parental atopy. Results: Sensitisation prevalence was 10.8%. PM10 and categorical pollen area fitted the data equally well (ΔAIC 1.7): both describe the same inland-coastal contrast and cannot be distinguished with area-level data. NO2 added nothing to either. Of the 16 landscape variables, only transitional woodland-shrub remained associated with sensitisation after Bonferroni correction (adjusted odds ratio, aOR 0.93 [95% confidence interval, CI 0.90–0.97]); total green area was nominally associated (aOR 0.92 [95% CI 0.87–0.98]; p = 0.009). Children in rural locations were less often sensitised (aOR 0.69 [95% CI 0.50–0.96]; p = 0.026), as previously reported; a mediation analysis could not determine whether broadleaved forest cover explains this association. Indoor exposures added little to model fit. Conclusions: Area-level data cannot separate particulate air pollution from pollen exposure, so a contribution of air pollution can be neither confirmed nor excluded. Rural residence and, with less certainty, surrounding green space were associated with less sensitisation, and the indoor environment added little to it."
+      ],
+      "authors": "Mario Lovrić, Ivana Banić, Kristina Časni, Iva Šunić, Ivana Jerković, Mirjana Turkalj",
+      "journal": "Children",
+      "doi": "10.3390/children13101366",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "21ee91cb0d50a743b27ed82b0f67dc33df3b8d624d3904e9ba80077dfd092474",
+      "pmcid": "PMC13702990",
+      "publishedAt": "2026-10-08",
+      "addedAt": "2026-11-07T17:52:26Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13702990",
+        "kind": "article",
+        "title": "Outdoor Environmental Risk Factors for Paediatric Ragweed Sensitisation: A Formal Model Comparison",
+        "authors": "Mario Lovrić, Ivana Banić, Kristina Časni, Iva Šunić, Ivana Jerković, Mirjana Turkalj",
+        "organization": "Children",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13702990/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "21ee91cb0d50a743b27ed82b0f67dc33df3b8d624d3904e9ba80077dfd092474",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-08",
+        "doi": "10.3390/children13101366"
+      },
+      "lesson": {
+        "id": "literature-pmc13702990",
+        "version": 1,
+        "title": "Outdoor Environmental Risk Factors for Paediatric Ragweed Sensitisation: A Formal Model Comparison",
+        "subtitle": "Open-access abstract · Children · 2026-10-08",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13702990",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "What are the main findings? PM10 and categorical pollen exposure were statistically equivalent predictors of ragweed sensitisation, consistent with their strong area-level correlation; NO2 provided no additional information; indoor exposures added no independent risk.Children with more green space within 5 km of home and children living in rural locations were less often sensitised; whether broadleaved forest cover explains the rural association could not be determined.",
+          "PM10 and categorical pollen exposure were statistically equivalent predictors of ragweed sensitisation, consistent with their strong area-level correlation; NO2 provided no additional information; indoor exposures added no independent risk.",
+          "Children with more green space within 5 km of home and children living in rural locations were less often sensitised; whether broadleaved forest cover explains the rural association could not be determined.",
+          "What are the implications of the main findings? When two environmental exposures are highly correlated, comparing models by an information criterion shows whether the data can tell them apart at all, which guards against attributing sensitisation risk to one exposure when the two cannot be statistically distinguished.The association between surrounding green space and lower paediatric ragweed sensitisation is hypothesis-generating; confirmation in longitudinal studies would be needed before drawing implications for urban greening as a preventive strategy.",
+          "When two environmental exposures are highly correlated, comparing models by an information criterion shows whether the data can tell them apart at all, which guards against attributing sensitisation risk to one exposure when the two cannot be statistically distinguished.",
+          "The association between surrounding green space and lower paediatric ragweed sensitisation is hypothesis-generating; confirmation in longitudinal studies would be needed before drawing implications for urban greening as a preventive strategy.",
+          "Background/Objectives: Ragweed (Ambrosia artemisiifolia) is a major aeroallergen in Central and Eastern Europe. Croatian children in regions with twofold difference in pollen exposure show near-identical sensitisation prevalence (the “Zagreb paradox”), and an earlier analysis found regional pollen and rural residence to be the only associated environmental factors. We re-examined whether air pollution, surrounding landscape and indoor environment contribute to it. Methods: This cross-sectional analysis used 3520 of the 4016 children recruited to the EU FP7 ATOPICA study, who had their complete data re-analysed within the EU Horizon Europe EDIAQI project. Sensitisation was defined as a skin prick test wheal of at least 2 mm. Environmental predictors (particulate matter, PM10; nitrogen dioxide, NO2; regional pollen; CORINE land cover within 5 km; rural residence; and indoor exposures) were compared using the Akaike Information Criterion (AIC) in logistic regression models, which were adjusted for age and parental atopy. Results: Sensitisation prevalence was 10.8%. PM10 and categorical pollen area fitted the data equally well (ΔAIC 1.7): both describe the same inland-coastal contrast and cannot be distinguished with area-level data. NO2 added nothing to either. Of the 16 landscape variables, only transitional woodland-shrub remained associated with sensitisation after Bonferroni correction (adjusted odds ratio, aOR 0.93 [95% confidence interval, CI 0.90–0.97]); total green area was nominally associated (aOR 0.92 [95% CI 0.87–0.98]; p = 0.009). Children in rural locations were less often sensitised (aOR 0.69 [95% CI 0.50–0.96]; p = 0.026), as previously reported; a mediation analysis could not determine whether broadleaved forest cover explains this association. Indoor exposures added little to model fit. Conclusions: Area-level data cannot separate particulate air pollution from pollen exposure, so a contribution of air pollution can be neither confirmed nor excluded. Rural residence and, with less certainty, surrounding green space were associated with less sensitisation, and the indoor environment added little to it."
+        ],
+        "terms": [
+          {
+            "term": "confidence interval",
+            "definition": "An interval produced by a statistical procedure with a stated long-run coverage under its assumptions."
+          },
+          {
+            "term": "particulate matter",
+            "definition": "A mixture of solid particles and liquid droplets suspended in air."
+          },
+          {
+            "term": "correlation",
+            "definition": "A statistical relationship in how two quantities vary together."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nOf the 16 landscape variables, only transitional woodland-shrub remained associated with sensitisation after Bonferroni correction (adjusted odds ratio, aOR 0.93 [95% _____, CI 0.90–0.97]); total green area was nominally associated (aOR 0.92 [95% CI 0.87–0.98]; p = 0.009).",
+            "paragraphs": [
+              7
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "confounding",
+                "explanation": "This is not the expression used in this sentence. A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+              },
+              {
+                "id": "b",
+                "text": "oxidation factor",
+                "explanation": "This is not the expression used in this sentence. The fraction of fuel carbon assumed to be oxidised during combustion."
+              },
+              {
+                "id": "c",
+                "text": "confidence interval",
+                "explanation": "The original abstract uses this expression. An interval produced by a statistical procedure with a stated long-run coverage under its assumptions."
+              },
+              {
+                "id": "d",
+                "text": "life-cycle assessment",
+                "explanation": "This is not the expression used in this sentence. A method for evaluating environmental impacts across defined stages of a product or service's life."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: confidence interval. An interval produced by a statistical procedure with a stated long-run coverage under its assumptions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nEnvironmental predictors (_____, PM10; nitrogen dioxide, NO2; regional pollen; CORINE land cover within 5 km; rural residence; and indoor exposures) were compared using the Akaike Information Criterion (AIC) in logistic regression models, which were adjusted for age and parental atopy.",
+            "paragraphs": [
+              7
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "publication bias",
+                "explanation": "This is not the expression used in this sentence. A distortion caused when the availability of research results depends on their findings."
+              },
+              {
+                "id": "b",
+                "text": "bioavailability",
+                "explanation": "This is not the expression used in this sentence. The extent to which a substance is available for uptake or biological action under specified conditions."
+              },
+              {
+                "id": "c",
+                "text": "particulate matter",
+                "explanation": "The original abstract uses this expression. A mixture of solid particles and liquid droplets suspended in air."
+              },
+              {
+                "id": "d",
+                "text": "life cycle assessment",
+                "explanation": "This is not the expression used in this sentence. A method for evaluating environmental impacts across defined stages of a product or service's life."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: particulate matter. A mixture of solid particles and liquid droplets suspended in air. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nBackground/Objectives: Ragweed (Ambrosia artemisiifolia) is a major aeroallergen in Central and Eastern Europe. Croatian children in regions with twofold difference in pollen exposure show near-identical sensitisation prevalence (the “Zagreb paradox”), and an earlier analysis found regional pollen and rural residence to be the only associated environmental factors. We re-examined whether air pollution, surrounding landscape and indoor environment contribute to it. Methods: This cross-sectional analysis used 3520 of the 4016 children recruited to the EU FP7 ATOPICA study, who had their complete data re-analysed within the EU Horizon Europe EDIAQI project. Sensitisation was defined as a skin prick test wheal of at least 2 mm. Environmental predictors (particulate matter, PM10; nitrogen dioxide, NO2; regional pollen; CORINE land cover within 5 km; rural residence; and indoor exposures) were compared using the Akaike Information Criterion (AIC) in logistic regression models, which were adjusted for age and parental atopy. Results: Sensitisation prevalence was 10.8%. PM10 and categorical pollen area fitted the data equally well (ΔAIC 1.7): both describe the same inland-coastal contrast and cannot be distinguished with area-level data. NO2 added nothing to either. Of the 16 landscape variables, only transitional woodland-shrub remained associated with sensitisation after Bonferroni correction (adjusted odds ratio, aOR 0.93 [95% confidence interval, CI 0.90–0.97]); total green area was nominally associated (aOR 0.92 [95% CI 0.87–0.98]; p = 0.009). Children in rural locations were less often sensitised (aOR 0.69 [95% CI 0.50–0.96]; p = 0.026), as previously reported; a mediation analysis could not determine whether broadleaved forest cover explains this association. Indoor exposures added little to model fit. Conclusions: Area-level data cannot separate particulate air pollution from pollen exposure, so a contribution of air pollution can be neither confirmed nor excluded. Rural residence and, with less certainty, surrounding green space were associated with less sensitisation, and the indoor environment added little to it.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-08",
+        "addedAt": "2026-11-07T17:52:26Z"
+      }
     }
   ],
   "vocabulary": [
@@ -5957,9 +6416,88 @@
       "evidence": "Drylands and natural grasslands are increasingly threatened by overgrazing and climate change, which damage soil functionality and reduce their natural carbon sequestration capacity.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-bb43e2befdf173ca2efc",
+      "term": "generalizability",
+      "meaning": "The extent to which findings apply beyond the conditions or population studied.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Evidence is synthesized across reverse osmosis, nanofiltration, ultrafiltration, microfiltration, membrane bioreactors, membrane distillation, and gas separation membranes, with emphasis on critically assessing model performance and generalizability.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13706972",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Evidence is synthesized across reverse osmosis, nanofiltration, ultrafiltration, microfiltration, membrane bioreactors, membrane distillation, and gas separation membranes, with emphasis on critically assessing model performance and generalizability.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-e920f23491d44378d23d",
+      "term": "decarbonization",
+      "meaning": "The reduction of carbon dioxide emissions associated with an activity or system.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Membrane separation is central to potable water production, wastewater reclamation, desalination, gas separation, and decarbonization, yet its economics remain constrained by fouling and by a gap between process data and timely operating decisions.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13706972",
+      "location": "Abstract · paragraph 1",
+      "evidence": "Membrane separation is central to potable water production, wastewater reclamation, desalination, gas separation, and decarbonization, yet its economics remain constrained by fouling and by a gap between process data and timely operating decisions.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-23dfbcefe61ba3add528",
+      "term": "dissolved organic carbon",
+      "meaning": "Organic carbon present in the fraction of a water sample operationally classified as dissolved.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "In SOFL, a beaver dam cascade system in the lower catchment propagated significant denitrification, reduction in dissolved organic carbon, and phosphorus concentrations.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13710877",
+      "location": "Abstract · paragraph 1",
+      "evidence": "In SOFL, a beaver dam cascade system in the lower catchment propagated significant denitrification, reduction in dissolved organic carbon, and phosphorus concentrations.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-07T17:52:26Z",
+      "added": 3,
+      "total": 39,
+      "vocabularyAdded": 3,
+      "screening": {
+        "candidates": 264,
+        "xmlInspected": 40,
+        "cachedSkipped": 389,
+        "unavailable": 0,
+        "ineligible": 28,
+        "duplicate": 0,
+        "insufficientTerms": 9,
+        "passes": 2
+      }
+    },
     {
       "checkedAt": "2026-11-06T19:43:48Z",
       "added": 3,
@@ -6158,86 +6696,6 @@
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13697509",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13705788",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13709588",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13710540",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13710892",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13712539",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13712690",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13712723",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13712746",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13713171",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13713970",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13715015",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13715698",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13716175",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13717229",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13719766",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13719833",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13720272",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13721042",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
-      {
-        "pmcid": "PMC13721831",
-        "checkedAt": "2026-10-31T17:22:57Z"
-      },
       {
         "pmcid": "PMC13692952",
         "checkedAt": "2026-11-01T18:08:41Z"
@@ -6961,6 +7419,154 @@
       {
         "pmcid": "PMC13727387",
         "checkedAt": "2026-11-06T19:43:48Z"
+      },
+      {
+        "pmcid": "PMC13658437",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13679050",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13681004",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13682426",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13682914",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13697509",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13703665",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13705788",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13705808",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13706025",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13707216",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13708302",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13709054",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13709588",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13710540",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13710892",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13712539",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13712690",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13712723",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13712746",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13713171",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13713970",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13715015",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13715698",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13716175",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13717229",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13717455",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13717476",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13717478",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13718679",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13719766",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13719833",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13720099",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13720272",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13721042",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13721831",
+        "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13724288",
+        "checkedAt": "2026-11-07T17:52:26Z"
       }
     ]
   }
