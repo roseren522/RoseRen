@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-07T17:52:26Z",
+  "lastCheckedAt": "2026-11-08T18:06:59Z",
   "lastAddedAt": "2026-11-07T17:52:26Z",
   "articles": [
     {
@@ -6483,6 +6483,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-08T18:06:59Z",
+      "added": 0,
+      "total": 39,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 264,
+        "xmlInspected": 1,
+        "cachedSkipped": 217,
+        "unavailable": 0,
+        "ineligible": 1,
+        "duplicate": 0,
+        "insufficientTerms": 0,
+        "passes": 1
+      }
+    },
+    {
       "checkedAt": "2026-11-07T17:52:26Z",
       "added": 3,
       "total": 39,
@@ -7567,6 +7583,10 @@
       {
         "pmcid": "PMC13724288",
         "checkedAt": "2026-11-07T17:52:26Z"
+      },
+      {
+        "pmcid": "PMC13681104",
+        "checkedAt": "2026-11-08T18:06:59Z"
       }
     ]
   }
