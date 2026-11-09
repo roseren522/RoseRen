@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-08T18:06:59Z",
-  "lastAddedAt": "2026-11-07T17:52:26Z",
+  "lastCheckedAt": "2026-11-09T13:15:43Z",
+  "lastAddedAt": "2026-11-09T13:15:43Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -5763,6 +5763,450 @@
         "publishedAt": "2026-10-08",
         "addedAt": "2026-11-07T17:52:26Z"
       }
+    },
+    {
+      "title": "ACMNet: An attention-convolution mixed neural network for semantic segmentation of high-resolution remote sensing images",
+      "paragraphs": [
+        "Semantic segmentation of remote sensing imagery, which is widely used in land cover classification, urban planning, and environmental monitoring, has become a research hotspot in the fields of remote sensing and computer vision. As its applications continue to expand, improving the segmentation accuracy and generalization have become pressing challenges. However, most existing semantic segmentation models rely solely on either attention mechanisms or convolutional neural networks (CNNs), thus leaving room for performance improvement. In this study, we propose ACMNet (Attention-Convolution Mixed Network), which adopts a hybrid attention-convolution architecture. The decoder of ACMNet employs an innovative mixed design, where two branches are used to extract and integrate different types of contextual information and achieve hierarchical aggregation of contextual features, thereby enhancing its performance. To evaluate the performance of ACMNet, we conducted ablation experiments and comparative experiments on the Potsdam, Vaihingen, and WHU Building datasets. The results show that ACMNet achieved the best overall performance across all three datasets, with mF1 scores of 91.79%, 88.70%, and 96.56% on the Potsdam, Vaihingen, and WHU Building datasets, respectively. These findings indicate that ACMNet delivers superior performance in the semantic segmentation of high-resolution remote sensing images in urban areas, which provides valuable support for diverse tasks related to fine-grained urban management and dynamic monitoring."
+      ],
+      "authors": "Shangkun Yu, Leijuan Yu, Tingting Wang, Rui Hu, Chengxin Wang",
+      "journal": "PLOS One",
+      "doi": "10.1371/journal.pone.0358021",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "3648f9eead7ab083bcbe7fd8894cb7fb39c1f262a867a288d5843469561edec6",
+      "pmcid": "PMC13742928",
+      "publishedAt": "2026-11-06",
+      "addedAt": "2026-11-09T13:15:43Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13742928",
+        "kind": "article",
+        "title": "ACMNet: An attention-convolution mixed neural network for semantic segmentation of high-resolution remote sensing images",
+        "authors": "Shangkun Yu, Leijuan Yu, Tingting Wang, Rui Hu, Chengxin Wang",
+        "organization": "PLOS One",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13742928/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "3648f9eead7ab083bcbe7fd8894cb7fb39c1f262a867a288d5843469561edec6",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-06",
+        "doi": "10.1371/journal.pone.0358021"
+      },
+      "lesson": {
+        "id": "literature-pmc13742928",
+        "version": 1,
+        "title": "ACMNet: An attention-convolution mixed neural network for semantic segmentation of high-resolution remote sensing images",
+        "subtitle": "Open-access abstract · PLOS One · 2026-11-06",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13742928",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Semantic segmentation of remote sensing imagery, which is widely used in land cover classification, urban planning, and environmental monitoring, has become a research hotspot in the fields of remote sensing and computer vision. As its applications continue to expand, improving the segmentation accuracy and generalization have become pressing challenges. However, most existing semantic segmentation models rely solely on either attention mechanisms or convolutional neural networks (CNNs), thus leaving room for performance improvement. In this study, we propose ACMNet (Attention-Convolution Mixed Network), which adopts a hybrid attention-convolution architecture. The decoder of ACMNet employs an innovative mixed design, where two branches are used to extract and integrate different types of contextual information and achieve hierarchical aggregation of contextual features, thereby enhancing its performance. To evaluate the performance of ACMNet, we conducted ablation experiments and comparative experiments on the Potsdam, Vaihingen, and WHU Building datasets. The results show that ACMNet achieved the best overall performance across all three datasets, with mF1 scores of 91.79%, 88.70%, and 96.56% on the Potsdam, Vaihingen, and WHU Building datasets, respectively. These findings indicate that ACMNet delivers superior performance in the semantic segmentation of high-resolution remote sensing images in urban areas, which provides valuable support for diverse tasks related to fine-grained urban management and dynamic monitoring."
+        ],
+        "terms": [
+          {
+            "term": "remote sensing",
+            "definition": "Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+          },
+          {
+            "term": "accuracy",
+            "definition": "The extent to which an estimate avoids systematic departure from the true value."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nSemantic segmentation of _____ imagery, which is widely used in land cover classification, urban planning, and environmental monitoring, has become a research hotspot in the fields of _____ and computer vision.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "quality objectives",
+                "explanation": "This is not the expression used in this sentence. Explicit requirements for the quality and usefulness of collected data."
+              },
+              {
+                "id": "b",
+                "text": "confidentiality",
+                "explanation": "This is not the expression used in this sentence. Protection of information whose access or disclosure is restricted."
+              },
+              {
+                "id": "c",
+                "text": "greenhouse gas",
+                "explanation": "This is not the expression used in this sentence. A gas that absorbs and emits infrared radiation at wavelengths relevant to Earth's energy balance."
+              },
+              {
+                "id": "d",
+                "text": "remote sensing",
+                "explanation": "The original abstract uses this expression. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: remote sensing. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAs its applications continue to expand, improving the segmentation _____ and generalization have become pressing challenges.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "climate mitigation",
+                "explanation": "This is not the expression used in this sentence. Actions that reduce greenhouse-gas sources or enhance their sinks."
+              },
+              {
+                "id": "b",
+                "text": "bias",
+                "explanation": "This is not the expression used in this sentence. A systematic tendency to overestimate or underestimate a quantity."
+              },
+              {
+                "id": "c",
+                "text": "carbon footprint",
+                "explanation": "This is not the expression used in this sentence. An estimate of greenhouse-gas emissions associated with a defined activity, product or organisation."
+              },
+              {
+                "id": "d",
+                "text": "accuracy",
+                "explanation": "The original abstract uses this expression. The extent to which an estimate avoids systematic departure from the true value."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: accuracy. The extent to which an estimate avoids systematic departure from the true value. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nSemantic segmentation of remote sensing imagery, which is widely used in land cover classification, urban planning, and environmental monitoring, has become a research hotspot in the fields of remote sensing and computer vision. As its applications continue to expand, improving the segmentation accuracy and generalization have become pressing challenges. However, most existing semantic segmentation models rely solely on either attention mechanisms or convolutional neural networks (CNNs), thus leaving room for performance improvement. In this study, we propose ACMNet (Attention-Convolution Mixed Network), which adopts a hybrid attention-convolution architecture. The decoder of ACMNet employs an innovative mixed design, where two branches are used to extract and integrate different types of contextual information and achieve hierarchical aggregation of contextual features, thereby enhancing its performance. To evaluate the performance of ACMNet, we conducted ablation experiments and comparative experiments on the Potsdam, Vaihingen, and WHU Building datasets. The results show that ACMNet achieved the best overall performance across all three datasets, with mF1 scores of 91.79%, 88.70%, and 96.56% on the Potsdam, Vaihingen, and WHU Building datasets, respectively. These findings indicate that ACMNet delivers superior performance in the semantic segmentation of high-resolution remote sensing images in urban areas, which provides valuable support for diverse tasks related to fine-grained urban management and dynamic monitoring.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-06",
+        "addedAt": "2026-11-09T13:15:43Z"
+      }
+    },
+    {
+      "title": "Air pollution is associated with a distinct pathogen spectrum in community-acquired pneumonia: a prospective multicentre cohort study",
+      "paragraphs": [
+        "Community-acquired pneumonia (CAP) is the leading cause of death due to infection worldwide, with its incidence and disease course influenced by air pollution exposure. Little is known about how air pollution influences microbiological findings in patients with CAP.",
+        "Patients were recruited from a prospective, multicentre study of CAP (CAPNETZ). Air pollution data were collected at the city level considering data up to one month before inclusion. Associations with sputum pathogen detection and cell counts were tested using generalised linear mixed-effects logistic regression models adjusting for clinical confounders, centre-level heterogeneity and meteorological data. Internal validation was performed using an Ensemble Feature Selection (EFS) approach.",
+        "Among 4,446 eligible patients with available sputum samples, a potential pathogen was detected in 1,581 patients, while complete sputum-cell-count data were available for 4,014 patients. Detection of Streptococcus pneumoniae was associated with previous higher exposure to sulphur dioxide (SO2) (OR 1.75, p = 0.008) and carbon monoxide (CO) (OR 1.57, p = 0.02). Escherichia coli was more frequently detected in patients who were exposed to elevated levels of nitrogen dioxide (NO2) (OR 2.75, p = 0.004) and higher temperature (OR 1.51, p = 0.03), whereas increased fine particulate matter (PM2.5) exposure (OR 0.37, p = 0.001) was linked to reduced detection. Furthermore, SO2 exposure influenced the likelihood of obtaining a diagnostically relevant sputum culture and was associated with higher odds of detecting a high leucocyte count (OR 1.18, p = 0.02). Results were largely corroborated by EFS, particularly for S. pneumoniae and E. coli detection.",
+        "Exposure to air pollution was associated with a distinct pathogen spectrum in patients with CAP. These findings may have implications for the interpretation of microbiological data in an epidemiological and clinical context and highlight the importance of considering air pollution exposure as a confounding factor. Further validation in cohorts with high-quality environmental, microbiological and antimicrobial resistance data is needed.",
+        "Registry: German Clinical Trials Register (DRKS), DRKS-ID: DRKS00005274, Registration date: 2013-09-11.",
+        "The online version contains supplementary material available at https://doi.org/10.1186/s41479-026-00212-3."
+      ],
+      "authors": "Max Kutzinski, Thomas Brenner, Saeed A. Khan, Hendrik Pott, Roman Martin, Barbara C. Weckler, Ann-Christine Link, Christoph Reudenbach, Jörg Bendix, Jan Rupp, Martin Witzenrath, Gernot Rohde, Mathias W. Pletz, Jessica Rademacher, Wilhelm Bertrams, Claus F. Vogelmeier, Bernd Schmeck",
+      "journal": "Pneumonia",
+      "doi": "10.1186/s41479-026-00212-3",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "d6754c514929aeb7166d517512249b958f4a0439fe30653fa74f6b074f3f4e45",
+      "pmcid": "PMC13737847",
+      "publishedAt": "2026-11-05",
+      "addedAt": "2026-11-09T13:15:43Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13737847",
+        "kind": "article",
+        "title": "Air pollution is associated with a distinct pathogen spectrum in community-acquired pneumonia: a prospective multicentre cohort study",
+        "authors": "Max Kutzinski, Thomas Brenner, Saeed A. Khan, Hendrik Pott, Roman Martin, Barbara C. Weckler, Ann-Christine Link, Christoph Reudenbach, Jörg Bendix, Jan Rupp, Martin Witzenrath, Gernot Rohde, Mathias W. Pletz, Jessica Rademacher, Wilhelm Bertrams, Claus F. Vogelmeier, Bernd Schmeck",
+        "organization": "Pneumonia",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13737847/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "d6754c514929aeb7166d517512249b958f4a0439fe30653fa74f6b074f3f4e45",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-05",
+        "doi": "10.1186/s41479-026-00212-3"
+      },
+      "lesson": {
+        "id": "literature-pmc13737847",
+        "version": 1,
+        "title": "Air pollution is associated with a distinct pathogen spectrum in community-acquired pneumonia: a prospective multicentre cohort study",
+        "subtitle": "Open-access abstract · Pneumonia · 2026-11-05",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13737847",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Community-acquired pneumonia (CAP) is the leading cause of death due to infection worldwide, with its incidence and disease course influenced by air pollution exposure. Little is known about how air pollution influences microbiological findings in patients with CAP.",
+          "Patients were recruited from a prospective, multicentre study of CAP (CAPNETZ). Air pollution data were collected at the city level considering data up to one month before inclusion. Associations with sputum pathogen detection and cell counts were tested using generalised linear mixed-effects logistic regression models adjusting for clinical confounders, centre-level heterogeneity and meteorological data. Internal validation was performed using an Ensemble Feature Selection (EFS) approach.",
+          "Among 4,446 eligible patients with available sputum samples, a potential pathogen was detected in 1,581 patients, while complete sputum-cell-count data were available for 4,014 patients. Detection of Streptococcus pneumoniae was associated with previous higher exposure to sulphur dioxide (SO2) (OR 1.75, p = 0.008) and carbon monoxide (CO) (OR 1.57, p = 0.02). Escherichia coli was more frequently detected in patients who were exposed to elevated levels of nitrogen dioxide (NO2) (OR 2.75, p = 0.004) and higher temperature (OR 1.51, p = 0.03), whereas increased fine particulate matter (PM2.5) exposure (OR 0.37, p = 0.001) was linked to reduced detection. Furthermore, SO2 exposure influenced the likelihood of obtaining a diagnostically relevant sputum culture and was associated with higher odds of detecting a high leucocyte count (OR 1.18, p = 0.02). Results were largely corroborated by EFS, particularly for S. pneumoniae and E. coli detection.",
+          "Exposure to air pollution was associated with a distinct pathogen spectrum in patients with CAP. These findings may have implications for the interpretation of microbiological data in an epidemiological and clinical context and highlight the importance of considering air pollution exposure as a confounding factor. Further validation in cohorts with high-quality environmental, microbiological and antimicrobial resistance data is needed.",
+          "Registry: German Clinical Trials Register (DRKS), DRKS-ID: DRKS00005274, Registration date: 2013-09-11.",
+          "The online version contains supplementary material available at https://doi.org/10.1186/s41479-026-00212-3."
+        ],
+        "terms": [
+          {
+            "term": "fine particulate matter",
+            "definition": "Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+          },
+          {
+            "term": "confounding",
+            "definition": "A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nEscherichia coli was more frequently detected in patients who were exposed to elevated levels of nitrogen dioxide (NO2) (OR 2.75, p = 0.004) and higher temperature (OR 1.51, p = 0.03), whereas increased _____ (PM2.5) exposure (OR 0.37, p = 0.001) was linked to reduced detection.",
+            "paragraphs": [
+              3
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "fine particulate matter",
+                "explanation": "The original abstract uses this expression. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+              },
+              {
+                "id": "b",
+                "text": "carbon neutrality",
+                "explanation": "This is not the expression used in this sentence. A balance between specified carbon emissions and removals over a defined boundary and period."
+              },
+              {
+                "id": "c",
+                "text": "quality assurance",
+                "explanation": "This is not the expression used in this sentence. Planned review activities used to assess whether quality objectives are being met."
+              },
+              {
+                "id": "d",
+                "text": "species richness",
+                "explanation": "This is not the expression used in this sentence. The number of different species present in a defined area or sample."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: fine particulate matter. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThese findings may have implications for the interpretation of microbiological data in an epidemiological and clinical context and highlight the importance of considering air pollution exposure as a _____ factor.",
+            "paragraphs": [
+              4
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "confounding",
+                "explanation": "The original abstract uses this expression. A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+              },
+              {
+                "id": "b",
+                "text": "transparency",
+                "explanation": "This is not the expression used in this sentence. Clear documentation that enables others to understand how an estimate was produced."
+              },
+              {
+                "id": "c",
+                "text": "radiative forcing",
+                "explanation": "This is not the expression used in this sentence. A change in the net energy flux in the Earth system caused by a specified driver."
+              },
+              {
+                "id": "d",
+                "text": "sensitivity analysis",
+                "explanation": "This is not the expression used in this sentence. Examining how a result responds to changes in selected inputs or assumptions."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: confounding. A distortion in an estimated association caused by a factor related to both the exposure and the outcome. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe online version contains supplementary material available at https://doi.org/10.1186/s41479-026-00212-3.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-05",
+        "addedAt": "2026-11-09T13:15:43Z"
+      }
+    },
+    {
+      "title": "Elephant Presence Shapes Butterfly Communities in an East African Coastal Forest",
+      "paragraphs": [
+        "Habitat disturbances shape the diversity and composition of plant and animal species. It is important to distinguish between natural disturbances caused by megaherbivores and anthropogenic disturbances caused by human activity, as different disturbance regimes differently affect biodiversity. In this study, we analyse butterfly diversity and community structure in three forest areas with different habitat disturbances in the Arabuko Sokoke dry coastal forest of south‐eastern Kenya. We assessed butterfly diversity with bait‐traps in primary forest with and without elephants, and in secondary forest characterised by previous human use and where elephants are currently present. In total, we activated 24 traps, eight traps per forest type. We found differences in the butterfly diversity and community structure depending on forest type and disturbance regime. The rather dense primary forest harboured a considerably higher proportion of dark‐coloured forest butterfly species than the secondary forest, particularly in areas with elephant disturbance. The secondary forest has higher butterfly species richness than the primary forest due to the occurrence of savannah species. Correspondence analyses clearly separated the three forest types with respect to community composition. Species occurring also in anthropogenic habitats were significantly more abundant in the secondary forest than in the two primary forest types. Our findings underline that forest type and disturbance regime shape butterfly diversity and community structure. Our study underlines that the effects of natural disturbances and human‐induced disturbances on butterfly diversity differ fundamentally. Natural disturbances such as by elephant activities seem to promote typical forest butterflies."
+      ],
+      "authors": "Jan Christian Habel, Thomas Schmitt, Maria M. Fungomeli, Mike Teucher, Jonas Eberle, Maximilian Hanusch, Werner Ulrich",
+      "journal": "Ecology and Evolution",
+      "doi": "10.1002/ece3.74532",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "f4b57f8a914472cfc1eb5ecdb5f41dbdef822372d5b9cef9272be00ef1b3cf45",
+      "pmcid": "PMC13733380",
+      "publishedAt": "2026-11-04",
+      "addedAt": "2026-11-09T13:15:43Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13733380",
+        "kind": "article",
+        "title": "Elephant Presence Shapes Butterfly Communities in an East African Coastal Forest",
+        "authors": "Jan Christian Habel, Thomas Schmitt, Maria M. Fungomeli, Mike Teucher, Jonas Eberle, Maximilian Hanusch, Werner Ulrich",
+        "organization": "Ecology and Evolution",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13733380/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "f4b57f8a914472cfc1eb5ecdb5f41dbdef822372d5b9cef9272be00ef1b3cf45",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-04",
+        "doi": "10.1002/ece3.74532"
+      },
+      "lesson": {
+        "id": "literature-pmc13733380",
+        "version": 1,
+        "title": "Elephant Presence Shapes Butterfly Communities in an East African Coastal Forest",
+        "subtitle": "Open-access abstract · Ecology and Evolution · 2026-11-04",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13733380",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Habitat disturbances shape the diversity and composition of plant and animal species. It is important to distinguish between natural disturbances caused by megaherbivores and anthropogenic disturbances caused by human activity, as different disturbance regimes differently affect biodiversity. In this study, we analyse butterfly diversity and community structure in three forest areas with different habitat disturbances in the Arabuko Sokoke dry coastal forest of south‐eastern Kenya. We assessed butterfly diversity with bait‐traps in primary forest with and without elephants, and in secondary forest characterised by previous human use and where elephants are currently present. In total, we activated 24 traps, eight traps per forest type. We found differences in the butterfly diversity and community structure depending on forest type and disturbance regime. The rather dense primary forest harboured a considerably higher proportion of dark‐coloured forest butterfly species than the secondary forest, particularly in areas with elephant disturbance. The secondary forest has higher butterfly species richness than the primary forest due to the occurrence of savannah species. Correspondence analyses clearly separated the three forest types with respect to community composition. Species occurring also in anthropogenic habitats were significantly more abundant in the secondary forest than in the two primary forest types. Our findings underline that forest type and disturbance regime shape butterfly diversity and community structure. Our study underlines that the effects of natural disturbances and human‐induced disturbances on butterfly diversity differ fundamentally. Natural disturbances such as by elephant activities seem to promote typical forest butterflies."
+        ],
+        "terms": [
+          {
+            "term": "species richness",
+            "definition": "The number of different species present in a defined area or sample."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe secondary forest has higher butterfly _____ than the primary forest due to the occurrence of savannah species.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "precision",
+                "explanation": "This is not the expression used in this sentence. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "b",
+                "text": "bias",
+                "explanation": "This is not the expression used in this sentence. A systematic tendency to overestimate or underestimate a quantity."
+              },
+              {
+                "id": "c",
+                "text": "species richness",
+                "explanation": "The original abstract uses this expression. The number of different species present in a defined area or sample."
+              },
+              {
+                "id": "d",
+                "text": "life cycle assessment",
+                "explanation": "This is not the expression used in this sentence. A method for evaluating environmental impacts across defined stages of a product or service's life."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: species richness. The number of different species present in a defined area or sample. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nIt is important to distinguish between natural disturbances caused by megaherbivores and anthropogenic disturbances caused by human activity, as different disturbance regimes differently affect _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "double counting",
+                "explanation": "This is not the expression used in this sentence. Including the same activity or emissions more than once in a total."
+              },
+              {
+                "id": "b",
+                "text": "uncertainty",
+                "explanation": "This is not the expression used in this sentence. Incomplete knowledge about the true value of a quantity."
+              },
+              {
+                "id": "c",
+                "text": "ecosystem services",
+                "explanation": "This is not the expression used in this sentence. Benefits people obtain from ecosystems, such as water regulation and food provision."
+              },
+              {
+                "id": "d",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nHabitat disturbances shape the diversity and composition of plant and animal species. It is important to distinguish between natural disturbances caused by megaherbivores and anthropogenic disturbances caused by human activity, as different disturbance regimes differently affect biodiversity. In this study, we analyse butterfly diversity and community structure in three forest areas with different habitat disturbances in the Arabuko Sokoke dry coastal forest of south‐eastern Kenya. We assessed butterfly diversity with bait‐traps in primary forest with and without elephants, and in secondary forest characterised by previous human use and where elephants are currently present. In total, we activated 24 traps, eight traps per forest type. We found differences in the butterfly diversity and community structure depending on forest type and disturbance regime. The rather dense primary forest harboured a considerably higher proportion of dark‐coloured forest butterfly species than the secondary forest, particularly in areas with elephant disturbance. The secondary forest has higher butterfly species richness than the primary forest due to the occurrence of savannah species. Correspondence analyses clearly separated the three forest types with respect to community composition. Species occurring also in anthropogenic habitats were significantly more abundant in the secondary forest than in the two primary forest types. Our findings underline that forest type and disturbance regime shape butterfly diversity and community structure. Our study underlines that the effects of natural disturbances and human‐induced disturbances on butterfly diversity differ fundamentally. Natural disturbances such as by elephant activities seem to promote typical forest butterflies.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-04",
+        "addedAt": "2026-11-09T13:15:43Z"
+      }
     }
   ],
   "vocabulary": [
@@ -6483,6 +6927,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-09T13:15:43Z",
+      "added": 3,
+      "total": 42,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 271,
+        "xmlInspected": 8,
+        "cachedSkipped": 1,
+        "unavailable": 0,
+        "ineligible": 3,
+        "duplicate": 0,
+        "insufficientTerms": 2,
+        "passes": 1
+      }
+    },
+    {
       "checkedAt": "2026-11-08T18:06:59Z",
       "added": 0,
       "total": 39,
@@ -6712,154 +7172,6 @@
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13692952",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13693048",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13698066",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13700127",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13701080",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13701640",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13704844",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13705311",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13707107",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13707653",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13709325",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13709670",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13709722",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13709757",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13710713",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13710740",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13710800",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13710853",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13712314",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13713060",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13713181",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13714135",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13714330",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13715106",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13715459",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13715750",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13717283",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13717286",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13717291",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13719045",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13721432",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13721986",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13721999",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13722314",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13722404",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13722676",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
-      {
-        "pmcid": "PMC13723083",
-        "checkedAt": "2026-11-01T18:08:41Z"
-      },
       {
         "pmcid": "PMC13697005",
         "checkedAt": "2026-11-02T21:57:00Z"
@@ -7587,6 +7899,26 @@
       {
         "pmcid": "PMC13681104",
         "checkedAt": "2026-11-08T18:06:59Z"
+      },
+      {
+        "pmcid": "PMC13735200",
+        "checkedAt": "2026-11-09T13:15:43Z"
+      },
+      {
+        "pmcid": "PMC13739137",
+        "checkedAt": "2026-11-09T13:15:43Z"
+      },
+      {
+        "pmcid": "PMC13743743",
+        "checkedAt": "2026-11-09T13:15:43Z"
+      },
+      {
+        "pmcid": "PMC13743924",
+        "checkedAt": "2026-11-09T13:15:43Z"
+      },
+      {
+        "pmcid": "PMC13744005",
+        "checkedAt": "2026-11-09T13:15:43Z"
       }
     ]
   }
