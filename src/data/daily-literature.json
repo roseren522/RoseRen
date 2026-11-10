@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-09T22:43:50Z",
-  "lastAddedAt": "2026-11-09T22:43:50Z",
+  "lastCheckedAt": "2026-11-10T20:02:07Z",
+  "lastAddedAt": "2026-11-10T20:02:07Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -6640,6 +6640,438 @@
         "publishedAt": "2026-11-05",
         "addedAt": "2026-11-09T22:43:50Z"
       }
+    },
+    {
+      "title": "Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction",
+      "paragraphs": [
+        "Numerous undescribed species face extinction before formal scientific recognition. Despite research advances, the exceptional bat diversity of the Neotropics remains overlooked, with accelerating habitat loss threatening unrecognized lineages with silent extinction, requiring urgent conservation prioritization. Here, we integrate molecular species delimitation, phylogenetic inference, ecological niche modelling, and spatial conservation analyses to identify 95 Neotropical bat lineages that may represent undescribed species within 45 complexes, revealing that at least one-fifth of the recognized taxa may harbor hidden diversity spanning the entire evolutionary spectrum. This overlooked diversity faces a countdown to extinction: 62% of complexes face imminent habitat loss, and most are projected to lose over 50% of their suitable habitat by 2070. At current description rates, formally recognizing this diversity would take decades, a timeframe these putative species cannot afford. We develop a Hidden Species Richness (HSR) Index that pinpoints ten hidden diversity hotspots where undescribed richness coincides with significant human threats and extreme climate vulnerability. These hotspots highlight regions where research efforts are most needed, transforming crises into priorities. This race against extinction requires immediate taxonomic attention to document this biodiversity before it vanishes.",
+        "Many Neotropical bat species may be disappearing before scientists can even describe them. The study identified 95 candidate lineages across 45 complexes and found many overlap with areas of habitat loss, indicating urgent conservation needs."
+      ],
+      "authors": "Diego A. Esquivel, Angie Penagos, Anderson Feijó, Maria João Ramos Pereira",
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78393-0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "fa8cbf264af8bbdaf6f364125e1c96bbc808576410d91e9122f83c792fd097b9",
+      "pmcid": "PMC13731659",
+      "publishedAt": "2026-11-03",
+      "addedAt": "2026-11-10T20:02:07Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13731659",
+        "kind": "article",
+        "title": "Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction",
+        "authors": "Diego A. Esquivel, Angie Penagos, Anderson Feijó, Maria João Ramos Pereira",
+        "organization": "Nature Communications",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13731659/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "fa8cbf264af8bbdaf6f364125e1c96bbc808576410d91e9122f83c792fd097b9",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-03",
+        "doi": "10.1038/s41467-026-78393-0"
+      },
+      "lesson": {
+        "id": "literature-pmc13731659",
+        "version": 1,
+        "title": "Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction",
+        "subtitle": "Open-access abstract · Nature Communications · 2026-11-03",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13731659",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Numerous undescribed species face extinction before formal scientific recognition. Despite research advances, the exceptional bat diversity of the Neotropics remains overlooked, with accelerating habitat loss threatening unrecognized lineages with silent extinction, requiring urgent conservation prioritization. Here, we integrate molecular species delimitation, phylogenetic inference, ecological niche modelling, and spatial conservation analyses to identify 95 Neotropical bat lineages that may represent undescribed species within 45 complexes, revealing that at least one-fifth of the recognized taxa may harbor hidden diversity spanning the entire evolutionary spectrum. This overlooked diversity faces a countdown to extinction: 62% of complexes face imminent habitat loss, and most are projected to lose over 50% of their suitable habitat by 2070. At current description rates, formally recognizing this diversity would take decades, a timeframe these putative species cannot afford. We develop a Hidden Species Richness (HSR) Index that pinpoints ten hidden diversity hotspots where undescribed richness coincides with significant human threats and extreme climate vulnerability. These hotspots highlight regions where research efforts are most needed, transforming crises into priorities. This race against extinction requires immediate taxonomic attention to document this biodiversity before it vanishes.",
+          "Many Neotropical bat species may be disappearing before scientists can even describe them. The study identified 95 candidate lineages across 45 complexes and found many overlap with areas of habitat loss, indicating urgent conservation needs."
+        ],
+        "terms": [
+          {
+            "term": "species richness",
+            "definition": "The number of different species present in a defined area or sample."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWe develop a Hidden _____ (HSR) Index that pinpoints ten hidden diversity hotspots where undescribed richness coincides with significant human threats and extreme climate vulnerability.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "leaching",
+                "explanation": "This is not the expression used in this sentence. Movement of dissolved material through soil with draining water."
+              },
+              {
+                "id": "b",
+                "text": "nitrogen deposition",
+                "explanation": "This is not the expression used in this sentence. The transfer of atmospheric nitrogen compounds to surfaces by wet and dry processes."
+              },
+              {
+                "id": "c",
+                "text": "evapotranspiration",
+                "explanation": "This is not the expression used in this sentence. The combined transfer of water to the atmosphere by evaporation and plant transpiration."
+              },
+              {
+                "id": "d",
+                "text": "species richness",
+                "explanation": "The original abstract uses this expression. The number of different species present in a defined area or sample."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: species richness. The number of different species present in a defined area or sample. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThis race against extinction requires immediate taxonomic attention to document this _____ before it vanishes.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "random errors",
+                "explanation": "This is not the expression used in this sentence. Errors that vary above and below an expected value."
+              },
+              {
+                "id": "b",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "c",
+                "text": "publication bias",
+                "explanation": "This is not the expression used in this sentence. A distortion caused when the availability of research results depends on their findings."
+              },
+              {
+                "id": "d",
+                "text": "fine particulate matter",
+                "explanation": "This is not the expression used in this sentence. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nMany Neotropical bat species may be disappearing before scientists can even describe them. The study identified 95 candidate lineages across 45 complexes and found many overlap with areas of habitat loss, indicating urgent conservation needs.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-03",
+        "addedAt": "2026-11-10T20:02:07Z"
+      }
+    },
+    {
+      "title": "Phenological divergence between flowering plants and flower-visiting Lepidoptera under climate change across Europe",
+      "paragraphs": [
+        "Climate change is altering life-cycle timing and may disrupt coordinated interactions between flowering plants and flower-visiting insects. Using Global Biodiversity Information Facility observation records from Europe between 2000 and 2024, we compiled a continental-scale phenological dataset covering flowering periods of 707 angiosperm species and adult activity periods of 620 Lepidoptera species. We extracted the 10th, 50th and 90th percentiles and activity-window width and used linear mixed-effects models to analyse spatio-temporal trends. The results showed that plant phenology advanced significantly, with the 10th and 50th percentiles shifting earlier by −0.597 and −0.507 d yr⁻¹, respectively, whereas the 90th percentile showed no significant change; flowering-window width increased by 0.361 d yr⁻¹. By contrast, Lepidoptera phenology advanced evenly across the season, with the 10th, 50th and 90th percentiles shifting by −0.137, −0.153 and −0.155 d yr⁻¹, respectively, while activity-window width showed no significant change. Because flowering plants advanced faster than Lepidoptera in the early and middle season, plant–insect phenological overlap declined at 0.340 d yr⁻¹, indicating increasing mismatch across Europe. Further analyses identified temperature as the dominant driver of phenological advance in both groups, but flowering plants and Lepidoptera differed in their responses to other climatic factors. These results suggest that climate change is weakening phenological synchrony between flowering plants and flower-visiting Lepidoptera, with potential consequences for pollination and ecosystem functioning."
+      ],
+      "authors": "Yanru Huang, Chaoyang Wu, Wenjiang Huang, Yang Liu, Man Qi, Jie Bai, Yingying Dong, Samuel J. L. Gascoigne, Philippe Ciais, Josep Peñuelas, Rob Salguero-Gomez",
+      "journal": "Proceedings of the Royal Society B: Biological Sciences",
+      "doi": "10.1098/rspb.2026.1381",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "39a773e11d12cc99a2a28577c75a98c87b88cfc4bc003cc7082d8d826686c954",
+      "pmcid": "PMC13730798",
+      "publishedAt": "2026-11-01",
+      "addedAt": "2026-11-10T20:02:07Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13730798",
+        "kind": "article",
+        "title": "Phenological divergence between flowering plants and flower-visiting Lepidoptera under climate change across Europe",
+        "authors": "Yanru Huang, Chaoyang Wu, Wenjiang Huang, Yang Liu, Man Qi, Jie Bai, Yingying Dong, Samuel J. L. Gascoigne, Philippe Ciais, Josep Peñuelas, Rob Salguero-Gomez",
+        "organization": "Proceedings of the Royal Society B: Biological Sciences",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13730798/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "39a773e11d12cc99a2a28577c75a98c87b88cfc4bc003cc7082d8d826686c954",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-01",
+        "doi": "10.1098/rspb.2026.1381"
+      },
+      "lesson": {
+        "id": "literature-pmc13730798",
+        "version": 1,
+        "title": "Phenological divergence between flowering plants and flower-visiting Lepidoptera under climate change across Europe",
+        "subtitle": "Open-access abstract · Proceedings of the Royal Society B: Biological Sciences · 2026-11-01",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13730798",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Climate change is altering life-cycle timing and may disrupt coordinated interactions between flowering plants and flower-visiting insects. Using Global Biodiversity Information Facility observation records from Europe between 2000 and 2024, we compiled a continental-scale phenological dataset covering flowering periods of 707 angiosperm species and adult activity periods of 620 Lepidoptera species. We extracted the 10th, 50th and 90th percentiles and activity-window width and used linear mixed-effects models to analyse spatio-temporal trends. The results showed that plant phenology advanced significantly, with the 10th and 50th percentiles shifting earlier by −0.597 and −0.507 d yr⁻¹, respectively, whereas the 90th percentile showed no significant change; flowering-window width increased by 0.361 d yr⁻¹. By contrast, Lepidoptera phenology advanced evenly across the season, with the 10th, 50th and 90th percentiles shifting by −0.137, −0.153 and −0.155 d yr⁻¹, respectively, while activity-window width showed no significant change. Because flowering plants advanced faster than Lepidoptera in the early and middle season, plant–insect phenological overlap declined at 0.340 d yr⁻¹, indicating increasing mismatch across Europe. Further analyses identified temperature as the dominant driver of phenological advance in both groups, but flowering plants and Lepidoptera differed in their responses to other climatic factors. These results suggest that climate change is weakening phenological synchrony between flowering plants and flower-visiting Lepidoptera, with potential consequences for pollination and ecosystem functioning."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "phenology",
+            "definition": "The timing of recurring biological events and their relationship to environmental conditions."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nUsing Global _____ Information Facility observation records from Europe between 2000 and 2024, we compiled a continental-scale phenological dataset covering flowering periods of 707 angiosperm species and adult activity periods of 620 Lepidoptera species.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "carbon dioxide",
+                "explanation": "This is not the expression used in this sentence. The greenhouse gas CO₂, including emissions from fuel carbon oxidation."
+              },
+              {
+                "id": "b",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "c",
+                "text": "soil respiration",
+                "explanation": "This is not the expression used in this sentence. The release of carbon dioxide from soil through biological activity."
+              },
+              {
+                "id": "d",
+                "text": "country-specific emission factors",
+                "explanation": "This is not the expression used in this sentence. Factors developed to reflect the conditions of a particular country."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe results showed that plant _____ advanced significantly, with the 10th and 50th percentiles shifting earlier by −0.597 and −0.507 d yr⁻¹, respectively, whereas the 90th percentile showed no significant change; flowering-window width increased by 0.361 d yr⁻¹.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "random forest",
+                "explanation": "This is not the expression used in this sentence. An ensemble method that combines predictions from multiple decision trees."
+              },
+              {
+                "id": "b",
+                "text": "hourly averages",
+                "explanation": "This is not the expression used in this sentence. Values averaged over an hour rather than measured at a single instant."
+              },
+              {
+                "id": "c",
+                "text": "phenology",
+                "explanation": "The original abstract uses this expression. The timing of recurring biological events and their relationship to environmental conditions."
+              },
+              {
+                "id": "d",
+                "text": "habitat fragmentation",
+                "explanation": "This is not the expression used in this sentence. The division of a continuous habitat into smaller, more isolated patches."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: phenology. The timing of recurring biological events and their relationship to environmental conditions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nClimate change is altering life-cycle timing and may disrupt coordinated interactions between flowering plants and flower-visiting insects. Using Global Biodiversity Information Facility observation records from Europe between 2000 and 2024, we compiled a continental-scale phenological dataset covering flowering periods of 707 angiosperm species and adult activity periods of 620 Lepidoptera species. We extracted the 10th, 50th and 90th percentiles and activity-window width and used linear mixed-effects models to analyse spatio-temporal trends. The results showed that plant phenology advanced significantly, with the 10th and 50th percentiles shifting earlier by −0.597 and −0.507 d yr⁻¹, respectively, whereas the 90th percentile showed no significant change; flowering-window width increased by 0.361 d yr⁻¹. By contrast, Lepidoptera phenology advanced evenly across the season, with the 10th, 50th and 90th percentiles shifting by −0.137, −0.153 and −0.155 d yr⁻¹, respectively, while activity-window width showed no significant change. Because flowering plants advanced faster than Lepidoptera in the early and middle season, plant–insect phenological overlap declined at 0.340 d yr⁻¹, indicating increasing mismatch across Europe. Further analyses identified temperature as the dominant driver of phenological advance in both groups, but flowering plants and Lepidoptera differed in their responses to other climatic factors. These results suggest that climate change is weakening phenological synchrony between flowering plants and flower-visiting Lepidoptera, with potential consequences for pollination and ecosystem functioning.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-01",
+        "addedAt": "2026-11-10T20:02:07Z"
+      }
+    },
+    {
+      "title": "Soil amendments reshape alpine meadow microbial communities across degradation gradients by modulating nutrient availability",
+      "paragraphs": [
+        "Climate change and overgrazing have led to the continued degradation of alpine meadows on the Qinghai–Tibet Plateau, thereby severely impairing the ecosystem services provided by these grasslands. Soil amendments are an important strategy for restoring degraded grasslands; however, the regulatory effects of different amendment measures across varying degradation gradients and the underlying microbial response mechanisms remain unclear. This study systematically investigated the effects of three soil amendments (humic acid, superabsorbent polymer, and Bacillus subtilis) on soil physicochemical properties and microbial community structure in mildly, moderately, and severely degraded alpine meadows. The results indicated that the regulatory effects of soil amendments are significantly dependent on the degradation gradient: In the severe degradation stage, amendments significantly increased available nutrients, lowered pH, and alleviated alkalization, whereas their regulatory effects were limited in the mild degradation stage. Amendments selectively altered the abundance of microbial groups involved in organic matter degradation, nitrogen cycling, and stress-tolerant symbiosis. Humic acid demonstrated the optimal regulatory effect in the mild degradation stage, whereas superabsorbent polymers and Bacillus subtilis were more suitable for restoration in the moderate and severe degradation stages. Redundancy analysis indicated that bacterial communities were primarily subject to deterministic selection by soil pH, available potassium, and organic matter gradients, with the intensity of environmental selection increasing with increasing degradation severity; fungal communities exhibited significant environmental responses only in the moderate degradation stage, while stochastic processes dominated community assembly in the mild and severe degradation stages. In summary, alpine meadows at various stages of degradation require differentiated remediation strategies. Precise, stage-specific remediation tailored to degradation severity can facilitate synergistic restoration of the soil–microbial system, providing a theoretical basis and practical guidance for restoring degraded alpine meadows on the Qinghai–Tibet Plateau."
+      ],
+      "authors": "Na Wang, Zhonghua Zhang, Huakun Zhou, Yanbin Wen, Xin Wang, Huiyu Song, Yangong Du",
+      "journal": "PLOS One",
+      "doi": "10.1371/journal.pone.0359576",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "829303e94d08539270f0336ef53440edbd53aa3d0af5ef90632dd001f3d455c7",
+      "pmcid": "PMC13730322",
+      "publishedAt": "2026-11-03",
+      "addedAt": "2026-11-10T20:02:07Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13730322",
+        "kind": "article",
+        "title": "Soil amendments reshape alpine meadow microbial communities across degradation gradients by modulating nutrient availability",
+        "authors": "Na Wang, Zhonghua Zhang, Huakun Zhou, Yanbin Wen, Xin Wang, Huiyu Song, Yangong Du",
+        "organization": "PLOS One",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13730322/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "829303e94d08539270f0336ef53440edbd53aa3d0af5ef90632dd001f3d455c7",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-03",
+        "doi": "10.1371/journal.pone.0359576"
+      },
+      "lesson": {
+        "id": "literature-pmc13730322",
+        "version": 1,
+        "title": "Soil amendments reshape alpine meadow microbial communities across degradation gradients by modulating nutrient availability",
+        "subtitle": "Open-access abstract · PLOS One · 2026-11-03",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13730322",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Climate change and overgrazing have led to the continued degradation of alpine meadows on the Qinghai–Tibet Plateau, thereby severely impairing the ecosystem services provided by these grasslands. Soil amendments are an important strategy for restoring degraded grasslands; however, the regulatory effects of different amendment measures across varying degradation gradients and the underlying microbial response mechanisms remain unclear. This study systematically investigated the effects of three soil amendments (humic acid, superabsorbent polymer, and Bacillus subtilis) on soil physicochemical properties and microbial community structure in mildly, moderately, and severely degraded alpine meadows. The results indicated that the regulatory effects of soil amendments are significantly dependent on the degradation gradient: In the severe degradation stage, amendments significantly increased available nutrients, lowered pH, and alleviated alkalization, whereas their regulatory effects were limited in the mild degradation stage. Amendments selectively altered the abundance of microbial groups involved in organic matter degradation, nitrogen cycling, and stress-tolerant symbiosis. Humic acid demonstrated the optimal regulatory effect in the mild degradation stage, whereas superabsorbent polymers and Bacillus subtilis were more suitable for restoration in the moderate and severe degradation stages. Redundancy analysis indicated that bacterial communities were primarily subject to deterministic selection by soil pH, available potassium, and organic matter gradients, with the intensity of environmental selection increasing with increasing degradation severity; fungal communities exhibited significant environmental responses only in the moderate degradation stage, while stochastic processes dominated community assembly in the mild and severe degradation stages. In summary, alpine meadows at various stages of degradation require differentiated remediation strategies. Precise, stage-specific remediation tailored to degradation severity can facilitate synergistic restoration of the soil–microbial system, providing a theoretical basis and practical guidance for restoring degraded alpine meadows on the Qinghai–Tibet Plateau."
+        ],
+        "terms": [
+          {
+            "term": "ecosystem services",
+            "definition": "Benefits people obtain from ecosystems, such as water regulation and food provision."
+          },
+          {
+            "term": "restoration",
+            "definition": "Actions intended to assist the recovery of a degraded ecosystem or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nClimate change and overgrazing have led to the continued degradation of alpine meadows on the Qinghai–Tibet Plateau, thereby severely impairing the _____ provided by these grasslands.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "evapotranspiration",
+                "explanation": "This is not the expression used in this sentence. The combined transfer of water to the atmosphere by evaporation and plant transpiration."
+              },
+              {
+                "id": "b",
+                "text": "climate adaptation",
+                "explanation": "This is not the expression used in this sentence. Adjustment to actual or expected climate and its effects."
+              },
+              {
+                "id": "c",
+                "text": "functional diversity",
+                "explanation": "This is not the expression used in this sentence. Variation in the traits of organisms that influence ecosystem processes."
+              },
+              {
+                "id": "d",
+                "text": "ecosystem services",
+                "explanation": "The original abstract uses this expression. Benefits people obtain from ecosystems, such as water regulation and food provision."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: ecosystem services. Benefits people obtain from ecosystems, such as water regulation and food provision. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nHumic acid demonstrated the optimal regulatory effect in the mild degradation stage, whereas superabsorbent polymers and Bacillus subtilis were more suitable for _____ in the moderate and severe degradation stages.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "denitrification",
+                "explanation": "This is not the expression used in this sentence. Microbial reduction of oxidised nitrogen compounds to gaseous nitrogen products."
+              },
+              {
+                "id": "b",
+                "text": "circular economy",
+                "explanation": "This is not the expression used in this sentence. An approach that aims to keep materials in use and reduce resource consumption and waste."
+              },
+              {
+                "id": "c",
+                "text": "restoration",
+                "explanation": "The original abstract uses this expression. Actions intended to assist the recovery of a degraded ecosystem or system."
+              },
+              {
+                "id": "d",
+                "text": "trophic level",
+                "explanation": "This is not the expression used in this sentence. A position in a food web defined by the source of an organism's energy."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: restoration. Actions intended to assist the recovery of a degraded ecosystem or system. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nClimate change and overgrazing have led to the continued degradation of alpine meadows on the Qinghai–Tibet Plateau, thereby severely impairing the ecosystem services provided by these grasslands. Soil amendments are an important strategy for restoring degraded grasslands; however, the regulatory effects of different amendment measures across varying degradation gradients and the underlying microbial response mechanisms remain unclear. This study systematically investigated the effects of three soil amendments (humic acid, superabsorbent polymer, and Bacillus subtilis) on soil physicochemical properties and microbial community structure in mildly, moderately, and severely degraded alpine meadows. The results indicated that the regulatory effects of soil amendments are significantly dependent on the degradation gradient: In the severe degradation stage, amendments significantly increased available nutrients, lowered pH, and alleviated alkalization, whereas their regulatory effects were limited in the mild degradation stage. Amendments selectively altered the abundance of microbial groups involved in organic matter degradation, nitrogen cycling, and stress-tolerant symbiosis. Humic acid demonstrated the optimal regulatory effect in the mild degradation stage, whereas superabsorbent polymers and Bacillus subtilis were more suitable for restoration in the moderate and severe degradation stages. Redundancy analysis indicated that bacterial communities were primarily subject to deterministic selection by soil pH, available potassium, and organic matter gradients, with the intensity of environmental selection increasing with increasing degradation severity; fungal communities exhibited significant environmental responses only in the moderate degradation stage, while stochastic processes dominated community assembly in the mild and severe degradation stages. In summary, alpine meadows at various stages of degradation require differentiated remediation strategies. Precise, stage-specific remediation tailored to degradation severity can facilitate synergistic restoration of the soil–microbial system, providing a theoretical basis and practical guidance for restoring degraded alpine meadows on the Qinghai–Tibet Plateau.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-03",
+        "addedAt": "2026-11-10T20:02:07Z"
+      }
     }
   ],
   "vocabulary": [
@@ -7402,6 +7834,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-10T20:02:07Z",
+      "added": 3,
+      "total": 48,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 271,
+        "xmlInspected": 41,
+        "cachedSkipped": 125,
+        "unavailable": 0,
+        "ineligible": 28,
+        "duplicate": 0,
+        "insufficientTerms": 10,
+        "passes": 2
+      }
+    },
+    {
       "checkedAt": "2026-11-09T22:43:50Z",
       "added": 3,
       "total": 45,
@@ -7663,34 +8111,6 @@
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13722575",
-        "checkedAt": "2026-11-03T19:50:49Z"
-      },
-      {
-        "pmcid": "PMC13722579",
-        "checkedAt": "2026-11-03T19:50:49Z"
-      },
-      {
-        "pmcid": "PMC13722604",
-        "checkedAt": "2026-11-03T19:50:49Z"
-      },
-      {
-        "pmcid": "PMC13723011",
-        "checkedAt": "2026-11-03T19:50:49Z"
-      },
-      {
-        "pmcid": "PMC13723676",
-        "checkedAt": "2026-11-03T19:50:49Z"
-      },
-      {
-        "pmcid": "PMC13723693",
-        "checkedAt": "2026-11-03T19:50:49Z"
-      },
-      {
-        "pmcid": "PMC13724144",
-        "checkedAt": "2026-11-03T19:50:49Z"
-      },
       {
         "pmcid": "PMC13662905",
         "checkedAt": "2026-11-04T20:04:36Z"
@@ -8414,6 +8834,158 @@
       {
         "pmcid": "PMC13744316",
         "checkedAt": "2026-11-09T22:43:50Z"
+      },
+      {
+        "pmcid": "PMC13704844",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13709670",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13710853",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13713181",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13714330",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13717291",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13723011",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13728321",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13729312",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13729738",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13729754",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13730339",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13730407",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13730809",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13731641",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13734583",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13734587",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13735486",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13735735",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13735883",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13735984",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13736465",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13736638",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13737116",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13738049",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13738795",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13738802",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13739097",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13739119",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13739997",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13740086",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13740093",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13740649",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13740655",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13741158",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13741802",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13742574",
+        "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13743836",
+        "checkedAt": "2026-11-10T20:02:07Z"
       }
     ]
   }
