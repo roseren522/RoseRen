@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-10T20:02:07Z",
-  "lastAddedAt": "2026-11-10T20:02:07Z",
+  "lastCheckedAt": "2026-11-11T19:52:59Z",
+  "lastAddedAt": "2026-11-11T19:52:59Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -7072,6 +7072,451 @@
         "publishedAt": "2026-11-03",
         "addedAt": "2026-11-10T20:02:07Z"
       }
+    },
+    {
+      "title": "Spatiotemporal monitoring of water quality degradation and trophic state in a severely polluted tropical urban lake in Southern India",
+      "paragraphs": [
+        "Bellandur Lake in Bangalore, India represents one of the most severely polluted urban water bodies in South Asia, necessitating systematic monitoring for environmental management. This study employed Sentinel-2 Multispectral Instrument imagery to assess spatiotemporal variations in water quality parameters from January 2023 to December 2025. Six water quality indicators were derived using established remote sensing algorithms: chlorophyll-a (estimated using the Normalised Difference Chlorophyll Index as the primary method), turbidity, total suspended solids, coloured dissolved organic matter, Secchi depth, and floating algae index. A total of 100 Sentinel-2 images were processed using Google Earth Engine, yielding 93 valid observations across 28 months after excluding monsoon periods affected by cloud cover and confining analysis to complete years 2023–2025. Results indicated severely degraded conditions with mean NDCI-based chlorophyll-a of 71.31 µg/L (median 70.24 µg/L), consistently classifying the lake as hypereutrophic. Mann–Kendall trend analysis revealed statistically significant increasing trends in chlorophyll-a (τ = 0.144, p = 0.041) and floating algae index (τ = 0.419, p < 0.001), with concurrent significant decreasing trends in turbidity (p < 0.001) and total suspended solids (p = 0.001). Pixel-wise FDR-corrected trend analysis identified 33.7% of the lake area exhibiting significant increasing chlorophyll-a trends. The lake consistently exceeded Central Pollution Control Board standards, with 100% of observations surpassing permissible total suspended solids limits and 98.9% of observations classified as hypereutrophic. These findings are interpreted as indicative of relative spatial and temporal patterns given the absence of site-specific in situ calibration; however, they provide valuable baseline information for management interventions and demonstrate the utility of satellite remote sensing for monitoring polluted urban water bodies.",
+        "The online version contains supplementary material available at https://doi.org/10.1007/s11356-026-38316-4."
+      ],
+      "authors": "Satyam Shah",
+      "journal": "Environmental Science and Pollution Research International",
+      "doi": "10.1007/s11356-026-38316-4",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "bc80f1975365fa02a6a0dd3c019b960a68b8205ab1ccd84780a26a887c9d50f6",
+      "pmcid": "PMC13739951",
+      "publishedAt": "2026-10-23",
+      "addedAt": "2026-11-11T19:52:59Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13739951",
+        "kind": "article",
+        "title": "Spatiotemporal monitoring of water quality degradation and trophic state in a severely polluted tropical urban lake in Southern India",
+        "authors": "Satyam Shah",
+        "organization": "Environmental Science and Pollution Research International",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13739951/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "bc80f1975365fa02a6a0dd3c019b960a68b8205ab1ccd84780a26a887c9d50f6",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-23",
+        "doi": "10.1007/s11356-026-38316-4"
+      },
+      "lesson": {
+        "id": "literature-pmc13739951",
+        "version": 1,
+        "title": "Spatiotemporal monitoring of water quality degradation and trophic state in a severely polluted tropical urban lake in Southern India",
+        "subtitle": "Open-access abstract · Environmental Science and Pollution Research International · 2026-10-23",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13739951",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Bellandur Lake in Bangalore, India represents one of the most severely polluted urban water bodies in South Asia, necessitating systematic monitoring for environmental management. This study employed Sentinel-2 Multispectral Instrument imagery to assess spatiotemporal variations in water quality parameters from January 2023 to December 2025. Six water quality indicators were derived using established remote sensing algorithms: chlorophyll-a (estimated using the Normalised Difference Chlorophyll Index as the primary method), turbidity, total suspended solids, coloured dissolved organic matter, Secchi depth, and floating algae index. A total of 100 Sentinel-2 images were processed using Google Earth Engine, yielding 93 valid observations across 28 months after excluding monsoon periods affected by cloud cover and confining analysis to complete years 2023–2025. Results indicated severely degraded conditions with mean NDCI-based chlorophyll-a of 71.31 µg/L (median 70.24 µg/L), consistently classifying the lake as hypereutrophic. Mann–Kendall trend analysis revealed statistically significant increasing trends in chlorophyll-a (τ = 0.144, p = 0.041) and floating algae index (τ = 0.419, p < 0.001), with concurrent significant decreasing trends in turbidity (p < 0.001) and total suspended solids (p = 0.001). Pixel-wise FDR-corrected trend analysis identified 33.7% of the lake area exhibiting significant increasing chlorophyll-a trends. The lake consistently exceeded Central Pollution Control Board standards, with 100% of observations surpassing permissible total suspended solids limits and 98.9% of observations classified as hypereutrophic. These findings are interpreted as indicative of relative spatial and temporal patterns given the absence of site-specific in situ calibration; however, they provide valuable baseline information for management interventions and demonstrate the utility of satellite remote sensing for monitoring polluted urban water bodies.",
+          "The online version contains supplementary material available at https://doi.org/10.1007/s11356-026-38316-4."
+        ],
+        "terms": [
+          {
+            "term": "remote sensing",
+            "definition": "Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+          },
+          {
+            "term": "baseline",
+            "definition": "A reference state or period against which a change is assessed."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nSix water quality indicators were derived using established _____ algorithms: chlorophyll-a (estimated using the Normalised Difference Chlorophyll Index as the primary method), turbidity, total suspended solids, coloured dissolved organic matter, Secchi depth, and floating algae index.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "confounding",
+                "explanation": "This is not the expression used in this sentence. A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+              },
+              {
+                "id": "b",
+                "text": "remote sensing",
+                "explanation": "The original abstract uses this expression. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              },
+              {
+                "id": "c",
+                "text": "exposure assessment",
+                "explanation": "This is not the expression used in this sentence. The estimation or measurement of contact with a physical, chemical or biological agent."
+              },
+              {
+                "id": "d",
+                "text": "albedo",
+                "explanation": "This is not the expression used in this sentence. The fraction of incoming radiation reflected by a surface or system."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: remote sensing. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThese findings are interpreted as indicative of relative spatial and temporal patterns given the absence of site-specific in situ calibration; however, they provide valuable _____ information for management interventions and demonstrate the utility of satellite remote sensing for monitoring polluted urban water bodies.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "baseline",
+                "explanation": "The original abstract uses this expression. A reference state or period against which a change is assessed."
+              },
+              {
+                "id": "b",
+                "text": "representativeness",
+                "explanation": "This is not the expression used in this sentence. How well available data correspond to the conditions of interest."
+              },
+              {
+                "id": "c",
+                "text": "energy efficiency",
+                "explanation": "This is not the expression used in this sentence. The amount of useful output obtained for a given energy input."
+              },
+              {
+                "id": "d",
+                "text": "eutrophication",
+                "explanation": "This is not the expression used in this sentence. Nutrient enrichment of a water body that can stimulate excessive biological growth."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: baseline. A reference state or period against which a change is assessed. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe online version contains supplementary material available at https://doi.org/10.1007/s11356-026-38316-4.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-23",
+        "addedAt": "2026-11-11T19:52:59Z"
+      }
+    },
+    {
+      "title": "Environmental health determinants among seasonal migrants in China: a multi-dimensional analysis",
+      "paragraphs": [
+        "To conduct a systematic review of the evidence regarding the impact of environmental health factors, such as air pollution, thermal stress, water and soil pollution, agricultural instability, and occupational hazards, on seasonal migration in China.",
+        "A systematic review of PubMed, Web of Science, CNKI, Scopus, and Google Scholar (2001–2025) was conducted to identify peer-reviewed articles and institutional reports on environmental exposure, health, and migration outcomes in the Chinese mainland’s populations.",
+        "Outmigration trends were found to be associated with each of the four aspects of air pollution, heat stress, water contamination, and agricultural instability during the winter, and, in addition to the above, water and soil contamination, in the summer. The effects were found to be strongest among rural poor and older individuals. At urban destinations, migrants were also at risk of occupational hazards due to silica dust and chemicals.",
+        "The environment exerts a multidimensional, seasonal influence on internal migration in China. There is a need for coordinated environmental health governance to minimize migrant exposure and promote health equity in this population."
+      ],
+      "authors": "Wanqing Zheng, Sara Akram",
+      "journal": "International Journal of Public Health",
+      "doi": "10.3389/ijph.2026.1610170",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "8aa1b4edc416e018c3237fdc5be8d9fcb732d538847613aa4b6cb877f9a77f1b",
+      "pmcid": "PMC13737417",
+      "publishedAt": "2026-10-22",
+      "addedAt": "2026-11-11T19:52:59Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13737417",
+        "kind": "article",
+        "title": "Environmental health determinants among seasonal migrants in China: a multi-dimensional analysis",
+        "authors": "Wanqing Zheng, Sara Akram",
+        "organization": "International Journal of Public Health",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13737417/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "8aa1b4edc416e018c3237fdc5be8d9fcb732d538847613aa4b6cb877f9a77f1b",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-22",
+        "doi": "10.3389/ijph.2026.1610170"
+      },
+      "lesson": {
+        "id": "literature-pmc13737417",
+        "version": 1,
+        "title": "Environmental health determinants among seasonal migrants in China: a multi-dimensional analysis",
+        "subtitle": "Open-access abstract · International Journal of Public Health · 2026-10-22",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13737417",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "To conduct a systematic review of the evidence regarding the impact of environmental health factors, such as air pollution, thermal stress, water and soil pollution, agricultural instability, and occupational hazards, on seasonal migration in China.",
+          "A systematic review of PubMed, Web of Science, CNKI, Scopus, and Google Scholar (2001–2025) was conducted to identify peer-reviewed articles and institutional reports on environmental exposure, health, and migration outcomes in the Chinese mainland’s populations.",
+          "Outmigration trends were found to be associated with each of the four aspects of air pollution, heat stress, water contamination, and agricultural instability during the winter, and, in addition to the above, water and soil contamination, in the summer. The effects were found to be strongest among rural poor and older individuals. At urban destinations, migrants were also at risk of occupational hazards due to silica dust and chemicals.",
+          "The environment exerts a multidimensional, seasonal influence on internal migration in China. There is a need for coordinated environmental health governance to minimize migrant exposure and promote health equity in this population."
+        ],
+        "terms": [
+          {
+            "term": "systematic review",
+            "definition": "A review using explicit, reproducible methods to identify and assess relevant research."
+          },
+          {
+            "term": "heat stress",
+            "definition": "Strain on organisms or systems caused by exposure to high temperatures."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nTo conduct a _____ of the evidence regarding the impact of environmental health factors, such as air pollution, thermal stress, water and soil pollution, agricultural instability, and occupational hazards, on seasonal migration in China.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "precision",
+                "explanation": "This is not the expression used in this sentence. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "b",
+                "text": "systematic review",
+                "explanation": "The original abstract uses this expression. A review using explicit, reproducible methods to identify and assess relevant research."
+              },
+              {
+                "id": "c",
+                "text": "dissolved organic carbon",
+                "explanation": "This is not the expression used in this sentence. Organic carbon present in the fraction of a water sample operationally classified as dissolved."
+              },
+              {
+                "id": "d",
+                "text": "biomagnification",
+                "explanation": "This is not the expression used in this sentence. An increase in a substance's concentration at higher trophic levels in a food web."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: systematic review. A review using explicit, reproducible methods to identify and assess relevant research. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nOutmigration trends were found to be associated with each of the four aspects of air pollution, _____, water contamination, and agricultural instability during the winter, and, in addition to the above, water and soil contamination, in the summer.",
+            "paragraphs": [
+              3
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "heat stress",
+                "explanation": "The original abstract uses this expression. Strain on organisms or systems caused by exposure to high temperatures."
+              },
+              {
+                "id": "b",
+                "text": "expert judgement",
+                "explanation": "This is not the expression used in this sentence. An informed assessment based on relevant specialist knowledge."
+              },
+              {
+                "id": "c",
+                "text": "effect size",
+                "explanation": "This is not the expression used in this sentence. A quantitative measure of the magnitude of a difference or association."
+              },
+              {
+                "id": "d",
+                "text": "tipping point",
+                "explanation": "This is not the expression used in this sentence. A threshold beyond which a system may shift into a substantially different state."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: heat stress. Strain on organisms or systems caused by exposure to high temperatures. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe environment exerts a multidimensional, seasonal influence on internal migration in China. There is a need for coordinated environmental health governance to minimize migrant exposure and promote health equity in this population.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-22",
+        "addedAt": "2026-11-11T19:52:59Z"
+      }
+    },
+    {
+      "title": "Engineering the plant holobiont for enhanced abiotic stress resilience: current insights and future directions",
+      "paragraphs": [
+        "Climate change has intensified abiotic stresses such as drought, heat, and salinity, posing major threats to agricultural productivity and global food security. Conventional strategies to improve crop tolerance often face limitations in efficiency, sustainability, and environmental adaptability, underscoring the need for innovative approaches. This review focuses on the plant holobiont, which views plants and their associated microbiomes as an integrated functional unit in governing stress adaptation. Abiotic stress can disrupt plant-associated microbial communities, leading to dysbiosis and reduced holobiont resilience. Beneficial microorganisms, including plant growth-promoting rhizobacteria, endophytes, and arbuscular mycorrhizal fungi, can enhance stress tolerance by improving nutrient acquisition, regulating phytohormone signaling, strengthening antioxidant defenses, maintaining osmotic balance, and modulating stress-responsive gene expression. Emerging evidence suggests that these interactions contribute to the establishment of holobiont stress adaptation through biochemical signaling, microenvironmental modification, and epigenetic regulation, enabling plants to respond more effectively to recurrent stress. Advances in microbiome engineering, particularly through the development of synthetic microbial communities (SynComs), offer promising opportunities to restore microbial functions and enhance crop resilience under changing climatic conditions. The integration of multi-omics technologies, artificial intelligence, and precision agriculture is expected to accelerate the development of microbiome-based solutions for sustainable crop production. Collectively, microbiome engineering represents a promising, environmentally sustainable strategy to enhance the holobiont’s adaptive resilience and improve long-term plant performance under abiotic stress."
+      ],
+      "authors": "Malvin Albert, Mehrdad Alizadeh, Thomas Argyarich Jefferson, Dedat Prismantoro, Reginawanti Hindersah, Ravindra Chandra Joshi, Wiwiek Harsonowati, Kah-Ooi Chua, Nandang Permadi, Mia Miranti, Febri Doni",
+      "journal": "Plant Signaling & Behavior",
+      "doi": "10.1080/15592324.2026.2752710",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "4bc22a23060ef9265f516e659febdec598d69cb75fb004aa02edcfb0f40b01de",
+      "pmcid": "PMC13733228",
+      "publishedAt": "2026-10-28",
+      "addedAt": "2026-11-11T19:52:59Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13733228",
+        "kind": "article",
+        "title": "Engineering the plant holobiont for enhanced abiotic stress resilience: current insights and future directions",
+        "authors": "Malvin Albert, Mehrdad Alizadeh, Thomas Argyarich Jefferson, Dedat Prismantoro, Reginawanti Hindersah, Ravindra Chandra Joshi, Wiwiek Harsonowati, Kah-Ooi Chua, Nandang Permadi, Mia Miranti, Febri Doni",
+        "organization": "Plant Signaling & Behavior",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13733228/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "4bc22a23060ef9265f516e659febdec598d69cb75fb004aa02edcfb0f40b01de",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-28",
+        "doi": "10.1080/15592324.2026.2752710"
+      },
+      "lesson": {
+        "id": "literature-pmc13733228",
+        "version": 1,
+        "title": "Engineering the plant holobiont for enhanced abiotic stress resilience: current insights and future directions",
+        "subtitle": "Open-access abstract · Plant Signaling & Behavior · 2026-10-28",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13733228",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Climate change has intensified abiotic stresses such as drought, heat, and salinity, posing major threats to agricultural productivity and global food security. Conventional strategies to improve crop tolerance often face limitations in efficiency, sustainability, and environmental adaptability, underscoring the need for innovative approaches. This review focuses on the plant holobiont, which views plants and their associated microbiomes as an integrated functional unit in governing stress adaptation. Abiotic stress can disrupt plant-associated microbial communities, leading to dysbiosis and reduced holobiont resilience. Beneficial microorganisms, including plant growth-promoting rhizobacteria, endophytes, and arbuscular mycorrhizal fungi, can enhance stress tolerance by improving nutrient acquisition, regulating phytohormone signaling, strengthening antioxidant defenses, maintaining osmotic balance, and modulating stress-responsive gene expression. Emerging evidence suggests that these interactions contribute to the establishment of holobiont stress adaptation through biochemical signaling, microenvironmental modification, and epigenetic regulation, enabling plants to respond more effectively to recurrent stress. Advances in microbiome engineering, particularly through the development of synthetic microbial communities (SynComs), offer promising opportunities to restore microbial functions and enhance crop resilience under changing climatic conditions. The integration of multi-omics technologies, artificial intelligence, and precision agriculture is expected to accelerate the development of microbiome-based solutions for sustainable crop production. Collectively, microbiome engineering represents a promising, environmentally sustainable strategy to enhance the holobiont’s adaptive resilience and improve long-term plant performance under abiotic stress."
+        ],
+        "terms": [
+          {
+            "term": "sustainability",
+            "definition": "The capacity to maintain environmental, social or economic conditions over time within stated constraints."
+          },
+          {
+            "term": "precision",
+            "definition": "Agreement among repeated measurements or estimates."
+          },
+          {
+            "term": "drought",
+            "definition": "A period of water shortage relative to a defined climatic, hydrological or biological reference."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nConventional strategies to improve crop tolerance often face limitations in efficiency, _____, and environmental adaptability, underscoring the need for innovative approaches.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "decarbonization",
+                "explanation": "This is not the expression used in this sentence. The reduction of carbon dioxide emissions associated with an activity or system."
+              },
+              {
+                "id": "b",
+                "text": "carbon content",
+                "explanation": "This is not the expression used in this sentence. The amount or fraction of carbon in a material such as fuel."
+              },
+              {
+                "id": "c",
+                "text": "data gaps",
+                "explanation": "This is not the expression used in this sentence. Missing information within the coverage required by an analysis."
+              },
+              {
+                "id": "d",
+                "text": "sustainability",
+                "explanation": "The original abstract uses this expression. The capacity to maintain environmental, social or economic conditions over time within stated constraints."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: sustainability. The capacity to maintain environmental, social or economic conditions over time within stated constraints. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe integration of multi-omics technologies, artificial intelligence, and _____ agriculture is expected to accelerate the development of microbiome-based solutions for sustainable crop production.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "exposure assessment",
+                "explanation": "This is not the expression used in this sentence. The estimation or measurement of contact with a physical, chemical or biological agent."
+              },
+              {
+                "id": "b",
+                "text": "quality assurance",
+                "explanation": "This is not the expression used in this sentence. Planned review activities used to assess whether quality objectives are being met."
+              },
+              {
+                "id": "c",
+                "text": "precision",
+                "explanation": "The original abstract uses this expression. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "d",
+                "text": "mineralisation",
+                "explanation": "This is not the expression used in this sentence. Conversion of organic nitrogen into inorganic forms."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: precision. Agreement among repeated measurements or estimates. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nClimate change has intensified abiotic stresses such as drought, heat, and salinity, posing major threats to agricultural productivity and global food security. Conventional strategies to improve crop tolerance often face limitations in efficiency, sustainability, and environmental adaptability, underscoring the need for innovative approaches. This review focuses on the plant holobiont, which views plants and their associated microbiomes as an integrated functional unit in governing stress adaptation. Abiotic stress can disrupt plant-associated microbial communities, leading to dysbiosis and reduced holobiont resilience. Beneficial microorganisms, including plant growth-promoting rhizobacteria, endophytes, and arbuscular mycorrhizal fungi, can enhance stress tolerance by improving nutrient acquisition, regulating phytohormone signaling, strengthening antioxidant defenses, maintaining osmotic balance, and modulating stress-responsive gene expression. Emerging evidence suggests that these interactions contribute to the establishment of holobiont stress adaptation through biochemical signaling, microenvironmental modification, and epigenetic regulation, enabling plants to respond more effectively to recurrent stress. Advances in microbiome engineering, particularly through the development of synthetic microbial communities (SynComs), offer promising opportunities to restore microbial functions and enhance crop resilience under changing climatic conditions. The integration of multi-omics technologies, artificial intelligence, and precision agriculture is expected to accelerate the development of microbiome-based solutions for sustainable crop production. Collectively, microbiome engineering represents a promising, environmentally sustainable strategy to enhance the holobiont’s adaptive resilience and improve long-term plant performance under abiotic stress.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-28",
+        "addedAt": "2026-11-11T19:52:59Z"
+      }
     }
   ],
   "vocabulary": [
@@ -7830,9 +8275,67 @@
       "evidence": "Although temperate monsoon climate regions are traditionally known for their harsh winter climates, the combined effects of rapid urbanization and global climate change have significantly intensified summer urban heat island effects in these areas, making them a neglected yet increasingly severe challenge in high-latitude urban climate adaptation planning.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-b67a2f27060248d3b2d1",
+      "term": "systematic review",
+      "meaning": "A review using explicit, reproducible methods to identify and assess relevant research.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "To conduct a systematic review of the evidence regarding the impact of environmental health factors, such as air pollution, thermal stress, water and soil pollution, agricultural instability, and occupational hazards, on seasonal migration in China.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13737417",
+      "location": "Abstract · paragraph 1",
+      "evidence": "To conduct a systematic review of the evidence regarding the impact of environmental health factors, such as air pollution, thermal stress, water and soil pollution, agricultural instability, and occupational hazards, on seasonal migration in China.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-cfcf0702710dc21d144b",
+      "term": "heat stress",
+      "meaning": "Strain on organisms or systems caused by exposure to high temperatures.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "Outmigration trends were found to be associated with each of the four aspects of air pollution, heat stress, water contamination, and agricultural instability during the winter, and, in addition to the above, water and soil contamination, in the summer.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13737417",
+      "location": "Abstract · paragraph 3",
+      "evidence": "Outmigration trends were found to be associated with each of the four aspects of air pollution, heat stress, water contamination, and agricultural instability during the winter, and, in addition to the above, water and soil contamination, in the summer.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-11T19:52:59Z",
+      "added": 3,
+      "total": 51,
+      "vocabularyAdded": 2,
+      "screening": {
+        "candidates": 271,
+        "xmlInspected": 78,
+        "cachedSkipped": 450,
+        "unavailable": 0,
+        "ineligible": 55,
+        "duplicate": 0,
+        "insufficientTerms": 20,
+        "passes": 3
+      }
+    },
     {
       "checkedAt": "2026-11-10T20:02:07Z",
       "added": 3,
@@ -8986,6 +9489,306 @@
       {
         "pmcid": "PMC13743836",
         "checkedAt": "2026-11-10T20:02:07Z"
+      },
+      {
+        "pmcid": "PMC13693048",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13697005",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13698066",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13700127",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13701509",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13701640",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13705311",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13705378",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13707107",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13707401",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13707492",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13707653",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13708874",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13709325",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13709542",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13709543",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13709722",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13709757",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13709772",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13710740",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13710800",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13712314",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13713060",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13714496",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13714498",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13714573",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13715106",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13715459",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13715750",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13717283",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13717286",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13719045",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13719830",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13721432",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13721986",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13721999",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13722575",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13722579",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13722604",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13722676",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13723676",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13723693",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13724144",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13727689",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13728331",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13730327",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13730380",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13730431",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13730635",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13730797",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13730808",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13732247",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13732283",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13732284",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13734289",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13734722",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13735295",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13735576",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13735998",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13736084",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13736681",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13736763",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13737233",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13737916",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13738208",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13738792",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13739001",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13739555",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13740657",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13740698",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13740847",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13740959",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13742083",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13742856",
+        "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13743192",
+        "checkedAt": "2026-11-11T19:52:59Z"
       }
     ]
   }
