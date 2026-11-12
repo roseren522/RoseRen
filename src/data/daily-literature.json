@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-11T19:52:59Z",
-  "lastAddedAt": "2026-11-11T19:52:59Z",
+  "lastCheckedAt": "2026-11-12T20:29:22Z",
+  "lastAddedAt": "2026-11-12T20:29:22Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -7517,6 +7517,467 @@
         "publishedAt": "2026-10-28",
         "addedAt": "2026-11-11T19:52:59Z"
       }
+    },
+    {
+      "title": "Using Artificial Intelligence to Optimize Ecological Restoration for Climate and Biodiversity",
+      "paragraphs": [
+        "The restoration of degraded ecosystems is critical for mitigating climate change and reversing biodiversity loss. Depending on the primary objective—such as maximizing carbon sequestration or protecting threatened species—and within the boundaries of budget limitations, different spatial priorities have been identified at global and regional scales. Funding mechanisms to support such work comprise public sources, philanthropy, and the private sector, including the sale of carbon and biodiversity credits. However, effectively exploring trade‐offs among restoration objectives and estimating the price of biodiversity and carbon credits to design financially viable projects remains scientifically challenging. Here we harness the power of artificial intelligence implemented in the software CAPTAIN to identify spatial priorities for ecological restoration that maximize multiple objectives at once and to allow a robust evaluation of biodiversity and climate outcomes. We find through a series of simulations that even low‐to‐moderate consideration of biodiversity in the design of restoration projects leads to the selection of restored areas that disproportionately improve the conservation of threatened species, while the carbon captured is only slightly reduced. We propose the bundling of biodiversity and carbon credits to support restoration efforts even in areas previously excluded for economic reasons. Applying our methodology to plant diversity in the Atlantic Forest of eastern South America, one of the most biodiverse and threatened ecosystems globally, we demonstrate its potential to guide restoration and to quantify trade‐offs between multiple optimization scenarios. Our study provides a robust, scalable method to maximize the joint benefits of ecological restoration for climate and nature."
+      ],
+      "authors": "Daniele Silvestro, Stefano Goria, E‐Ping Rau, Renato Augusto Ferreira de Lima, Ben Groom, Piotr Jacobsson, Thomas Sterner, Alexandre Antonelli",
+      "journal": "Global Change Biology",
+      "doi": "10.1111/gcb.71165",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "1407d049f37bd2d3ead25a4141d302cd42c343f0ed07bb0508dd393d118602db",
+      "pmcid": "PMC13747821",
+      "publishedAt": "2026-11-01",
+      "addedAt": "2026-11-12T20:29:22Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13747821",
+        "kind": "article",
+        "title": "Using Artificial Intelligence to Optimize Ecological Restoration for Climate and Biodiversity",
+        "authors": "Daniele Silvestro, Stefano Goria, E‐Ping Rau, Renato Augusto Ferreira de Lima, Ben Groom, Piotr Jacobsson, Thomas Sterner, Alexandre Antonelli",
+        "organization": "Global Change Biology",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13747821/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "1407d049f37bd2d3ead25a4141d302cd42c343f0ed07bb0508dd393d118602db",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-01",
+        "doi": "10.1111/gcb.71165"
+      },
+      "lesson": {
+        "id": "literature-pmc13747821",
+        "version": 1,
+        "title": "Using Artificial Intelligence to Optimize Ecological Restoration for Climate and Biodiversity",
+        "subtitle": "Open-access abstract · Global Change Biology · 2026-11-01",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13747821",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "The restoration of degraded ecosystems is critical for mitigating climate change and reversing biodiversity loss. Depending on the primary objective—such as maximizing carbon sequestration or protecting threatened species—and within the boundaries of budget limitations, different spatial priorities have been identified at global and regional scales. Funding mechanisms to support such work comprise public sources, philanthropy, and the private sector, including the sale of carbon and biodiversity credits. However, effectively exploring trade‐offs among restoration objectives and estimating the price of biodiversity and carbon credits to design financially viable projects remains scientifically challenging. Here we harness the power of artificial intelligence implemented in the software CAPTAIN to identify spatial priorities for ecological restoration that maximize multiple objectives at once and to allow a robust evaluation of biodiversity and climate outcomes. We find through a series of simulations that even low‐to‐moderate consideration of biodiversity in the design of restoration projects leads to the selection of restored areas that disproportionately improve the conservation of threatened species, while the carbon captured is only slightly reduced. We propose the bundling of biodiversity and carbon credits to support restoration efforts even in areas previously excluded for economic reasons. Applying our methodology to plant diversity in the Atlantic Forest of eastern South America, one of the most biodiverse and threatened ecosystems globally, we demonstrate its potential to guide restoration and to quantify trade‐offs between multiple optimization scenarios. Our study provides a robust, scalable method to maximize the joint benefits of ecological restoration for climate and nature."
+        ],
+        "terms": [
+          {
+            "term": "carbon sequestration",
+            "definition": "The capture and storage of carbon in a reservoir such as vegetation, soil or geological formations."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "restoration",
+            "definition": "Actions intended to assist the recovery of a degraded ecosystem or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nDepending on the primary objective—such as maximizing _____ or protecting threatened species—and within the boundaries of budget limitations, different spatial priorities have been identified at global and regional scales.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "statistical significance",
+                "explanation": "This is not the expression used in this sentence. A result meeting a specified threshold in a statistical hypothesis test under the test's assumptions."
+              },
+              {
+                "id": "b",
+                "text": "carbon sequestration",
+                "explanation": "The original abstract uses this expression. The capture and storage of carbon in a reservoir such as vegetation, soil or geological formations."
+              },
+              {
+                "id": "c",
+                "text": "data gaps",
+                "explanation": "This is not the expression used in this sentence. Missing information within the coverage required by an analysis."
+              },
+              {
+                "id": "d",
+                "text": "expert judgement",
+                "explanation": "This is not the expression used in this sentence. An informed assessment based on relevant specialist knowledge."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: carbon sequestration. The capture and storage of carbon in a reservoir such as vegetation, soil or geological formations. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe restoration of degraded ecosystems is critical for mitigating climate change and reversing _____ loss.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "bias",
+                "explanation": "This is not the expression used in this sentence. A systematic tendency to overestimate or underestimate a quantity."
+              },
+              {
+                "id": "b",
+                "text": "runoff",
+                "explanation": "This is not the expression used in this sentence. Water and associated material moving across the land surface."
+              },
+              {
+                "id": "c",
+                "text": "random errors",
+                "explanation": "This is not the expression used in this sentence. Errors that vary above and below an expected value."
+              },
+              {
+                "id": "d",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe restoration of degraded ecosystems is critical for mitigating climate change and reversing biodiversity loss. Depending on the primary objective—such as maximizing carbon sequestration or protecting threatened species—and within the boundaries of budget limitations, different spatial priorities have been identified at global and regional scales. Funding mechanisms to support such work comprise public sources, philanthropy, and the private sector, including the sale of carbon and biodiversity credits. However, effectively exploring trade‐offs among restoration objectives and estimating the price of biodiversity and carbon credits to design financially viable projects remains scientifically challenging. Here we harness the power of artificial intelligence implemented in the software CAPTAIN to identify spatial priorities for ecological restoration that maximize multiple objectives at once and to allow a robust evaluation of biodiversity and climate outcomes. We find through a series of simulations that even low‐to‐moderate consideration of biodiversity in the design of restoration projects leads to the selection of restored areas that disproportionately improve the conservation of threatened species, while the carbon captured is only slightly reduced. We propose the bundling of biodiversity and carbon credits to support restoration efforts even in areas previously excluded for economic reasons. Applying our methodology to plant diversity in the Atlantic Forest of eastern South America, one of the most biodiverse and threatened ecosystems globally, we demonstrate its potential to guide restoration and to quantify trade‐offs between multiple optimization scenarios. Our study provides a robust, scalable method to maximize the joint benefits of ecological restoration for climate and nature.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-01",
+        "addedAt": "2026-11-12T20:29:22Z"
+      }
+    },
+    {
+      "title": "Associations between air pollution, accelerated biological aging, and oral inflammatory diseases: evidence from the UK Biobank cohort",
+      "paragraphs": [
+        "The relationships between air pollution exposure and incident risk of oral inflammatory diseases (OIDs) and roles of accelerated biological aging remain unclear.",
+        "In 348,247 adults from the UK Biobank, the individual levels of air pollutants, including particulate matter (PM) (PM2.5, PM10, PM2.5–10, and PM2.5 absorbance), nitrogen dioxide (NO2), nitric oxides (NOx), and air pollution score (multiple air pollutants exposure), were estimated. The associations between air pollution exposure and incident risk of OIDs were assessed. The mediation roles of the Klemera–Doubal method biological age (KDM-BA) acceleration and the phenotypic age (PhenoAge) acceleration were evaluated.",
+        "During the median follow-up of 16.49 years, a total of 3,967 incident OIDs were documented. Each one standard deviation increment in PM2.5, PM10, PM2.5–10, PM2.5 absorbance, NO2, NOx, and air pollution score was significantly associated with 8%, 4%, 3%, 5%, 10%, 8%, and 8% increments in incident risk of OIDs, respectively (all p < 0.05). All air pollutants except PM2.5–10 were significantly and positively associated with KDM-BA acceleration, and all air pollutants were significantly and positively associated with PhenoAge acceleration (all p < 0.05). KDM-BA acceleration mediated the associations between all air pollution (except PM2.5–10) and incident risk of OIDs, with mediation proportion ranging from 1.21 to 5.42%. PhenoAge acceleration mediated the associations between all air pollutants and incident risk of OIDs, with mediation proportion ranging from 8.52 to 16.65%.",
+        "Air pollution may contribute to increased incident risk of OIDs, and premature aging may play an important role in the pathogenic process."
+      ],
+      "authors": "Hui Zhan, Dong Liu, You Guo, Wei Liu",
+      "journal": "Frontiers in Public Health",
+      "doi": "10.3389/fpubh.2026.1869182",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "2b2e1927b51627a74fabecafd3bc9233978be0f4d3b3aad0b9c5d9aefd1dd043",
+      "pmcid": "PMC13749453",
+      "publishedAt": "2026-10-27",
+      "addedAt": "2026-11-12T20:29:22Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13749453",
+        "kind": "article",
+        "title": "Associations between air pollution, accelerated biological aging, and oral inflammatory diseases: evidence from the UK Biobank cohort",
+        "authors": "Hui Zhan, Dong Liu, You Guo, Wei Liu",
+        "organization": "Frontiers in Public Health",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13749453/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "2b2e1927b51627a74fabecafd3bc9233978be0f4d3b3aad0b9c5d9aefd1dd043",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-27",
+        "doi": "10.3389/fpubh.2026.1869182"
+      },
+      "lesson": {
+        "id": "literature-pmc13749453",
+        "version": 1,
+        "title": "Associations between air pollution, accelerated biological aging, and oral inflammatory diseases: evidence from the UK Biobank cohort",
+        "subtitle": "Open-access abstract · Frontiers in Public Health · 2026-10-27",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13749453",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "The relationships between air pollution exposure and incident risk of oral inflammatory diseases (OIDs) and roles of accelerated biological aging remain unclear.",
+          "In 348,247 adults from the UK Biobank, the individual levels of air pollutants, including particulate matter (PM) (PM2.5, PM10, PM2.5–10, and PM2.5 absorbance), nitrogen dioxide (NO2), nitric oxides (NOx), and air pollution score (multiple air pollutants exposure), were estimated. The associations between air pollution exposure and incident risk of OIDs were assessed. The mediation roles of the Klemera–Doubal method biological age (KDM-BA) acceleration and the phenotypic age (PhenoAge) acceleration were evaluated.",
+          "During the median follow-up of 16.49 years, a total of 3,967 incident OIDs were documented. Each one standard deviation increment in PM2.5, PM10, PM2.5–10, PM2.5 absorbance, NO2, NOx, and air pollution score was significantly associated with 8%, 4%, 3%, 5%, 10%, 8%, and 8% increments in incident risk of OIDs, respectively (all p < 0.05). All air pollutants except PM2.5–10 were significantly and positively associated with KDM-BA acceleration, and all air pollutants were significantly and positively associated with PhenoAge acceleration (all p < 0.05). KDM-BA acceleration mediated the associations between all air pollution (except PM2.5–10) and incident risk of OIDs, with mediation proportion ranging from 1.21 to 5.42%. PhenoAge acceleration mediated the associations between all air pollutants and incident risk of OIDs, with mediation proportion ranging from 8.52 to 16.65%.",
+          "Air pollution may contribute to increased incident risk of OIDs, and premature aging may play an important role in the pathogenic process."
+        ],
+        "terms": [
+          {
+            "term": "particulate matter",
+            "definition": "A mixture of solid particles and liquid droplets suspended in air."
+          },
+          {
+            "term": "standard deviation",
+            "definition": "A measure of how widely values are dispersed around their mean."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nIn 348,247 adults from the UK Biobank, the individual levels of air pollutants, including _____ (PM) (PM2.5, PM10, PM2.5–10, and PM2.5 absorbance), nitrogen dioxide (NO2), nitric oxides (NOx), and air pollution score (multiple air pollutants exposure), were estimated.",
+            "paragraphs": [
+              2
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "surrogate data",
+                "explanation": "This is not the expression used in this sentence. Alternative data used to approximate an unavailable quantity of interest."
+              },
+              {
+                "id": "b",
+                "text": "organic soils",
+                "explanation": "This is not the expression used in this sentence. Soils with organic characteristics classified under the inventory guidance."
+              },
+              {
+                "id": "c",
+                "text": "particulate matter",
+                "explanation": "The original abstract uses this expression. A mixture of solid particles and liquid droplets suspended in air."
+              },
+              {
+                "id": "d",
+                "text": "reproducibility",
+                "explanation": "This is not the expression used in this sentence. The ability to obtain consistent results using the same data and analytical procedures."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: particulate matter. A mixture of solid particles and liquid droplets suspended in air. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nEach one _____ increment in PM2.5, PM10, PM2.5–10, PM2.5 absorbance, NO2, NOx, and air pollution score was significantly associated with 8%, 4%, 3%, 5%, 10%, 8%, and 8% increments in incident risk of OIDs, respectively (all p < 0.05).",
+            "paragraphs": [
+              3
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "energy efficiency",
+                "explanation": "This is not the expression used in this sentence. The amount of useful output obtained for a given energy input."
+              },
+              {
+                "id": "b",
+                "text": "crop residues",
+                "explanation": "This is not the expression used in this sentence. Plant material remaining after crop production or harvest."
+              },
+              {
+                "id": "c",
+                "text": "standard deviation",
+                "explanation": "The original abstract uses this expression. A measure of how widely values are dispersed around their mean."
+              },
+              {
+                "id": "d",
+                "text": "effect size",
+                "explanation": "This is not the expression used in this sentence. A quantitative measure of the magnitude of a difference or association."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: standard deviation. A measure of how widely values are dispersed around their mean. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nAir pollution may contribute to increased incident risk of OIDs, and premature aging may play an important role in the pathogenic process.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-27",
+        "addedAt": "2026-11-12T20:29:22Z"
+      }
+    },
+    {
+      "title": "Improving Micro– and Macro–Algae Speciation Mapping for Management: A Field‐Validated Sentinel‐2 and Sentinel‐3 Intercomparison in the Indian River Lagoon",
+      "paragraphs": [
+        "In recent years, the health of the Indian River Lagoon (IRL) on Florida's east coast has fluctuated due to recurring harmful algal blooms (HABs). These events typically involve cyanobacteria, dinoflagellates, or A. lagunensis (brown tide) causing water‐quality degradation and seagrass decline. The IRL is prone to HAB formation, and they have been observed more commonly in recent years. Although HABs can be non‐toxic, they can threaten critical primary producers like seagrass and destabilize sediments. Due to their impact, it is critical to improve methods of water quality and algal bloom monitoring. To do this, we apply a multi‐image varimax‐rotated principal component analysis (VPCA) to images from a harmonized Sentinel‐2 A/B multispectral imager (MSI) data set spanning three years (2020–2022). Field collected hyperspectral data and a coincident Sentinel‐3 A/B OLCI image is used to further validate the multi‐image VPCA. The VPCA method employs visible derivative water surface reflectance and unmixes the spectral signal to identify orthogonal components related to divisions of algae, suspended sediments, and seagrass. This advances water quality monitoring by improving unmixing and identification of optical components over time. This identification is supported by high correlation to a spectral library, field observation, published observations, and validation across sensors of varying resolutions. Through this research we find confident identification and mapping of in‐water components related to cyanobacterial (component 1 r 2 = 0.865) and dinoflagellate blooms (component 4 and 5 r 2 = 0.986 and r 2 = 0.978), and seagrass beds (component 3 r 2 = 0.916) with 10 m spatial resolution through time improving water quality monitoring and root cause identification.",
+        "The Indian River Lagoon (IRL) in Florida has experienced fluctuating water quality in recent years due to harmful algae blooms (HABs). These blooms are often caused by species of algae like cyanobacteria, brown tide, and dinoflagellates. An algae bloom can grow so dense that it can block sunlight from other species like seagrass and cause other harmful effects to the ecosystem. Parts of the IRL have high nutrients caused by sewage pollution that enable HABs to occur. Due to HABs becoming more common, a better technique for monitoring water quality and algae extent is necessary to assist environmental agencies and decision makers. To improve these monitoring systems, we use a multi‐image remote sensing method (VPCA) to process 10 m spatial resolution Sentinel‐2 A/B images over a 3‐year period. By doing this we can unmix spectrally complex reflectance data, identify micro‐ and macro‐algae, and develop time‐series maps of water constituents.",
+        "A novel remote sensing method to characterize constituents in optically complex water such as cyanobacteria, dinoflagellates, and seagrassThese methods can be translated into different areas and sensors to provide active mapping of water quality constituentsMethods validated using field‐based hyperspectral data, coarser spatial resolution Sentinel‐3 images, and synchronous water sample data",
+        "A novel remote sensing method to characterize constituents in optically complex water such as cyanobacteria, dinoflagellates, and seagrass",
+        "These methods can be translated into different areas and sensors to provide active mapping of water quality constituents",
+        "Methods validated using field‐based hyperspectral data, coarser spatial resolution Sentinel‐3 images, and synchronous water sample data"
+      ],
+      "authors": "McKenzie L. Woodman, Edith A. Widder, Warren H. Falls, Joseph D. Ortiz",
+      "journal": "GeoHealth",
+      "doi": "10.1029/2026gh001817",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "49c5a9078a114bc81fb25ce2146956ae8bbd55754ad6584435822a86e5e4038f",
+      "pmcid": "PMC13677071",
+      "publishedAt": "2026-10-18",
+      "addedAt": "2026-11-12T20:29:22Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13677071",
+        "kind": "article",
+        "title": "Improving Micro– and Macro–Algae Speciation Mapping for Management: A Field‐Validated Sentinel‐2 and Sentinel‐3 Intercomparison in the Indian River Lagoon",
+        "authors": "McKenzie L. Woodman, Edith A. Widder, Warren H. Falls, Joseph D. Ortiz",
+        "organization": "GeoHealth",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13677071/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "49c5a9078a114bc81fb25ce2146956ae8bbd55754ad6584435822a86e5e4038f",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-18",
+        "doi": "10.1029/2026gh001817"
+      },
+      "lesson": {
+        "id": "literature-pmc13677071",
+        "version": 1,
+        "title": "Improving Micro– and Macro–Algae Speciation Mapping for Management: A Field‐Validated Sentinel‐2 and Sentinel‐3 Intercomparison in the Indian River Lagoon",
+        "subtitle": "Open-access abstract · GeoHealth · 2026-10-18",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13677071",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "In recent years, the health of the Indian River Lagoon (IRL) on Florida's east coast has fluctuated due to recurring harmful algal blooms (HABs). These events typically involve cyanobacteria, dinoflagellates, or A. lagunensis (brown tide) causing water‐quality degradation and seagrass decline. The IRL is prone to HAB formation, and they have been observed more commonly in recent years. Although HABs can be non‐toxic, they can threaten critical primary producers like seagrass and destabilize sediments. Due to their impact, it is critical to improve methods of water quality and algal bloom monitoring. To do this, we apply a multi‐image varimax‐rotated principal component analysis (VPCA) to images from a harmonized Sentinel‐2 A/B multispectral imager (MSI) data set spanning three years (2020–2022). Field collected hyperspectral data and a coincident Sentinel‐3 A/B OLCI image is used to further validate the multi‐image VPCA. The VPCA method employs visible derivative water surface reflectance and unmixes the spectral signal to identify orthogonal components related to divisions of algae, suspended sediments, and seagrass. This advances water quality monitoring by improving unmixing and identification of optical components over time. This identification is supported by high correlation to a spectral library, field observation, published observations, and validation across sensors of varying resolutions. Through this research we find confident identification and mapping of in‐water components related to cyanobacterial (component 1 r 2 = 0.865) and dinoflagellate blooms (component 4 and 5 r 2 = 0.986 and r 2 = 0.978), and seagrass beds (component 3 r 2 = 0.916) with 10 m spatial resolution through time improving water quality monitoring and root cause identification.",
+          "The Indian River Lagoon (IRL) in Florida has experienced fluctuating water quality in recent years due to harmful algae blooms (HABs). These blooms are often caused by species of algae like cyanobacteria, brown tide, and dinoflagellates. An algae bloom can grow so dense that it can block sunlight from other species like seagrass and cause other harmful effects to the ecosystem. Parts of the IRL have high nutrients caused by sewage pollution that enable HABs to occur. Due to HABs becoming more common, a better technique for monitoring water quality and algae extent is necessary to assist environmental agencies and decision makers. To improve these monitoring systems, we use a multi‐image remote sensing method (VPCA) to process 10 m spatial resolution Sentinel‐2 A/B images over a 3‐year period. By doing this we can unmix spectrally complex reflectance data, identify micro‐ and macro‐algae, and develop time‐series maps of water constituents.",
+          "A novel remote sensing method to characterize constituents in optically complex water such as cyanobacteria, dinoflagellates, and seagrassThese methods can be translated into different areas and sensors to provide active mapping of water quality constituentsMethods validated using field‐based hyperspectral data, coarser spatial resolution Sentinel‐3 images, and synchronous water sample data",
+          "A novel remote sensing method to characterize constituents in optically complex water such as cyanobacteria, dinoflagellates, and seagrass",
+          "These methods can be translated into different areas and sensors to provide active mapping of water quality constituents",
+          "Methods validated using field‐based hyperspectral data, coarser spatial resolution Sentinel‐3 images, and synchronous water sample data"
+        ],
+        "terms": [
+          {
+            "term": "spatial resolution",
+            "definition": "The spatial detail represented by an observation, image or model grid."
+          },
+          {
+            "term": "remote sensing",
+            "definition": "Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+          },
+          {
+            "term": "correlation",
+            "definition": "A statistical relationship in how two quantities vary together."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThrough this research we find confident identification and mapping of in‐water components related to cyanobacterial (component 1 r 2 = 0.865) and dinoflagellate blooms (component 4 and 5 r 2 = 0.986 and r 2 = 0.978), and seagrass beds (component 3 r 2 = 0.916) with 10 m _____ through time improving water quality monitoring and root cause identification.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "representativeness",
+                "explanation": "This is not the expression used in this sentence. How well available data correspond to the conditions of interest."
+              },
+              {
+                "id": "b",
+                "text": "nitrogen fixation",
+                "explanation": "This is not the expression used in this sentence. The conversion of molecular nitrogen into chemically reactive nitrogen compounds."
+              },
+              {
+                "id": "c",
+                "text": "uncertainty",
+                "explanation": "This is not the expression used in this sentence. Incomplete knowledge about the true value of a quantity."
+              },
+              {
+                "id": "d",
+                "text": "spatial resolution",
+                "explanation": "The original abstract uses this expression. The spatial detail represented by an observation, image or model grid."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: spatial resolution. The spatial detail represented by an observation, image or model grid. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nTo improve these monitoring systems, we use a multi‐image _____ method (VPCA) to process 10 m spatial resolution Sentinel‐2 A/B images over a 3‐year period.",
+            "paragraphs": [
+              2
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "probability density function",
+                "explanation": "This is not the expression used in this sentence. A description of the range and relative likelihood of possible values."
+              },
+              {
+                "id": "b",
+                "text": "climate sensitivity",
+                "explanation": "This is not the expression used in this sentence. The change in a measure of climate, often temperature, in response to a specified forcing."
+              },
+              {
+                "id": "c",
+                "text": "carbon sink",
+                "explanation": "This is not the expression used in this sentence. A system that takes up more carbon than it releases over a specified period."
+              },
+              {
+                "id": "d",
+                "text": "remote sensing",
+                "explanation": "The original abstract uses this expression. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: remote sensing. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nMethods validated using field‐based hyperspectral data, coarser spatial resolution Sentinel‐3 images, and synchronous water sample data\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-18",
+        "addedAt": "2026-11-12T20:29:22Z"
+      }
     }
   ],
   "vocabulary": [
@@ -8321,6 +8782,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-12T20:29:22Z",
+      "added": 3,
+      "total": 54,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 272,
+        "xmlInspected": 73,
+        "cachedSkipped": 321,
+        "unavailable": 0,
+        "ineligible": 51,
+        "duplicate": 0,
+        "insufficientTerms": 19,
+        "passes": 3
+      }
+    },
+    {
       "checkedAt": "2026-11-11T19:52:59Z",
       "added": 3,
       "total": 51,
@@ -8614,334 +9091,6 @@
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13662905",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13674507",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13717500",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13719954",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13721103",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13721926",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13721931",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13722083",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13723012",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13724269",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13724295",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13725843",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13725870",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13726165",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13726574",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13727255",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13727957",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13727961",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13729303",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13730137",
-        "checkedAt": "2026-11-04T20:04:36Z"
-      },
-      {
-        "pmcid": "PMC13585055",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13648242",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13651769",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13678534",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13679184",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13679344",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13679707",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13680134",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13680866",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13680975",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13680981",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13682222",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13682305",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13682311",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13682899",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13682915",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13685301",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13685448",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13685972",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13686256",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13686961",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13686970",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13687031",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13687209",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13687924",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13687997",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13689534",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13689744",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13690201",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13690251",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13693711",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13693946",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13694259",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13694299",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13694349",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13694404",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13694466",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13694548",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13694760",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13694825",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13694848",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13695023",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13695516",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13695669",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13696011",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13696172",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13696594",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13697217",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13698877",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13700227",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13701709",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13702387",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13702604",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13706777",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13707692",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13708896",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13709098",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13709486",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13714880",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13715657",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13716622",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
-      {
-        "pmcid": "PMC13716731",
-        "checkedAt": "2026-11-05T20:17:27Z"
-      },
       {
         "pmcid": "PMC13642451",
         "checkedAt": "2026-11-06T19:43:48Z"
@@ -9789,6 +9938,286 @@
       {
         "pmcid": "PMC13743192",
         "checkedAt": "2026-11-11T19:52:59Z"
+      },
+      {
+        "pmcid": "PMC13585055",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13648242",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13651769",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13662905",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13679184",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13680975",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13682222",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13682311",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13685448",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13686256",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13687031",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13690251",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13694299",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13694349",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13695669",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13696011",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13700227",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13702604",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13721103",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13722083",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13724269",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13724295",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13725843",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13725870",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13726165",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13727255",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13727957",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13727961",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13729303",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13730137",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13744546",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13745801",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13746380",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13746817",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13746820",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13746908",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13747365",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13747479",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13747875",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13748792",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13748948",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13749067",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13749209",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13749325",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13749436",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13749476",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13749487",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13749607",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13749717",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13749790",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750109",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750174",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750439",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750523",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750549",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750573",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750583",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750629",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750928",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750936",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13750940",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13751117",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13751623",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13751729",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13751805",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13752335",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13752385",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13752743",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13753121",
+        "checkedAt": "2026-11-12T20:29:22Z"
+      },
+      {
+        "pmcid": "PMC13753453",
+        "checkedAt": "2026-11-12T20:29:22Z"
       }
     ]
   }
