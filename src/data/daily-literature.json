@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-14T06:14:36Z",
+  "lastCheckedAt": "2026-11-14T11:41:24Z",
   "lastAddedAt": "2026-11-12T20:29:22Z",
   "articles": [
     {
@@ -8781,6 +8781,22 @@
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-14T11:41:24Z",
+      "added": 0,
+      "total": 54,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 272,
+        "xmlInspected": 0,
+        "cachedSkipped": 227,
+        "unavailable": 0,
+        "ineligible": 0,
+        "duplicate": 0,
+        "insufficientTerms": 0,
+        "passes": 1
+      }
+    },
     {
       "checkedAt": "2026-11-14T06:14:36Z",
       "added": 0,
