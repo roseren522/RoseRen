@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-14T11:41:24Z",
-  "lastAddedAt": "2026-11-12T20:29:22Z",
+  "lastCheckedAt": "2026-11-14T18:31:39Z",
+  "lastAddedAt": "2026-11-14T18:31:39Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -7978,6 +7978,460 @@
         "publishedAt": "2026-10-18",
         "addedAt": "2026-11-12T20:29:22Z"
       }
+    },
+    {
+      "title": "Air pollution exposure during urban running in Frankfurt, Germany: a randomized crossover comparison of particulate matter levels on park, roadside, and residential routes across morning and early afternoon hours",
+      "paragraphs": [
+        "In urban environments, physical activity-induced health effects may be diminished by exposure to air pollution. Typical avoidance strategies, such as running through green spaces or avoiding major roads and rush hours, have not yet been adequately validated. This study quantified particulate matter exposure during running across three adjacent urban microenvironments: a major roadside, a residential area, and an urban park, accounting for diurnal variation.",
+        "Mobile measurements of particulate matter with aerodynamic diameters ≤ 10 μm (PM10), ≤ 2.5 μm (PM2.5), and ≤ 1 μm (PM1) as well as local urban background concentrations of PM2.5 and PM10 were collected during 2 km runs (n = 60, pace 8:02–4:31 min/km). Runs on major roads (n = 20), residential streets (n = 20), or in an urban park (n = 20), as well as runs in the morning (n = 30) and in the early afternoon (n = 30), were equally distributed. Differences between routes, incorporating the effects of daytime and meteorological factors, on particulate matter concentrations were analysed using linear mixed-effects models.",
+        "The lowest concentrations across PM fractions occurred during early-afternoon runs in the park, whereas the highest exposure to PM10 across all environments was reached during morning runs on the same route. In line with the urban background levels, exposure across all routes was lower during early-afternoon than during morning runs. Humidity, air pressure, wind speed, and temperature were associated with particulate matter exposure during running. A sensitivity analysis using run-level means (n = 60) did not confirm the route or route×daytime effects as statistically significant, indicating that these patterns require confirmation in larger samples.",
+        "Running in parks in the early afternoon and avoiding busy morning hours may help reduce fine and submicron particle exposure, particularly during calm, humid, and high-pressure conditions when pollutant dispersion is limited. ​However, park routes did not reduce, and at times increased, coarse-particle (PM10) exposure, especially in the morning. These route- and daytime-related differences were not confirmed in a run-level sensitivity analysis and should therefore be regarded as preliminary.",
+        "The online version contains supplementary material available at https://doi.org/10.1186/s13690-026-02137-1."
+      ],
+      "authors": "Tobias Engeroff, Florian Delp, Daniel Niederer, David Groneberg",
+      "journal": "Archives of Public Health",
+      "doi": "10.1186/s13690-026-02137-1",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "5d79bbfd99741a59ef32aed426b12d932711e21c3d1808bfddf385193e01c3ef",
+      "pmcid": "PMC13753208",
+      "publishedAt": "2026-11-11",
+      "addedAt": "2026-11-14T18:31:39Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13753208",
+        "kind": "article",
+        "title": "Air pollution exposure during urban running in Frankfurt, Germany: a randomized crossover comparison of particulate matter levels on park, roadside, and residential routes across morning and early afternoon hours",
+        "authors": "Tobias Engeroff, Florian Delp, Daniel Niederer, David Groneberg",
+        "organization": "Archives of Public Health",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13753208/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "5d79bbfd99741a59ef32aed426b12d932711e21c3d1808bfddf385193e01c3ef",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-11",
+        "doi": "10.1186/s13690-026-02137-1"
+      },
+      "lesson": {
+        "id": "literature-pmc13753208",
+        "version": 1,
+        "title": "Air pollution exposure during urban running in Frankfurt, Germany: a randomized crossover comparison of particulate matter levels on park, roadside, and residential routes across morning and early afternoon hours",
+        "subtitle": "Open-access abstract · Archives of Public Health · 2026-11-11",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13753208",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "In urban environments, physical activity-induced health effects may be diminished by exposure to air pollution. Typical avoidance strategies, such as running through green spaces or avoiding major roads and rush hours, have not yet been adequately validated. This study quantified particulate matter exposure during running across three adjacent urban microenvironments: a major roadside, a residential area, and an urban park, accounting for diurnal variation.",
+          "Mobile measurements of particulate matter with aerodynamic diameters ≤ 10 μm (PM10), ≤ 2.5 μm (PM2.5), and ≤ 1 μm (PM1) as well as local urban background concentrations of PM2.5 and PM10 were collected during 2 km runs (n = 60, pace 8:02–4:31 min/km). Runs on major roads (n = 20), residential streets (n = 20), or in an urban park (n = 20), as well as runs in the morning (n = 30) and in the early afternoon (n = 30), were equally distributed. Differences between routes, incorporating the effects of daytime and meteorological factors, on particulate matter concentrations were analysed using linear mixed-effects models.",
+          "The lowest concentrations across PM fractions occurred during early-afternoon runs in the park, whereas the highest exposure to PM10 across all environments was reached during morning runs on the same route. In line with the urban background levels, exposure across all routes was lower during early-afternoon than during morning runs. Humidity, air pressure, wind speed, and temperature were associated with particulate matter exposure during running. A sensitivity analysis using run-level means (n = 60) did not confirm the route or route×daytime effects as statistically significant, indicating that these patterns require confirmation in larger samples.",
+          "Running in parks in the early afternoon and avoiding busy morning hours may help reduce fine and submicron particle exposure, particularly during calm, humid, and high-pressure conditions when pollutant dispersion is limited. ​However, park routes did not reduce, and at times increased, coarse-particle (PM10) exposure, especially in the morning. These route- and daytime-related differences were not confirmed in a run-level sensitivity analysis and should therefore be regarded as preliminary.",
+          "The online version contains supplementary material available at https://doi.org/10.1186/s13690-026-02137-1."
+        ],
+        "terms": [
+          {
+            "term": "sensitivity analysis",
+            "definition": "Examining how a result responds to changes in selected inputs or assumptions."
+          },
+          {
+            "term": "particulate matter",
+            "definition": "A mixture of solid particles and liquid droplets suspended in air."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nA _____ using run-level means (n = 60) did not confirm the route or route×daytime effects as statistically significant, indicating that these patterns require confirmation in larger samples.",
+            "paragraphs": [
+              3
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "hourly averages",
+                "explanation": "This is not the expression used in this sentence. Values averaged over an hour rather than measured at a single instant."
+              },
+              {
+                "id": "b",
+                "text": "sensitivity analysis",
+                "explanation": "The original abstract uses this expression. Examining how a result responds to changes in selected inputs or assumptions."
+              },
+              {
+                "id": "c",
+                "text": "organic soils",
+                "explanation": "This is not the expression used in this sentence. Soils with organic characteristics classified under the inventory guidance."
+              },
+              {
+                "id": "d",
+                "text": "confounding",
+                "explanation": "This is not the expression used in this sentence. A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: sensitivity analysis. Examining how a result responds to changes in selected inputs or assumptions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThis study quantified _____ exposure during running across three adjacent urban microenvironments: a major roadside, a residential area, and an urban park, accounting for diurnal variation.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "transparency",
+                "explanation": "This is not the expression used in this sentence. Clear documentation that enables others to understand how an estimate was produced."
+              },
+              {
+                "id": "b",
+                "text": "carbon dioxide",
+                "explanation": "This is not the expression used in this sentence. The greenhouse gas CO₂, including emissions from fuel carbon oxidation."
+              },
+              {
+                "id": "c",
+                "text": "statistical significance",
+                "explanation": "This is not the expression used in this sentence. A result meeting a specified threshold in a statistical hypothesis test under the test's assumptions."
+              },
+              {
+                "id": "d",
+                "text": "particulate matter",
+                "explanation": "The original abstract uses this expression. A mixture of solid particles and liquid droplets suspended in air."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: particulate matter. A mixture of solid particles and liquid droplets suspended in air. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe online version contains supplementary material available at https://doi.org/10.1186/s13690-026-02137-1.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-11",
+        "addedAt": "2026-11-14T18:31:39Z"
+      }
+    },
+    {
+      "title": "What Is There to Gain? A Systematic Review on Psychosocial Co-Benefits of Climate Policies",
+      "paragraphs": [
+        "Climate change poses major risks to psychosocial health, yet little is known about potential psychosocial co-benefits of climate policies. This systematic review examines (A) psychosocial co-benefits associated with climate policy measures and (B) moderating factors shaping these effects.",
+        "Following PRISMA guidelines, k = 21 studies were identified and analysed using a PICOS framework and narrative synthesis.",
+        "Climate policies, particularly air pollution control, environmental taxation, and nature-based urban interventions, were associated with improvements in subjective well-being, mental health, and social cohesion. Effects were moderated by environmental improvements and physical health gains, and varied by socioeconomic status, age, and contexts such as schools or rural vs. urban locations. Access to and actual use of interventions emerged as relevant but understudied mechanisms. Some studies indicated trade-offs, including unequal distribution of benefits and unintended social effects.",
+        "Overall, climate policies can generate psychosocial co-benefits, but evidence remains heterogeneous and methodologically limited. Future research should strengthen causal inference, standardise outcome measures, and examine long-term and distributional effects."
+      ],
+      "authors": "Ahlke Kip, Mira Tschorn, Susanne Vogel, Michèle D. Birtel, Carla L. Hendricks, Anne Voigt, Silas Rooß, Julia Asbrand",
+      "journal": "Journal of Health Monitoring",
+      "doi": "10.25646/14469",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "8015a2106e49864debdfc516ddd44d64ce34ffa9d27244b36b000db192a7d0c5",
+      "pmcid": "PMC13753942",
+      "publishedAt": "2026-11-04",
+      "addedAt": "2026-11-14T18:31:39Z",
+      "topic": "Research methods",
+      "source": {
+        "id": "literature-pmc13753942",
+        "kind": "article",
+        "title": "What Is There to Gain? A Systematic Review on Psychosocial Co-Benefits of Climate Policies",
+        "authors": "Ahlke Kip, Mira Tschorn, Susanne Vogel, Michèle D. Birtel, Carla L. Hendricks, Anne Voigt, Silas Rooß, Julia Asbrand",
+        "organization": "Journal of Health Monitoring",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13753942/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "8015a2106e49864debdfc516ddd44d64ce34ffa9d27244b36b000db192a7d0c5",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-04",
+        "doi": "10.25646/14469"
+      },
+      "lesson": {
+        "id": "literature-pmc13753942",
+        "version": 1,
+        "title": "What Is There to Gain? A Systematic Review on Psychosocial Co-Benefits of Climate Policies",
+        "subtitle": "Open-access abstract · Journal of Health Monitoring · 2026-11-04",
+        "topic": "Research methods",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13753942",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Climate change poses major risks to psychosocial health, yet little is known about potential psychosocial co-benefits of climate policies. This systematic review examines (A) psychosocial co-benefits associated with climate policy measures and (B) moderating factors shaping these effects.",
+          "Following PRISMA guidelines, k = 21 studies were identified and analysed using a PICOS framework and narrative synthesis.",
+          "Climate policies, particularly air pollution control, environmental taxation, and nature-based urban interventions, were associated with improvements in subjective well-being, mental health, and social cohesion. Effects were moderated by environmental improvements and physical health gains, and varied by socioeconomic status, age, and contexts such as schools or rural vs. urban locations. Access to and actual use of interventions emerged as relevant but understudied mechanisms. Some studies indicated trade-offs, including unequal distribution of benefits and unintended social effects.",
+          "Overall, climate policies can generate psychosocial co-benefits, but evidence remains heterogeneous and methodologically limited. Future research should strengthen causal inference, standardise outcome measures, and examine long-term and distributional effects."
+        ],
+        "terms": [
+          {
+            "term": "systematic review",
+            "definition": "A review using explicit, reproducible methods to identify and assess relevant research."
+          },
+          {
+            "term": "causal inference",
+            "definition": "Reasoning about the effects of interventions or causes under explicit assumptions."
+          },
+          {
+            "term": "co-benefits",
+            "definition": "Additional beneficial outcomes of an action beyond its primary intended purpose."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThis _____ examines (A) psychosocial co-benefits associated with climate policy measures and (B) moderating factors shaping these effects.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "causal inference",
+                "explanation": "This is not the expression used in this sentence. Reasoning about the effects of interventions or causes under explicit assumptions."
+              },
+              {
+                "id": "b",
+                "text": "remote sensing",
+                "explanation": "This is not the expression used in this sentence. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              },
+              {
+                "id": "c",
+                "text": "systematic review",
+                "explanation": "The original abstract uses this expression. A review using explicit, reproducible methods to identify and assess relevant research."
+              },
+              {
+                "id": "d",
+                "text": "survey data",
+                "explanation": "This is not the expression used in this sentence. Information collected through an organised survey."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: systematic review. A review using explicit, reproducible methods to identify and assess relevant research. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nFuture research should strengthen _____, standardise outcome measures, and examine long-term and distributional effects.",
+            "paragraphs": [
+              4
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "stationary combustion",
+                "explanation": "This is not the expression used in this sentence. Fuel burning in stationary equipment or installations."
+              },
+              {
+                "id": "b",
+                "text": "quality assurance",
+                "explanation": "This is not the expression used in this sentence. Planned review activities used to assess whether quality objectives are being met."
+              },
+              {
+                "id": "c",
+                "text": "causal inference",
+                "explanation": "The original abstract uses this expression. Reasoning about the effects of interventions or causes under explicit assumptions."
+              },
+              {
+                "id": "d",
+                "text": "functional diversity",
+                "explanation": "This is not the expression used in this sentence. Variation in the traits of organisms that influence ecosystem processes."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: causal inference. Reasoning about the effects of interventions or causes under explicit assumptions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nOverall, climate policies can generate psychosocial co-benefits, but evidence remains heterogeneous and methodologically limited. Future research should strengthen causal inference, standardise outcome measures, and examine long-term and distributional effects.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-04",
+        "addedAt": "2026-11-14T18:31:39Z"
+      }
+    },
+    {
+      "title": "A Comparison of Owl Pellet Analysis and Conventional Trapping: A Review of Central European Cases for the Study of Small Mammal Communities and More Efficient Paleoenvironmental Reconstructions",
+      "paragraphs": [
+        "Due to their rapid reproductive cycles and short generation times, small mammals—particularly rodents and shrews—are widely used as bioindicators in ecological studies. While traditional live trapping provides detailed demographic data for such monitoring, it is labour‐intensive and subject to sampling bias. In contrast, owl pellet analysis presents a non‐invasive and cost‐effective alternative for evaluating small mammal community structure over broad spatial and temporal scales, though potential prey preferences should be considered. This study evaluates the effectiveness of owl pellet analysis in comparison to conventional trapping methods for monitoring small mammal communities. We synthesised data from 26 published studies and additional unpublished field reports, comprising a uniquely robust dataset of 40 systematically processed case studies across seven countries in Central Europe, a biogeographically coherent region. In all cases, trapping and pellet collection were carried out at the same locations and during the same periods, allowing for an exceptional level of methodological consistency. Results reveal that owl pellet analysis detects higher species diversity and provides a more efficient, non‐invasive means of monitoring small mammal assemblages over larger spatial and temporal scales. However, prey preferences and hunting behaviour of owls introduce biases, often overrepresenting abundant prey such as the common vole, Microtus arvalis and underrepresenting species associated with specific habitats or microclimates. These biases have significant implications for biodiversity assessments and paleoenvironmental reconstructions, where accurate community composition is essential. Our findings indicate that while owl pellet analysis is a valuable tool for ecological monitoring, careful consideration of predator selectivity is necessary to accurately interpret the results. Further research into owl hunting ecology is recommended to refine the application of this method in biodiversity studies and paleoecology."
+      ],
+      "authors": "Dorina Szalai, Csaba Kiss, Tamás Cserkész, Attila Virág, Attila Németh",
+      "journal": "Ecology and Evolution",
+      "doi": "10.1002/ece3.74401",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "a6e5fe9536c548fe20e93fb1bfbeec5e05cbc3360aba34f9f88f9e8b03c1d997",
+      "pmcid": "PMC13752478",
+      "publishedAt": "2026-11-10",
+      "addedAt": "2026-11-14T18:31:39Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13752478",
+        "kind": "article",
+        "title": "A Comparison of Owl Pellet Analysis and Conventional Trapping: A Review of Central European Cases for the Study of Small Mammal Communities and More Efficient Paleoenvironmental Reconstructions",
+        "authors": "Dorina Szalai, Csaba Kiss, Tamás Cserkész, Attila Virág, Attila Németh",
+        "organization": "Ecology and Evolution",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13752478/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "a6e5fe9536c548fe20e93fb1bfbeec5e05cbc3360aba34f9f88f9e8b03c1d997",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-10",
+        "doi": "10.1002/ece3.74401"
+      },
+      "lesson": {
+        "id": "literature-pmc13752478",
+        "version": 1,
+        "title": "A Comparison of Owl Pellet Analysis and Conventional Trapping: A Review of Central European Cases for the Study of Small Mammal Communities and More Efficient Paleoenvironmental Reconstructions",
+        "subtitle": "Open-access abstract · Ecology and Evolution · 2026-11-10",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13752478",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Due to their rapid reproductive cycles and short generation times, small mammals—particularly rodents and shrews—are widely used as bioindicators in ecological studies. While traditional live trapping provides detailed demographic data for such monitoring, it is labour‐intensive and subject to sampling bias. In contrast, owl pellet analysis presents a non‐invasive and cost‐effective alternative for evaluating small mammal community structure over broad spatial and temporal scales, though potential prey preferences should be considered. This study evaluates the effectiveness of owl pellet analysis in comparison to conventional trapping methods for monitoring small mammal communities. We synthesised data from 26 published studies and additional unpublished field reports, comprising a uniquely robust dataset of 40 systematically processed case studies across seven countries in Central Europe, a biogeographically coherent region. In all cases, trapping and pellet collection were carried out at the same locations and during the same periods, allowing for an exceptional level of methodological consistency. Results reveal that owl pellet analysis detects higher species diversity and provides a more efficient, non‐invasive means of monitoring small mammal assemblages over larger spatial and temporal scales. However, prey preferences and hunting behaviour of owls introduce biases, often overrepresenting abundant prey such as the common vole, Microtus arvalis and underrepresenting species associated with specific habitats or microclimates. These biases have significant implications for biodiversity assessments and paleoenvironmental reconstructions, where accurate community composition is essential. Our findings indicate that while owl pellet analysis is a valuable tool for ecological monitoring, careful consideration of predator selectivity is necessary to accurately interpret the results. Further research into owl hunting ecology is recommended to refine the application of this method in biodiversity studies and paleoecology."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "bias",
+            "definition": "A systematic tendency to overestimate or underestimate a quantity."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThese biases have significant implications for _____ assessments and paleoenvironmental reconstructions, where accurate community composition is essential.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "sensitivity analysis",
+                "explanation": "This is not the expression used in this sentence. Examining how a result responds to changes in selected inputs or assumptions."
+              },
+              {
+                "id": "b",
+                "text": "probability density function",
+                "explanation": "This is not the expression used in this sentence. A description of the range and relative likelihood of possible values."
+              },
+              {
+                "id": "c",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "d",
+                "text": "ecological resilience",
+                "explanation": "This is not the expression used in this sentence. The capacity of an ecosystem to absorb disturbance while maintaining its essential functions."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWhile traditional live trapping provides detailed demographic data for such monitoring, it is labour‐intensive and subject to sampling _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "hourly averages",
+                "explanation": "This is not the expression used in this sentence. Values averaged over an hour rather than measured at a single instant."
+              },
+              {
+                "id": "b",
+                "text": "co-benefits",
+                "explanation": "This is not the expression used in this sentence. Additional beneficial outcomes of an action beyond its primary intended purpose."
+              },
+              {
+                "id": "c",
+                "text": "bias",
+                "explanation": "The original abstract uses this expression. A systematic tendency to overestimate or underestimate a quantity."
+              },
+              {
+                "id": "d",
+                "text": "eutrophication",
+                "explanation": "This is not the expression used in this sentence. Nutrient enrichment of a water body that can stimulate excessive biological growth."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: bias. A systematic tendency to overestimate or underestimate a quantity. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nDue to their rapid reproductive cycles and short generation times, small mammals—particularly rodents and shrews—are widely used as bioindicators in ecological studies. While traditional live trapping provides detailed demographic data for such monitoring, it is labour‐intensive and subject to sampling bias. In contrast, owl pellet analysis presents a non‐invasive and cost‐effective alternative for evaluating small mammal community structure over broad spatial and temporal scales, though potential prey preferences should be considered. This study evaluates the effectiveness of owl pellet analysis in comparison to conventional trapping methods for monitoring small mammal communities. We synthesised data from 26 published studies and additional unpublished field reports, comprising a uniquely robust dataset of 40 systematically processed case studies across seven countries in Central Europe, a biogeographically coherent region. In all cases, trapping and pellet collection were carried out at the same locations and during the same periods, allowing for an exceptional level of methodological consistency. Results reveal that owl pellet analysis detects higher species diversity and provides a more efficient, non‐invasive means of monitoring small mammal assemblages over larger spatial and temporal scales. However, prey preferences and hunting behaviour of owls introduce biases, often overrepresenting abundant prey such as the common vole, Microtus arvalis and underrepresenting species associated with specific habitats or microclimates. These biases have significant implications for biodiversity assessments and paleoenvironmental reconstructions, where accurate community composition is essential. Our findings indicate that while owl pellet analysis is a valuable tool for ecological monitoring, careful consideration of predator selectivity is necessary to accurately interpret the results. Further research into owl hunting ecology is recommended to refine the application of this method in biodiversity studies and paleoecology.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-10",
+        "addedAt": "2026-11-14T18:31:39Z"
+      }
     }
   ],
   "vocabulary": [
@@ -8782,6 +9236,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-14T18:31:39Z",
+      "added": 3,
+      "total": 57,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 275,
+        "xmlInspected": 11,
+        "cachedSkipped": 6,
+        "unavailable": 0,
+        "ineligible": 5,
+        "duplicate": 0,
+        "insufficientTerms": 3,
+        "passes": 1
+      }
+    },
+    {
       "checkedAt": "2026-11-14T11:41:24Z",
       "added": 0,
       "total": 54,
@@ -9139,154 +9609,6 @@
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13658437",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13679050",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13681004",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13682426",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13682914",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13697509",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13703665",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13705788",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13705808",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13706025",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13707216",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13708302",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13709054",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13709588",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13710540",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13710892",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13712539",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13712690",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13712723",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13712746",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13713171",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13713970",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13715015",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13715698",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13716175",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13717229",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13717455",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13717476",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13717478",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13718679",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13719766",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13719833",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13720099",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13720272",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13721042",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13721831",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
-      {
-        "pmcid": "PMC13724288",
-        "checkedAt": "2026-11-07T17:52:26Z"
-      },
       {
         "pmcid": "PMC13681104",
         "checkedAt": "2026-11-08T18:06:59Z"
@@ -10198,6 +10520,38 @@
       {
         "pmcid": "PMC13748688",
         "checkedAt": "2026-11-13T20:05:35Z"
+      },
+      {
+        "pmcid": "PMC13752485",
+        "checkedAt": "2026-11-14T18:31:39Z"
+      },
+      {
+        "pmcid": "PMC13753081",
+        "checkedAt": "2026-11-14T18:31:39Z"
+      },
+      {
+        "pmcid": "PMC13753082",
+        "checkedAt": "2026-11-14T18:31:39Z"
+      },
+      {
+        "pmcid": "PMC13754001",
+        "checkedAt": "2026-11-14T18:31:39Z"
+      },
+      {
+        "pmcid": "PMC13754002",
+        "checkedAt": "2026-11-14T18:31:39Z"
+      },
+      {
+        "pmcid": "PMC13754018",
+        "checkedAt": "2026-11-14T18:31:39Z"
+      },
+      {
+        "pmcid": "PMC13754036",
+        "checkedAt": "2026-11-14T18:31:39Z"
+      },
+      {
+        "pmcid": "PMC13754158",
+        "checkedAt": "2026-11-14T18:31:39Z"
       }
     ]
   }
