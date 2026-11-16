@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-16T13:04:17Z",
+  "lastCheckedAt": "2026-11-16T22:33:53Z",
   "lastAddedAt": "2026-11-14T18:31:39Z",
   "articles": [
     {
@@ -9236,6 +9236,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-16T22:33:53Z",
+      "added": 0,
+      "total": 57,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 275,
+        "xmlInspected": 5,
+        "cachedSkipped": 222,
+        "unavailable": 0,
+        "ineligible": 4,
+        "duplicate": 0,
+        "insufficientTerms": 1,
+        "passes": 1
+      }
+    },
+    {
       "checkedAt": "2026-11-16T13:04:17Z",
       "added": 0,
       "total": 57,
@@ -9657,26 +9673,6 @@
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13735200",
-        "checkedAt": "2026-11-09T13:15:43Z"
-      },
-      {
-        "pmcid": "PMC13739137",
-        "checkedAt": "2026-11-09T13:15:43Z"
-      },
-      {
-        "pmcid": "PMC13743743",
-        "checkedAt": "2026-11-09T13:15:43Z"
-      },
-      {
-        "pmcid": "PMC13743924",
-        "checkedAt": "2026-11-09T13:15:43Z"
-      },
-      {
-        "pmcid": "PMC13744005",
-        "checkedAt": "2026-11-09T13:15:43Z"
-      },
       {
         "pmcid": "PMC13728167",
         "checkedAt": "2026-11-09T22:43:50Z"
@@ -10680,6 +10676,26 @@
       {
         "pmcid": "PMC13753433",
         "checkedAt": "2026-11-15T19:08:37Z"
+      },
+      {
+        "pmcid": "PMC13735200",
+        "checkedAt": "2026-11-16T22:33:53Z"
+      },
+      {
+        "pmcid": "PMC13739137",
+        "checkedAt": "2026-11-16T22:33:53Z"
+      },
+      {
+        "pmcid": "PMC13743743",
+        "checkedAt": "2026-11-16T22:33:53Z"
+      },
+      {
+        "pmcid": "PMC13743924",
+        "checkedAt": "2026-11-16T22:33:53Z"
+      },
+      {
+        "pmcid": "PMC13744005",
+        "checkedAt": "2026-11-16T22:33:53Z"
       }
     ]
   }
