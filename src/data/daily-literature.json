@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-18T13:23:03Z",
-  "lastAddedAt": "2026-11-14T18:31:39Z",
+  "lastCheckedAt": "2026-11-18T20:55:22Z",
+  "lastAddedAt": "2026-11-18T20:55:22Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -8432,6 +8432,292 @@
         "publishedAt": "2026-11-10",
         "addedAt": "2026-11-14T18:31:39Z"
       }
+    },
+    {
+      "title": "Integrating physiological indicators and Precision Livestock Farming to support European animal welfare frameworks: a systematic review",
+      "paragraphs": [
+        "Animal welfare assessment in livestock production is increasingly supported by Precision Livestock Farming (PLF) technologies integrated with physiological monitoring. This Scopus-based systematic literature review, conducted according to PRISMA guidelines and synthesised using a narrative approach, examined physiological parameters relevant to animal welfare assessment and their integration into PLF across major livestock species, including cattle, pigs, poultry, sheep, and goats. Following the screening and eligibility assessment, 144 studies were selected from an initial dataset of 1386 records. Body surface temperature, heart rate, and respiratory rate were the most frequently investigated physiological parameters, while computer vision, wearable sensors, environmental sensing, and machine learning were the predominant technologies enabling continuous, non-invasive monitoring. The reviewed studies primarily addressed animal-based welfare indicators within European welfare assessment frameworks, whereas resource- and management-based indicators were comparatively underrepresented. No studies explicitly investigated antimicrobial use or the human–animal relationship using PLF technologies, highlighting important research gaps. Overall, the evidence indicates that physiological parameters provide complementary biological information that enhances the interpretation of animal-based welfare indicators, particularly when integrated with behavioural and environmental monitoring. Future research should prioritise multimodal approaches integrating physiological, behavioural, environmental, and management-related data to support more comprehensive and operationally feasible animal welfare assessment."
+      ],
+      "authors": "Giulia Pastorelli, Rita Iacono, Alda Quattrone, Giacomo Contò",
+      "journal": "The Veterinary Quarterly",
+      "doi": "10.1080/01652176.2026.2739038",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "a49dd1c902f653cff227e13c8dfac1fce49574a0d73a2566a09c9000770fbc78",
+      "pmcid": "PMC13757867",
+      "publishedAt": "2026-11-04",
+      "addedAt": "2026-11-18T20:55:22Z",
+      "topic": "Environmental chemistry",
+      "source": {
+        "id": "literature-pmc13757867",
+        "kind": "article",
+        "title": "Integrating physiological indicators and Precision Livestock Farming to support European animal welfare frameworks: a systematic review",
+        "authors": "Giulia Pastorelli, Rita Iacono, Alda Quattrone, Giacomo Contò",
+        "organization": "The Veterinary Quarterly",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13757867/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "a49dd1c902f653cff227e13c8dfac1fce49574a0d73a2566a09c9000770fbc78",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-04",
+        "doi": "10.1080/01652176.2026.2739038"
+      },
+      "lesson": {
+        "id": "literature-pmc13757867",
+        "version": 1,
+        "title": "Integrating physiological indicators and Precision Livestock Farming to support European animal welfare frameworks: a systematic review",
+        "subtitle": "Open-access abstract · The Veterinary Quarterly · 2026-11-04",
+        "topic": "Environmental chemistry",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13757867",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Animal welfare assessment in livestock production is increasingly supported by Precision Livestock Farming (PLF) technologies integrated with physiological monitoring. This Scopus-based systematic literature review, conducted according to PRISMA guidelines and synthesised using a narrative approach, examined physiological parameters relevant to animal welfare assessment and their integration into PLF across major livestock species, including cattle, pigs, poultry, sheep, and goats. Following the screening and eligibility assessment, 144 studies were selected from an initial dataset of 1386 records. Body surface temperature, heart rate, and respiratory rate were the most frequently investigated physiological parameters, while computer vision, wearable sensors, environmental sensing, and machine learning were the predominant technologies enabling continuous, non-invasive monitoring. The reviewed studies primarily addressed animal-based welfare indicators within European welfare assessment frameworks, whereas resource- and management-based indicators were comparatively underrepresented. No studies explicitly investigated antimicrobial use or the human–animal relationship using PLF technologies, highlighting important research gaps. Overall, the evidence indicates that physiological parameters provide complementary biological information that enhances the interpretation of animal-based welfare indicators, particularly when integrated with behavioural and environmental monitoring. Future research should prioritise multimodal approaches integrating physiological, behavioural, environmental, and management-related data to support more comprehensive and operationally feasible animal welfare assessment."
+        ],
+        "terms": [
+          {
+            "term": "machine learning",
+            "definition": "Methods that learn patterns from data to support prediction or other tasks."
+          },
+          {
+            "term": "precision",
+            "definition": "Agreement among repeated measurements or estimates."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nBody surface temperature, heart rate, and respiratory rate were the most frequently investigated physiological parameters, while computer vision, wearable sensors, environmental sensing, and _____ were the predominant technologies enabling continuous, non-invasive monitoring.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "monitoring networks",
+                "explanation": "This is not the expression used in this sentence. Organised systems of observation sites and measurement programmes."
+              },
+              {
+                "id": "b",
+                "text": "machine learning",
+                "explanation": "The original abstract uses this expression. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "c",
+                "text": "uncertainty",
+                "explanation": "This is not the expression used in this sentence. Incomplete knowledge about the true value of a quantity."
+              },
+              {
+                "id": "d",
+                "text": "generalizability",
+                "explanation": "This is not the expression used in this sentence. The extent to which findings apply beyond the conditions or population studied."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: machine learning. Methods that learn patterns from data to support prediction or other tasks. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAnimal welfare assessment in livestock production is increasingly supported by _____ Livestock Farming (PLF) technologies integrated with physiological monitoring.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "causal inference",
+                "explanation": "This is not the expression used in this sentence. Reasoning about the effects of interventions or causes under explicit assumptions."
+              },
+              {
+                "id": "b",
+                "text": "lognormal distribution",
+                "explanation": "This is not the expression used in this sentence. A positive-valued distribution whose logarithm follows a normal distribution."
+              },
+              {
+                "id": "c",
+                "text": "precision",
+                "explanation": "The original abstract uses this expression. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "d",
+                "text": "functional diversity",
+                "explanation": "This is not the expression used in this sentence. Variation in the traits of organisms that influence ecosystem processes."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: precision. Agreement among repeated measurements or estimates. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nAnimal welfare assessment in livestock production is increasingly supported by Precision Livestock Farming (PLF) technologies integrated with physiological monitoring. This Scopus-based systematic literature review, conducted according to PRISMA guidelines and synthesised using a narrative approach, examined physiological parameters relevant to animal welfare assessment and their integration into PLF across major livestock species, including cattle, pigs, poultry, sheep, and goats. Following the screening and eligibility assessment, 144 studies were selected from an initial dataset of 1386 records. Body surface temperature, heart rate, and respiratory rate were the most frequently investigated physiological parameters, while computer vision, wearable sensors, environmental sensing, and machine learning were the predominant technologies enabling continuous, non-invasive monitoring. The reviewed studies primarily addressed animal-based welfare indicators within European welfare assessment frameworks, whereas resource- and management-based indicators were comparatively underrepresented. No studies explicitly investigated antimicrobial use or the human–animal relationship using PLF technologies, highlighting important research gaps. Overall, the evidence indicates that physiological parameters provide complementary biological information that enhances the interpretation of animal-based welfare indicators, particularly when integrated with behavioural and environmental monitoring. Future research should prioritise multimodal approaches integrating physiological, behavioural, environmental, and management-related data to support more comprehensive and operationally feasible animal welfare assessment.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-04",
+        "addedAt": "2026-11-18T20:55:22Z"
+      }
+    },
+    {
+      "title": "Transductive Learning From a Transformer Foundation Model Improves the Taxonomic Classification of eDNA Metabarcodes",
+      "paragraphs": [
+        "Environmental DNA (eDNA) has emerged as a powerful and cost‐effective biodiversity monitoring tool, providing comprehensive and non‐invasive taxonomic inventories. However, eDNA‐based monitoring is strongly dependent on the completeness of genetic reference databases, which varies greatly among regions and taxa. Since completing gaps at the species level is unrealistic in the short term, an alternative is to infer coarser taxonomic assignments for sequences belonging to species not yet in reference databases. To address this challenge, we introduce BouillaBERT, a novel deep learning method tailored for the operational classification of eDNA sequences from unknown genera. BouillaBERT leverages data augmentation, transfer and transductive learning to overcome the small size and imbalance of eDNA reference databases for fishes. We implement and train the model across four commonly used fish eDNA markers and compare its performance with lowest common ancestor (LCA) alignment methods and existing deep learning approaches. BouillaBERT outperforms all tested LCA alignment and deep learning methods in recall for the assignment of unknown sequences across a range of commonly used fish eDNA primers, while achieving comparable or higher precision. BouillaBERT can be rapidly re‐trained to fit a custom sample set or used as‐is, enabling more consistent biodiversity assessments across undersampled regions or taxa."
+      ],
+      "authors": "Simon Bettinger, Auguste Verdier, Morgane Bruno, Stéphanie Manel, Alexis Joly, Maximilien Servajean, Alice Valentini, Rodolphe Devillers, David Mouillot",
+      "journal": "Molecular Ecology Resources",
+      "doi": "10.1111/1755-0998.70204",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "d246a07b86e220ff14bf2b980c5a21797a7c63f1ff92c845570e31c6e82429a0",
+      "pmcid": "PMC13754536",
+      "publishedAt": "2026-11-01",
+      "addedAt": "2026-11-18T20:55:22Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13754536",
+        "kind": "article",
+        "title": "Transductive Learning From a Transformer Foundation Model Improves the Taxonomic Classification of eDNA Metabarcodes",
+        "authors": "Simon Bettinger, Auguste Verdier, Morgane Bruno, Stéphanie Manel, Alexis Joly, Maximilien Servajean, Alice Valentini, Rodolphe Devillers, David Mouillot",
+        "organization": "Molecular Ecology Resources",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13754536/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "d246a07b86e220ff14bf2b980c5a21797a7c63f1ff92c845570e31c6e82429a0",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-01",
+        "doi": "10.1111/1755-0998.70204"
+      },
+      "lesson": {
+        "id": "literature-pmc13754536",
+        "version": 1,
+        "title": "Transductive Learning From a Transformer Foundation Model Improves the Taxonomic Classification of eDNA Metabarcodes",
+        "subtitle": "Open-access abstract · Molecular Ecology Resources · 2026-11-01",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13754536",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Environmental DNA (eDNA) has emerged as a powerful and cost‐effective biodiversity monitoring tool, providing comprehensive and non‐invasive taxonomic inventories. However, eDNA‐based monitoring is strongly dependent on the completeness of genetic reference databases, which varies greatly among regions and taxa. Since completing gaps at the species level is unrealistic in the short term, an alternative is to infer coarser taxonomic assignments for sequences belonging to species not yet in reference databases. To address this challenge, we introduce BouillaBERT, a novel deep learning method tailored for the operational classification of eDNA sequences from unknown genera. BouillaBERT leverages data augmentation, transfer and transductive learning to overcome the small size and imbalance of eDNA reference databases for fishes. We implement and train the model across four commonly used fish eDNA markers and compare its performance with lowest common ancestor (LCA) alignment methods and existing deep learning approaches. BouillaBERT outperforms all tested LCA alignment and deep learning methods in recall for the assignment of unknown sequences across a range of commonly used fish eDNA primers, while achieving comparable or higher precision. BouillaBERT can be rapidly re‐trained to fit a custom sample set or used as‐is, enabling more consistent biodiversity assessments across undersampled regions or taxa."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "precision",
+            "definition": "Agreement among repeated measurements or estimates."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nEnvironmental DNA (eDNA) has emerged as a powerful and cost‐effective _____ monitoring tool, providing comprehensive and non‐invasive taxonomic inventories.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "microplastics",
+                "explanation": "This is not the expression used in this sentence. Small plastic particles, commonly defined as being less than five millimetres in size."
+              },
+              {
+                "id": "b",
+                "text": "sample size",
+                "explanation": "This is not the expression used in this sentence. The number of observations in a sample."
+              },
+              {
+                "id": "c",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "d",
+                "text": "phenology",
+                "explanation": "This is not the expression used in this sentence. The timing of recurring biological events and their relationship to environmental conditions."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nBouillaBERT outperforms all tested LCA alignment and deep learning methods in recall for the assignment of unknown sequences across a range of commonly used fish eDNA primers, while achieving comparable or higher _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "normal distribution",
+                "explanation": "This is not the expression used in this sentence. A symmetric probability distribution often used for relatively small uncertainties."
+              },
+              {
+                "id": "b",
+                "text": "carbon sink",
+                "explanation": "This is not the expression used in this sentence. A system that takes up more carbon than it releases over a specified period."
+              },
+              {
+                "id": "c",
+                "text": "precision",
+                "explanation": "The original abstract uses this expression. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "d",
+                "text": "leaching",
+                "explanation": "This is not the expression used in this sentence. Movement of dissolved material through soil with draining water."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: precision. Agreement among repeated measurements or estimates. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nEnvironmental DNA (eDNA) has emerged as a powerful and cost‐effective biodiversity monitoring tool, providing comprehensive and non‐invasive taxonomic inventories. However, eDNA‐based monitoring is strongly dependent on the completeness of genetic reference databases, which varies greatly among regions and taxa. Since completing gaps at the species level is unrealistic in the short term, an alternative is to infer coarser taxonomic assignments for sequences belonging to species not yet in reference databases. To address this challenge, we introduce BouillaBERT, a novel deep learning method tailored for the operational classification of eDNA sequences from unknown genera. BouillaBERT leverages data augmentation, transfer and transductive learning to overcome the small size and imbalance of eDNA reference databases for fishes. We implement and train the model across four commonly used fish eDNA markers and compare its performance with lowest common ancestor (LCA) alignment methods and existing deep learning approaches. BouillaBERT outperforms all tested LCA alignment and deep learning methods in recall for the assignment of unknown sequences across a range of commonly used fish eDNA primers, while achieving comparable or higher precision. BouillaBERT can be rapidly re‐trained to fit a custom sample set or used as‐is, enabling more consistent biodiversity assessments across undersampled regions or taxa.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-01",
+        "addedAt": "2026-11-18T20:55:22Z"
+      }
     }
   ],
   "vocabulary": [
@@ -9236,6 +9522,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-18T20:55:22Z",
+      "added": 2,
+      "total": 59,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 276,
+        "xmlInspected": 56,
+        "cachedSkipped": 353,
+        "unavailable": 0,
+        "ineligible": 45,
+        "duplicate": 0,
+        "insufficientTerms": 9,
+        "passes": 2
+      }
+    },
+    {
       "checkedAt": "2026-11-18T13:23:03Z",
       "added": 0,
       "total": 57,
@@ -9698,327 +10000,11 @@
         "insufficientTerms": 18,
         "passes": 3
       }
-    },
-    {
-      "checkedAt": "2026-10-29T07:42:41Z",
-      "added": 3,
-      "total": 9,
-      "vocabularyAdded": 5,
-      "screening": {
-        "candidates": 253,
-        "xmlInspected": 68,
-        "cachedSkipped": 88,
-        "unavailable": 0,
-        "ineligible": 52,
-        "duplicate": 0,
-        "insufficientTerms": 13,
-        "passes": 3
-      }
     }
   ],
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13693048",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13697005",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13698066",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13700127",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13701509",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13701640",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13705311",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13705378",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13707107",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13707401",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13707492",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13707653",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13708874",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13709325",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13709542",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13709543",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13709722",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13709757",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13709772",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13710740",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13710800",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13712314",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13713060",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13714496",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13714498",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13714573",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13715106",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13715459",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13715750",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13717283",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13717286",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13719045",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13719830",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13721432",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13721986",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13721999",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13722575",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13722579",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13722604",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13722676",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13723676",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13723693",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13724144",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13727689",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13728331",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13730327",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13730380",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13730431",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13730635",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13730797",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13730808",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13732247",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13732283",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13732284",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13734289",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13734722",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13735295",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13735576",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13735998",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13736084",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13736681",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13736763",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13737233",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13737916",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13738208",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13738792",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13739001",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13739555",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13740657",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13740698",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13740847",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13740959",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13742083",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13742856",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
-      {
-        "pmcid": "PMC13743192",
-        "checkedAt": "2026-11-11T19:52:59Z"
-      },
       {
         "pmcid": "PMC13585055",
         "checkedAt": "2026-11-12T20:29:22Z"
@@ -10742,6 +10728,222 @@
       {
         "pmcid": "PMC13743836",
         "checkedAt": "2026-11-17T21:22:38Z"
+      },
+      {
+        "pmcid": "PMC13693048",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13707107",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13707401",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13707653",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13708874",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13709722",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13709757",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13710740",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13710800",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13712314",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13713060",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13714496",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13714498",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13714573",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13715106",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13717283",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13721432",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13721986",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13722579",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13722604",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13723693",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13724144",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13727689",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13728331",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13730327",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13730380",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13730635",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13732283",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13732284",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13734722",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13735295",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13735576",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13735998",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13736084",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13736763",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13737233",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13737916",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13738208",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13738792",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13739001",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13740657",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13740847",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13740959",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13743192",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13754695",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13754835",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13755124",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13757817",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13757894",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13757946",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13757952",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13757953",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13757956",
+        "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13757958",
+        "checkedAt": "2026-11-18T20:55:22Z"
       }
     ]
   }
