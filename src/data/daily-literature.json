@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-17T21:22:38Z",
+  "lastCheckedAt": "2026-11-18T07:20:53Z",
   "lastAddedAt": "2026-11-14T18:31:39Z",
   "articles": [
     {
@@ -9236,6 +9236,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-18T07:20:53Z",
+      "added": 0,
+      "total": 57,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 275,
+        "xmlInspected": 0,
+        "cachedSkipped": 227,
+        "unavailable": 0,
+        "ineligible": 0,
+        "duplicate": 0,
+        "insufficientTerms": 0,
+        "passes": 1
+      }
+    },
+    {
       "checkedAt": "2026-11-17T21:22:38Z",
       "added": 0,
       "total": 57,
@@ -9696,11 +9712,6 @@
         "duplicate": 0,
         "insufficientTerms": 6
       }
-    },
-    {
-      "checkedAt": "2026-10-29T05:42:16Z",
-      "added": 0,
-      "total": 6
     }
   ],
   "screened": {
