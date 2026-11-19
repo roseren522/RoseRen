@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-18T20:55:22Z",
+  "lastCheckedAt": "2026-11-19T07:25:32Z",
   "lastAddedAt": "2026-11-18T20:55:22Z",
   "articles": [
     {
@@ -9522,6 +9522,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-19T07:25:32Z",
+      "added": 0,
+      "total": 59,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 277,
+        "xmlInspected": 11,
+        "cachedSkipped": 221,
+        "unavailable": 0,
+        "ineligible": 10,
+        "duplicate": 0,
+        "insufficientTerms": 1,
+        "passes": 1
+      }
+    },
+    {
       "checkedAt": "2026-11-18T20:55:22Z",
       "added": 2,
       "total": 59,
@@ -9983,22 +9999,6 @@
         "duplicate": 0,
         "insufficientTerms": 1,
         "passes": 1
-      }
-    },
-    {
-      "checkedAt": "2026-10-29T18:40:09Z",
-      "added": 3,
-      "total": 12,
-      "vocabularyAdded": 2,
-      "screening": {
-        "candidates": 253,
-        "xmlInspected": 63,
-        "cachedSkipped": 282,
-        "unavailable": 0,
-        "ineligible": 42,
-        "duplicate": 0,
-        "insufficientTerms": 18,
-        "passes": 3
       }
     }
   ],
@@ -10944,6 +10944,50 @@
       {
         "pmcid": "PMC13757958",
         "checkedAt": "2026-11-18T20:55:22Z"
+      },
+      {
+        "pmcid": "PMC13701509",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13755355",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13755521",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13755745",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13755959",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13756072",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13756087",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13756115",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13756599",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13756675",
+        "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13757736",
+        "checkedAt": "2026-11-19T07:25:32Z"
       }
     ]
   }
