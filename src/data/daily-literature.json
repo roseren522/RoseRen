@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-19T07:25:32Z",
+  "lastCheckedAt": "2026-11-19T13:45:53Z",
   "lastAddedAt": "2026-11-18T20:55:22Z",
   "articles": [
     {
@@ -9522,6 +9522,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-19T13:45:53Z",
+      "added": 0,
+      "total": 59,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 277,
+        "xmlInspected": 1,
+        "cachedSkipped": 231,
+        "unavailable": 0,
+        "ineligible": 1,
+        "duplicate": 0,
+        "insufficientTerms": 0,
+        "passes": 1
+      }
+    },
+    {
       "checkedAt": "2026-11-19T07:25:32Z",
       "added": 0,
       "total": 59,
@@ -9982,22 +9998,6 @@
         "ineligible": 16,
         "duplicate": 0,
         "insufficientTerms": 4,
-        "passes": 1
-      }
-    },
-    {
-      "checkedAt": "2026-10-30T18:15:50Z",
-      "added": 3,
-      "total": 15,
-      "vocabularyAdded": 2,
-      "screening": {
-        "candidates": 268,
-        "xmlInspected": 10,
-        "cachedSkipped": 0,
-        "unavailable": 0,
-        "ineligible": 6,
-        "duplicate": 0,
-        "insufficientTerms": 1,
         "passes": 1
       }
     }
@@ -10988,6 +10988,10 @@
       {
         "pmcid": "PMC13757736",
         "checkedAt": "2026-11-19T07:25:32Z"
+      },
+      {
+        "pmcid": "PMC13756630",
+        "checkedAt": "2026-11-19T13:45:53Z"
       }
     ]
   }
