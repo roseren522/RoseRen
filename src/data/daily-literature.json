@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-19T13:45:53Z",
+  "lastCheckedAt": "2026-11-19T21:00:17Z",
   "lastAddedAt": "2026-11-18T20:55:22Z",
   "articles": [
     {
@@ -9522,6 +9522,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-19T21:00:17Z",
+      "added": 0,
+      "total": 59,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 277,
+        "xmlInspected": 68,
+        "cachedSkipped": 431,
+        "unavailable": 0,
+        "ineligible": 51,
+        "duplicate": 0,
+        "insufficientTerms": 17,
+        "passes": 3
+      }
+    },
+    {
       "checkedAt": "2026-11-19T13:45:53Z",
       "added": 0,
       "total": 59,
@@ -9984,307 +10000,11 @@
         "insufficientTerms": 8,
         "passes": 2
       }
-    },
-    {
-      "checkedAt": "2026-10-31T17:22:57Z",
-      "added": 3,
-      "total": 18,
-      "vocabularyAdded": 6,
-      "screening": {
-        "candidates": 267,
-        "xmlInspected": 23,
-        "cachedSkipped": 9,
-        "unavailable": 0,
-        "ineligible": 16,
-        "duplicate": 0,
-        "insufficientTerms": 4,
-        "passes": 1
-      }
     }
   ],
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13585055",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13648242",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13651769",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13662905",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13679184",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13680975",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13682222",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13682311",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13685448",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13686256",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13687031",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13690251",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13694299",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13694349",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13695669",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13696011",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13700227",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13702604",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13721103",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13722083",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13724269",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13724295",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13725843",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13725870",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13726165",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13727255",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13727957",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13727961",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13729303",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13730137",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13744546",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13745801",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13746380",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13746817",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13746820",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13746908",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13747365",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13747479",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13747875",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13748792",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13748948",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13749067",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13749209",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13749325",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13749436",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13749476",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13749487",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13749607",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13749717",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13749790",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750109",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750174",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750439",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750523",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750549",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750573",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750583",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750629",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750928",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750936",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13750940",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13751117",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13751623",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13751729",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13751805",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13752335",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13752385",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13752743",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13753121",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
-      {
-        "pmcid": "PMC13753453",
-        "checkedAt": "2026-11-12T20:29:22Z"
-      },
       {
         "pmcid": "PMC13661651",
         "checkedAt": "2026-11-13T20:05:35Z"
@@ -10992,6 +10712,278 @@
       {
         "pmcid": "PMC13756630",
         "checkedAt": "2026-11-19T13:45:53Z"
+      },
+      {
+        "pmcid": "PMC13585055",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13648242",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13679184",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13680975",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13682222",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13682311",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13685448",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13686256",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13687031",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13690251",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13694299",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13694349",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13695669",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13696011",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13700227",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13702604",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13721103",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13722083",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13724269",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13724295",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13725843",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13725870",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13726165",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13727255",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13727957",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13727961",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13729303",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13730137",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13744546",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13745801",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13746380",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13746817",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13746820",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13746908",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13747365",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13747479",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13747875",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13748792",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13748948",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13749067",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13749209",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13749325",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13749436",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13749476",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13749487",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13749607",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13749717",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13749790",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750109",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750174",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750439",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750523",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750549",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750573",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750583",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750629",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750928",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750936",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13750940",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13751117",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13751623",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13751729",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13751805",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13752335",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13752385",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13752743",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13753121",
+        "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13753453",
+        "checkedAt": "2026-11-19T21:00:17Z"
       }
     ]
   }
