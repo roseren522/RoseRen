@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-20T07:07:39Z",
-  "lastAddedAt": "2026-11-18T20:55:22Z",
+  "lastCheckedAt": "2026-11-20T13:29:26Z",
+  "lastAddedAt": "2026-11-20T13:29:26Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -8718,6 +8718,443 @@
         "publishedAt": "2026-11-01",
         "addedAt": "2026-11-18T20:55:22Z"
       }
+    },
+    {
+      "title": "Heterogenization of molecular catalysts in MOFs and COFs: Re-bipyridine CO2 reduction systems as a model platform",
+      "paragraphs": [
+        "The rise in atmospheric CO2 concentrations and the growing global demand for sustainable energy have intensified research into approaches that combine carbon utilisation with the conversion of renewable energy. CO2 reduction reaction (CO2RR) using solar energy offers a promising avenue in this context. A wide range of molecular CO2RR catalysts has been developed and extensively investigated, offering high selectivity and productivity together with tunable electronic structures and well-defined catalytic mechanisms. Among these, the fac-[ReI(bpy-R)(CO)X] family (bpy-R = 2,2′-bipyridine derivative; X = Cl or Br) has long served as a benchmark platform for photo- and electrocatalytic CO2RR due to its high yield, excellent selectivity towards CO and well-defined catalytic mechanisms. However, the homogeneous nature of these catalysts can lead to deactivation, poor recyclability, inefficient light harvesting and limited long-term stability. The integration of Re-bpy catalysts into porous crystalline materials, in particular metal–organic frameworks (MOFs) and covalent organic frameworks (COFs), offers a strategy for combining molecular-level catalytic precision with the robustness, spatial organisation and confinement of heterogeneous architectures. Despite rapid progress, the systems reported remain fragmented in terms of framework structures and heterogenisation strategies, which limits the identification of general structure–function relationships. This study reviews various representative systems, and critically compares heterogenisation strategies and their effects on catalytic performance. We also address conductive and photoelectrochemical architectures, multifunctional composites and emerging design strategies. We identify transferable design principles governing the transition from discrete molecular catalysts to spatially organised porous architectures. Although the Re-bpy CO2RR catalyst serves as a model platform, these principles offer more general guidance for the heterogenisation and functional integration of molecular catalysts in various catalytic transformations."
+      ],
+      "authors": "Abdullah M. Abudayyeh, Sanjit Nayak, Antoni Llobet",
+      "journal": "RSC Advances",
+      "doi": "10.1039/d6ra09255a",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "license": "CC BY 3.0",
+      "abstractSha256": "c3007dfac9786ae137194c73a9fa61d10aa62c4c1ce943cccafaa5432909bb9a",
+      "pmcid": "PMC13776315",
+      "publishedAt": "2026-11-17",
+      "addedAt": "2026-11-20T13:29:26Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13776315",
+        "kind": "article",
+        "title": "Heterogenization of molecular catalysts in MOFs and COFs: Re-bipyridine CO2 reduction systems as a model platform",
+        "authors": "Abdullah M. Abudayyeh, Sanjit Nayak, Antoni Llobet",
+        "organization": "RSC Advances",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13776315/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "c3007dfac9786ae137194c73a9fa61d10aa62c4c1ce943cccafaa5432909bb9a",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "publishedAt": "2026-11-17",
+        "doi": "10.1039/d6ra09255a"
+      },
+      "lesson": {
+        "id": "literature-pmc13776315",
+        "version": 1,
+        "title": "Heterogenization of molecular catalysts in MOFs and COFs: Re-bipyridine CO2 reduction systems as a model platform",
+        "subtitle": "Open-access abstract · RSC Advances · 2026-11-17",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13776315",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "The rise in atmospheric CO2 concentrations and the growing global demand for sustainable energy have intensified research into approaches that combine carbon utilisation with the conversion of renewable energy. CO2 reduction reaction (CO2RR) using solar energy offers a promising avenue in this context. A wide range of molecular CO2RR catalysts has been developed and extensively investigated, offering high selectivity and productivity together with tunable electronic structures and well-defined catalytic mechanisms. Among these, the fac-[ReI(bpy-R)(CO)X] family (bpy-R = 2,2′-bipyridine derivative; X = Cl or Br) has long served as a benchmark platform for photo- and electrocatalytic CO2RR due to its high yield, excellent selectivity towards CO and well-defined catalytic mechanisms. However, the homogeneous nature of these catalysts can lead to deactivation, poor recyclability, inefficient light harvesting and limited long-term stability. The integration of Re-bpy catalysts into porous crystalline materials, in particular metal–organic frameworks (MOFs) and covalent organic frameworks (COFs), offers a strategy for combining molecular-level catalytic precision with the robustness, spatial organisation and confinement of heterogeneous architectures. Despite rapid progress, the systems reported remain fragmented in terms of framework structures and heterogenisation strategies, which limits the identification of general structure–function relationships. This study reviews various representative systems, and critically compares heterogenisation strategies and their effects on catalytic performance. We also address conductive and photoelectrochemical architectures, multifunctional composites and emerging design strategies. We identify transferable design principles governing the transition from discrete molecular catalysts to spatially organised porous architectures. Although the Re-bpy CO2RR catalyst serves as a model platform, these principles offer more general guidance for the heterogenisation and functional integration of molecular catalysts in various catalytic transformations."
+        ],
+        "terms": [
+          {
+            "term": "renewable energy",
+            "definition": "Energy obtained from sources that are naturally replenished on human timescales."
+          },
+          {
+            "term": "precision",
+            "definition": "Agreement among repeated measurements or estimates."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe rise in atmospheric CO2 concentrations and the growing global demand for sustainable energy have intensified research into approaches that combine carbon utilisation with the conversion of _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "renewable energy",
+                "explanation": "The original abstract uses this expression. Energy obtained from sources that are naturally replenished on human timescales."
+              },
+              {
+                "id": "b",
+                "text": "biodiversity",
+                "explanation": "This is not the expression used in this sentence. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "c",
+                "text": "quality assurance",
+                "explanation": "This is not the expression used in this sentence. Planned review activities used to assess whether quality objectives are being met."
+              },
+              {
+                "id": "d",
+                "text": "confidence interval",
+                "explanation": "This is not the expression used in this sentence. An interval produced by a statistical procedure with a stated long-run coverage under its assumptions."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: renewable energy. Energy obtained from sources that are naturally replenished on human timescales. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe integration of Re-bpy catalysts into porous crystalline materials, in particular metal–organic frameworks (MOFs) and covalent organic frameworks (COFs), offers a strategy for combining molecular-level catalytic _____ with the robustness, spatial organisation and confinement of heterogeneous architectures.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "synthetic fertilisers",
+                "explanation": "This is not the expression used in this sentence. Manufactured fertiliser products applied to supply plant nutrients."
+              },
+              {
+                "id": "b",
+                "text": "precision",
+                "explanation": "The original abstract uses this expression. Agreement among repeated measurements or estimates."
+              },
+              {
+                "id": "c",
+                "text": "biomagnification",
+                "explanation": "This is not the expression used in this sentence. An increase in a substance's concentration at higher trophic levels in a food web."
+              },
+              {
+                "id": "d",
+                "text": "drought",
+                "explanation": "This is not the expression used in this sentence. A period of water shortage relative to a defined climatic, hydrological or biological reference."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: precision. Agreement among repeated measurements or estimates. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nThe rise in atmospheric CO2 concentrations and the growing global demand for sustainable energy have intensified research into approaches that combine carbon utilisation with the conversion of renewable energy. CO2 reduction reaction (CO2RR) using solar energy offers a promising avenue in this context. A wide range of molecular CO2RR catalysts has been developed and extensively investigated, offering high selectivity and productivity together with tunable electronic structures and well-defined catalytic mechanisms. Among these, the fac-[ReI(bpy-R)(CO)X] family (bpy-R = 2,2′-bipyridine derivative; X = Cl or Br) has long served as a benchmark platform for photo- and electrocatalytic CO2RR due to its high yield, excellent selectivity towards CO and well-defined catalytic mechanisms. However, the homogeneous nature of these catalysts can lead to deactivation, poor recyclability, inefficient light harvesting and limited long-term stability. The integration of Re-bpy catalysts into porous crystalline materials, in particular metal–organic frameworks (MOFs) and covalent organic frameworks (COFs), offers a strategy for combining molecular-level catalytic precision with the robustness, spatial organisation and confinement of heterogeneous architectures. Despite rapid progress, the systems reported remain fragmented in terms of framework structures and heterogenisation strategies, which limits the identification of general structure–function relationships. This study reviews various representative systems, and critically compares heterogenisation strategies and their effects on catalytic performance. We also address conductive and photoelectrochemical architectures, multifunctional composites and emerging design strategies. We identify transferable design principles governing the transition from discrete molecular catalysts to spatially organised porous architectures. Although the Re-bpy CO2RR catalyst serves as a model platform, these principles offer more general guidance for the heterogenisation and functional integration of molecular catalysts in various catalytic transformations.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-17",
+        "addedAt": "2026-11-20T13:29:26Z"
+      }
+    },
+    {
+      "title": "Quantifying biodiversity and ecosystem service trade-offs to inform forest landscape management under changing conditions",
+      "paragraphs": [
+        "Forested landscapes provide a wide range of ecosystem services (ES) and support biodiversity, yet both are increasingly threatened by intensive management practices and climate change. Understanding trade-offs and synergies between biodiversity and multiple ES is essential for identifying sustainable forest management strategies. In this study, we quantified long-term interactions between biodiversity and selected ES at the landscape scale under changing management behavior and climate-related conditions. We applied a multicriteria optimization framework combined with long-term forest growth simulations to a large temperate mountain region in Central Europe. Biodiversity and ecosystem service indicators were derived from an empirical forest growth simulator and evaluated under 1,980 combinations of ownership structure, management approaches, disturbance intensity, vegetation shifts, and species composition changes over a 120-year period. Trade-offs and synergies were analyzed using Pareto frontiers and visualized through multidimensional decision maps. The results showed that variability in biodiversity and ecosystem service provision was explained primarily by forest structure and historical forest management legacies, particularly age-class distribution and forest management zoning. In contrast, simulated future changes in management behavior or climate change-related disturbances contributed only marginally to overall variability within the analyzed time horizon. Clear trade-offs were identified between biodiversity and wood production, as well as between biodiversity and soil and water regulation and recreation, largely driven by the structural constraints of even-aged forest systems. Opportunities for simultaneous improvement of multiple ES and biodiversity were limited and occurred mainly in suboptimal system states. Our findings indicate that forest landscape multifunctionality is strongly constrained by long-term structural legacies. Meaningful improvements in biodiversity and ecosystem service provision at the landscape scale therefore require long-term, structural management strategies rather than short-term optimization of individual services."
+      ],
+      "authors": "Róbert Sedmák, Yvonne Brodrechtova, Ján BahýÍ, Ján Tuček",
+      "journal": "PLOS One",
+      "doi": "10.1371/journal.pone.0359884",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "7ca14ff4ca8eedaf2217335f91236a71e303b3b57b8d27434a37365c45e0a968",
+      "pmcid": "PMC13773465",
+      "publishedAt": "2026-11-16",
+      "addedAt": "2026-11-20T13:29:26Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13773465",
+        "kind": "article",
+        "title": "Quantifying biodiversity and ecosystem service trade-offs to inform forest landscape management under changing conditions",
+        "authors": "Róbert Sedmák, Yvonne Brodrechtova, Ján BahýÍ, Ján Tuček",
+        "organization": "PLOS One",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13773465/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "7ca14ff4ca8eedaf2217335f91236a71e303b3b57b8d27434a37365c45e0a968",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-16",
+        "doi": "10.1371/journal.pone.0359884"
+      },
+      "lesson": {
+        "id": "literature-pmc13773465",
+        "version": 1,
+        "title": "Quantifying biodiversity and ecosystem service trade-offs to inform forest landscape management under changing conditions",
+        "subtitle": "Open-access abstract · PLOS One · 2026-11-16",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13773465",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Forested landscapes provide a wide range of ecosystem services (ES) and support biodiversity, yet both are increasingly threatened by intensive management practices and climate change. Understanding trade-offs and synergies between biodiversity and multiple ES is essential for identifying sustainable forest management strategies. In this study, we quantified long-term interactions between biodiversity and selected ES at the landscape scale under changing management behavior and climate-related conditions. We applied a multicriteria optimization framework combined with long-term forest growth simulations to a large temperate mountain region in Central Europe. Biodiversity and ecosystem service indicators were derived from an empirical forest growth simulator and evaluated under 1,980 combinations of ownership structure, management approaches, disturbance intensity, vegetation shifts, and species composition changes over a 120-year period. Trade-offs and synergies were analyzed using Pareto frontiers and visualized through multidimensional decision maps. The results showed that variability in biodiversity and ecosystem service provision was explained primarily by forest structure and historical forest management legacies, particularly age-class distribution and forest management zoning. In contrast, simulated future changes in management behavior or climate change-related disturbances contributed only marginally to overall variability within the analyzed time horizon. Clear trade-offs were identified between biodiversity and wood production, as well as between biodiversity and soil and water regulation and recreation, largely driven by the structural constraints of even-aged forest systems. Opportunities for simultaneous improvement of multiple ES and biodiversity were limited and occurred mainly in suboptimal system states. Our findings indicate that forest landscape multifunctionality is strongly constrained by long-term structural legacies. Meaningful improvements in biodiversity and ecosystem service provision at the landscape scale therefore require long-term, structural management strategies rather than short-term optimization of individual services."
+        ],
+        "terms": [
+          {
+            "term": "ecosystem services",
+            "definition": "Benefits people obtain from ecosystems, such as water regulation and food provision."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "variability",
+            "definition": "Real differences across time, space, or members of a population."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nForested landscapes provide a wide range of _____ (ES) and support biodiversity, yet both are increasingly threatened by intensive management practices and climate change.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "stationary combustion",
+                "explanation": "This is not the expression used in this sentence. Fuel burning in stationary equipment or installations."
+              },
+              {
+                "id": "b",
+                "text": "bioaccumulation",
+                "explanation": "This is not the expression used in this sentence. The build-up of a substance in an organism from environmental and dietary sources over time."
+              },
+              {
+                "id": "c",
+                "text": "regression analysis",
+                "explanation": "This is not the expression used in this sentence. Statistical modeling of the relationship between a response and explanatory variables."
+              },
+              {
+                "id": "d",
+                "text": "ecosystem services",
+                "explanation": "The original abstract uses this expression. Benefits people obtain from ecosystems, such as water regulation and food provision."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: ecosystem services. Benefits people obtain from ecosystems, such as water regulation and food provision. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nForested landscapes provide a wide range of ecosystem services (ES) and support _____, yet both are increasingly threatened by intensive management practices and climate change.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "life cycle assessment",
+                "explanation": "This is not the expression used in this sentence. A method for evaluating environmental impacts across defined stages of a product or service's life."
+              },
+              {
+                "id": "b",
+                "text": "transparency",
+                "explanation": "This is not the expression used in this sentence. Clear documentation that enables others to understand how an estimate was produced."
+              },
+              {
+                "id": "c",
+                "text": "greenhouse gases",
+                "explanation": "This is not the expression used in this sentence. Gases that absorb and emit infrared radiation at wavelengths relevant to Earth's energy balance."
+              },
+              {
+                "id": "d",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nForested landscapes provide a wide range of ecosystem services (ES) and support biodiversity, yet both are increasingly threatened by intensive management practices and climate change. Understanding trade-offs and synergies between biodiversity and multiple ES is essential for identifying sustainable forest management strategies. In this study, we quantified long-term interactions between biodiversity and selected ES at the landscape scale under changing management behavior and climate-related conditions. We applied a multicriteria optimization framework combined with long-term forest growth simulations to a large temperate mountain region in Central Europe. Biodiversity and ecosystem service indicators were derived from an empirical forest growth simulator and evaluated under 1,980 combinations of ownership structure, management approaches, disturbance intensity, vegetation shifts, and species composition changes over a 120-year period. Trade-offs and synergies were analyzed using Pareto frontiers and visualized through multidimensional decision maps. The results showed that variability in biodiversity and ecosystem service provision was explained primarily by forest structure and historical forest management legacies, particularly age-class distribution and forest management zoning. In contrast, simulated future changes in management behavior or climate change-related disturbances contributed only marginally to overall variability within the analyzed time horizon. Clear trade-offs were identified between biodiversity and wood production, as well as between biodiversity and soil and water regulation and recreation, largely driven by the structural constraints of even-aged forest systems. Opportunities for simultaneous improvement of multiple ES and biodiversity were limited and occurred mainly in suboptimal system states. Our findings indicate that forest landscape multifunctionality is strongly constrained by long-term structural legacies. Meaningful improvements in biodiversity and ecosystem service provision at the landscape scale therefore require long-term, structural management strategies rather than short-term optimization of individual services.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-16",
+        "addedAt": "2026-11-20T13:29:26Z"
+      }
+    },
+    {
+      "title": "Agro-ecosystem Characterization and Climate Change Adaptation in Smallholder Systems in the Gidabo Sub-basin, Southern Ethiopia",
+      "paragraphs": [
+        "Climate, soils and topography are central determinants of agro‑ecosystem sustainability. This study investigated the Gidabo sub‑basin in southern Ethiopia using a mixed‑methods design, combining quantitative data from 384 households across five districts with qualitative insights from focus groups, interviews, and field observations. Results showed household concentration in the midlands (67.2%, 64.6% area), where biodiversity was highest (Shannon 2.81–3.85, richness 42–84) and farming centered on enset–coffee homegarden agroforestry. The highlands (14.3%, 14.2% area) exhibited Cambisols, mixed cereal–livestock systems, and moderate biodiversity (Shannon 2.54–2.68), while the lowlands (18.5%, 21.2% area) were dominated by Pellic Vertisols, agro‑pastoralism, and species such as Acacia, Moringa and Balanites spp. (Shannon 2.21–2.45). Agro‑ecosystems face soil degradation (acidity, erosion, poor fertility), climatic stresses (frost, drought), biotic pressures (fall armyworm, trypanosomiasis), and anthropogenic drivers (deforestation, cultural practices, population growth), all exacerbated by climate change. The findings highlight the limitations of indigenous adaptation strategies and underscore the need for agroecology-based interventions, strengthened extension services, improved credit and market access, and investment in soil and water conservation to enhance resilience and ensure agricultural sustainability."
+      ],
+      "authors": "Haimanot Tao Kurssie, Belay Simane, Daniel Markos, Nigussie Zeray, Haile Ketema, Degu Demissie",
+      "journal": "PLOS One",
+      "doi": "10.1371/journal.pone.0357366",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "d9473ad24394d703984d16932867197793230c14e85b0b8abc4abb8df2f7dd6b",
+      "pmcid": "PMC13773280",
+      "publishedAt": "2026-11-16",
+      "addedAt": "2026-11-20T13:29:26Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13773280",
+        "kind": "article",
+        "title": "Agro-ecosystem Characterization and Climate Change Adaptation in Smallholder Systems in the Gidabo Sub-basin, Southern Ethiopia",
+        "authors": "Haimanot Tao Kurssie, Belay Simane, Daniel Markos, Nigussie Zeray, Haile Ketema, Degu Demissie",
+        "organization": "PLOS One",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13773280/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "d9473ad24394d703984d16932867197793230c14e85b0b8abc4abb8df2f7dd6b",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-16",
+        "doi": "10.1371/journal.pone.0357366"
+      },
+      "lesson": {
+        "id": "literature-pmc13773280",
+        "version": 1,
+        "title": "Agro-ecosystem Characterization and Climate Change Adaptation in Smallholder Systems in the Gidabo Sub-basin, Southern Ethiopia",
+        "subtitle": "Open-access abstract · PLOS One · 2026-11-16",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13773280",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Climate, soils and topography are central determinants of agro‑ecosystem sustainability. This study investigated the Gidabo sub‑basin in southern Ethiopia using a mixed‑methods design, combining quantitative data from 384 households across five districts with qualitative insights from focus groups, interviews, and field observations. Results showed household concentration in the midlands (67.2%, 64.6% area), where biodiversity was highest (Shannon 2.81–3.85, richness 42–84) and farming centered on enset–coffee homegarden agroforestry. The highlands (14.3%, 14.2% area) exhibited Cambisols, mixed cereal–livestock systems, and moderate biodiversity (Shannon 2.54–2.68), while the lowlands (18.5%, 21.2% area) were dominated by Pellic Vertisols, agro‑pastoralism, and species such as Acacia, Moringa and Balanites spp. (Shannon 2.21–2.45). Agro‑ecosystems face soil degradation (acidity, erosion, poor fertility), climatic stresses (frost, drought), biotic pressures (fall armyworm, trypanosomiasis), and anthropogenic drivers (deforestation, cultural practices, population growth), all exacerbated by climate change. The findings highlight the limitations of indigenous adaptation strategies and underscore the need for agroecology-based interventions, strengthened extension services, improved credit and market access, and investment in soil and water conservation to enhance resilience and ensure agricultural sustainability."
+        ],
+        "terms": [
+          {
+            "term": "sustainability",
+            "definition": "The capacity to maintain environmental, social or economic conditions over time within stated constraints."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "drought",
+            "definition": "A period of water shortage relative to a defined climatic, hydrological or biological reference."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nClimate, soils and topography are central determinants of agro‑ecosystem _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "regression analysis",
+                "explanation": "This is not the expression used in this sentence. Statistical modeling of the relationship between a response and explanatory variables."
+              },
+              {
+                "id": "b",
+                "text": "quality assurance",
+                "explanation": "This is not the expression used in this sentence. Planned review activities used to assess whether quality objectives are being met."
+              },
+              {
+                "id": "c",
+                "text": "nitrogen fixation",
+                "explanation": "This is not the expression used in this sentence. The conversion of molecular nitrogen into chemically reactive nitrogen compounds."
+              },
+              {
+                "id": "d",
+                "text": "sustainability",
+                "explanation": "The original abstract uses this expression. The capacity to maintain environmental, social or economic conditions over time within stated constraints."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: sustainability. The capacity to maintain environmental, social or economic conditions over time within stated constraints. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nResults showed household concentration in the midlands (67.2%, 64.6% area), where _____ was highest (Shannon 2.81–3.85, richness 42–84) and farming centered on enset–coffee homegarden agroforestry.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "b",
+                "text": "watershed",
+                "explanation": "This is not the expression used in this sentence. An area of land that drains water toward a common outlet."
+              },
+              {
+                "id": "c",
+                "text": "source categories",
+                "explanation": "This is not the expression used in this sentence. Groups of emissions sources defined for inventory reporting."
+              },
+              {
+                "id": "d",
+                "text": "bioavailability",
+                "explanation": "This is not the expression used in this sentence. The extent to which a substance is available for uptake or biological action under specified conditions."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nClimate, soils and topography are central determinants of agro‑ecosystem sustainability. This study investigated the Gidabo sub‑basin in southern Ethiopia using a mixed‑methods design, combining quantitative data from 384 households across five districts with qualitative insights from focus groups, interviews, and field observations. Results showed household concentration in the midlands (67.2%, 64.6% area), where biodiversity was highest (Shannon 2.81–3.85, richness 42–84) and farming centered on enset–coffee homegarden agroforestry. The highlands (14.3%, 14.2% area) exhibited Cambisols, mixed cereal–livestock systems, and moderate biodiversity (Shannon 2.54–2.68), while the lowlands (18.5%, 21.2% area) were dominated by Pellic Vertisols, agro‑pastoralism, and species such as Acacia, Moringa and Balanites spp. (Shannon 2.21–2.45). Agro‑ecosystems face soil degradation (acidity, erosion, poor fertility), climatic stresses (frost, drought), biotic pressures (fall armyworm, trypanosomiasis), and anthropogenic drivers (deforestation, cultural practices, population growth), all exacerbated by climate change. The findings highlight the limitations of indigenous adaptation strategies and underscore the need for agroecology-based interventions, strengthened extension services, improved credit and market access, and investment in soil and water conservation to enhance resilience and ensure agricultural sustainability.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-16",
+        "addedAt": "2026-11-20T13:29:26Z"
+      }
     }
   ],
   "vocabulary": [
@@ -9522,6 +9959,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-20T13:29:26Z",
+      "added": 3,
+      "total": 62,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 282,
+        "xmlInspected": 9,
+        "cachedSkipped": 3,
+        "unavailable": 0,
+        "ineligible": 3,
+        "duplicate": 0,
+        "insufficientTerms": 3,
+        "passes": 1
+      }
+    },
+    {
       "checkedAt": "2026-11-20T07:07:39Z",
       "added": 0,
       "total": 59,
@@ -9982,22 +10435,6 @@
         "ineligible": 7,
         "duplicate": 0,
         "insufficientTerms": 0,
-        "passes": 1
-      }
-    },
-    {
-      "checkedAt": "2026-11-02T21:57:00Z",
-      "added": 3,
-      "total": 24,
-      "vocabularyAdded": 2,
-      "screening": {
-        "candidates": 263,
-        "xmlInspected": 25,
-        "cachedSkipped": 114,
-        "unavailable": 0,
-        "ineligible": 15,
-        "duplicate": 0,
-        "insufficientTerms": 7,
         "passes": 1
       }
     }
@@ -10984,6 +11421,30 @@
       {
         "pmcid": "PMC13753453",
         "checkedAt": "2026-11-19T21:00:17Z"
+      },
+      {
+        "pmcid": "PMC13763833",
+        "checkedAt": "2026-11-20T13:29:26Z"
+      },
+      {
+        "pmcid": "PMC13764020",
+        "checkedAt": "2026-11-20T13:29:26Z"
+      },
+      {
+        "pmcid": "PMC13768229",
+        "checkedAt": "2026-11-20T13:29:26Z"
+      },
+      {
+        "pmcid": "PMC13771621",
+        "checkedAt": "2026-11-20T13:29:26Z"
+      },
+      {
+        "pmcid": "PMC13772896",
+        "checkedAt": "2026-11-20T13:29:26Z"
+      },
+      {
+        "pmcid": "PMC13777093",
+        "checkedAt": "2026-11-20T13:29:26Z"
       }
     ]
   }
