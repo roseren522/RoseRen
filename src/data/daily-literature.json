@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-20T13:29:26Z",
-  "lastAddedAt": "2026-11-20T13:29:26Z",
+  "lastCheckedAt": "2026-11-21T12:55:45Z",
+  "lastAddedAt": "2026-11-21T12:55:45Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -9155,6 +9155,439 @@
         "publishedAt": "2026-11-16",
         "addedAt": "2026-11-20T13:29:26Z"
       }
+    },
+    {
+      "title": "A decoupled ensemble framework for real-time nowcasting of COVID-19 case numbers and transmission dynamics",
+      "paragraphs": [
+        "Timely monitoring of epidemics such as SARS-CoV-2 transmission is essential for guiding public health and social measures, yet real-time estimation of the time-varying effective reproductive number (Rt) from case data suffers from right-censoring bias, systematically underestimating recent Rt values and requiring 7–14 days of additional data to stabilize. To address this limitation, we developed and evaluated a three-step framework that decouples case forecasting from Rt estimation. Daily PCR-confirmed case counts are first forecast up to 14 days ahead using an ensemble of 10 statistical, machine learning and deep learning models. Forecasted cases are then deconvolved to reconstruct infection timelines, from which Rt is estimated for up to 7 days ahead. This approach mitigates right-censoring artefacts by generating Rt estimates from projected rather than truncated case data. We applied this framework to Hong Kong's Omicron outbreaks (February to December 2022), incorporating 15 epidemiological, meteorological, air pollution and policy-related predictors. An unweighted ensemble of top-performing models substantially improved forecast accuracy, reducing the root mean square error and the mean absolute percentage error by 10 and 9% for case numbers and by 38 and 34% for Rt. By separating predictive modelling from epidemiological inference, this framework enables accurate real-time monitoring of epidemic burden and transmission dynamics to support timely public health decision-making."
+      ],
+      "authors": "Weijia Xiong, Liping Peng, Xiaotong Huang, Tim K. Tsang",
+      "journal": "Royal Society Open Science",
+      "doi": "10.1098/rsos.260996",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "df3bd9b2289d4491621d9ef38396bb06850f6d7a6a1b3208a4369f7f7934b472",
+      "pmcid": "PMC13777442",
+      "publishedAt": "2026-11-18",
+      "addedAt": "2026-11-21T12:55:45Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13777442",
+        "kind": "article",
+        "title": "A decoupled ensemble framework for real-time nowcasting of COVID-19 case numbers and transmission dynamics",
+        "authors": "Weijia Xiong, Liping Peng, Xiaotong Huang, Tim K. Tsang",
+        "organization": "Royal Society Open Science",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13777442/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "df3bd9b2289d4491621d9ef38396bb06850f6d7a6a1b3208a4369f7f7934b472",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-18",
+        "doi": "10.1098/rsos.260996"
+      },
+      "lesson": {
+        "id": "literature-pmc13777442",
+        "version": 1,
+        "title": "A decoupled ensemble framework for real-time nowcasting of COVID-19 case numbers and transmission dynamics",
+        "subtitle": "Open-access abstract · Royal Society Open Science · 2026-11-18",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13777442",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Timely monitoring of epidemics such as SARS-CoV-2 transmission is essential for guiding public health and social measures, yet real-time estimation of the time-varying effective reproductive number (Rt) from case data suffers from right-censoring bias, systematically underestimating recent Rt values and requiring 7–14 days of additional data to stabilize. To address this limitation, we developed and evaluated a three-step framework that decouples case forecasting from Rt estimation. Daily PCR-confirmed case counts are first forecast up to 14 days ahead using an ensemble of 10 statistical, machine learning and deep learning models. Forecasted cases are then deconvolved to reconstruct infection timelines, from which Rt is estimated for up to 7 days ahead. This approach mitigates right-censoring artefacts by generating Rt estimates from projected rather than truncated case data. We applied this framework to Hong Kong's Omicron outbreaks (February to December 2022), incorporating 15 epidemiological, meteorological, air pollution and policy-related predictors. An unweighted ensemble of top-performing models substantially improved forecast accuracy, reducing the root mean square error and the mean absolute percentage error by 10 and 9% for case numbers and by 38 and 34% for Rt. By separating predictive modelling from epidemiological inference, this framework enables accurate real-time monitoring of epidemic burden and transmission dynamics to support timely public health decision-making."
+        ],
+        "terms": [
+          {
+            "term": "machine learning",
+            "definition": "Methods that learn patterns from data to support prediction or other tasks."
+          },
+          {
+            "term": "accuracy",
+            "definition": "The extent to which an estimate avoids systematic departure from the true value."
+          },
+          {
+            "term": "bias",
+            "definition": "A systematic tendency to overestimate or underestimate a quantity."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nDaily PCR-confirmed case counts are first forecast up to 14 days ahead using an ensemble of 10 statistical, _____ and deep learning models.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "machine learning",
+                "explanation": "The original abstract uses this expression. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "b",
+                "text": "generalizability",
+                "explanation": "This is not the expression used in this sentence. The extent to which findings apply beyond the conditions or population studied."
+              },
+              {
+                "id": "c",
+                "text": "carbon neutrality",
+                "explanation": "This is not the expression used in this sentence. A balance between specified carbon emissions and removals over a defined boundary and period."
+              },
+              {
+                "id": "d",
+                "text": "publication bias",
+                "explanation": "This is not the expression used in this sentence. A distortion caused when the availability of research results depends on their findings."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: machine learning. Methods that learn patterns from data to support prediction or other tasks. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAn unweighted ensemble of top-performing models substantially improved forecast _____, reducing the root mean square error and the mean absolute percentage error by 10 and 9% for case numbers and by 38 and 34% for Rt.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "measurement campaigns",
+                "explanation": "This is not the expression used in this sentence. Organised periods of measurements designed to collect new observations."
+              },
+              {
+                "id": "b",
+                "text": "machine learning",
+                "explanation": "This is not the expression used in this sentence. Methods that learn patterns from data to support prediction or other tasks."
+              },
+              {
+                "id": "c",
+                "text": "accuracy",
+                "explanation": "The original abstract uses this expression. The extent to which an estimate avoids systematic departure from the true value."
+              },
+              {
+                "id": "d",
+                "text": "survey data",
+                "explanation": "This is not the expression used in this sentence. Information collected through an organised survey."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: accuracy. The extent to which an estimate avoids systematic departure from the true value. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nTimely monitoring of epidemics such as SARS-CoV-2 transmission is essential for guiding public health and social measures, yet real-time estimation of the time-varying effective reproductive number (Rt) from case data suffers from right-censoring bias, systematically underestimating recent Rt values and requiring 7–14 days of additional data to stabilize. To address this limitation, we developed and evaluated a three-step framework that decouples case forecasting from Rt estimation. Daily PCR-confirmed case counts are first forecast up to 14 days ahead using an ensemble of 10 statistical, machine learning and deep learning models. Forecasted cases are then deconvolved to reconstruct infection timelines, from which Rt is estimated for up to 7 days ahead. This approach mitigates right-censoring artefacts by generating Rt estimates from projected rather than truncated case data. We applied this framework to Hong Kong's Omicron outbreaks (February to December 2022), incorporating 15 epidemiological, meteorological, air pollution and policy-related predictors. An unweighted ensemble of top-performing models substantially improved forecast accuracy, reducing the root mean square error and the mean absolute percentage error by 10 and 9% for case numbers and by 38 and 34% for Rt. By separating predictive modelling from epidemiological inference, this framework enables accurate real-time monitoring of epidemic burden and transmission dynamics to support timely public health decision-making.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-18",
+        "addedAt": "2026-11-21T12:55:45Z"
+      }
+    },
+    {
+      "title": "Modeling exhaled aerosol deposition in an impaction filter across clinically measured breath flowrates",
+      "paragraphs": [
+        "Exhaled breath offers a non-invasive matrix for detecting recent drug use, but high intra- and inter-study variability in collected drug mass currently hinders its transition into reliable quantitative clinical and forensic tools. To enable standardized, reproducible sampling protocols, we evaluated flowrate-dependent aerosol capture in an impaction filter device (Breath Explor). We expanded a computational fluid and particle dynamics (CFPD) model across a flowrate spectrum informed by clinical data from 38 participants (N = 12~295N=12 295 exhalations; mean flowrate \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{upgreek} \\usepackage{mathrsfs} \\setlength{\\oddsidemargin}{-69pt} \\begin{document} $0.15 \\pm 0.04~\\mathrm{L}\\cdot\\mathrm{s}^{-1}$\\end{document}0.15±0.04 L⋅s−1). We also enhanced the near-wall transport model to resolve turbulent aerosol dispersion at high resolution. CFPD simulations showed that turbulent forces account for up to 20% of mass deposition for submicrometer-size aerosols within this operational range. Crucially, capture efficiency varied more than two-fold—ranging from 42% at 0.05 L\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{upgreek} \\usepackage{mathrsfs} \\setlength{\\oddsidemargin}{-69pt} \\begin{document} $\\cdot\\mathrm{s}^{-1}$\\end{document}⋅s−1 to 90% at 0.3 L\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{upgreek} \\usepackage{mathrsfs} \\setlength{\\oddsidemargin}{-69pt} \\begin{document} $\\cdot\\mathrm{s}^{-1}$\\end{document}⋅s−1—at a constant exhaled volume. These findings demonstrate that breath flowrate directly impacts aerosol recovery, suggesting that participant flowrate guidance or mathematical recovery normalization could improve the reproducibility of drug quantification. Ultimately, this work demonstrates how combining real-world clinical data with CFPD modeling can inform standardized, quantitative breath diagnostics."
+      ],
+      "authors": "Veruska Malavé, Jennifer L Berry, Austin C Hayes, L Cinnamon Bidwell, Tara M Lovestead, Kavita M Jeerage",
+      "journal": "Journal of Breath Research",
+      "doi": "10.1088/1752-7163/aebca8",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "f474a662356a45bcb0fb26ea19baab592d3f9bf02a0daa9fef9b27f3521ac2a8",
+      "pmcid": "PMC13778583",
+      "publishedAt": "2026-11-18",
+      "addedAt": "2026-11-21T12:55:45Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13778583",
+        "kind": "article",
+        "title": "Modeling exhaled aerosol deposition in an impaction filter across clinically measured breath flowrates",
+        "authors": "Veruska Malavé, Jennifer L Berry, Austin C Hayes, L Cinnamon Bidwell, Tara M Lovestead, Kavita M Jeerage",
+        "organization": "Journal of Breath Research",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13778583/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "f474a662356a45bcb0fb26ea19baab592d3f9bf02a0daa9fef9b27f3521ac2a8",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-18",
+        "doi": "10.1088/1752-7163/aebca8"
+      },
+      "lesson": {
+        "id": "literature-pmc13778583",
+        "version": 1,
+        "title": "Modeling exhaled aerosol deposition in an impaction filter across clinically measured breath flowrates",
+        "subtitle": "Open-access abstract · Journal of Breath Research · 2026-11-18",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13778583",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Exhaled breath offers a non-invasive matrix for detecting recent drug use, but high intra- and inter-study variability in collected drug mass currently hinders its transition into reliable quantitative clinical and forensic tools. To enable standardized, reproducible sampling protocols, we evaluated flowrate-dependent aerosol capture in an impaction filter device (Breath Explor). We expanded a computational fluid and particle dynamics (CFPD) model across a flowrate spectrum informed by clinical data from 38 participants (N = 12~295N=12 295 exhalations; mean flowrate \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{upgreek} \\usepackage{mathrsfs} \\setlength{\\oddsidemargin}{-69pt} \\begin{document} $0.15 \\pm 0.04~\\mathrm{L}\\cdot\\mathrm{s}^{-1}$\\end{document}0.15±0.04 L⋅s−1). We also enhanced the near-wall transport model to resolve turbulent aerosol dispersion at high resolution. CFPD simulations showed that turbulent forces account for up to 20% of mass deposition for submicrometer-size aerosols within this operational range. Crucially, capture efficiency varied more than two-fold—ranging from 42% at 0.05 L\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{upgreek} \\usepackage{mathrsfs} \\setlength{\\oddsidemargin}{-69pt} \\begin{document} $\\cdot\\mathrm{s}^{-1}$\\end{document}⋅s−1 to 90% at 0.3 L\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{upgreek} \\usepackage{mathrsfs} \\setlength{\\oddsidemargin}{-69pt} \\begin{document} $\\cdot\\mathrm{s}^{-1}$\\end{document}⋅s−1—at a constant exhaled volume. These findings demonstrate that breath flowrate directly impacts aerosol recovery, suggesting that participant flowrate guidance or mathematical recovery normalization could improve the reproducibility of drug quantification. Ultimately, this work demonstrates how combining real-world clinical data with CFPD modeling can inform standardized, quantitative breath diagnostics."
+        ],
+        "terms": [
+          {
+            "term": "reproducibility",
+            "definition": "The ability to obtain consistent results using the same data and analytical procedures."
+          },
+          {
+            "term": "variability",
+            "definition": "Real differences across time, space, or members of a population."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThese findings demonstrate that breath flowrate directly impacts aerosol recovery, suggesting that participant flowrate guidance or mathematical recovery normalization could improve the _____ of drug quantification.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "soil organic carbon",
+                "explanation": "This is not the expression used in this sentence. Carbon contained in organic material in soil."
+              },
+              {
+                "id": "b",
+                "text": "fine particulate matter",
+                "explanation": "This is not the expression used in this sentence. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+              },
+              {
+                "id": "c",
+                "text": "tipping point",
+                "explanation": "This is not the expression used in this sentence. A threshold beyond which a system may shift into a substantially different state."
+              },
+              {
+                "id": "d",
+                "text": "reproducibility",
+                "explanation": "The original abstract uses this expression. The ability to obtain consistent results using the same data and analytical procedures."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: reproducibility. The ability to obtain consistent results using the same data and analytical procedures. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nExhaled breath offers a non-invasive matrix for detecting recent drug use, but high intra- and inter-study _____ in collected drug mass currently hinders its transition into reliable quantitative clinical and forensic tools.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "microplastics",
+                "explanation": "This is not the expression used in this sentence. Small plastic particles, commonly defined as being less than five millimetres in size."
+              },
+              {
+                "id": "b",
+                "text": "standard deviation",
+                "explanation": "This is not the expression used in this sentence. A measure of how widely values are dispersed around their mean."
+              },
+              {
+                "id": "c",
+                "text": "variability",
+                "explanation": "The original abstract uses this expression. Real differences across time, space, or members of a population."
+              },
+              {
+                "id": "d",
+                "text": "circular economy",
+                "explanation": "This is not the expression used in this sentence. An approach that aims to keep materials in use and reduce resource consumption and waste."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: variability. Real differences across time, space, or members of a population. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nExhaled breath offers a non-invasive matrix for detecting recent drug use, but high intra- and inter-study variability in collected drug mass currently hinders its transition into reliable quantitative clinical and forensic tools. To enable standardized, reproducible sampling protocols, we evaluated flowrate-dependent aerosol capture in an impaction filter device (Breath Explor). We expanded a computational fluid and particle dynamics (CFPD) model across a flowrate spectrum informed by clinical data from 38 participants (N = 12~295N=12 295 exhalations; mean flowrate \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{upgreek} \\usepackage{mathrsfs} \\setlength{\\oddsidemargin}{-69pt} \\begin{document} $0.15 \\pm 0.04~\\mathrm{L}\\cdot\\mathrm{s}^{-1}$\\end{document}0.15±0.04 L⋅s−1). We also enhanced the near-wall transport model to resolve turbulent aerosol dispersion at high resolution. CFPD simulations showed that turbulent forces account for up to 20% of mass deposition for submicrometer-size aerosols within this operational range. Crucially, capture efficiency varied more than two-fold—ranging from 42% at 0.05 L\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{upgreek} \\usepackage{mathrsfs} \\setlength{\\oddsidemargin}{-69pt} \\begin{document} $\\cdot\\mathrm{s}^{-1}$\\end{document}⋅s−1 to 90% at 0.3 L\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{upgreek} \\usepackage{mathrsfs} \\setlength{\\oddsidemargin}{-69pt} \\begin{document} $\\cdot\\mathrm{s}^{-1}$\\end{document}⋅s−1—at a constant exhaled volume. These findings demonstrate that breath flowrate directly impacts aerosol recovery, suggesting that participant flowrate guidance or mathematical recovery normalization could improve the reproducibility of drug quantification. Ultimately, this work demonstrates how combining real-world clinical data with CFPD modeling can inform standardized, quantitative breath diagnostics.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-18",
+        "addedAt": "2026-11-21T12:55:45Z"
+      }
+    },
+    {
+      "title": "Applying Two‐Eyed Seeing to Pair Indigenous Ecological Calendars and Community Science Data for Biodiversity Monitoring in Amazonia",
+      "paragraphs": [
+        "Pairing Indigenous and Western ecological knowledge can enhance our understanding of phenological patterns, but epistemological differences, power imbalances, and histories of exclusion often limit this integration. To address these challenges, we adopted the Two‐Eyed Seeing conceptual framework, which emphasizes learning from the strengths of both knowledge systems through co‐developing questions, sharing knowledge mobilization, and co‐producing insights. Our biocultural conservation dialogs brought together local ethnographic leaders, Indigenous scholars, and Western researchers in ecology and anthropology in Amazonia. Within the Pamiwã Indigenous territory in the Colombian Amazon, we co‐developed research questions about seasonal variation in bird diversity (species richness, composition, and the relative abundance of culturally important species), as well as the effects of climate change. We documented and mobilized knowledge from both systems: Indigenous knowledge collected by Elders and apprentices during an ethno‐ornithology education program was condensed into a culturally embedded ecological calendar, while data from the Western‐oriented eBird community science platform (mainly contributed by avitourists) provided a second line of evidence. We compared these datasets to assess similarities and differences. Our findings revealed both convergence and divergence. Patterns in species richness and the relative abundance of culturally important birds were broadly similar, while species composition showed more variation over the year. These differences reflect distinct approaches: Indigenous observers draw on culturally embedded experience, environmental change, and resource use, whereas avitourists focus on spotting more and rarer birds. Biocultural conservation thus requires integrative, adaptive methods. Our study shows that the Two‐Eyed Seeing framework can guide the pairing of Indigenous and Western knowledge systems, providing a tool for long‐term biodiversity monitoring that aligns global platforms like eBird with local priorities and helps safeguard biodiversity and cultural, ancestral, and spiritual values. Iterative ecological calendars, framed by Two‐Eyed Seeing, offer adaptive strategies for communities to monitor biodiversity and manage their territories."
+      ],
+      "authors": "Orlando Acevedo‐Charry, Gloria A. Rivera‐Velasco, Luis Enrique Llanos Rodríguez, Walter Gabriel (Siorú) Estrada, Fernando Cediel, Agripino González, Yenifer Soledad López Peña, Sebastián Guerrero‐Peláez, Yorneida González, Fabián Rodríguez Álvarez, Yeison Fabian Hernández Yate, Luis Fernando Jaramillo, Miguel Ángel Portura, Zuania Colón‐Piñeiro, Scott K. Robinson, Ana María Garrido Corredor, Miguel A. Acevedo",
+      "journal": "Ecology and Evolution",
+      "doi": "10.1002/ece3.74502",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "4d256225b49771dd238ad5043f8c25a3ee63296d17ba16cd4ef8fbcceca8c81f",
+      "pmcid": "PMC13780416",
+      "publishedAt": "2026-11-18",
+      "addedAt": "2026-11-21T12:55:45Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13780416",
+        "kind": "article",
+        "title": "Applying Two‐Eyed Seeing to Pair Indigenous Ecological Calendars and Community Science Data for Biodiversity Monitoring in Amazonia",
+        "authors": "Orlando Acevedo‐Charry, Gloria A. Rivera‐Velasco, Luis Enrique Llanos Rodríguez, Walter Gabriel (Siorú) Estrada, Fernando Cediel, Agripino González, Yenifer Soledad López Peña, Sebastián Guerrero‐Peláez, Yorneida González, Fabián Rodríguez Álvarez, Yeison Fabian Hernández Yate, Luis Fernando Jaramillo, Miguel Ángel Portura, Zuania Colón‐Piñeiro, Scott K. Robinson, Ana María Garrido Corredor, Miguel A. Acevedo",
+        "organization": "Ecology and Evolution",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13780416/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "4d256225b49771dd238ad5043f8c25a3ee63296d17ba16cd4ef8fbcceca8c81f",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-18",
+        "doi": "10.1002/ece3.74502"
+      },
+      "lesson": {
+        "id": "literature-pmc13780416",
+        "version": 1,
+        "title": "Applying Two‐Eyed Seeing to Pair Indigenous Ecological Calendars and Community Science Data for Biodiversity Monitoring in Amazonia",
+        "subtitle": "Open-access abstract · Ecology and Evolution · 2026-11-18",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13780416",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Pairing Indigenous and Western ecological knowledge can enhance our understanding of phenological patterns, but epistemological differences, power imbalances, and histories of exclusion often limit this integration. To address these challenges, we adopted the Two‐Eyed Seeing conceptual framework, which emphasizes learning from the strengths of both knowledge systems through co‐developing questions, sharing knowledge mobilization, and co‐producing insights. Our biocultural conservation dialogs brought together local ethnographic leaders, Indigenous scholars, and Western researchers in ecology and anthropology in Amazonia. Within the Pamiwã Indigenous territory in the Colombian Amazon, we co‐developed research questions about seasonal variation in bird diversity (species richness, composition, and the relative abundance of culturally important species), as well as the effects of climate change. We documented and mobilized knowledge from both systems: Indigenous knowledge collected by Elders and apprentices during an ethno‐ornithology education program was condensed into a culturally embedded ecological calendar, while data from the Western‐oriented eBird community science platform (mainly contributed by avitourists) provided a second line of evidence. We compared these datasets to assess similarities and differences. Our findings revealed both convergence and divergence. Patterns in species richness and the relative abundance of culturally important birds were broadly similar, while species composition showed more variation over the year. These differences reflect distinct approaches: Indigenous observers draw on culturally embedded experience, environmental change, and resource use, whereas avitourists focus on spotting more and rarer birds. Biocultural conservation thus requires integrative, adaptive methods. Our study shows that the Two‐Eyed Seeing framework can guide the pairing of Indigenous and Western knowledge systems, providing a tool for long‐term biodiversity monitoring that aligns global platforms like eBird with local priorities and helps safeguard biodiversity and cultural, ancestral, and spiritual values. Iterative ecological calendars, framed by Two‐Eyed Seeing, offer adaptive strategies for communities to monitor biodiversity and manage their territories."
+        ],
+        "terms": [
+          {
+            "term": "species richness",
+            "definition": "The number of different species present in a defined area or sample."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nWithin the Pamiwã Indigenous territory in the Colombian Amazon, we co‐developed research questions about seasonal variation in bird diversity (_____, composition, and the relative abundance of culturally important species), as well as the effects of climate change.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "species richness",
+                "explanation": "The original abstract uses this expression. The number of different species present in a defined area or sample."
+              },
+              {
+                "id": "b",
+                "text": "remote sensing",
+                "explanation": "This is not the expression used in this sentence. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              },
+              {
+                "id": "c",
+                "text": "evapotranspiration",
+                "explanation": "This is not the expression used in this sentence. The combined transfer of water to the atmosphere by evaporation and plant transpiration."
+              },
+              {
+                "id": "d",
+                "text": "accuracy",
+                "explanation": "This is not the expression used in this sentence. The extent to which an estimate avoids systematic departure from the true value."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: species richness. The number of different species present in a defined area or sample. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nOur study shows that the Two‐Eyed Seeing framework can guide the pairing of Indigenous and Western knowledge systems, providing a tool for long‐term _____ monitoring that aligns global platforms like eBird with local priorities and helps safeguard _____ and cultural, ancestral, and spiritual values.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "soil organic carbon",
+                "explanation": "This is not the expression used in this sentence. Carbon contained in organic material in soil."
+              },
+              {
+                "id": "b",
+                "text": "nitrogen fixation",
+                "explanation": "This is not the expression used in this sentence. The conversion of molecular nitrogen into chemically reactive nitrogen compounds."
+              },
+              {
+                "id": "c",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "d",
+                "text": "bioaccumulation",
+                "explanation": "This is not the expression used in this sentence. The build-up of a substance in an organism from environmental and dietary sources over time."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nPairing Indigenous and Western ecological knowledge can enhance our understanding of phenological patterns, but epistemological differences, power imbalances, and histories of exclusion often limit this integration. To address these challenges, we adopted the Two‐Eyed Seeing conceptual framework, which emphasizes learning from the strengths of both knowledge systems through co‐developing questions, sharing knowledge mobilization, and co‐producing insights. Our biocultural conservation dialogs brought together local ethnographic leaders, Indigenous scholars, and Western researchers in ecology and anthropology in Amazonia. Within the Pamiwã Indigenous territory in the Colombian Amazon, we co‐developed research questions about seasonal variation in bird diversity (species richness, composition, and the relative abundance of culturally important species), as well as the effects of climate change. We documented and mobilized knowledge from both systems: Indigenous knowledge collected by Elders and apprentices during an ethno‐ornithology education program was condensed into a culturally embedded ecological calendar, while data from the Western‐oriented eBird community science platform (mainly contributed by avitourists) provided a second line of evidence. We compared these datasets to assess similarities and differences. Our findings revealed both convergence and divergence. Patterns in species richness and the relative abundance of culturally important birds were broadly similar, while species composition showed more variation over the year. These differences reflect distinct approaches: Indigenous observers draw on culturally embedded experience, environmental change, and resource use, whereas avitourists focus on spotting more and rarer birds. Biocultural conservation thus requires integrative, adaptive methods. Our study shows that the Two‐Eyed Seeing framework can guide the pairing of Indigenous and Western knowledge systems, providing a tool for long‐term biodiversity monitoring that aligns global platforms like eBird with local priorities and helps safeguard biodiversity and cultural, ancestral, and spiritual values. Iterative ecological calendars, framed by Two‐Eyed Seeing, offer adaptive strategies for communities to monitor biodiversity and manage their territories.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-18",
+        "addedAt": "2026-11-21T12:55:45Z"
+      }
     }
   ],
   "vocabulary": [
@@ -9959,6 +10392,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-21T12:55:45Z",
+      "added": 3,
+      "total": 65,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 285,
+        "xmlInspected": 15,
+        "cachedSkipped": 1,
+        "unavailable": 0,
+        "ineligible": 9,
+        "duplicate": 0,
+        "insufficientTerms": 3,
+        "passes": 1
+      }
+    },
+    {
       "checkedAt": "2026-11-20T13:29:26Z",
       "added": 3,
       "total": 62,
@@ -10421,91 +10870,11 @@
         "insufficientTerms": 7,
         "passes": 1
       }
-    },
-    {
-      "checkedAt": "2026-11-03T19:50:49Z",
-      "added": 3,
-      "total": 27,
-      "vocabularyAdded": 3,
-      "screening": {
-        "candidates": 264,
-        "xmlInspected": 10,
-        "cachedSkipped": 22,
-        "unavailable": 0,
-        "ineligible": 7,
-        "duplicate": 0,
-        "insufficientTerms": 0,
-        "passes": 1
-      }
     }
   ],
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13661651",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13672450",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13682305",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13687997",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13694760",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13696172",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13698877",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13712740",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13715692",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13715699",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13715721",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13715839",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13745274",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13748212",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13748680",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
-      {
-        "pmcid": "PMC13748688",
-        "checkedAt": "2026-11-13T20:05:35Z"
-      },
       {
         "pmcid": "PMC13752485",
         "checkedAt": "2026-11-14T18:31:39Z"
@@ -11445,6 +11814,54 @@
       {
         "pmcid": "PMC13777093",
         "checkedAt": "2026-11-20T13:29:26Z"
+      },
+      {
+        "pmcid": "PMC13779335",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13780445",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13781171",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13781328",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13781538",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13782059",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13782093",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13782602",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13782930",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13783132",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13784600",
+        "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13784816",
+        "checkedAt": "2026-11-21T12:55:45Z"
       }
     ]
   }
