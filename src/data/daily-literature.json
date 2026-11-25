@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-21T12:55:45Z",
-  "lastAddedAt": "2026-11-21T12:55:45Z",
+  "lastCheckedAt": "2026-11-25T21:59:55Z",
+  "lastAddedAt": "2026-11-25T21:59:55Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -9588,6 +9588,443 @@
         "publishedAt": "2026-11-18",
         "addedAt": "2026-11-21T12:55:45Z"
       }
+    },
+    {
+      "title": "Mitogenomic Evidence of Host Plasticity and Strict Phylogeographic Restriction in the Avian Malaria Parasite Plasmodium collidatum",
+      "paragraphs": [
+        "Avian malaria parasites (Plasmodium spp.) are globally distributed pathogens that significantly affect host evolution and biodiversity. The rapid expansion–cancelation cycles that are characteristic of invasive lineages are well documented. However, the mechanisms maintaining the stability of endemic generalists remain poorly understood. This study aimed to resolve the evolutionary history and population genetics of Plasmodium collidatum (lineage pFANTAIL01) across three regions in Thailand with the use of a mitogenomic approach incorporating a 3315‐bp concatenated dataset of cytb, cox1, and cox3. Phylogenetic reconstruction confirmed that P. collidatum was a robust monophyletic clade with substantial divergence (5.6%–5.7%) from its sister taxon (P. ashfordi). Results revealed a distinct phylogeographic paradox. In particular, although P. collidatum exhibited a high host plasticity across taxonomically diverse avian orders (Galliformes, Columbiformes, and Gruiformes), this genetic structure was strictly partitioned by geographic distance. The haplotype network analysis identified three site‐specific haplotypes, indicating that the regional gene flow was constrained by localized vector communities rather than by host species barriers. The genetic diversity indices (pi = 0.00072, Hd = 0.80) and the non‐significant neutrality tests (Tajima's D = 1.64, Fu's Fs = 0.952) showed a state of neutral equilibrium, thereby reflecting long‐term demographic stasis and endemic integration. Based on these findings, P. collidatum maintains a stable endemicity via local ecological exploitation rather than via contemporary range expansion. This study underscores the need for high‐resolution mitogenomic markers to elucidate the fine‐scale transmission dynamics of generalist parasites. Further, it provides an important molecular baseline for avian conservation biosecurity in Southeast Asia."
+      ],
+      "authors": "Phirom Prompiram, Chalisa Mongkolphan, Nattarun Chaisilp, Kanaporn Poltep",
+      "journal": "Ecology and Evolution",
+      "doi": "10.1002/ece3.74821",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "ad60707f6f6b1df944007034b79c4445f6f4a28454f8c9993a5d890caa6e2733",
+      "pmcid": "PMC13792881",
+      "publishedAt": "2026-11-23",
+      "addedAt": "2026-11-25T21:59:55Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13792881",
+        "kind": "article",
+        "title": "Mitogenomic Evidence of Host Plasticity and Strict Phylogeographic Restriction in the Avian Malaria Parasite Plasmodium collidatum",
+        "authors": "Phirom Prompiram, Chalisa Mongkolphan, Nattarun Chaisilp, Kanaporn Poltep",
+        "organization": "Ecology and Evolution",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13792881/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "ad60707f6f6b1df944007034b79c4445f6f4a28454f8c9993a5d890caa6e2733",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-23",
+        "doi": "10.1002/ece3.74821"
+      },
+      "lesson": {
+        "id": "literature-pmc13792881",
+        "version": 1,
+        "title": "Mitogenomic Evidence of Host Plasticity and Strict Phylogeographic Restriction in the Avian Malaria Parasite Plasmodium collidatum",
+        "subtitle": "Open-access abstract · Ecology and Evolution · 2026-11-23",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13792881",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Avian malaria parasites (Plasmodium spp.) are globally distributed pathogens that significantly affect host evolution and biodiversity. The rapid expansion–cancelation cycles that are characteristic of invasive lineages are well documented. However, the mechanisms maintaining the stability of endemic generalists remain poorly understood. This study aimed to resolve the evolutionary history and population genetics of Plasmodium collidatum (lineage pFANTAIL01) across three regions in Thailand with the use of a mitogenomic approach incorporating a 3315‐bp concatenated dataset of cytb, cox1, and cox3. Phylogenetic reconstruction confirmed that P. collidatum was a robust monophyletic clade with substantial divergence (5.6%–5.7%) from its sister taxon (P. ashfordi). Results revealed a distinct phylogeographic paradox. In particular, although P. collidatum exhibited a high host plasticity across taxonomically diverse avian orders (Galliformes, Columbiformes, and Gruiformes), this genetic structure was strictly partitioned by geographic distance. The haplotype network analysis identified three site‐specific haplotypes, indicating that the regional gene flow was constrained by localized vector communities rather than by host species barriers. The genetic diversity indices (pi = 0.00072, Hd = 0.80) and the non‐significant neutrality tests (Tajima's D = 1.64, Fu's Fs = 0.952) showed a state of neutral equilibrium, thereby reflecting long‐term demographic stasis and endemic integration. Based on these findings, P. collidatum maintains a stable endemicity via local ecological exploitation rather than via contemporary range expansion. This study underscores the need for high‐resolution mitogenomic markers to elucidate the fine‐scale transmission dynamics of generalist parasites. Further, it provides an important molecular baseline for avian conservation biosecurity in Southeast Asia."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "baseline",
+            "definition": "A reference state or period against which a change is assessed."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAvian malaria parasites (Plasmodium spp.) are globally distributed pathogens that significantly affect host evolution and _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "b",
+                "text": "carbon sink",
+                "explanation": "This is not the expression used in this sentence. A system that takes up more carbon than it releases over a specified period."
+              },
+              {
+                "id": "c",
+                "text": "trophic level",
+                "explanation": "This is not the expression used in this sentence. A position in a food web defined by the source of an organism's energy."
+              },
+              {
+                "id": "d",
+                "text": "confounding",
+                "explanation": "This is not the expression used in this sentence. A distortion in an estimated association caused by a factor related to both the exposure and the outcome."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nFurther, it provides an important molecular _____ for avian conservation biosecurity in Southeast Asia.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "nitrogen deposition",
+                "explanation": "This is not the expression used in this sentence. The transfer of atmospheric nitrogen compounds to surfaces by wet and dry processes."
+              },
+              {
+                "id": "b",
+                "text": "watershed",
+                "explanation": "This is not the expression used in this sentence. An area of land that drains water toward a common outlet."
+              },
+              {
+                "id": "c",
+                "text": "baseline",
+                "explanation": "The original abstract uses this expression. A reference state or period against which a change is assessed."
+              },
+              {
+                "id": "d",
+                "text": "country-specific emission factors",
+                "explanation": "This is not the expression used in this sentence. Factors developed to reflect the conditions of a particular country."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: baseline. A reference state or period against which a change is assessed. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nAvian malaria parasites (Plasmodium spp.) are globally distributed pathogens that significantly affect host evolution and biodiversity. The rapid expansion–cancelation cycles that are characteristic of invasive lineages are well documented. However, the mechanisms maintaining the stability of endemic generalists remain poorly understood. This study aimed to resolve the evolutionary history and population genetics of Plasmodium collidatum (lineage pFANTAIL01) across three regions in Thailand with the use of a mitogenomic approach incorporating a 3315‐bp concatenated dataset of cytb, cox1, and cox3. Phylogenetic reconstruction confirmed that P. collidatum was a robust monophyletic clade with substantial divergence (5.6%–5.7%) from its sister taxon (P. ashfordi). Results revealed a distinct phylogeographic paradox. In particular, although P. collidatum exhibited a high host plasticity across taxonomically diverse avian orders (Galliformes, Columbiformes, and Gruiformes), this genetic structure was strictly partitioned by geographic distance. The haplotype network analysis identified three site‐specific haplotypes, indicating that the regional gene flow was constrained by localized vector communities rather than by host species barriers. The genetic diversity indices (pi = 0.00072, Hd = 0.80) and the non‐significant neutrality tests (Tajima's D = 1.64, Fu's Fs = 0.952) showed a state of neutral equilibrium, thereby reflecting long‐term demographic stasis and endemic integration. Based on these findings, P. collidatum maintains a stable endemicity via local ecological exploitation rather than via contemporary range expansion. This study underscores the need for high‐resolution mitogenomic markers to elucidate the fine‐scale transmission dynamics of generalist parasites. Further, it provides an important molecular baseline for avian conservation biosecurity in Southeast Asia.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-23",
+        "addedAt": "2026-11-25T21:59:55Z"
+      }
+    },
+    {
+      "title": "Deficit Irrigation Strategies in Almond Orchards: A Review of the Effects on Yield, Physiology, Nut Quality, Economics, and Remote Sensing",
+      "paragraphs": [
+        "Sustainable water use is a major challenge in irrigated agriculture, particularly in arid and semi-arid regions where water availability strongly influences crop productivity and quality. Almond (Prunus dulcis (Mill.) D.A. Webb) is an important nut crop cultivated extensively in such environments, making efficient irrigation management essential for sustainable production. A total of 63 studies were included in the review, comprising 62 field studies and one pot experiment, some of which incorporated modelling, remote sensing, physiological monitoring, or sensor-based irrigation-management approaches, to evaluate deficit irrigation (DI) in almond, with particular emphasis on regulated deficit irrigation (RDI), sustained deficit irrigation (SDI), low-frequency deficit irrigation (LFDI), and partial root-zone drying (PRD). The review examines how irrigation strategy, deficit intensity, timing and duration of water restriction, cultivar, tree age, and environmental conditions affect irrigation water savings, yield, kernel quality, water productivity, water-use efficiency, and physiological responses. In addition, the economic implications of DI and recent applications of remote sensing (RS) for detecting water stress and supporting irrigation scheduling are evaluated. Overall, the evidence indicates that DI can substantially reduce irrigation water use while maintaining acceptable yields and, under specific conditions, improving kernel quality. However, responses vary considerably among studies, reflecting interactions among deficit characteristics, environmental conditions, cultivar, and tree age and limiting the development of universally applicable management recommendations. The review further indicates that integrating DI with RS-based monitoring has potential to support site-specific and adaptive irrigation management by improving water allocation, detecting emerging water stress, and enhancing water-use efficiency. Such integrated approaches may become increasingly important in regions experiencing greater drought frequency and competition for water resources. Future research should prioritize multi-environment and multi-cultivar validation of integrated DI–RS approaches, the development of practical decision-support tools and economic thresholds, and the assessment of their transferability from experimental conditions to commercial orchards. Combining physiological indicators, RS technologies, and crop-specific irrigation strategies could contribute to more resilient and sustainable almond production under increasing water scarcity and climate variability."
+      ],
+      "authors": "Annalisa Tarantino, Laura Frabboni, Antonio Stasi, Grazia Disciglio",
+      "journal": "Plants",
+      "doi": "10.3390/plants15213253",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "3376965d4b29c4ff30f8b194a18869a7a1770993aa502c80eb664f355872681d",
+      "pmcid": "PMC13765309",
+      "publishedAt": "2026-10-22",
+      "addedAt": "2026-11-25T21:59:55Z",
+      "topic": "Research methods",
+      "source": {
+        "id": "literature-pmc13765309",
+        "kind": "article",
+        "title": "Deficit Irrigation Strategies in Almond Orchards: A Review of the Effects on Yield, Physiology, Nut Quality, Economics, and Remote Sensing",
+        "authors": "Annalisa Tarantino, Laura Frabboni, Antonio Stasi, Grazia Disciglio",
+        "organization": "Plants",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13765309/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "3376965d4b29c4ff30f8b194a18869a7a1770993aa502c80eb664f355872681d",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-10-22",
+        "doi": "10.3390/plants15213253"
+      },
+      "lesson": {
+        "id": "literature-pmc13765309",
+        "version": 1,
+        "title": "Deficit Irrigation Strategies in Almond Orchards: A Review of the Effects on Yield, Physiology, Nut Quality, Economics, and Remote Sensing",
+        "subtitle": "Open-access abstract · Plants · 2026-10-22",
+        "topic": "Research methods",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13765309",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Sustainable water use is a major challenge in irrigated agriculture, particularly in arid and semi-arid regions where water availability strongly influences crop productivity and quality. Almond (Prunus dulcis (Mill.) D.A. Webb) is an important nut crop cultivated extensively in such environments, making efficient irrigation management essential for sustainable production. A total of 63 studies were included in the review, comprising 62 field studies and one pot experiment, some of which incorporated modelling, remote sensing, physiological monitoring, or sensor-based irrigation-management approaches, to evaluate deficit irrigation (DI) in almond, with particular emphasis on regulated deficit irrigation (RDI), sustained deficit irrigation (SDI), low-frequency deficit irrigation (LFDI), and partial root-zone drying (PRD). The review examines how irrigation strategy, deficit intensity, timing and duration of water restriction, cultivar, tree age, and environmental conditions affect irrigation water savings, yield, kernel quality, water productivity, water-use efficiency, and physiological responses. In addition, the economic implications of DI and recent applications of remote sensing (RS) for detecting water stress and supporting irrigation scheduling are evaluated. Overall, the evidence indicates that DI can substantially reduce irrigation water use while maintaining acceptable yields and, under specific conditions, improving kernel quality. However, responses vary considerably among studies, reflecting interactions among deficit characteristics, environmental conditions, cultivar, and tree age and limiting the development of universally applicable management recommendations. The review further indicates that integrating DI with RS-based monitoring has potential to support site-specific and adaptive irrigation management by improving water allocation, detecting emerging water stress, and enhancing water-use efficiency. Such integrated approaches may become increasingly important in regions experiencing greater drought frequency and competition for water resources. Future research should prioritize multi-environment and multi-cultivar validation of integrated DI–RS approaches, the development of practical decision-support tools and economic thresholds, and the assessment of their transferability from experimental conditions to commercial orchards. Combining physiological indicators, RS technologies, and crop-specific irrigation strategies could contribute to more resilient and sustainable almond production under increasing water scarcity and climate variability."
+        ],
+        "terms": [
+          {
+            "term": "remote sensing",
+            "definition": "Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+          },
+          {
+            "term": "water scarcity",
+            "definition": "Insufficient available water to meet demand within a defined place and period."
+          },
+          {
+            "term": "variability",
+            "definition": "Real differences across time, space, or members of a population."
+          },
+          {
+            "term": "drought",
+            "definition": "A period of water shortage relative to a defined climatic, hydrological or biological reference."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nA total of 63 studies were included in the review, comprising 62 field studies and one pot experiment, some of which incorporated modelling, _____, physiological monitoring, or sensor-based irrigation-management approaches, to evaluate deficit irrigation (DI) in almond, with particular emphasis on regulated deficit irrigation (RDI), sustained deficit irrigation (SDI), low-frequency deficit irrigation (LFDI), and partial root-zone drying (PRD).",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "remote sensing",
+                "explanation": "The original abstract uses this expression. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors."
+              },
+              {
+                "id": "b",
+                "text": "sustainability",
+                "explanation": "This is not the expression used in this sentence. The capacity to maintain environmental, social or economic conditions over time within stated constraints."
+              },
+              {
+                "id": "c",
+                "text": "double counting",
+                "explanation": "This is not the expression used in this sentence. Including the same activity or emissions more than once in a total."
+              },
+              {
+                "id": "d",
+                "text": "decarbonization",
+                "explanation": "This is not the expression used in this sentence. The reduction of carbon dioxide emissions associated with an activity or system."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: remote sensing. Obtaining information about a target without direct contact, commonly using satellite or airborne sensors. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nCombining physiological indicators, RS technologies, and crop-specific irrigation strategies could contribute to more resilient and sustainable almond production under increasing _____ and climate variability.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "trade-off",
+                "explanation": "This is not the expression used in this sentence. A situation in which improving one outcome comes at the expense of another."
+              },
+              {
+                "id": "b",
+                "text": "random errors",
+                "explanation": "This is not the expression used in this sentence. Errors that vary above and below an expected value."
+              },
+              {
+                "id": "c",
+                "text": "water scarcity",
+                "explanation": "The original abstract uses this expression. Insufficient available water to meet demand within a defined place and period."
+              },
+              {
+                "id": "d",
+                "text": "life-cycle assessment",
+                "explanation": "This is not the expression used in this sentence. A method for evaluating environmental impacts across defined stages of a product or service's life."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: water scarcity. Insufficient available water to meet demand within a defined place and period. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nSustainable water use is a major challenge in irrigated agriculture, particularly in arid and semi-arid regions where water availability strongly influences crop productivity and quality. Almond (Prunus dulcis (Mill.) D.A. Webb) is an important nut crop cultivated extensively in such environments, making efficient irrigation management essential for sustainable production. A total of 63 studies were included in the review, comprising 62 field studies and one pot experiment, some of which incorporated modelling, remote sensing, physiological monitoring, or sensor-based irrigation-management approaches, to evaluate deficit irrigation (DI) in almond, with particular emphasis on regulated deficit irrigation (RDI), sustained deficit irrigation (SDI), low-frequency deficit irrigation (LFDI), and partial root-zone drying (PRD). The review examines how irrigation strategy, deficit intensity, timing and duration of water restriction, cultivar, tree age, and environmental conditions affect irrigation water savings, yield, kernel quality, water productivity, water-use efficiency, and physiological responses. In addition, the economic implications of DI and recent applications of remote sensing (RS) for detecting water stress and supporting irrigation scheduling are evaluated. Overall, the evidence indicates that DI can substantially reduce irrigation water use while maintaining acceptable yields and, under specific conditions, improving kernel quality. However, responses vary considerably among studies, reflecting interactions among deficit characteristics, environmental conditions, cultivar, and tree age and limiting the development of universally applicable management recommendations. The review further indicates that integrating DI with RS-based monitoring has potential to support site-specific and adaptive irrigation management by improving water allocation, detecting emerging water stress, and enhancing water-use efficiency. Such integrated approaches may become increasingly important in regions experiencing greater drought frequency and competition for water resources. Future research should prioritize multi-environment and multi-cultivar validation of integrated DI–RS approaches, the development of practical decision-support tools and economic thresholds, and the assessment of their transferability from experimental conditions to commercial orchards. Combining physiological indicators, RS technologies, and crop-specific irrigation strategies could contribute to more resilient and sustainable almond production under increasing water scarcity and climate variability.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-10-22",
+        "addedAt": "2026-11-25T21:59:55Z"
+      }
+    },
+    {
+      "title": "Wild Edible Plants and Indigenous Knowledge in Urban and Rural Communities of Gondar Administrative City, Northwest Ethiopia: A Comparative Study",
+      "paragraphs": [
+        "Wild edible plants are plant species that are used as a food source for humans without being cultivated or domesticated. They have a critical role in ensuring food security and improving nutrition in the diets of Ethiopian people. However, ethnobotanical documentations in the urban and semi‐urban areas of the country are highly limited. Thus, this study was aimed to document wild edible plants and the associated indigenous knowledge in Gondar Administrative City with particular emphasis on comparing urban and rural communities. Six urban and six rural kebeles were selected using purposive sampling method. A total of 180 respondents (120 general and 60 key informants) were selected using simple random and purposive sampling techniques, respectively. Data on ethnobotany was gathered through individual interviews, focus group discussion, guided field walk, and market assessments. Data analysis involved descriptive statistics, Jaccard’s Coefficient of Similarity (JCS), preference ranking, and triadic comparison. Sociodemographic influence on knowledge about edible plants was also assessed using SPSS Version 26.0. Thirty‐nine wild edible plants belonging to 32 genera and 23 families were identified. Trees and shrubs formed the predominant plant forms each representing 30.77%, while Fabaceae was the most prevalent family with 17.95%. The species are widely distributed in wild habitats. Significant knowledge variation on wild edible plants between rural and urban kebeles (p < 0.001), sex groups (p < 0.001), and key and general informants (p < 0.005) was observed. In addition, there was a positive correlation between knowledge and age of respondent (r = 0.58). Syzygium guineense was the most preferring and relaxing food plant that provided considerable comfort after consuming it, while Cordia africana was the sweetest. Fruits were the most useful edible plant parts and fresh raw form was the most widely used mode of consumption. Majority of edible plants had supplementary role and are mainly accessible in June and May. Apart from their edible value, 92.31% of plants had diversified purposes. In general, Gondar City Administration is rich with wild edible plants, which have their own contribution in improving food insecurity. These findings underscore the urgent need for integrating wild edible plants into urban biodiversity conservation strategies and food security policies in Ethiopia."
+      ],
+      "authors": "Tiruye Ayenew, Abiyu Enyew, Getinet Masresha, Worku Misganaw, Daniel Tadesse, Eshete Kassaw, Birtukan Asrie, Yirgalem Melkamu",
+      "journal": "International Journal of Food Science",
+      "doi": "10.1155/ijfo/4368425",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "541a515621b65580e0e7ba497c632b738f07ec0b4b2149693d38a0e5adf6db2c",
+      "pmcid": "PMC13768922",
+      "publishedAt": "2026-11-14",
+      "addedAt": "2026-11-25T21:59:55Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13768922",
+        "kind": "article",
+        "title": "Wild Edible Plants and Indigenous Knowledge in Urban and Rural Communities of Gondar Administrative City, Northwest Ethiopia: A Comparative Study",
+        "authors": "Tiruye Ayenew, Abiyu Enyew, Getinet Masresha, Worku Misganaw, Daniel Tadesse, Eshete Kassaw, Birtukan Asrie, Yirgalem Melkamu",
+        "organization": "International Journal of Food Science",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13768922/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "541a515621b65580e0e7ba497c632b738f07ec0b4b2149693d38a0e5adf6db2c",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-14",
+        "doi": "10.1155/ijfo/4368425"
+      },
+      "lesson": {
+        "id": "literature-pmc13768922",
+        "version": 1,
+        "title": "Wild Edible Plants and Indigenous Knowledge in Urban and Rural Communities of Gondar Administrative City, Northwest Ethiopia: A Comparative Study",
+        "subtitle": "Open-access abstract · International Journal of Food Science · 2026-11-14",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13768922",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Wild edible plants are plant species that are used as a food source for humans without being cultivated or domesticated. They have a critical role in ensuring food security and improving nutrition in the diets of Ethiopian people. However, ethnobotanical documentations in the urban and semi‐urban areas of the country are highly limited. Thus, this study was aimed to document wild edible plants and the associated indigenous knowledge in Gondar Administrative City with particular emphasis on comparing urban and rural communities. Six urban and six rural kebeles were selected using purposive sampling method. A total of 180 respondents (120 general and 60 key informants) were selected using simple random and purposive sampling techniques, respectively. Data on ethnobotany was gathered through individual interviews, focus group discussion, guided field walk, and market assessments. Data analysis involved descriptive statistics, Jaccard’s Coefficient of Similarity (JCS), preference ranking, and triadic comparison. Sociodemographic influence on knowledge about edible plants was also assessed using SPSS Version 26.0. Thirty‐nine wild edible plants belonging to 32 genera and 23 families were identified. Trees and shrubs formed the predominant plant forms each representing 30.77%, while Fabaceae was the most prevalent family with 17.95%. The species are widely distributed in wild habitats. Significant knowledge variation on wild edible plants between rural and urban kebeles (p < 0.001), sex groups (p < 0.001), and key and general informants (p < 0.005) was observed. In addition, there was a positive correlation between knowledge and age of respondent (r = 0.58). Syzygium guineense was the most preferring and relaxing food plant that provided considerable comfort after consuming it, while Cordia africana was the sweetest. Fruits were the most useful edible plant parts and fresh raw form was the most widely used mode of consumption. Majority of edible plants had supplementary role and are mainly accessible in June and May. Apart from their edible value, 92.31% of plants had diversified purposes. In general, Gondar City Administration is rich with wild edible plants, which have their own contribution in improving food insecurity. These findings underscore the urgent need for integrating wild edible plants into urban biodiversity conservation strategies and food security policies in Ethiopia."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "correlation",
+            "definition": "A statistical relationship in how two quantities vary together."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThese findings underscore the urgent need for integrating wild edible plants into urban _____ conservation strategies and food security policies in Ethiopia.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "stationary combustion",
+                "explanation": "This is not the expression used in this sentence. Fuel burning in stationary equipment or installations."
+              },
+              {
+                "id": "b",
+                "text": "activity data",
+                "explanation": "This is not the expression used in this sentence. Data describing the scale of an activity associated with emissions or removals."
+              },
+              {
+                "id": "c",
+                "text": "sustainability",
+                "explanation": "This is not the expression used in this sentence. The capacity to maintain environmental, social or economic conditions over time within stated constraints."
+              },
+              {
+                "id": "d",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nIn addition, there was a positive _____ between knowledge and age of respondent (r = 0.58).",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "feedback",
+                "explanation": "This is not the expression used in this sentence. A process in which a system's response influences the conditions driving that response."
+              },
+              {
+                "id": "b",
+                "text": "correlation",
+                "explanation": "The original abstract uses this expression. A statistical relationship in how two quantities vary together."
+              },
+              {
+                "id": "c",
+                "text": "co-benefits",
+                "explanation": "This is not the expression used in this sentence. Additional beneficial outcomes of an action beyond its primary intended purpose."
+              },
+              {
+                "id": "d",
+                "text": "nitrogen fixation",
+                "explanation": "This is not the expression used in this sentence. The conversion of molecular nitrogen into chemically reactive nitrogen compounds."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: correlation. A statistical relationship in how two quantities vary together. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nWild edible plants are plant species that are used as a food source for humans without being cultivated or domesticated. They have a critical role in ensuring food security and improving nutrition in the diets of Ethiopian people. However, ethnobotanical documentations in the urban and semi‐urban areas of the country are highly limited. Thus, this study was aimed to document wild edible plants and the associated indigenous knowledge in Gondar Administrative City with particular emphasis on comparing urban and rural communities. Six urban and six rural kebeles were selected using purposive sampling method. A total of 180 respondents (120 general and 60 key informants) were selected using simple random and purposive sampling techniques, respectively. Data on ethnobotany was gathered through individual interviews, focus group discussion, guided field walk, and market assessments. Data analysis involved descriptive statistics, Jaccard’s Coefficient of Similarity (JCS), preference ranking, and triadic comparison. Sociodemographic influence on knowledge about edible plants was also assessed using SPSS Version 26.0. Thirty‐nine wild edible plants belonging to 32 genera and 23 families were identified. Trees and shrubs formed the predominant plant forms each representing 30.77%, while Fabaceae was the most prevalent family with 17.95%. The species are widely distributed in wild habitats. Significant knowledge variation on wild edible plants between rural and urban kebeles (p < 0.001), sex groups (p < 0.001), and key and general informants (p < 0.005) was observed. In addition, there was a positive correlation between knowledge and age of respondent (r = 0.58). Syzygium guineense was the most preferring and relaxing food plant that provided considerable comfort after consuming it, while Cordia africana was the sweetest. Fruits were the most useful edible plant parts and fresh raw form was the most widely used mode of consumption. Majority of edible plants had supplementary role and are mainly accessible in June and May. Apart from their edible value, 92.31% of plants had diversified purposes. In general, Gondar City Administration is rich with wild edible plants, which have their own contribution in improving food insecurity. These findings underscore the urgent need for integrating wild edible plants into urban biodiversity conservation strategies and food security policies in Ethiopia.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-14",
+        "addedAt": "2026-11-25T21:59:55Z"
+      }
     }
   ],
   "vocabulary": [
@@ -10392,6 +10829,22 @@
   ],
   "history": [
     {
+      "checkedAt": "2026-11-25T21:59:55Z",
+      "added": 3,
+      "total": 68,
+      "vocabularyAdded": 0,
+      "screening": {
+        "candidates": 280,
+        "xmlInspected": 59,
+        "cachedSkipped": 65,
+        "unavailable": 0,
+        "ineligible": 41,
+        "duplicate": 0,
+        "insufficientTerms": 15,
+        "passes": 2
+      }
+    },
+    {
       "checkedAt": "2026-11-21T12:55:45Z",
       "added": 3,
       "total": 65,
@@ -10854,623 +11307,11 @@
         "insufficientTerms": 14,
         "passes": 3
       }
-    },
-    {
-      "checkedAt": "2026-11-04T20:04:36Z",
-      "added": 3,
-      "total": 30,
-      "vocabularyAdded": 0,
-      "screening": {
-        "candidates": 265,
-        "xmlInspected": 23,
-        "cachedSkipped": 135,
-        "unavailable": 0,
-        "ineligible": 13,
-        "duplicate": 0,
-        "insufficientTerms": 7,
-        "passes": 1
-      }
     }
   ],
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13752485",
-        "checkedAt": "2026-11-14T18:31:39Z"
-      },
-      {
-        "pmcid": "PMC13753081",
-        "checkedAt": "2026-11-14T18:31:39Z"
-      },
-      {
-        "pmcid": "PMC13753082",
-        "checkedAt": "2026-11-14T18:31:39Z"
-      },
-      {
-        "pmcid": "PMC13754001",
-        "checkedAt": "2026-11-14T18:31:39Z"
-      },
-      {
-        "pmcid": "PMC13754002",
-        "checkedAt": "2026-11-14T18:31:39Z"
-      },
-      {
-        "pmcid": "PMC13754018",
-        "checkedAt": "2026-11-14T18:31:39Z"
-      },
-      {
-        "pmcid": "PMC13754036",
-        "checkedAt": "2026-11-14T18:31:39Z"
-      },
-      {
-        "pmcid": "PMC13754158",
-        "checkedAt": "2026-11-14T18:31:39Z"
-      },
-      {
-        "pmcid": "PMC13697509",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13705788",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13709588",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13710540",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13710892",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13712539",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13712690",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13712723",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13712746",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13713970",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13717229",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13719766",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13719833",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13720272",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13721831",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13745277",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13751354",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13752138",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13752710",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13753337",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13753433",
-        "checkedAt": "2026-11-15T19:08:37Z"
-      },
-      {
-        "pmcid": "PMC13735200",
-        "checkedAt": "2026-11-16T22:33:53Z"
-      },
-      {
-        "pmcid": "PMC13739137",
-        "checkedAt": "2026-11-16T22:33:53Z"
-      },
-      {
-        "pmcid": "PMC13743743",
-        "checkedAt": "2026-11-16T22:33:53Z"
-      },
-      {
-        "pmcid": "PMC13743924",
-        "checkedAt": "2026-11-16T22:33:53Z"
-      },
-      {
-        "pmcid": "PMC13744005",
-        "checkedAt": "2026-11-16T22:33:53Z"
-      },
-      {
-        "pmcid": "PMC13728167",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13730392",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13730655",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13731523",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13731689",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13731977",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13732419",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13733363",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13733521",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13733797",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13733889",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13734455",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13734480",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13735227",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13735441",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13736477",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13736797",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13738000",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13739421",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13740384",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13743032",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13743865",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13744316",
-        "checkedAt": "2026-11-17T07:50:10Z"
-      },
-      {
-        "pmcid": "PMC13704844",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13709670",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13710853",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13713181",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13714330",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13717291",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13723011",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13728321",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13729312",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13729738",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13729754",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13730339",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13730407",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13730809",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13731641",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13734583",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13734587",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13735486",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13735735",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13735883",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13735984",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13736465",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13736638",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13737116",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13738049",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13738795",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13738802",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13739097",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13739119",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13739997",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13740086",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13740093",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13740649",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13740655",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13741158",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13741802",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13742574",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13743836",
-        "checkedAt": "2026-11-17T21:22:38Z"
-      },
-      {
-        "pmcid": "PMC13693048",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13707107",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13707401",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13707653",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13708874",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13709722",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13709757",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13710740",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13710800",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13712314",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13713060",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13714496",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13714498",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13714573",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13715106",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13717283",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13721432",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13721986",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13722579",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13722604",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13723693",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13724144",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13727689",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13728331",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13730327",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13730380",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13730635",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13732283",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13732284",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13734722",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13735295",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13735576",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13735998",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13736084",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13736763",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13737233",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13737916",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13738208",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13738792",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13739001",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13740657",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13740847",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13740959",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13743192",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13754695",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13754835",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13755124",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13757817",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13757894",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13757946",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13757952",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13757953",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13757956",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
-      {
-        "pmcid": "PMC13757958",
-        "checkedAt": "2026-11-18T20:55:22Z"
-      },
       {
         "pmcid": "PMC13701509",
         "checkedAt": "2026-11-19T07:25:32Z"
@@ -11862,6 +11703,230 @@
       {
         "pmcid": "PMC13784816",
         "checkedAt": "2026-11-21T12:55:45Z"
+      },
+      {
+        "pmcid": "PMC13712740",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13728167",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13735200",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13745277",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13753081",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13753082",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13754001",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13754036",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13754695",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13763779",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13764900",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13769688",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13770266",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13770547",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13770771",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13774315",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13776799",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13777253",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13777518",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13777519",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13777607",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13777922",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13780286",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13780419",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13781121",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13781124",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13781333",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13781345",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13781363",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13781472",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13781629",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13781845",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13782116",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13784785",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13785426",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13785466",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13787161",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13787815",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13788993",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13789566",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13789967",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13791147",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13791165",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13791406",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13791650",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13792090",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13792685",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13792739",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13792859",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13793118",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13793168",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13793244",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13793369",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13793437",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13794826",
+        "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13795272",
+        "checkedAt": "2026-11-25T21:59:55Z"
       }
     ]
   }
