@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-25T21:59:55Z",
-  "lastAddedAt": "2026-11-25T21:59:55Z",
+  "lastCheckedAt": "2026-11-26T21:57:40Z",
+  "lastAddedAt": "2026-11-26T21:57:40Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -10025,6 +10025,466 @@
         "publishedAt": "2026-11-14",
         "addedAt": "2026-11-25T21:59:55Z"
       }
+    },
+    {
+      "title": "Plasma metabolic signature in the association between air pollution and cataract risk: A longitudinal cohort study",
+      "paragraphs": [
+        "Air pollution exposure has been reported to be associated with cataract risk; however, the underlying mechanism in this relationship remains unclear. We included 199,528 cataract-free participants from the UK Biobank prospective cohort study. Multivariable Cox proportional hazards models were used to estimate associations of air pollution with cataract risk. Elastic net regression was utilized to identify each air pollutant–related metabolic signatures, and mediation analysis were performed to evaluate mediation effect. Results showed that higher exposure to PM2.5 (adjusted hazard ratios [HR] for each quantile increase: 1.05; 95% confidence interval [CI]: 1.03–1.06; FDR-adjusted P < 0.001), NO2 (adjusted HR: 1.02; 95%CI: 1.01–1.04; FDR-adjusted P = 0.008), and NOx (adjusted HR: 1.03; 95%CI: 1.01–1.04; FDR-adjusted P < 0.001) was significantly associated with an elevated cataract risk, whereas PM10 and PMcoarse showing no significant difference. We identified metabolic signatures comprising 35 metabolites for PM2.5, 28 for NO2, and 13 for NOx. Metabolic signatures were associated with incident cataract, with HRs of 1.06 (95% CI: 1.04–1.08) per standard deviation (SD) increment in the PM2.5-related metabolic signature, 1.05 (95% CI: 1.03–1.07) for the NO2-related metabolic signature, and 1.04 (95% CI: 1.03–1.06) for the NOx-related metabolic signature, respectively. Mediation analysis showed that metabolic signatures significantly mediated 4.03%, 6.58%, and 2.22% of the effects of PM2.5, NO2, and NOx on cataract risk, respectively, and certain metabolites, such as lactate and albumin, showing partial mediation of this association. Our findings underscore that air pollution exposure is associated with a higher risk of cataract, with metabolic signatures partially mediating this association."
+      ],
+      "authors": "Jiao Qi, Kaimeng Su, Xiaoxin Hu, Zhibo Yuan, Keke Zhang, Jiaqi Meng, Yu Du, Yi Lu, Xiangjia Zhu",
+      "journal": "PLOS One",
+      "doi": "10.1371/journal.pone.0362274",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "e38d48ea1fcdcacc91cb4ac5a16462361a8535b9dbe3b0321dcfc5135068e79e",
+      "pmcid": "PMC13805889",
+      "publishedAt": "2026-11-25",
+      "addedAt": "2026-11-26T21:57:40Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13805889",
+        "kind": "article",
+        "title": "Plasma metabolic signature in the association between air pollution and cataract risk: A longitudinal cohort study",
+        "authors": "Jiao Qi, Kaimeng Su, Xiaoxin Hu, Zhibo Yuan, Keke Zhang, Jiaqi Meng, Yu Du, Yi Lu, Xiangjia Zhu",
+        "organization": "PLOS One",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13805889/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "e38d48ea1fcdcacc91cb4ac5a16462361a8535b9dbe3b0321dcfc5135068e79e",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-25",
+        "doi": "10.1371/journal.pone.0362274"
+      },
+      "lesson": {
+        "id": "literature-pmc13805889",
+        "version": 1,
+        "title": "Plasma metabolic signature in the association between air pollution and cataract risk: A longitudinal cohort study",
+        "subtitle": "Open-access abstract · PLOS One · 2026-11-25",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13805889",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Air pollution exposure has been reported to be associated with cataract risk; however, the underlying mechanism in this relationship remains unclear. We included 199,528 cataract-free participants from the UK Biobank prospective cohort study. Multivariable Cox proportional hazards models were used to estimate associations of air pollution with cataract risk. Elastic net regression was utilized to identify each air pollutant–related metabolic signatures, and mediation analysis were performed to evaluate mediation effect. Results showed that higher exposure to PM2.5 (adjusted hazard ratios [HR] for each quantile increase: 1.05; 95% confidence interval [CI]: 1.03–1.06; FDR-adjusted P < 0.001), NO2 (adjusted HR: 1.02; 95%CI: 1.01–1.04; FDR-adjusted P = 0.008), and NOx (adjusted HR: 1.03; 95%CI: 1.01–1.04; FDR-adjusted P < 0.001) was significantly associated with an elevated cataract risk, whereas PM10 and PMcoarse showing no significant difference. We identified metabolic signatures comprising 35 metabolites for PM2.5, 28 for NO2, and 13 for NOx. Metabolic signatures were associated with incident cataract, with HRs of 1.06 (95% CI: 1.04–1.08) per standard deviation (SD) increment in the PM2.5-related metabolic signature, 1.05 (95% CI: 1.03–1.07) for the NO2-related metabolic signature, and 1.04 (95% CI: 1.03–1.06) for the NOx-related metabolic signature, respectively. Mediation analysis showed that metabolic signatures significantly mediated 4.03%, 6.58%, and 2.22% of the effects of PM2.5, NO2, and NOx on cataract risk, respectively, and certain metabolites, such as lactate and albumin, showing partial mediation of this association. Our findings underscore that air pollution exposure is associated with a higher risk of cataract, with metabolic signatures partially mediating this association."
+        ],
+        "terms": [
+          {
+            "term": "confidence interval",
+            "definition": "An interval produced by a statistical procedure with a stated long-run coverage under its assumptions."
+          },
+          {
+            "term": "standard deviation",
+            "definition": "A measure of how widely values are dispersed around their mean."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nResults showed that higher exposure to PM2.5 (adjusted hazard ratios [HR] for each quantile increase: 1.05; 95% _____ [CI]: 1.03–1.06; FDR-adjusted P < 0.001), NO2 (adjusted HR: 1.02; 95%CI: 1.01–1.04; FDR-adjusted P = 0.008), and NOx (adjusted HR: 1.03; 95%CI: 1.01–1.04; FDR-adjusted P < 0.001) was significantly associated with an elevated cataract risk, whereas PM10 and PMcoarse showing no significant difference.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "water scarcity",
+                "explanation": "This is not the expression used in this sentence. Insufficient available water to meet demand within a defined place and period."
+              },
+              {
+                "id": "b",
+                "text": "temporal matching",
+                "explanation": "This is not the expression used in this sentence. Aligning observations and model outputs to compatible time periods and conventions."
+              },
+              {
+                "id": "c",
+                "text": "circular economy",
+                "explanation": "This is not the expression used in this sentence. An approach that aims to keep materials in use and reduce resource consumption and waste."
+              },
+              {
+                "id": "d",
+                "text": "confidence interval",
+                "explanation": "The original abstract uses this expression. An interval produced by a statistical procedure with a stated long-run coverage under its assumptions."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: confidence interval. An interval produced by a statistical procedure with a stated long-run coverage under its assumptions. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nMetabolic signatures were associated with incident cataract, with HRs of 1.06 (95% CI: 1.04–1.08) per _____ (SD) increment in the PM2.5-related metabolic signature, 1.05 (95% CI: 1.03–1.07) for the NO2-related metabolic signature, and 1.04 (95% CI: 1.03–1.06) for the NOx-related metabolic signature, respectively.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "life cycle assessment",
+                "explanation": "This is not the expression used in this sentence. A method for evaluating environmental impacts across defined stages of a product or service's life."
+              },
+              {
+                "id": "b",
+                "text": "confidence interval",
+                "explanation": "This is not the expression used in this sentence. An interval produced by a statistical procedure with a stated long-run coverage under its assumptions."
+              },
+              {
+                "id": "c",
+                "text": "census",
+                "explanation": "This is not the expression used in this sentence. A data collection exercise intended to cover the whole population of interest."
+              },
+              {
+                "id": "d",
+                "text": "standard deviation",
+                "explanation": "The original abstract uses this expression. A measure of how widely values are dispersed around their mean."
+              }
+            ],
+            "correct": "d",
+            "explanation": "Source expression: standard deviation. A measure of how widely values are dispersed around their mean. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nAir pollution exposure has been reported to be associated with cataract risk; however, the underlying mechanism in this relationship remains unclear. We included 199,528 cataract-free participants from the UK Biobank prospective cohort study. Multivariable Cox proportional hazards models were used to estimate associations of air pollution with cataract risk. Elastic net regression was utilized to identify each air pollutant–related metabolic signatures, and mediation analysis were performed to evaluate mediation effect. Results showed that higher exposure to PM2.5 (adjusted hazard ratios [HR] for each quantile increase: 1.05; 95% confidence interval [CI]: 1.03–1.06; FDR-adjusted P < 0.001), NO2 (adjusted HR: 1.02; 95%CI: 1.01–1.04; FDR-adjusted P = 0.008), and NOx (adjusted HR: 1.03; 95%CI: 1.01–1.04; FDR-adjusted P < 0.001) was significantly associated with an elevated cataract risk, whereas PM10 and PMcoarse showing no significant difference. We identified metabolic signatures comprising 35 metabolites for PM2.5, 28 for NO2, and 13 for NOx. Metabolic signatures were associated with incident cataract, with HRs of 1.06 (95% CI: 1.04–1.08) per standard deviation (SD) increment in the PM2.5-related metabolic signature, 1.05 (95% CI: 1.03–1.07) for the NO2-related metabolic signature, and 1.04 (95% CI: 1.03–1.06) for the NOx-related metabolic signature, respectively. Mediation analysis showed that metabolic signatures significantly mediated 4.03%, 6.58%, and 2.22% of the effects of PM2.5, NO2, and NOx on cataract risk, respectively, and certain metabolites, such as lactate and albumin, showing partial mediation of this association. Our findings underscore that air pollution exposure is associated with a higher risk of cataract, with metabolic signatures partially mediating this association.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-25",
+        "addedAt": "2026-11-26T21:57:40Z"
+      }
+    },
+    {
+      "title": "Explainable Geospatial AI Reveals Associations Between Ambient Air Quality and Thermal Predictors of Child Respiratory Disease in Bangladesh",
+      "paragraphs": [
+        "Air pollution poses a substantial threat to child health, yet evidence on the spatial relationship between fine particulate matter (PM2.5) and acute respiratory infection (ARI) at the upazila (sub‐district) level remains limited in Bangladesh. This study integrated 1‐km MAIAC‐derived PM2.5, land surface temperature (LST), and Normalized Difference Vegetation Index (NDVI) with 2022 Bangladesh Demographic and Health Survey data (8,784 children under five, 344 upazilas), assigning exposures via a buffer‐based approach to account for survey‐cluster displacement. An explainable machine learning framework combining Random Forest and SHapley Additive exPlanations (SHAP) predicted ARI and quantified how temperature, vegetation, and PM2.5 jointly contribute to spatial variation in risk. PM2.5 ranged from 34.8 to 92.7 μg/m3, exceeding the World Health Organization annual guideline by roughly 7–18‐fold, with the highest levels in northwestern Bangladesh; ARI prevalence was 1.08% (n = 95). The model achieved moderate predictive performance (standard cross‐validation AUC–ROC = 0.667; spatial cross‐validation AUC–ROC = 0.544). Environmental variables were the primary predictors, with LST (0.328), NDVI (0.293), and PM2.5 (0.279) together accounting for approximately 90% of feature importance. PM2.5 ranked third in both importance measures. SHAP analysis revealed a nonlinear exposure–response association, with an exploratory PM2.5 inflection region of approximately 55–65 μg/m3 above which ARI risk rose more rapidly, while greater vegetation cover showed a protective association. Northwestern upazilas emerged as priority areas. These findings suggest explainable geospatial AI can identify multi‐environmental spatial risk patterns in childhood respiratory health, offering a practical framework for spatial prioritization (not PM2.5‐specific burden estimation) and public health planning in data‐constrained settings.",
+        "Air pollution and rising temperatures pose significant risks to child health in Bangladesh, yet local‐scale evidence remains limited. This study combined high‐resolution NASA satellite observations with nationally representative health survey data from more than 8,700 children under five to examine environmental factors linked to acute respiratory infections. Infection risk rose more rapidly once fine particulate matter (PM2.5) exceeded an exploratory inflection region of approximately 55–65 μg/m3, offering a model‐derived marker for prioritizing high‐burden areas. Land surface temperature and vegetation cover contributed more strongly to the model's predictions than PM2.5, which was an important but not the strongest predictor; greater vegetation cover was associated with lower infection risk. The results therefore point to temperature, vegetation, and air pollution acting together to shape where children face higher risk. The analysis also identified distinct geographic hotspots, particularly in northwestern Bangladesh, where children face the greatest environmental health burden. These findings offer actionable evidence to support targeted air quality management, climate adaptation, and public health interventions to protect vulnerable children.",
+        "PM2.5 exceeded World Health Organization guidelines 7–18× across all Bangladesh upazilas; northwest highest priorityEnvironmental variables were primary acute respiratory infection (ARI) predictors, accounting for ∼90% of feature importanceExplainable AI revealed nonlinear PM2.5‐ARI association with exploratory inflection ∼55–65 μg/m3",
+        "PM2.5 exceeded World Health Organization guidelines 7–18× across all Bangladesh upazilas; northwest highest priority",
+        "Environmental variables were primary acute respiratory infection (ARI) predictors, accounting for ∼90% of feature importance",
+        "Explainable AI revealed nonlinear PM2.5‐ARI association with exploratory inflection ∼55–65 μg/m3"
+      ],
+      "authors": "Md Moniruzzaman",
+      "journal": "GeoHealth",
+      "doi": "10.1029/2026gh002051",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "bc08fec10885c0cbe4b20c80d7d3aa52081aed96e7d8b455cbc60ce561a26d6a",
+      "pmcid": "PMC13793861",
+      "publishedAt": "2026-11-23",
+      "addedAt": "2026-11-26T21:57:40Z",
+      "topic": "Atmospheric processes",
+      "source": {
+        "id": "literature-pmc13793861",
+        "kind": "article",
+        "title": "Explainable Geospatial AI Reveals Associations Between Ambient Air Quality and Thermal Predictors of Child Respiratory Disease in Bangladesh",
+        "authors": "Md Moniruzzaman",
+        "organization": "GeoHealth",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13793861/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "bc08fec10885c0cbe4b20c80d7d3aa52081aed96e7d8b455cbc60ce561a26d6a",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-23",
+        "doi": "10.1029/2026gh002051"
+      },
+      "lesson": {
+        "id": "literature-pmc13793861",
+        "version": 1,
+        "title": "Explainable Geospatial AI Reveals Associations Between Ambient Air Quality and Thermal Predictors of Child Respiratory Disease in Bangladesh",
+        "subtitle": "Open-access abstract · GeoHealth · 2026-11-23",
+        "topic": "Atmospheric processes",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13793861",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Air pollution poses a substantial threat to child health, yet evidence on the spatial relationship between fine particulate matter (PM2.5) and acute respiratory infection (ARI) at the upazila (sub‐district) level remains limited in Bangladesh. This study integrated 1‐km MAIAC‐derived PM2.5, land surface temperature (LST), and Normalized Difference Vegetation Index (NDVI) with 2022 Bangladesh Demographic and Health Survey data (8,784 children under five, 344 upazilas), assigning exposures via a buffer‐based approach to account for survey‐cluster displacement. An explainable machine learning framework combining Random Forest and SHapley Additive exPlanations (SHAP) predicted ARI and quantified how temperature, vegetation, and PM2.5 jointly contribute to spatial variation in risk. PM2.5 ranged from 34.8 to 92.7 μg/m3, exceeding the World Health Organization annual guideline by roughly 7–18‐fold, with the highest levels in northwestern Bangladesh; ARI prevalence was 1.08% (n = 95). The model achieved moderate predictive performance (standard cross‐validation AUC–ROC = 0.667; spatial cross‐validation AUC–ROC = 0.544). Environmental variables were the primary predictors, with LST (0.328), NDVI (0.293), and PM2.5 (0.279) together accounting for approximately 90% of feature importance. PM2.5 ranked third in both importance measures. SHAP analysis revealed a nonlinear exposure–response association, with an exploratory PM2.5 inflection region of approximately 55–65 μg/m3 above which ARI risk rose more rapidly, while greater vegetation cover showed a protective association. Northwestern upazilas emerged as priority areas. These findings suggest explainable geospatial AI can identify multi‐environmental spatial risk patterns in childhood respiratory health, offering a practical framework for spatial prioritization (not PM2.5‐specific burden estimation) and public health planning in data‐constrained settings.",
+          "Air pollution and rising temperatures pose significant risks to child health in Bangladesh, yet local‐scale evidence remains limited. This study combined high‐resolution NASA satellite observations with nationally representative health survey data from more than 8,700 children under five to examine environmental factors linked to acute respiratory infections. Infection risk rose more rapidly once fine particulate matter (PM2.5) exceeded an exploratory inflection region of approximately 55–65 μg/m3, offering a model‐derived marker for prioritizing high‐burden areas. Land surface temperature and vegetation cover contributed more strongly to the model's predictions than PM2.5, which was an important but not the strongest predictor; greater vegetation cover was associated with lower infection risk. The results therefore point to temperature, vegetation, and air pollution acting together to shape where children face higher risk. The analysis also identified distinct geographic hotspots, particularly in northwestern Bangladesh, where children face the greatest environmental health burden. These findings offer actionable evidence to support targeted air quality management, climate adaptation, and public health interventions to protect vulnerable children.",
+          "PM2.5 exceeded World Health Organization guidelines 7–18× across all Bangladesh upazilas; northwest highest priorityEnvironmental variables were primary acute respiratory infection (ARI) predictors, accounting for ∼90% of feature importanceExplainable AI revealed nonlinear PM2.5‐ARI association with exploratory inflection ∼55–65 μg/m3",
+          "PM2.5 exceeded World Health Organization guidelines 7–18× across all Bangladesh upazilas; northwest highest priority",
+          "Environmental variables were primary acute respiratory infection (ARI) predictors, accounting for ∼90% of feature importance",
+          "Explainable AI revealed nonlinear PM2.5‐ARI association with exploratory inflection ∼55–65 μg/m3"
+        ],
+        "terms": [
+          {
+            "term": "fine particulate matter",
+            "definition": "Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+          },
+          {
+            "term": "climate adaptation",
+            "definition": "Adjustment to actual or expected climate and its effects."
+          },
+          {
+            "term": "machine learning",
+            "definition": "Methods that learn patterns from data to support prediction or other tasks."
+          },
+          {
+            "term": "random forest",
+            "definition": "An ensemble method that combines predictions from multiple decision trees."
+          },
+          {
+            "term": "survey data",
+            "definition": "Information collected through an organised survey."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAir pollution poses a substantial threat to child health, yet evidence on the spatial relationship between _____ (PM2.5) and acute respiratory infection (ARI) at the upazila (sub‐district) level remains limited in Bangladesh.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "fine particulate matter",
+                "explanation": "The original abstract uses this expression. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+              },
+              {
+                "id": "b",
+                "text": "functional diversity",
+                "explanation": "This is not the expression used in this sentence. Variation in the traits of organisms that influence ecosystem processes."
+              },
+              {
+                "id": "c",
+                "text": "propagation of error",
+                "explanation": "This is not the expression used in this sentence. Combining input uncertainties to estimate uncertainty in a calculated result."
+              },
+              {
+                "id": "d",
+                "text": "quality assurance",
+                "explanation": "This is not the expression used in this sentence. Planned review activities used to assess whether quality objectives are being met."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: fine particulate matter. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThese findings offer actionable evidence to support targeted air quality management, _____, and public health interventions to protect vulnerable children.",
+            "paragraphs": [
+              2
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "climate adaptation",
+                "explanation": "The original abstract uses this expression. Adjustment to actual or expected climate and its effects."
+              },
+              {
+                "id": "b",
+                "text": "carbon neutrality",
+                "explanation": "This is not the expression used in this sentence. A balance between specified carbon emissions and removals over a defined boundary and period."
+              },
+              {
+                "id": "c",
+                "text": "leaching",
+                "explanation": "This is not the expression used in this sentence. Movement of dissolved material through soil with draining water."
+              },
+              {
+                "id": "d",
+                "text": "oxidation factor",
+                "explanation": "This is not the expression used in this sentence. The fraction of fuel carbon assumed to be oxidised during combustion."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: climate adaptation. Adjustment to actual or expected climate and its effects. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nExplainable AI revealed nonlinear PM2.5‐ARI association with exploratory inflection ∼55–65 μg/m3\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-23",
+        "addedAt": "2026-11-26T21:57:40Z"
+      }
+    },
+    {
+      "title": "Control of invasive alien plants on an oceanic island modifies invertebrate folivory to the benefit of native biodiversity",
+      "paragraphs": [
+        "Herbivory is one of the most important ecological interactions globally. Herbivores, among which arthropods predominate, play key roles in fundamental ecological processes, and may profoundly affect plants. Invasive alien plants (IAP) may influence herbivory in varied ways, including by supplying additional resources, yet, few comparative studies have assessed how IAP impact herbivory, particularly on heavily invaded oceanic islands. Here, we assess how IAP influences folivory, the prominent form of herbivory, to explore the ecological and conservation implications in a habitat restoration context. We studied a protected native forest on the oceanic island of Mauritius, comprising an area invaded by IAP and an adjacent area weeded of IAP used for comparison. We first quantified IAP impacts on folivory by comparing arthropod communities between invaded and weeded areas using yellow sticky traps set along 100 m transects. We then compared the incidence and severity of folivory (including chewing, galling, and mining) across habitat types on four shared native species between habitats, along with Psidium cattleyanum, the dominant IAP in invaded forest, and Harungana madagascariensis, the dominant native pioneer tree naturally regenerating in weeded forest. Finally, we compared the specific leaf area (SLA), folivory rate, and consumed leaf area on the selected species between habitats. Arthropod species richness and abundance were comparable between habitats but community structure differed. Overall, herbivory incidence on natives was higher in invaded than weeded area, with Antirhea borbonica and Labourdonnaisia calophylloides showing higher odds of folivory in invaded forest. Herbivory severity was also higher in the invaded area, with A. borbonica showing higher herbivory severity damage, although the opposite was found for Aphloia theiformis. There was no significant difference of folivory rate between habitat type, except for H. madagascariensis that sustained a significantly higher rate than P. cattleyanum. Overall, mean consumed leaf area was higher on H. madagascariensis in the weeded area, and A. borbonica in the invaded one. Finally, SLA was significantly higher on H. madagascariensis compared with P. cattleyanum, like on L. calophylloides in weeded area. Our study shows that IAP control represents limited loss for folivores. By allowing native pioneer regeneration, IAP control indirectly increases leaf resource availability, and decreases the risk of folivory damage on native species. Conservation strategies should therefore focus more strongly on in situ control of IAP, and keep native pioneer species, instead of removing them, as often done on the island. This would strengthen plant-herbivore interactions and enhance benefits for biodiversity. Ultimately, not cutting back pioneer native trees would free conservation resources, allowing the restoration of larger areas, and further improve the effectiveness of conservation measures."
+      ],
+      "authors": "François M. M. P. Baguette, Ghanishta Seeburrun, Cláudia Baider, François Benjamin Vincent Florens",
+      "journal": "PeerJ",
+      "doi": "10.7717/peerj.21908",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "b1f5b0411849a00f26b3476b17e590f42bc571e59c42e66a6a9e97a132b1588d",
+      "pmcid": "PMC13770423",
+      "publishedAt": "2026-11-12",
+      "addedAt": "2026-11-26T21:57:40Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13770423",
+        "kind": "article",
+        "title": "Control of invasive alien plants on an oceanic island modifies invertebrate folivory to the benefit of native biodiversity",
+        "authors": "François M. M. P. Baguette, Ghanishta Seeburrun, Cláudia Baider, François Benjamin Vincent Florens",
+        "organization": "PeerJ",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13770423/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "b1f5b0411849a00f26b3476b17e590f42bc571e59c42e66a6a9e97a132b1588d",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-12",
+        "doi": "10.7717/peerj.21908"
+      },
+      "lesson": {
+        "id": "literature-pmc13770423",
+        "version": 1,
+        "title": "Control of invasive alien plants on an oceanic island modifies invertebrate folivory to the benefit of native biodiversity",
+        "subtitle": "Open-access abstract · PeerJ · 2026-11-12",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13770423",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Herbivory is one of the most important ecological interactions globally. Herbivores, among which arthropods predominate, play key roles in fundamental ecological processes, and may profoundly affect plants. Invasive alien plants (IAP) may influence herbivory in varied ways, including by supplying additional resources, yet, few comparative studies have assessed how IAP impact herbivory, particularly on heavily invaded oceanic islands. Here, we assess how IAP influences folivory, the prominent form of herbivory, to explore the ecological and conservation implications in a habitat restoration context. We studied a protected native forest on the oceanic island of Mauritius, comprising an area invaded by IAP and an adjacent area weeded of IAP used for comparison. We first quantified IAP impacts on folivory by comparing arthropod communities between invaded and weeded areas using yellow sticky traps set along 100 m transects. We then compared the incidence and severity of folivory (including chewing, galling, and mining) across habitat types on four shared native species between habitats, along with Psidium cattleyanum, the dominant IAP in invaded forest, and Harungana madagascariensis, the dominant native pioneer tree naturally regenerating in weeded forest. Finally, we compared the specific leaf area (SLA), folivory rate, and consumed leaf area on the selected species between habitats. Arthropod species richness and abundance were comparable between habitats but community structure differed. Overall, herbivory incidence on natives was higher in invaded than weeded area, with Antirhea borbonica and Labourdonnaisia calophylloides showing higher odds of folivory in invaded forest. Herbivory severity was also higher in the invaded area, with A. borbonica showing higher herbivory severity damage, although the opposite was found for Aphloia theiformis. There was no significant difference of folivory rate between habitat type, except for H. madagascariensis that sustained a significantly higher rate than P. cattleyanum. Overall, mean consumed leaf area was higher on H. madagascariensis in the weeded area, and A. borbonica in the invaded one. Finally, SLA was significantly higher on H. madagascariensis compared with P. cattleyanum, like on L. calophylloides in weeded area. Our study shows that IAP control represents limited loss for folivores. By allowing native pioneer regeneration, IAP control indirectly increases leaf resource availability, and decreases the risk of folivory damage on native species. Conservation strategies should therefore focus more strongly on in situ control of IAP, and keep native pioneer species, instead of removing them, as often done on the island. This would strengthen plant-herbivore interactions and enhance benefits for biodiversity. Ultimately, not cutting back pioneer native trees would free conservation resources, allowing the restoration of larger areas, and further improve the effectiveness of conservation measures."
+        ],
+        "terms": [
+          {
+            "term": "species richness",
+            "definition": "The number of different species present in a defined area or sample."
+          },
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "restoration",
+            "definition": "Actions intended to assist the recovery of a degraded ecosystem or system."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nArthropod _____ and abundance were comparable between habitats but community structure differed.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "microplastics",
+                "explanation": "This is not the expression used in this sentence. Small plastic particles, commonly defined as being less than five millimetres in size."
+              },
+              {
+                "id": "b",
+                "text": "habitat fragmentation",
+                "explanation": "This is not the expression used in this sentence. The division of a continuous habitat into smaller, more isolated patches."
+              },
+              {
+                "id": "c",
+                "text": "species richness",
+                "explanation": "The original abstract uses this expression. The number of different species present in a defined area or sample."
+              },
+              {
+                "id": "d",
+                "text": "statistical significance",
+                "explanation": "This is not the expression used in this sentence. A result meeting a specified threshold in a statistical hypothesis test under the test's assumptions."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: species richness. The number of different species present in a defined area or sample. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThis would strengthen plant-herbivore interactions and enhance benefits for _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "co-benefits",
+                "explanation": "This is not the expression used in this sentence. Additional beneficial outcomes of an action beyond its primary intended purpose."
+              },
+              {
+                "id": "b",
+                "text": "correlation",
+                "explanation": "This is not the expression used in this sentence. A statistical relationship in how two quantities vary together."
+              },
+              {
+                "id": "c",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "d",
+                "text": "exposure assessment",
+                "explanation": "This is not the expression used in this sentence. The estimation or measurement of contact with a physical, chemical or biological agent."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nHerbivory is one of the most important ecological interactions globally. Herbivores, among which arthropods predominate, play key roles in fundamental ecological processes, and may profoundly affect plants. Invasive alien plants (IAP) may influence herbivory in varied ways, including by supplying additional resources, yet, few comparative studies have assessed how IAP impact herbivory, particularly on heavily invaded oceanic islands. Here, we assess how IAP influences folivory, the prominent form of herbivory, to explore the ecological and conservation implications in a habitat restoration context. We studied a protected native forest on the oceanic island of Mauritius, comprising an area invaded by IAP and an adjacent area weeded of IAP used for comparison. We first quantified IAP impacts on folivory by comparing arthropod communities between invaded and weeded areas using yellow sticky traps set along 100 m transects. We then compared the incidence and severity of folivory (including chewing, galling, and mining) across habitat types on four shared native species between habitats, along with Psidium cattleyanum, the dominant IAP in invaded forest, and Harungana madagascariensis, the dominant native pioneer tree naturally regenerating in weeded forest. Finally, we compared the specific leaf area (SLA), folivory rate, and consumed leaf area on the selected species between habitats. Arthropod species richness and abundance were comparable between habitats but community structure differed. Overall, herbivory incidence on natives was higher in invaded than weeded area, with Antirhea borbonica and Labourdonnaisia calophylloides showing higher odds of folivory in invaded forest. Herbivory severity was also higher in the invaded area, with A. borbonica showing higher herbivory severity damage, although the opposite was found for Aphloia theiformis. There was no significant difference of folivory rate between habitat type, except for H. madagascariensis that sustained a significantly higher rate than P. cattleyanum. Overall, mean consumed leaf area was higher on H. madagascariensis in the weeded area, and A. borbonica in the invaded one. Finally, SLA was significantly higher on H. madagascariensis compared with P. cattleyanum, like on L. calophylloides in weeded area. Our study shows that IAP control represents limited loss for folivores. By allowing native pioneer regeneration, IAP control indirectly increases leaf resource availability, and decreases the risk of folivory damage on native species. Conservation strategies should therefore focus more strongly on in situ control of IAP, and keep native pioneer species, instead of removing them, as often done on the island. This would strengthen plant-herbivore interactions and enhance benefits for biodiversity. Ultimately, not cutting back pioneer native trees would free conservation resources, allowing the restoration of larger areas, and further improve the effectiveness of conservation measures.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-12",
+        "addedAt": "2026-11-26T21:57:40Z"
+      }
     }
   ],
   "vocabulary": [
@@ -10825,9 +11285,46 @@
       "evidence": "Outmigration trends were found to be associated with each of the four aspects of air pollution, heat stress, water contamination, and agricultural instability during the winter, and, in addition to the above, water and soil contamination, in the summer.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-dc25bdcdacc105874b43",
+      "term": "random forest",
+      "meaning": "An ensemble method that combines predictions from multiple decision trees.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "An explainable machine learning framework combining Random Forest and SHapley Additive exPlanations (SHAP) predicted ARI and quantified how temperature, vegetation, and PM2.5 jointly contribute to spatial variation in risk.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13793861",
+      "location": "Abstract · paragraph 1",
+      "evidence": "An explainable machine learning framework combining Random Forest and SHapley Additive exPlanations (SHAP) predicted ARI and quantified how temperature, vegetation, and PM2.5 jointly contribute to spatial variation in risk.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-26T21:57:40Z",
+      "added": 3,
+      "total": 71,
+      "vocabularyAdded": 1,
+      "screening": {
+        "candidates": 280,
+        "xmlInspected": 44,
+        "cachedSkipped": 166,
+        "unavailable": 0,
+        "ineligible": 31,
+        "duplicate": 0,
+        "insufficientTerms": 10,
+        "passes": 2
+      }
+    },
     {
       "checkedAt": "2026-11-25T21:59:55Z",
       "added": 3,
@@ -11291,347 +11788,11 @@
         "insufficientTerms": 10,
         "passes": 2
       }
-    },
-    {
-      "checkedAt": "2026-11-05T20:17:27Z",
-      "added": 3,
-      "total": 33,
-      "vocabularyAdded": 2,
-      "screening": {
-        "candidates": 264,
-        "xmlInspected": 65,
-        "cachedSkipped": 402,
-        "unavailable": 0,
-        "ineligible": 48,
-        "duplicate": 0,
-        "insufficientTerms": 14,
-        "passes": 3
-      }
     }
   ],
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13701509",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13755355",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13755521",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13755745",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13755959",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13756072",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13756087",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13756115",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13756599",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13756675",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13757736",
-        "checkedAt": "2026-11-19T07:25:32Z"
-      },
-      {
-        "pmcid": "PMC13756630",
-        "checkedAt": "2026-11-19T13:45:53Z"
-      },
-      {
-        "pmcid": "PMC13585055",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13648242",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13679184",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13680975",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13682222",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13682311",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13685448",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13686256",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13687031",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13690251",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13694299",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13694349",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13695669",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13696011",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13700227",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13702604",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13721103",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13722083",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13724269",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13724295",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13725843",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13725870",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13726165",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13727255",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13727957",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13727961",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13729303",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13730137",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13744546",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13745801",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13746380",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13746817",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13746820",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13746908",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13747365",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13747479",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13747875",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13748792",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13748948",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13749067",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13749209",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13749325",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13749436",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13749476",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13749487",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13749607",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13749717",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13749790",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750109",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750174",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750439",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750523",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750549",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750573",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750583",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750629",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750928",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750936",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13750940",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13751117",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13751623",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13751729",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13751805",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13752335",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13752385",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13752743",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13753121",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
-      {
-        "pmcid": "PMC13753453",
-        "checkedAt": "2026-11-19T21:00:17Z"
-      },
       {
         "pmcid": "PMC13763833",
         "checkedAt": "2026-11-20T13:29:26Z"
@@ -11927,6 +12088,170 @@
       {
         "pmcid": "PMC13795272",
         "checkedAt": "2026-11-25T21:59:55Z"
+      },
+      {
+        "pmcid": "PMC13705788",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13709588",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13709670",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13725843",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13735486",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13737116",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13746908",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13749325",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13749436",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13750573",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13750629",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13756087",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13768181",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13768743",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13777412",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13781785",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13782057",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13782070",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13782196",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13794316",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13794366",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13794417",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13794787",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13795681",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13795730",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13795975",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13797906",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13797982",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13798113",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13798131",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13800608",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13800644",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13801049",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13801130",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13801290",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13801343",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13804864",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13806472",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13808130",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13808432",
+        "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13808625",
+        "checkedAt": "2026-11-26T21:57:40Z"
       }
     ]
   }
