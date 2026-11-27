@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-26T21:57:40Z",
-  "lastAddedAt": "2026-11-26T21:57:40Z",
+  "lastCheckedAt": "2026-11-27T21:40:18Z",
+  "lastAddedAt": "2026-11-27T21:40:18Z",
   "articles": [
     {
       "title": "Turtle Herbivory Suppresses Seagrass Function but Reveals Recovery Potential in a Remote Coral Reef Atoll",
@@ -10485,6 +10485,438 @@
         "publishedAt": "2026-11-12",
         "addedAt": "2026-11-26T21:57:40Z"
       }
+    },
+    {
+      "title": "Climate-driven dynamics of torpor in hazel dormice (Muscardinus avellanarius): implications under future climate scenarios",
+      "paragraphs": [
+        "Climate change is a major driver of biodiversity decline. Understanding its effects on individuals and populations requires knowledge of how climate influences key life history events. Short torpor is employed by many small mammals to conserve energy and its use varies with environmental conditions. We investigated how the frequency of short torpor use in hazel dormice (Muscardinus avellanarius) in Great Britain might change by 2080, by building models based on current correlations between torpor, population biology, weather conditions, and future climate predictions. With increasing ambient temperatures and declining rainfall in the active season, we predicted a reduction in short torpor use. Average annual torpor use is projected to decrease from 35.8% to 23.2% of days in the active season at the British range margin and from 25.7% to 15.5% in the core range between 2021 and 2080. A reduction in torpor use, independent of other effects of climate change, suggests potential benefits to dormouse populations, associated with a reduced need to save energy and greater investment in breeding, potentially supporting population growth and range expansion. However, reduced torpor use may also elevate predation risk, highlighting an important ecological trade-off. Our study highlights a novel, quantified link between future climate conditions, energetic states, physiological mechanisms and potential population consequences, that vary according to location in the species range."
+      ],
+      "authors": "Charlotte Armitage, Jonathan J. Bennie, Kristen Liptrot, Ian White, Nida Al-Fulaij, Robbie A. McDonald",
+      "journal": "Oecologia",
+      "doi": "10.1007/s00442-026-05998-z",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "19d6e312894b0a1e3c6fe4f9340a6ade3cd69682393059a1e598135c5112dd37",
+      "pmcid": "PMC13809035",
+      "publishedAt": "2026-11-25",
+      "addedAt": "2026-11-27T21:40:18Z",
+      "topic": "Ecology & biodiversity",
+      "source": {
+        "id": "literature-pmc13809035",
+        "kind": "article",
+        "title": "Climate-driven dynamics of torpor in hazel dormice (Muscardinus avellanarius): implications under future climate scenarios",
+        "authors": "Charlotte Armitage, Jonathan J. Bennie, Kristen Liptrot, Ian White, Nida Al-Fulaij, Robbie A. McDonald",
+        "organization": "Oecologia",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13809035/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "19d6e312894b0a1e3c6fe4f9340a6ade3cd69682393059a1e598135c5112dd37",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-25",
+        "doi": "10.1007/s00442-026-05998-z"
+      },
+      "lesson": {
+        "id": "literature-pmc13809035",
+        "version": 1,
+        "title": "Climate-driven dynamics of torpor in hazel dormice (Muscardinus avellanarius): implications under future climate scenarios",
+        "subtitle": "Open-access abstract · Oecologia · 2026-11-25",
+        "topic": "Ecology & biodiversity",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13809035",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Climate change is a major driver of biodiversity decline. Understanding its effects on individuals and populations requires knowledge of how climate influences key life history events. Short torpor is employed by many small mammals to conserve energy and its use varies with environmental conditions. We investigated how the frequency of short torpor use in hazel dormice (Muscardinus avellanarius) in Great Britain might change by 2080, by building models based on current correlations between torpor, population biology, weather conditions, and future climate predictions. With increasing ambient temperatures and declining rainfall in the active season, we predicted a reduction in short torpor use. Average annual torpor use is projected to decrease from 35.8% to 23.2% of days in the active season at the British range margin and from 25.7% to 15.5% in the core range between 2021 and 2080. A reduction in torpor use, independent of other effects of climate change, suggests potential benefits to dormouse populations, associated with a reduced need to save energy and greater investment in breeding, potentially supporting population growth and range expansion. However, reduced torpor use may also elevate predation risk, highlighting an important ecological trade-off. Our study highlights a novel, quantified link between future climate conditions, energetic states, physiological mechanisms and potential population consequences, that vary according to location in the species range."
+        ],
+        "terms": [
+          {
+            "term": "biodiversity",
+            "definition": "The variety of living organisms, including variation within species, between species and among ecosystems."
+          },
+          {
+            "term": "trade-off",
+            "definition": "A situation in which improving one outcome comes at the expense of another."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nClimate change is a major driver of _____ decline.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "feedback",
+                "explanation": "This is not the expression used in this sentence. A process in which a system's response influences the conditions driving that response."
+              },
+              {
+                "id": "b",
+                "text": "restoration",
+                "explanation": "This is not the expression used in this sentence. Actions intended to assist the recovery of a degraded ecosystem or system."
+              },
+              {
+                "id": "c",
+                "text": "biodiversity",
+                "explanation": "The original abstract uses this expression. The variety of living organisms, including variation within species, between species and among ecosystems."
+              },
+              {
+                "id": "d",
+                "text": "confidence interval",
+                "explanation": "This is not the expression used in this sentence. An interval produced by a statistical procedure with a stated long-run coverage under its assumptions."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: biodiversity. The variety of living organisms, including variation within species, between species and among ecosystems. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nHowever, reduced torpor use may also elevate predation risk, highlighting an important ecological _____.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "generalizability",
+                "explanation": "This is not the expression used in this sentence. The extent to which findings apply beyond the conditions or population studied."
+              },
+              {
+                "id": "b",
+                "text": "trade-off",
+                "explanation": "The original abstract uses this expression. A situation in which improving one outcome comes at the expense of another."
+              },
+              {
+                "id": "c",
+                "text": "carbon footprint",
+                "explanation": "This is not the expression used in this sentence. An estimate of greenhouse-gas emissions associated with a defined activity, product or organisation."
+              },
+              {
+                "id": "d",
+                "text": "heat stress",
+                "explanation": "This is not the expression used in this sentence. Strain on organisms or systems caused by exposure to high temperatures."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: trade-off. A situation in which improving one outcome comes at the expense of another. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nClimate change is a major driver of biodiversity decline. Understanding its effects on individuals and populations requires knowledge of how climate influences key life history events. Short torpor is employed by many small mammals to conserve energy and its use varies with environmental conditions. We investigated how the frequency of short torpor use in hazel dormice (Muscardinus avellanarius) in Great Britain might change by 2080, by building models based on current correlations between torpor, population biology, weather conditions, and future climate predictions. With increasing ambient temperatures and declining rainfall in the active season, we predicted a reduction in short torpor use. Average annual torpor use is projected to decrease from 35.8% to 23.2% of days in the active season at the British range margin and from 25.7% to 15.5% in the core range between 2021 and 2080. A reduction in torpor use, independent of other effects of climate change, suggests potential benefits to dormouse populations, associated with a reduced need to save energy and greater investment in breeding, potentially supporting population growth and range expansion. However, reduced torpor use may also elevate predation risk, highlighting an important ecological trade-off. Our study highlights a novel, quantified link between future climate conditions, energetic states, physiological mechanisms and potential population consequences, that vary according to location in the species range.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-25",
+        "addedAt": "2026-11-27T21:40:18Z"
+      }
+    },
+    {
+      "title": "Phenotypic and Molecular Characterization of Nodule-Associated Bacterial Isolates from Medicago sativa and Their Growth Response Under Drought Stress",
+      "paragraphs": [
+        "As climate change increases, drought is a major constraint on alfalfa (Medicago sativa L.) productivity, particularly in Mediterranean environments. Native rhizobia are considered promising bioinoculants for improving crop adaptation to water-limited conditions. This preliminary study investigated nodule-associated bacteria isolated from alfalfa grown in two Moroccan agroecological regions and preliminarily assessed their effects on plant growth under different water regimes. Fifty-six isolates were recovered from nodules, and six isolates were selected following morphological and pathogenicity screening. Molecular identification based on 16S rRNA gene sequencing suggested that most isolates were affiliated with Sinorhizobium (closest match S. meliloti), while one isolate was affiliated with Lysobacter sp., a non-classical nodule associate whose functional role was not assessed in this study. Greenhouse experiments conducted under three irrigation regimes (100, 66 and 33% field capacity) demonstrated that water availability was the main factor affecting plant height, branch number and leaf production (p < 0.001). Although bacterial inoculation did not exert a significant effect, and no comparison with the controls remained significant after multiplicity adjustment, several S. meliloti strains tended to show greater plant growth than uninoculated plants under severe drought, although these differences were not statistically significant. These preliminary findings, based on a limited number of sampling sites, isolates and biological replicates, provide baseline information on nodule-associated bacteria of Moroccan alfalfa and identify candidate isolates meriting further characterization for future bioinoculant development."
+      ],
+      "authors": "Khaoula Habbadi, Hiba Yahyaoui, Rachid Aboutayeb, Nizar Battas, Salma El Iraqui, Faical Aoujil, Ilyass Maafa, Jamila Bouarda, Aziz Aziz, Majida Hafidi, Khalid Azim",
+      "journal": "Plants",
+      "doi": "10.3390/plants15223611",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "5b465801568d710098f1e2731a1c13af9a696cb1e5bac76209624735a7ec8ac8",
+      "pmcid": "PMC13807392",
+      "publishedAt": "2026-11-18",
+      "addedAt": "2026-11-27T21:40:18Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13807392",
+        "kind": "article",
+        "title": "Phenotypic and Molecular Characterization of Nodule-Associated Bacterial Isolates from Medicago sativa and Their Growth Response Under Drought Stress",
+        "authors": "Khaoula Habbadi, Hiba Yahyaoui, Rachid Aboutayeb, Nizar Battas, Salma El Iraqui, Faical Aoujil, Ilyass Maafa, Jamila Bouarda, Aziz Aziz, Majida Hafidi, Khalid Azim",
+        "organization": "Plants",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13807392/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "5b465801568d710098f1e2731a1c13af9a696cb1e5bac76209624735a7ec8ac8",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-18",
+        "doi": "10.3390/plants15223611"
+      },
+      "lesson": {
+        "id": "literature-pmc13807392",
+        "version": 1,
+        "title": "Phenotypic and Molecular Characterization of Nodule-Associated Bacterial Isolates from Medicago sativa and Their Growth Response Under Drought Stress",
+        "subtitle": "Open-access abstract · Plants · 2026-11-18",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13807392",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "As climate change increases, drought is a major constraint on alfalfa (Medicago sativa L.) productivity, particularly in Mediterranean environments. Native rhizobia are considered promising bioinoculants for improving crop adaptation to water-limited conditions. This preliminary study investigated nodule-associated bacteria isolated from alfalfa grown in two Moroccan agroecological regions and preliminarily assessed their effects on plant growth under different water regimes. Fifty-six isolates were recovered from nodules, and six isolates were selected following morphological and pathogenicity screening. Molecular identification based on 16S rRNA gene sequencing suggested that most isolates were affiliated with Sinorhizobium (closest match S. meliloti), while one isolate was affiliated with Lysobacter sp., a non-classical nodule associate whose functional role was not assessed in this study. Greenhouse experiments conducted under three irrigation regimes (100, 66 and 33% field capacity) demonstrated that water availability was the main factor affecting plant height, branch number and leaf production (p < 0.001). Although bacterial inoculation did not exert a significant effect, and no comparison with the controls remained significant after multiplicity adjustment, several S. meliloti strains tended to show greater plant growth than uninoculated plants under severe drought, although these differences were not statistically significant. These preliminary findings, based on a limited number of sampling sites, isolates and biological replicates, provide baseline information on nodule-associated bacteria of Moroccan alfalfa and identify candidate isolates meriting further characterization for future bioinoculant development."
+        ],
+        "terms": [
+          {
+            "term": "baseline",
+            "definition": "A reference state or period against which a change is assessed."
+          },
+          {
+            "term": "drought",
+            "definition": "A period of water shortage relative to a defined climatic, hydrological or biological reference."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThese preliminary findings, based on a limited number of sampling sites, isolates and biological replicates, provide _____ information on nodule-associated bacteria of Moroccan alfalfa and identify candidate isolates meriting further characterization for future bioinoculant development.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "baseline",
+                "explanation": "The original abstract uses this expression. A reference state or period against which a change is assessed."
+              },
+              {
+                "id": "b",
+                "text": "carbon sink",
+                "explanation": "This is not the expression used in this sentence. A system that takes up more carbon than it releases over a specified period."
+              },
+              {
+                "id": "c",
+                "text": "expert judgement",
+                "explanation": "This is not the expression used in this sentence. An informed assessment based on relevant specialist knowledge."
+              },
+              {
+                "id": "d",
+                "text": "propagation of error",
+                "explanation": "This is not the expression used in this sentence. Combining input uncertainties to estimate uncertainty in a calculated result."
+              }
+            ],
+            "correct": "a",
+            "explanation": "Source expression: baseline. A reference state or period against which a change is assessed. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nAs climate change increases, _____ is a major constraint on alfalfa (Medicago sativa L.) productivity, particularly in Mediterranean environments.",
+            "paragraphs": [
+              1
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "default emission factor",
+                "explanation": "This is not the expression used in this sentence. A reference factor supplied for use when an appropriate more specific factor is unavailable."
+              },
+              {
+                "id": "b",
+                "text": "phenology",
+                "explanation": "This is not the expression used in this sentence. The timing of recurring biological events and their relationship to environmental conditions."
+              },
+              {
+                "id": "c",
+                "text": "drought",
+                "explanation": "The original abstract uses this expression. A period of water shortage relative to a defined climatic, hydrological or biological reference."
+              },
+              {
+                "id": "d",
+                "text": "fine particulate matter",
+                "explanation": "This is not the expression used in this sentence. Airborne particles conventionally measured with an aerodynamic diameter of 2.5 micrometres or smaller."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: drought. A period of water shortage relative to a defined climatic, hydrological or biological reference. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nAs climate change increases, drought is a major constraint on alfalfa (Medicago sativa L.) productivity, particularly in Mediterranean environments. Native rhizobia are considered promising bioinoculants for improving crop adaptation to water-limited conditions. This preliminary study investigated nodule-associated bacteria isolated from alfalfa grown in two Moroccan agroecological regions and preliminarily assessed their effects on plant growth under different water regimes. Fifty-six isolates were recovered from nodules, and six isolates were selected following morphological and pathogenicity screening. Molecular identification based on 16S rRNA gene sequencing suggested that most isolates were affiliated with Sinorhizobium (closest match S. meliloti), while one isolate was affiliated with Lysobacter sp., a non-classical nodule associate whose functional role was not assessed in this study. Greenhouse experiments conducted under three irrigation regimes (100, 66 and 33% field capacity) demonstrated that water availability was the main factor affecting plant height, branch number and leaf production (p < 0.001). Although bacterial inoculation did not exert a significant effect, and no comparison with the controls remained significant after multiplicity adjustment, several S. meliloti strains tended to show greater plant growth than uninoculated plants under severe drought, although these differences were not statistically significant. These preliminary findings, based on a limited number of sampling sites, isolates and biological replicates, provide baseline information on nodule-associated bacteria of Moroccan alfalfa and identify candidate isolates meriting further characterization for future bioinoculant development.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-18",
+        "addedAt": "2026-11-27T21:40:18Z"
+      }
+    },
+    {
+      "title": "Resilient to the Thermal Challenge: Limited Effects of Climate Change on the Potential Global Distribution of the Horse Fly Atylotus agrestis (Diptera: Tabanidae)",
+      "paragraphs": [
+        "Horse flies are blood-feeding insects that harm livestock through painful bites and by transmitting disease-causing parasites between animals. Atylotus agrestis is one of the most common horse fly species in Africa, the Middle East, and southern Asia. It can transmit trypanosomes, the parasites responsible for causing wasting disease in cattle. Because this fly has recently been recorded farther north than previously known, there is concern that global warming could allow it to expand its range considerably. We used climate data and computer modelling to map areas climatically suitable for the species under current conditions and to project potential changes by 2050 and 2070 under low- and high-emission scenarios, using a single climate model. We found that the fly is mainly restricted to warm regions with moderate seasonal temperature fluctuations. Under future climate scenarios, the climatically suitable area changes very little, with slight gains under low emissions and a small reduction (approximately 3.5%) under the highest-emission scenario by 2070. No expansion into northern Europe is projected. Under the scenarios examined, the species therefore appears to be climatically resilient rather than threatened or likely to expand substantially. Animal health services in areas where it already occurs should consequently anticipate that it will remain a long-term concern. However, climatic suitability does not necessarily reflect the species’ actual distribution or the risk of disease transmission.",
+        "Atylotus agrestis (Wiedemann) is a widespread Afrotropical–Palearctic horse fly and an efficient mechanical vector of livestock trypanosomes. However, its climatic limits and potential responses to climate change remain poorly understood. We modelled its potential global distribution using MaxEnt, based on 87 spatially thinned occurrence records and four weakly correlated bioclimatic predictors (BIO1, BIO4, BIO12 and BIO15). We then projected the model onto future climate scenarios for 2050 and 2070 under RCP 2.6 and RCP 8.5, using a single climate model (MRI-CGCM3). Model performance was good (AUC = 0.89; TSS = 0.64) based on presence–background cross-validation. Temperature seasonality was the most influential predictor, while suitability increased with annual mean temperature and peaked at intermediate levels of temperature and precipitation seasonality. Climatic suitability was concentrated in sub-Saharan Africa, peninsular India and South-East Asia. The model also predicted suitable conditions in Australia, where the species has not been recorded; this prediction represents an unvalidated extrapolation beyond the calibration area rather than a confirmed part of the species’ potential range. Future projections largely preserved this geographic pattern, with net changes in suitable area ranging from +1.9% (2050, RCP 2.6) to −3.5% (2070, RCP 8.5). Localised losses were projected along the southern margin of the Sahara, with no poleward expansion into central or northern Europe. Climatic novelty was concentrated mainly in the Sahara and Arabian Peninsula. Overall, A. agrestis faces changing thermal conditions but appears climatically resilient under the climate model and scenarios examined. Its veterinary importance is therefore more likely to persist than to expand or decline substantially, although climatic suitability should not be interpreted as a measure of species occupancy or disease risk."
+      ],
+      "authors": "Areej A. AlKhalaf, Mohamed Nasser, Eslam Adly, Hossam F. Abou-Shaara, Sara A. AlAshaal",
+      "journal": "Insects",
+      "doi": "10.3390/insects17111210",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "license": "CC BY 4.0",
+      "abstractSha256": "1f35a7dfb13214f5edbf9bf6cdc2ee0c9f3a4f940d01bd286a57bbe862ff6542",
+      "pmcid": "PMC13804260",
+      "publishedAt": "2026-11-18",
+      "addedAt": "2026-11-27T21:40:18Z",
+      "topic": "Climate & energy",
+      "source": {
+        "id": "literature-pmc13804260",
+        "kind": "article",
+        "title": "Resilient to the Thermal Challenge: Limited Effects of Climate Change on the Potential Global Distribution of the Horse Fly Atylotus agrestis (Diptera: Tabanidae)",
+        "authors": "Areej A. AlKhalaf, Mohamed Nasser, Eslam Adly, Hossam F. Abou-Shaara, Sara A. AlAshaal",
+        "organization": "Insects",
+        "year": "2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13804260/",
+        "scope": "Abstract only. Full-text methods and claims have not been reviewed by Fieldnotes.",
+        "evidence": "Automatically extracted from Europe PMC XML; literal term occurrences and explicit reuse license checked. No independent scientific review.",
+        "revision": "1f35a7dfb13214f5edbf9bf6cdc2ee0c9f3a4f940d01bd286a57bbe862ff6542",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "publishedAt": "2026-11-18",
+        "doi": "10.3390/insects17111210"
+      },
+      "lesson": {
+        "id": "literature-pmc13804260",
+        "version": 1,
+        "title": "Resilient to the Thermal Challenge: Limited Effects of Climate Change on the Potential Global Distribution of the Horse Fly Atylotus agrestis (Diptera: Tabanidae)",
+        "subtitle": "Open-access abstract · Insects · 2026-11-18",
+        "topic": "Climate & energy",
+        "level": "Advanced",
+        "sourceId": "literature-pmc13804260",
+        "location": "Publisher abstract distributed through Europe PMC (verbatim text; paragraph labels added).",
+        "paragraphs": [
+          "Horse flies are blood-feeding insects that harm livestock through painful bites and by transmitting disease-causing parasites between animals. Atylotus agrestis is one of the most common horse fly species in Africa, the Middle East, and southern Asia. It can transmit trypanosomes, the parasites responsible for causing wasting disease in cattle. Because this fly has recently been recorded farther north than previously known, there is concern that global warming could allow it to expand its range considerably. We used climate data and computer modelling to map areas climatically suitable for the species under current conditions and to project potential changes by 2050 and 2070 under low- and high-emission scenarios, using a single climate model. We found that the fly is mainly restricted to warm regions with moderate seasonal temperature fluctuations. Under future climate scenarios, the climatically suitable area changes very little, with slight gains under low emissions and a small reduction (approximately 3.5%) under the highest-emission scenario by 2070. No expansion into northern Europe is projected. Under the scenarios examined, the species therefore appears to be climatically resilient rather than threatened or likely to expand substantially. Animal health services in areas where it already occurs should consequently anticipate that it will remain a long-term concern. However, climatic suitability does not necessarily reflect the species’ actual distribution or the risk of disease transmission.",
+          "Atylotus agrestis (Wiedemann) is a widespread Afrotropical–Palearctic horse fly and an efficient mechanical vector of livestock trypanosomes. However, its climatic limits and potential responses to climate change remain poorly understood. We modelled its potential global distribution using MaxEnt, based on 87 spatially thinned occurrence records and four weakly correlated bioclimatic predictors (BIO1, BIO4, BIO12 and BIO15). We then projected the model onto future climate scenarios for 2050 and 2070 under RCP 2.6 and RCP 8.5, using a single climate model (MRI-CGCM3). Model performance was good (AUC = 0.89; TSS = 0.64) based on presence–background cross-validation. Temperature seasonality was the most influential predictor, while suitability increased with annual mean temperature and peaked at intermediate levels of temperature and precipitation seasonality. Climatic suitability was concentrated in sub-Saharan Africa, peninsular India and South-East Asia. The model also predicted suitable conditions in Australia, where the species has not been recorded; this prediction represents an unvalidated extrapolation beyond the calibration area rather than a confirmed part of the species’ potential range. Future projections largely preserved this geographic pattern, with net changes in suitable area ranging from +1.9% (2050, RCP 2.6) to −3.5% (2070, RCP 8.5). Localised losses were projected along the southern margin of the Sahara, with no poleward expansion into central or northern Europe. Climatic novelty was concentrated mainly in the Sahara and Arabian Peninsula. Overall, A. agrestis faces changing thermal conditions but appears climatically resilient under the climate model and scenarios examined. Its veterinary importance is therefore more likely to persist than to expand or decline substantially, although climatic suitability should not be interpreted as a measure of species occupancy or disease risk."
+        ],
+        "terms": [
+          {
+            "term": "cross-validation",
+            "definition": "A procedure that evaluates a model by repeatedly separating data used for fitting from data used for assessment."
+          },
+          {
+            "term": "extrapolation",
+            "definition": "Estimating values beyond the range covered by the available observations."
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nModel performance was good (AUC = 0.89; TSS = 0.64) based on presence–background _____.",
+            "paragraphs": [
+              2
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "land-use change",
+                "explanation": "This is not the expression used in this sentence. A change in how an area of land is used or managed."
+              },
+              {
+                "id": "b",
+                "text": "cross-validation",
+                "explanation": "The original abstract uses this expression. A procedure that evaluates a model by repeatedly separating data used for fitting from data used for assessment."
+              },
+              {
+                "id": "c",
+                "text": "mineralisation",
+                "explanation": "This is not the expression used in this sentence. Conversion of organic nitrogen into inorganic forms."
+              },
+              {
+                "id": "d",
+                "text": "temporal matching",
+                "explanation": "This is not the expression used in this sentence. Aligning observations and model outputs to compatible time periods and conventions."
+              }
+            ],
+            "correct": "b",
+            "explanation": "Source expression: cross-validation. A procedure that evaluates a model by repeatedly separating data used for fitting from data used for assessment. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "skill": "Vocabulary in source context",
+            "prompt": "Which expression completes the original abstract sentence?\n\nThe model also predicted suitable conditions in Australia, where the species has not been recorded; this prediction represents an unvalidated _____ beyond the calibration area rather than a confirmed part of the species’ potential range.",
+            "paragraphs": [
+              2
+            ],
+            "choices": [
+              {
+                "id": "a",
+                "text": "species richness",
+                "explanation": "This is not the expression used in this sentence. The number of different species present in a defined area or sample."
+              },
+              {
+                "id": "b",
+                "text": "nitrous oxide",
+                "explanation": "This is not the expression used in this sentence. The greenhouse gas N₂O."
+              },
+              {
+                "id": "c",
+                "text": "extrapolation",
+                "explanation": "The original abstract uses this expression. Estimating values beyond the range covered by the available observations."
+              },
+              {
+                "id": "d",
+                "text": "decarbonization",
+                "explanation": "This is not the expression used in this sentence. The reduction of carbon dioxide emissions associated with an activity or system."
+              }
+            ],
+            "correct": "c",
+            "explanation": "Source expression: extrapolation. Estimating values beyond the range covered by the available observations. The definition is from the maintained learning glossary; the article supplies the occurrence evidence."
+          },
+          {
+            "id": "q3",
+            "type": "short",
+            "skill": "Evidence-based abstract comprehension",
+            "prompt": "In 3–5 English sentences, explain the research question and a finding or conclusion actually stated in this abstract. Support your answer with a specific detail. Identify one limitation the abstract states, or one question it leaves unanswered; label your own inference clearly.",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "modelAnswer": "Reference evidence — final abstract paragraph (verbatim):\n\nAtylotus agrestis (Wiedemann) is a widespread Afrotropical–Palearctic horse fly and an efficient mechanical vector of livestock trypanosomes. However, its climatic limits and potential responses to climate change remain poorly understood. We modelled its potential global distribution using MaxEnt, based on 87 spatially thinned occurrence records and four weakly correlated bioclimatic predictors (BIO1, BIO4, BIO12 and BIO15). We then projected the model onto future climate scenarios for 2050 and 2070 under RCP 2.6 and RCP 8.5, using a single climate model (MRI-CGCM3). Model performance was good (AUC = 0.89; TSS = 0.64) based on presence–background cross-validation. Temperature seasonality was the most influential predictor, while suitability increased with annual mean temperature and peaked at intermediate levels of temperature and precipitation seasonality. Climatic suitability was concentrated in sub-Saharan Africa, peninsular India and South-East Asia. The model also predicted suitable conditions in Australia, where the species has not been recorded; this prediction represents an unvalidated extrapolation beyond the calibration area rather than a confirmed part of the species’ potential range. Future projections largely preserved this geographic pattern, with net changes in suitable area ranging from +1.9% (2050, RCP 2.6) to −3.5% (2070, RCP 8.5). Localised losses were projected along the southern margin of the Sahara, with no poleward expansion into central or northern Europe. Climatic novelty was concentrated mainly in the Sahara and Arabian Peninsula. Overall, A. agrestis faces changing thermal conditions but appears climatically resilient under the climate model and scenarios examined. Its veterinary importance is therefore more likely to persist than to expand or decline substantially, although climatic suitability should not be interpreted as a measure of species occupancy or disease risk.\n\nUse the complete abstract to identify the research question and supporting detail. This excerpt is evidence to compare against, not a generated model essay.",
+            "rubric": [
+              "Describe the research question using information explicitly present in the abstract.",
+              "Report a stated finding or conclusion and a specific supporting detail without inventing numbers.",
+              "Separate the authors' claims from your own inferences or unanswered questions; do not assume that association proves causation."
+            ],
+            "explanation": "Compare your English answer with the abstract and checklist. This is self-assessment; no AI grade or expert review is claimed."
+          }
+        ],
+        "takeaway": "Use the full article to check methods, uncertainty and limitations before applying an abstract's findings.",
+        "evidenceType": "abstract",
+        "publishedAt": "2026-11-18",
+        "addedAt": "2026-11-27T21:40:18Z"
+      }
     }
   ],
   "vocabulary": [
@@ -11306,9 +11738,46 @@
       "evidence": "An explainable machine learning framework combining Random Forest and SHapley Additive exPlanations (SHAP) predicted ARI and quantified how temperature, vegetation, and PM2.5 jointly contribute to spatial variation in risk.",
       "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
       "contentLanguage": "en"
+    },
+    {
+      "id": "lit-term-9d49564572189b186e65",
+      "term": "trade-off",
+      "meaning": "A situation in which improving one outcome comes at the expense of another.",
+      "explanation": "Read this expression in the linked abstract. The definition is maintained by Fieldnotes and is not a quotation or an independently reviewed terminology standard.",
+      "pos": "term",
+      "collocations": [],
+      "example": "However, reduced torpor use may also elevate predation risk, highlighting an important ecological trade-off.",
+      "exampleKind": "quotation",
+      "translation": "",
+      "topic": "学术表达",
+      "difficulty": "进阶",
+      "related": "",
+      "variants": [],
+      "verification": "verified",
+      "sourceId": "literature-pmc13809035",
+      "location": "Abstract · paragraph 1",
+      "evidence": "However, reduced torpor use may also elevate predation risk, highlighting an important ecological trade-off.",
+      "definitionNote": "Maintained English learning glossary; the abstract verifies occurrence only.",
+      "contentLanguage": "en"
     }
   ],
   "history": [
+    {
+      "checkedAt": "2026-11-27T21:40:18Z",
+      "added": 3,
+      "total": 74,
+      "vocabularyAdded": 1,
+      "screening": {
+        "candidates": 281,
+        "xmlInspected": 34,
+        "cachedSkipped": 157,
+        "unavailable": 0,
+        "ineligible": 19,
+        "duplicate": 0,
+        "insufficientTerms": 12,
+        "passes": 2
+      }
+    },
     {
       "checkedAt": "2026-11-26T21:57:40Z",
       "added": 3,
@@ -11772,51 +12241,11 @@
         "insufficientTerms": 9,
         "passes": 2
       }
-    },
-    {
-      "checkedAt": "2026-11-06T19:43:48Z",
-      "added": 3,
-      "total": 36,
-      "vocabularyAdded": 0,
-      "screening": {
-        "candidates": 264,
-        "xmlInspected": 36,
-        "cachedSkipped": 363,
-        "unavailable": 0,
-        "ineligible": 23,
-        "duplicate": 0,
-        "insufficientTerms": 10,
-        "passes": 2
-      }
     }
   ],
   "screened": {
     "glossaryHash": "88b5c4648150088002bbe03802eeeabfd1f4be27ac575766c69112b8bb1884bd",
     "records": [
-      {
-        "pmcid": "PMC13763833",
-        "checkedAt": "2026-11-20T13:29:26Z"
-      },
-      {
-        "pmcid": "PMC13764020",
-        "checkedAt": "2026-11-20T13:29:26Z"
-      },
-      {
-        "pmcid": "PMC13768229",
-        "checkedAt": "2026-11-20T13:29:26Z"
-      },
-      {
-        "pmcid": "PMC13771621",
-        "checkedAt": "2026-11-20T13:29:26Z"
-      },
-      {
-        "pmcid": "PMC13772896",
-        "checkedAt": "2026-11-20T13:29:26Z"
-      },
-      {
-        "pmcid": "PMC13777093",
-        "checkedAt": "2026-11-20T13:29:26Z"
-      },
       {
         "pmcid": "PMC13779335",
         "checkedAt": "2026-11-21T12:55:45Z"
@@ -12252,6 +12681,130 @@
       {
         "pmcid": "PMC13808625",
         "checkedAt": "2026-11-26T21:57:40Z"
+      },
+      {
+        "pmcid": "PMC13777093",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13791965",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13796461",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13797745",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13797747",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13799070",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13799172",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13800147",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13801638",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13801717",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13801773",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13802032",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13802169",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13802481",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13802805",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13803165",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13804079",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13805308",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13806704",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13806763",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13806837",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13807738",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13807802",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13807983",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13808200",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13808516",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13808627",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13809264",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13809515",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13809523",
+        "checkedAt": "2026-11-27T21:40:18Z"
+      },
+      {
+        "pmcid": "PMC13810152",
+        "checkedAt": "2026-11-27T21:40:18Z"
       }
     ]
   }
